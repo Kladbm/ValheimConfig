@@ -1,0 +1,115 @@
+#################################################
+# Honey Recipe Manipulation Config
+#################################################
+
+pieceModifications:
+  piece_apiary:
+    action: Modify
+    prefab: piece_apiary
+    requirements:
+    - prefab: Wood
+      amount: 15
+    - prefab: Honey
+      amount: 12
+    - prefab: QueenBee
+      amount: 1
+    requiredToPlaceCraftingStation: piece_workbench
+    canBeDeconstructed: true
+    pieceCategory: Crafting
+    pieceName: $custom_piece_apiary
+    pieceDescription: $custom_piece_apiary_description
+    enablePiece: true
+  apiary_ext1:
+    action: Modify
+    prefab: apiary_ext1
+    requirements:
+    - prefab: Copper
+      amount: 7
+    - prefab: LeatherScraps
+      amount: 7
+    - prefab: Coal
+      amount: 5
+    requiredToPlaceCraftingStation: forge
+    canBeDeconstructed: true
+    pieceCategory: Crafting
+    isUpgradeForStation: true
+    spaceRequired: 1
+    pieceName: $custom_piece_apiary_ext1
+    pieceDescription: $custom_piece_apiary $piece_upgrade
+    enablePiece: true
+  apiary_ext2:
+    action: Modify
+    prefab: apiary_ext2
+    requirements:
+    - prefab: Silver
+      amount: 4
+    - prefab: FineWood
+      amount: 7
+    - prefab: Obsidian
+      amount: 5
+    requiredToPlaceCraftingStation: forge
+    canBeDeconstructed: true
+    pieceCategory: Crafting
+    isUpgradeForStation: true
+    spaceRequired: 1
+    pieceName: $custom_piece_apiary_ext2
+    pieceDescription: $custom_piece_apiary $piece_upgrade
+    enablePiece: true
+  apiary_ext3:
+    action: Modify
+    prefab: apiary_ext3
+    requirements:
+    - prefab: BlackMetal
+      amount: 7
+    - prefab: Crystal
+      amount: 11
+    - prefab: RoundLog
+      amount: 5
+    requiredToPlaceCraftingStation: forge
+    canBeDeconstructed: true
+    pieceCategory: Crafting
+    isUpgradeForStation: true
+    spaceRequired: 1
+    pieceName: $custom_piece_apiary_ext3
+    pieceDescription: $custom_piece_apiary $piece_upgrade
+    enablePiece: true
+  apiary_ext4:
+    action: Modify
+    prefab: apiary_ext4
+    requirements:
+    - prefab: BlackMarble
+      amount: 16
+    - prefab: YggdrasilWood
+      amount: 9
+    - prefab: Eitr
+      amount: 3
+    - prefab: Wisp
+      amount: 5
+    requiredToPlaceCraftingStation: piece_magetable
+    canBeDeconstructed: true
+    pieceCategory: Crafting
+    isUpgradeForStation: true
+    spaceRequired: 1
+    pieceName: $custom_piece_apiary_ext4
+    pieceDescription: $custom_piece_apiary $piece_upgrade
+    enablePiece: true
+  apiary_ext5:
+    action: Modify
+    prefab: apiary_ext5
+    requirements:
+    - prefab: Grausten
+      amount: 7
+    - prefab: Blackwood
+      amount: 9
+    - prefab: FlametalNew
+      amount: 4
+    - prefab: MoltenCore
+      amount: 1
+    requiredToPlaceCraftingStation: blackforge
+    canBeDeconstructed: true
+    pieceCategory: Crafting
+    isUpgradeForStation: true
+    spaceRequired: 1
+    pieceName: $custom_piece_apiary_ext5
+    pieceDescription: $custom_piece_apiary $piece_upgrade
+    enablePiece: true

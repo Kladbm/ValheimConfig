@@ -1,0 +1,137 @@
+#################################################
+# Wizardy Recipe Manipulation Config
+#################################################
+
+pieceModifications:
+  WizardTable_TW:
+    action: Modify
+    prefab: WizardTable_TW
+    requirements:
+    - prefab: SurtlingCore
+      amount: 6
+    - prefab: Bronze
+      amount: 12
+    - prefab: RoundLog
+      amount: 8
+    - prefab: TrollHide
+      amount: 4
+    - prefab: BoneFragments
+      amount: 6
+    requiredToPlaceCraftingStation: piece_workbench
+    canBeDeconstructed: true
+    pieceCategory: 9
+    pieceName: $piece_wizardtable_TW
+    pieceDescription: $piece_wizardtable_description_TW
+    enablePiece: true
+  ArcaneAnvil_TW:
+    action: Modify
+    prefab: ArcaneAnvil_TW
+    requirements:
+    - prefab: Stone
+      amount: 16
+    - prefab: SurtlingCore
+      amount: 8
+    - prefab: ShardElder_TW
+      amount: 4
+    requiredToPlaceCraftingStation: WizardTable_TW
+    canBeDeconstructed: true
+    pieceCategory: 9
+    isUpgradeForStation: true
+    pieceName: $piece_arcaneanvil_TW
+    pieceDescription: $piece_arcaneanvil_description_TW
+    enablePiece: true
+  PotionCauldron_TW:
+    action: Modify
+    prefab: PotionCauldron_TW
+    requirements:
+    - prefab: Iron
+      amount: 12
+    - prefab: Bronze
+      amount: 6
+    - prefab: Guck
+      amount: 8
+    - prefab: ShardBonemass_TW
+      amount: 2
+    requiredToPlaceCraftingStation: WizardTable_TW
+    canBeDeconstructed: true
+    pieceCategory: 9
+    isUpgradeForStation: true
+    pieceName: $piece_potioncauldron_TW
+    pieceDescription: $piece_potioncauldron_description_TW
+    enablePiece: true
+  WeavingLoom_TW:
+    action: Modify
+    prefab: WeavingLoom_TW
+    requirements:
+    - prefab: RoundLog
+      amount: 16
+    - prefab: HardAntler
+      amount: 3
+    - prefab: Thistle
+      amount: 6
+    - prefab: BoneFragments
+      amount: 3
+    requiredToPlaceCraftingStation: WizardTable_TW
+    canBeDeconstructed: true
+    pieceCategory: 9
+    isUpgradeForStation: true
+    pieceName: $piece_weavingloom_TW
+    pieceDescription: $piece_weavingloom_description_TW
+    enablePiece: true
+  WizardTable_ext3_TW:
+    action: Modify
+    prefab: WizardTable_ext3_TW
+    requirements:
+    - prefab: Crystal
+      amount: 8
+    - prefab: FineWood
+      amount: 12
+    - prefab: Obsidian
+      amount: 6
+    - prefab: ShardModer_TW
+      amount: 4
+    requiredToPlaceCraftingStation: WizardTable_TW
+    canBeDeconstructed: true
+    pieceCategory: 9
+    isUpgradeForStation: true
+    pieceName: $piece_wizardtable_ext3_TW
+    pieceDescription: $piece_wizardtable_ext_description_TW
+    enablePiece: true
+  WizardTable_ext4_TW:
+    action: Modify
+    prefab: WizardTable_ext4_TW
+    requirements:
+    - prefab: Tar
+      amount: 12
+    - prefab: GoblinTotem
+      amount: 6
+    - prefab: TrophySkeleton
+      amount: 3
+    - prefab: ShardYagluth_TW
+      amount: 4
+    requiredToPlaceCraftingStation: WizardTable_TW
+    canBeDeconstructed: true
+    pieceCategory: 9
+    isUpgradeForStation: true
+    pieceName: $piece_wizardtable_ext4_TW
+    pieceDescription: $piece_wizardtable_ext_description_TW
+    enablePiece: true
+  WizardTable_ext2_TW:
+    action: Modify
+    prefab: WizardTable_ext2_TW
+    requirements:
+    - prefab: WitheredBone
+      amount: 6
+    - prefab: ElderBark
+      amount: 10
+    - prefab: Ooze
+      amount: 3
+    - prefab: ShardBonemass_TW
+      amount: 2
+    requiredToPlaceCraftingStation: WizardTable_TW
+    canBeDeconstructed: true
+    pieceCategory: 9
+    isUpgradeForStation: true
+    pieceName: $piece_wizardtable_ext2_TW
+    pieceDescription: $piece_wizardtable_ext_description_TW
+    enablePiece: true

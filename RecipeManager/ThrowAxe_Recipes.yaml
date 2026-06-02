@@ -1,0 +1,87 @@
+#################################################
+# ThrowAxe Recipe Manipulation Config
+#################################################
+
+recipeModifications:
+  ThrowAxeFlint_TW_Recipe_Workbench:
+    action: Modify
+    prefab: ThrowAxeFlint_TW
+    recipeName: ThrowAxeFlint_TW_Recipe_Workbench
+    craftedAt: piece_workbench
+    minStationLevel: 2
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: Wood
+        craftCost: 12
+      - prefab: Flint
+        craftCost: 3
+  ThrowAxeBronze_TW_Recipe_Forge:
+    action: Modify
+    prefab: ThrowAxeBronze_TW
+    recipeName: ThrowAxeBronze_TW_Recipe_Forge
+    craftedAt: forge
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: RoundLog
+        craftCost: 12
+      - prefab: Bronze
+        craftCost: 2
+  ThrowAxeIron_TW_Recipe_Forge:
+    action: Modify
+    prefab: ThrowAxeIron_TW
+    recipeName: ThrowAxeIron_TW_Recipe_Forge
+    craftedAt: forge
+    minStationLevel: 2
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: ElderBark
+        craftCost: 12
+      - prefab: Iron
+        craftCost: 3
+  ThrowAxeSilver_TW_Recipe_Forge:
+    action: Modify
+    prefab: ThrowAxeSilver_TW
+    recipeName: ThrowAxeSilver_TW_Recipe_Forge
+    craftedAt: forge
+    minStationLevel: 3
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: FineWood
+        craftCost: 12
+      - prefab: Silver
+        craftCost: 3
+  ThrowAxeBlackmetal_TW_Recipe_Forge:
+    action: Modify
+    prefab: ThrowAxeBlackmetal_TW
+    recipeName: ThrowAxeBlackmetal_TW_Recipe_Forge
+    craftedAt: forge
+    minStationLevel: 4
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: FineWood
+        craftCost: 15
+      - prefab: LinenThread
+        craftCost: 1
+      - prefab: BlackMetal
+        craftCost: 3
+  ThrowAxeDvergr_TW_Recipe_BlackForge:
+    action: Modify
+    prefab: ThrowAxeDvergr_TW
+    recipeName: ThrowAxeDvergr_TW_Recipe_BlackForge
+    craftedAt: blackforge
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: YggdrasilWood
+        craftCost: 15
+      - prefab: Carapace
+        craftCost: 6
+      - prefab: Eitr
+        craftCost: 2

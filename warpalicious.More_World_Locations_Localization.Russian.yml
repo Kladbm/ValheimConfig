@@ -1,0 +1,135 @@
+# Trader / Trainer names
+mwl_plainstavern1_trader: Торвин
+mwl_plainscamp1_trader: Рагнир
+mwl_blackforestblacksmith1_trader: Волунд
+mwl_blackforestblacksmith2_trader: Синдри
+mwl_mountainsblacksmith1_trader: Торгрим
+mwl_mistlandsblacksmith1_trader: Двалин
+mwl_oceantavern1_trader: Бьорн
+mwl_meadowstrainer1_trainer: Эйрик
+mwl_swamptrainer1_trainer: Гримхильд
+mwl_plainstrainer1_trainer: Асмунд
+mwl_misttrainer1_trainer: Сигрун
+
+# Blacksmith Stone
+se_blacksmithStone: Камень кузнеца
+se_skillBook: Книга умений
+item_mwl_blacksmithstone_tier1: Камень кузнеца (1)
+item_mwl_blacksmithstone_tier2: Камень кузнеца (2)
+item_mwl_blacksmithstone_tier3: Камень кузнеца (3)
+item_mwl_blacksmithstone_description: "Улучшает броню или оружие сверх максимального качества. Поместите броню или оружие в верхнюю левую ячейку инвентаря и используйте этот предмет."
+
+# Skill Books (suffix tokens — skill name resolved from game's own $skill_* token)
+mwl_skillbook_tier1: "Книга умений (1)"
+mwl_skillbook_tier2: "Книга умений (2)"
+mwl_skillbook_tier3: "Книга умений (3)"
+mwl_skillbook_desc_tier1: Повышает умение на 1 уровень.
+mwl_skillbook_desc_tier2: Повышает умение на 3 уровня.
+mwl_skillbook_desc_tier3: Повышает умение на 5 уровней.
+
+# Marble Jail 1
+mwl_marblejail1_key: Ключ от мраморной темницы
+mwl_marblejail1_key_desc: Ржавый железный ключ, стёртый от времени. Открывает камерный блок.
+mwl_marblejail1_runestone: Мрачный конец
+mwl_marblejail1_runestone_text: "Они забыли меня здесь. Годы превратились в десятилетия. Твари внизу стали привычными — их вой был моей единственной компанией. Я иду к ним теперь. Они ждали меня. Никто другой не ждал."
+ 
+# Marble Cliff Altar 1
+mwl_marblecliffaltar1_runestone: Опасное приобретение
+mwl_marblecliffaltar1_runestone_text: "То, что лежит на алтаре, — не твоё. Оно принадлежит тем, кто кружит в вышине и ждёт в тишине. Возьми его — и смертоносный рог разорвёт безмолвие тумана."
+
+# Port Runestones
+mwl_port1_runestone: Кража Дрелтора
+mwl_port1_runestone_text: "Проклят будь Дрелтор Алчный, король двергров в Золотой Век. Ибо он, снедаемый жаждой знания, похитил Око Одина из Колодца Мимира. Осквернённые воды отравили Иггдрасиль, и больные побеги его упали в Вальхейм, навлекая гнев самого Одина."
+ 
+mwl_port2_runestone: Мы — Двергры
+mwl_port2_runestone_text: "Проклят будь Дрелтор Алчный! Наши великие цивилизации строились тысячу лет и рухнули в мгновение ока. Наши города, торговые центры, крепости и угодья разрушены проклятыми. Зачем же тогда мы держимся? Ради чего сохраняем наши маленькие крепости и лагери в эти безнадёжные времена? Потому что мы — Двергры! И даже гнев Одина не сломит нас. Мы выживем. Мы отстроимся. Мы вернём благосклонность Одина. Мы создадим новый золотой век."
+ 
+mwl_port3_runestone: Семена новой эпохи
+mwl_port3_runestone_text: "Зачем содержать эти порты — реликвии некогда великой эпохи, давно миновавшей? Они не служат ничему, кроме редкого заработка с проходящих кочевников. Но они понадобятся нам, когда мы начнём возрождение! Когда великие державы двергров поднимутся вновь, нам будет нужна торговля и commerce! Это семена новой эпохи, и они расцветут!\n\nА, да — проклят будь Дрелтор Алчный."
+ 
+mwl_port4_runestone: Королевства в руинах
+mwl_port4_runestone_text: "Проклят будь Дрелтор Алчный, погрузивший наши процветающие державы двергров в руины, разгневав Одина. Всеотец обрушил на наш мир самых злобных своих отверженных и потерянные души — в наказание и им, и нам. Наши королевства рассыпались. Некогда живые земли заволокло туманом и огнём. Наш народ рассеялся и остался без вождей."
+ 
+mwl_port5_runestone: Сожаление Дрелтора
+mwl_port5_runestone_text: "Я — Дрелтор, бывший король двергров. В своей гордыне я похитил Око Одина и навлёк на нас гибель. Ирония в том, что Oko даровало мне мудрость понять: мне никогда не следовало его красть. Если бы только можно было отменить содеянное! Но это свершилось. Мне не осталось ничего, кроме вечных странствий. Ибо Oko проклял меня бессмертием. Чтобы я мог наблюдать бесконечные страдания своего народа и гибель всего, чем я правил.\n\nПроклят будь я сам."
+
+# Ports UI
+label_shipment: Грузы
+label_port: Порт
+label_delivery: Доставки
+label_manifest: Накладные
+label_open_map: Открыть карту
+label_teleport: Телепорт
+label_in_transit: В пути
+label_delivered: Доставлено
+label_expired: Истёк срок
+label_open: Открыть
+msg_successfully_sent: "Груз успешно отправлен!"
+msg_failed_to_send: Накладная недействительна
+msg_failed_to_load_delivery: Контейнеры не пусты!
+label_current_shipments: Текущие грузы
+label_cost: Стоимость
+label_nr_of_items: Количество предметов
+label_total_weight: Общий вес
+label_contents: Содержимое
+label_estimated_ship_time: Расчётное время доставки
+label_origin: Отправитель
+label_destination: Получатель
+tooltip_port: Список доступных портов
+tooltip_shipment: Список активных грузов
+tooltip_delivery: Список активных доставок
+tooltip_manifest: Купленные накладные
+tooltip_teleport: Телепорт к портам
+label_exit: Выйти
+label_purchase: Купить
+label_open_delivery: Открыть доставку
+msg_max_shipments: Достигнут максимум отправлений
+msg_send_shipment: "Отправить груз!"
+label_origin_port: Порт отправления
+label_destination_port: Порт назначения
+label_state: Состояние
+label_items: Предметы
+label_required_to_defeat: Необходимо победить
+label_capacity: Вместимость
+label_cost_to_ship: Стоимость отправки
+msg_delivery_collected: Доставка отмечена как полученная
+
+# Port trader names
+trader_port_name_1: Халмар
+trader_port_name_2: Халвар
+trader_port_name_3: Халрик
+trader_port_name_4: Халгрим
+trader_port_name_5: Халден
+trader_port_name_6: Халфи
+trader_port_name_7: Халвор
+trader_port_name_8: Халкар
+
+# Port trader dialogue — random talk
+msg_randomPortTalk_1: "Ах, ещё один длинноногий хочет мои корабли? Не споткнись о причал, человек."
+msg_randomPortTalk_2: "Сначала монета, потом груз. Таков закон моря — и закон моей бороды!"
+msg_randomPortTalk_3: "Есть что перевезти? Мои лодки шустрее, чем запах тролля по ветру."
+msg_randomPortTalk_4: "Люди всегда хотят всё вчера. Повезло тебе — я вожу завтрашние грузы уже сегодня!"
+msg_randomPortTalk_5: "Платишь — вожу. Просто, как замах молотом, только тише."
+msg_randomPortTalk_6: "Руки подальше от бочек с ромом — это для команды, а не для груза!"
+msg_randomPortTalk_7: "Клянусь бородой, я перевозил вещи и потяжелее! Не переживай, груз доберётся."
+msg_randomPortTalk_8: "Порты, накладные и монеты. Вот моя жизнь. А твоя, человек?"
+
+# Port trader dialogue — greets
+msg_randomGreet_1: "Здорово, длинноногий! Пришёл отправить блестяшки за море?"
+msg_randomGreet_2: "Ха! Ещё один покупатель! Гляди под ноги — верёвки валят таких высоких, как ты."
+msg_randomGreet_3: "Попутный ветер дует, а с ним и выгодные сделки — если монета найдётся."
+msg_randomGreet_4: "Клянусь бородой, выглядишь замотанным. Повезло тебе — я как раз в дороге разбираюсь."
+msg_randomGreet_5: "Живее, человек! Мои причалы не для зевак."
+msg_randomGreet_6: "Доброго дня! Есть груз? У меня есть корабли."
+msg_randomGreet_7: "Ах, запах монет на ветру. Дело есть, а?"
+msg_randomGreet_8: "Добро пожаловать в мой порт! Не трогай ничего блестящего — если только не купил."
+
+# Port trader dialogue — goodbyes
+msg_randomGoodbye_1: "Попутного ветра, и не потопи мою прибыль!"
+msg_randomGoodbye_2: "Ступай тогда — корабли сами себя не загрузят."
+msg_randomGoodbye_3: "Удачи в пути, длинноногий. В следующий раз трать больше монет!"
+msg_randomGoodbye_4: "Берегись моря — оно злее моего дяди после трёх кружек эля."
+msg_randomGoodbye_5: "Груз ждать не будет. Давай, шагай!"
+msg_randomGoodbye_6: "До следующего прилива. Пусть сапоги останутся сухими."
+msg_randomGoodbye_7: "Не пропадай — и уж тем более не приходи должником."
+msg_randomGoodbye_8: "Прощай, и пусть борода твоя растёт так же крепко, как твой кошелёк."

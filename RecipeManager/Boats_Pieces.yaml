@@ -1,0 +1,17 @@
+#################################################
+# Boats Recipe Manipulation Config
+#################################################
+
+pieceModifications:
+  Raft:
+    action: Disable
+    prefab: Raft
+  Karve:
+    action: Disable
+    prefab: Karve
+  VikingShip:
+    action: Disable
+    prefab: VikingShip
+  VikingShip_Ashlands:
+    action: Enable
+    prefab: VikingShip_Ashlands

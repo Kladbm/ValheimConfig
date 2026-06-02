@@ -1,0 +1,29 @@
+#################################################
+# Armory Recipe Manipulation Config
+#################################################
+
+pieceModifications:
+  Armory_TW:
+    action: Modify
+    prefab: Armory_TW
+    requirements:
+    - prefab: Stone
+      amount: 80
+    - prefab: BronzeNails
+      amount: 40
+    - prefab: FineWood
+      amount: 20
+    - prefab: Bronze
+      amount: 20
+    - prefab: SurtlingCore
+      amount: 15
+    - prefab: TrophyEikthyr
+      amount: 1
+    requiredToPlaceCraftingStation: forge
+    canBeDeconstructed: true
+    pieceCategory: 9
+    isUpgradeForStation: true
+    craftingStationConnectionRadius: 30
+    pieceName: $piece_armory_TW
+    pieceDescription: $piece_armory_description_TW
+    enablePiece: true

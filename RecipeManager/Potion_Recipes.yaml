@@ -1,0 +1,491 @@
+#################################################
+# Potion Recipe Manipulation Config
+#################################################
+
+recipeModifications:
+  PotionLumberjack_TW_Recipe_Custom:
+    action: Modify
+    prefab: PotionLumberjack_TW
+    recipeName: PotionLumberjack_TW_Recipe_Custom
+    craftedAt: PotionCauldron_TW
+    minStationLevel: 1
+    craftAmount: 3
+    recipe:
+      ingredients:
+      - prefab: ShardElder_TW
+        craftCost: 2
+      - prefab: MushroomWitcheye_TW
+        craftCost: 4
+      - prefab: AncientSeed
+        craftCost: 3
+      - prefab: Thistle
+        craftCost: 2
+      - prefab: Acorn
+        craftCost: 1
+  PotionMiner_TW_Recipe_Custom:
+    action: Modify
+    prefab: PotionMiner_TW
+    recipeName: PotionMiner_TW_Recipe_Custom
+    craftedAt: PotionCauldron_TW
+    minStationLevel: 1
+    craftAmount: 3
+    recipe:
+      ingredients:
+      - prefab: ShardBonemass_TW
+        craftCost: 1
+      - prefab: MushroomDeathcap_TW
+        craftCost: 5
+      - prefab: BoneFragments
+        craftCost: 6
+      - prefab: Blueberries
+        craftCost: 6
+      - prefab: Stone
+        craftCost: 6
+  PotionSneak_TW_Recipe_Custom:
+    action: Modify
+    prefab: PotionSneak_TW
+    recipeName: PotionSneak_TW_Recipe_Custom
+    craftedAt: PotionCauldron_TW
+    minStationLevel: 1
+    craftAmount: 3
+    recipe:
+      ingredients:
+      - prefab: ShardBonemass_TW
+        craftCost: 1
+      - prefab: MushroomWitcheye_TW
+        craftCost: 4
+      - prefab: MushroomDeathcap_TW
+        craftCost: 4
+      - prefab: Carrot
+        craftCost: 3
+  PotionOx_TW_Recipe_Custom:
+    action: Modify
+    prefab: PotionOx_TW
+    recipeName: PotionOx_TW_Recipe_Custom
+    craftedAt: PotionCauldron_TW
+    minStationLevel: 1
+    craftAmount: 3
+    recipe:
+      ingredients:
+      - prefab: ShardElder_TW
+        craftCost: 2
+      - prefab: MushroomWitcheye_TW
+        craftCost: 5
+      - prefab: Carrot
+        craftCost: 5
+      - prefab: Bloodbag
+        craftCost: 2
+  PotionSkills_TW_Recipe_Custom:
+    action: Modify
+    prefab: PotionSkills_TW
+    recipeName: PotionSkills_TW_Recipe_Custom
+    craftedAt: PotionCauldron_TW
+    minStationLevel: 1
+    craftAmount: 3
+    recipe:
+      ingredients:
+      - prefab: ShardModer_TW
+        craftCost: 4
+      - prefab: MushroomWitcheye_TW
+        craftCost: 6
+      - prefab: MushroomDeathcap_TW
+        craftCost: 6
+      - prefab: MushroomWizardbutter_TW
+        craftCost: 6
+      - prefab: MushroomDevilstongue_TW
+        craftCost: 6
+      - prefab: Cloudberry
+        craftCost: 8
+  PotionSpeed_TW_Recipe_Custom:
+    action: Modify
+    prefab: PotionSpeed_TW
+    recipeName: PotionSpeed_TW_Recipe_Custom
+    craftedAt: PotionCauldron_TW
+    minStationLevel: 1
+    craftAmount: 3
+    recipe:
+      ingredients:
+      - prefab: ShardYagluth_TW
+        craftCost: 1
+      - prefab: MushroomDevilstongue_TW
+        craftCost: 4
+      - prefab: Cloudberry
+        craftCost: 4
+      - prefab: Guck
+        craftCost: 4
+  PotionStoneskin_TW_Recipe_Custom:
+    action: Modify
+    prefab: PotionStoneskin_TW
+    recipeName: PotionStoneskin_TW_Recipe_Custom
+    craftedAt: PotionCauldron_TW
+    minStationLevel: 1
+    craftAmount: 2
+    recipe:
+      ingredients:
+      - prefab: ShardYagluth_TW
+        craftCost: 2
+      - prefab: MushroomDevilstongue_TW
+        craftCost: 6
+      - prefab: Stone
+        craftCost: 14
+      - prefab: Obsidian
+        craftCost: 8
+  MeadBaseEitrBlackForest_TW_Recipe_MeadCauldron:
+    action: Modify
+    prefab: MeadBaseEitrBlackForest_TW
+    recipeName: MeadBaseEitrBlackForest_TW_Recipe_MeadCauldron
+    craftedAt: piece_MeadCauldron
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: MeadTasty
+        craftCost: 3
+      - prefab: MushroomWitcheye_TW
+        craftCost: 6
+      - prefab: Honey
+        craftCost: 10
+  MeadBaseEitrMountain_TW_Recipe_MeadCauldron:
+    action: Modify
+    prefab: MeadBaseEitrMountain_TW
+    recipeName: MeadBaseEitrMountain_TW_Recipe_MeadCauldron
+    craftedAt: piece_MeadCauldron
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: MeadTasty
+        craftCost: 3
+      - prefab: MushroomWizardbutter_TW
+        craftCost: 6
+      - prefab: Honey
+        craftCost: 10
+  MeadBaseLightningResist_TW_Recipe_MeadCauldron:
+    action: Modify
+    prefab: MeadBaseLightningResist_TW
+    recipeName: MeadBaseLightningResist_TW_Recipe_MeadCauldron
+    craftedAt: piece_MeadCauldron
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Honey
+        craftCost: 10
+      - prefab: Barley
+        craftCost: 4
+      - prefab: Flax
+        craftCost: 4
+      - prefab: Thunderstone
+        craftCost: 2
+  Recipe_BarleyWineBase:
+    action: Modify
+    prefab: BarleyWineBase
+    recipeName: Recipe_BarleyWineBase
+    craftedAt: piece_MeadCauldron
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Barley
+        craftCost: 10
+        upgradeCost: 1
+      - prefab: Cloudberry
+        craftCost: 10
+        upgradeCost: 1
+      - prefab: Honey
+        craftCost: 10
+        upgradeCost: 1
+  Recipe_MeadBaseBugRepellent:
+    action: Modify
+    prefab: MeadBaseBugRepellent
+    recipeName: Recipe_MeadBaseBugRepellent
+    craftedAt: piece_MeadCauldron
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Cloudberry
+        craftCost: 10
+        upgradeCost: 1
+      - prefab: Thistle
+        craftCost: 6
+        upgradeCost: 1
+      - prefab: Fish7
+        craftCost: 3
+        upgradeCost: 1
+      - prefab: FragrantBundle
+        craftCost: 1
+        upgradeCost: 1
+  Recipe_MeadBaseBzerker:
+    action: Modify
+    prefab: MeadBaseBzerker
+    recipeName: Recipe_MeadBaseBzerker
+    craftedAt: piece_MeadCauldron
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Mushroom
+        craftCost: 10
+        upgradeCost: 1
+      - prefab: MushroomYellow
+        craftCost: 10
+        upgradeCost: 1
+      - prefab: Honey
+        craftCost: 10
+        upgradeCost: 1
+      - prefab: MushroomBzerker
+        craftCost: 1
+        upgradeCost: 1
+  Recipe_MeadBaseEitrLingering:
+    action: Modify
+    prefab: MeadBaseEitrLingering
+    recipeName: Recipe_MeadBaseEitrLingering
+    craftedAt: piece_MeadCauldron
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Sap
+        craftCost: 10
+        upgradeCost: 1
+      - prefab: Vineberry
+        craftCost: 10
+        upgradeCost: 1
+      - prefab: MushroomMagecap
+        craftCost: 10
+        upgradeCost: 1
+      - prefab: Eitr
+        craftCost: 3
+        upgradeCost: 1
+  Recipe_MeadBaseEitrMinor:
+    action: Modify
+    prefab: MeadBaseEitrMinor
+    recipeName: Recipe_MeadBaseEitrMinor
+    craftedAt: piece_MeadCauldron
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Honey
+        craftCost: 10
+        upgradeCost: 1
+      - prefab: Sap
+        craftCost: 5
+        upgradeCost: 1
+      - prefab: MushroomJotunPuffs
+        craftCost: 3
+        upgradeCost: 1
+      - prefab: MushroomMagecap
+        craftCost: 3
+        upgradeCost: 1
+      - prefab: Eitr
+        craftCost: 1
+        upgradeCost: 1
+  Recipe_MeadBaseHasty:
+    action: Modify
+    prefab: MeadBaseHasty
+    recipeName: Recipe_MeadBaseHasty
+    craftedAt: piece_MeadCauldron
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Honey
+        craftCost: 10
+        upgradeCost: 1
+      - prefab: Blueberries
+        craftCost: 7
+        upgradeCost: 1
+      - prefab: Raspberry
+        craftCost: 7
+        upgradeCost: 1
+      - prefab: CuredSquirrelHamstring
+        craftCost: 1
+        upgradeCost: 1
+  Recipe_MeadBaseHealthLingering:
+    action: Modify
+    prefab: MeadBaseHealthLingering
+    recipeName: Recipe_MeadBaseHealthLingering
+    craftedAt: piece_MeadCauldron
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Honey
+        craftCost: 10
+        upgradeCost: 1
+      - prefab: Sap
+        craftCost: 10
+        upgradeCost: 1
+      - prefab: Vineberry
+        craftCost: 10
+        upgradeCost: 1
+      - prefab: MushroomSmokePuff
+        craftCost: 10
+        upgradeCost: 1
+  Recipe_MeadBaseHealthMajor:
+    action: Modify
+    prefab: MeadBaseHealthMajor
+    recipeName: Recipe_MeadBaseHealthMajor
+    craftedAt: piece_MeadCauldron
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Honey
+        craftCost: 10
+        upgradeCost: 1
+      - prefab: GiantBloodSack
+        craftCost: 6
+        upgradeCost: 1
+      - prefab: Bloodbag
+        craftCost: 6
+        upgradeCost: 1
+      - prefab: RoyalJelly
+        craftCost: 5
+        upgradeCost: 1
+  Recipe_MeadBaseHealthMedium:
+    action: Modify
+    prefab: MeadBaseHealthMedium
+    recipeName: Recipe_MeadBaseHealthMedium
+    craftedAt: piece_MeadCauldron
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Honey
+        craftCost: 10
+        upgradeCost: 1
+      - prefab: Raspberry
+        craftCost: 10
+        upgradeCost: 1
+      - prefab: Bloodbag
+        craftCost: 2
+        upgradeCost: 1
+      - prefab: Dandelion
+        craftCost: 1
+        upgradeCost: 1
+  Recipe_MeadBaseHealthMinor:
+    action: Modify
+    prefab: MeadBaseHealthMinor
+    recipeName: Recipe_MeadBaseHealthMinor
+    craftedAt: piece_MeadCauldron
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Honey
+        craftCost: 10
+        upgradeCost: 1
+      - prefab: Blueberries
+        craftCost: 10
+        upgradeCost: 1
+      - prefab: Raspberry
+        craftCost: 10
+        upgradeCost: 1
+      - prefab: Dandelion
+        craftCost: 3
+        upgradeCost: 1
+  Recipe_MeadBasePoisonResist:
+    action: Modify
+    prefab: MeadBasePoisonResist
+    recipeName: Recipe_MeadBasePoisonResist
+    craftedAt: piece_MeadCauldron
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Honey
+        craftCost: 10
+        upgradeCost: 1
+      - prefab: Thistle
+        craftCost: 7
+        upgradeCost: 1
+      - prefab: NeckTail
+        craftCost: 5
+        upgradeCost: 1
+      - prefab: Dandelion
+        craftCost: 3
+        upgradeCost: 1
+  Recipe_MeadBaseStaminaLingering:
+    action: Modify
+    prefab: MeadBaseStaminaLingering
+    recipeName: Recipe_MeadBaseStaminaLingering
+    craftedAt: piece_MeadCauldron
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Honey
+        craftCost: 10
+        upgradeCost: 1
+      - prefab: Sap
+        craftCost: 10
+        upgradeCost: 1
+      - prefab: Cloudberry
+        craftCost: 10
+        upgradeCost: 1
+      - prefab: MushroomJotunPuffs
+        craftCost: 10
+        upgradeCost: 1
+  Recipe_MeadBaseStaminaMedium:
+    action: Modify
+    prefab: MeadBaseStaminaMedium
+    recipeName: Recipe_MeadBaseStaminaMedium
+    craftedAt: piece_MeadCauldron
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Honey
+        craftCost: 10
+        upgradeCost: 1
+      - prefab: Cloudberry
+        craftCost: 10
+        upgradeCost: 1
+      - prefab: MushroomYellow
+        craftCost: 10
+        upgradeCost: 1
+      - prefab: Dandelion
+        craftCost: 5
+        upgradeCost: 1
+  Recipe_MeadBaseStaminaMinor:
+    action: Modify
+    prefab: MeadBaseStaminaMinor
+    recipeName: Recipe_MeadBaseStaminaMinor
+    craftedAt: piece_MeadCauldron
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Honey
+        craftCost: 10
+        upgradeCost: 1
+      - prefab: Raspberry
+        craftCost: 10
+        upgradeCost: 1
+      - prefab: MushroomYellow
+        craftCost: 10
+        upgradeCost: 1
+      - prefab: Dandelion
+        craftCost: 5
+        upgradeCost: 1
+  Recipe_MeadBaseStrength:
+    action: Modify
+    prefab: MeadBaseStrength
+    recipeName: Recipe_MeadBaseStrength
+    craftedAt: piece_MeadCauldron
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Fish5
+        craftCost: 3
+        upgradeCost: 1
+      - prefab: Honey
+        craftCost: 10
+        upgradeCost: 1
+      - prefab: PowderedDragonEgg
+        craftCost: 1
+        upgradeCost: 1

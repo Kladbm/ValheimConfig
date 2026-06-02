@@ -1,0 +1,485 @@
+#################################################
+# Capes Recipe Manipulation Config
+#################################################
+
+recipeModifications:
+  Recipe_CapeRusted:
+    action: Modify
+    prefab: CapeRusted
+    recipeName: Recipe_CapeRusted
+    craftedAt: forge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: IronScrap
+        craftCost: 12
+        upgradeCost: 3
+      - prefab: TrophyDraugrElite
+        craftCost: 1
+      - prefab: Guck
+        craftCost: 5
+        upgradeCost: 3
+  Recipe_CapeRabbit:
+    action: Modify
+    prefab: CapeRabbit
+    recipeName: Recipe_CapeRabbit
+    craftedAt: piece_magetable
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ScaleHide
+        craftCost: 15
+        upgradeCost: 10
+      - prefab: Eitr
+        craftCost: 20
+        upgradeCost: 3
+      - prefab: TrophyHare
+        craftCost: 1
+        upgradeCost: 1
+  Recipe_CapeAdventurer:
+    action: Modify
+    prefab: CapeAdventurer
+    recipeName: Recipe_CapeAdventurer
+    craftedAt: forge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: WolfPelt
+        craftCost: 21
+        upgradeCost: 7
+      - prefab: Silver
+        craftCost: 7
+      - prefab: Guck
+        craftCost: 5
+        upgradeCost: 3
+  Recipe_CapeStalker:
+    action: Modify
+    prefab: CapeStalker
+    recipeName: Recipe_CapeStalker
+    craftedAt: forge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: WolfHairBundle
+        craftCost: 15
+        upgradeCost: 5
+      - prefab: Silver
+        craftCost: 5
+      - prefab: Obsidian
+        craftCost: 12
+        upgradeCost: 6
+  Recipe_CapeSurtling:
+    action: Modify
+    prefab: CapeSurtling
+    recipeName: Recipe_CapeSurtling
+    craftedAt: blackforge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: SurtlingCore
+        craftCost: 66
+        upgradeCost: 6
+      - prefab: Coal
+        craftCost: 66
+        upgradeCost: 6
+      - prefab: FlametalNew
+        craftCost: 6
+        upgradeCost: 6
+      - prefab: Coins
+        craftCost: 666
+        upgradeCost: 66
+  Recipe_CapeEinherjar:
+    action: Modify
+    prefab: CapeEinherjar
+    recipeName: Recipe_CapeEinherjar
+    craftedAt: forge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: MushroomYellow
+        craftCost: 20
+        upgradeCost: 10
+      - prefab: LeatherScraps
+        craftCost: 10
+        upgradeCost: 5
+      - prefab: YmirRemains
+        craftCost: 6
+        upgradeCost: 3
+  Recipe_CapeWraith:
+    action: Modify
+    prefab: CapeWraith
+    recipeName: Recipe_CapeWraith
+    craftedAt: forge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Entrails
+        craftCost: 30
+        upgradeCost: 15
+      - prefab: Chain
+        craftCost: 11
+        upgradeCost: 5
+      - prefab: TrophyWraith
+        craftCost: 3
+        upgradeCost: 1        
+  Recipe_CapeBush:
+    action: Modify
+    prefab: CapeBush
+    recipeName: Recipe_CapeBush
+    craftedAt: piece_workbench
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Wood
+        craftCost: 24
+        upgradeCost: 8
+      - prefab: Dandelion
+        craftCost: 24
+        upgradeCost: 12        
+      - prefab: LeatherScraps
+        craftCost: 7
+        upgradeCost: 3
+      - prefab: Flint
+        craftCost: 3
+        upgradeCost: 1
+  Recipe_CapeBerserker:
+    action: Modify
+    prefab: CapeBerserker
+    recipeName: Recipe_CapeBerserker
+    craftedAt: forge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: WolfHairBundle
+        craftCost: 15
+        upgradeCost: 5
+      - prefab: Silver
+        craftCost: 7
+        upgradeCost: 3      
+      - prefab: Mushroom
+        craftCost: 20
+        upgradeCost: 4
+      - prefab: Obsidian
+        craftCost: 12
+        upgradeCost: 4
+      - prefab: MushroomBzerker
+        craftCost: 1
+  Recipe_CapeLeech:
+    action: Modify
+    prefab: CapeLeech
+    recipeName: Recipe_CapeLeech
+    craftedAt: forge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Bloodbag
+        craftCost: 30
+        upgradeCost: 10
+      - prefab: Iron
+        craftCost: 15
+        upgradeCost: 4
+      - prefab: Root
+        craftCost: 8
+        upgradeCost: 4
+  Recipe_CapeBrawler:
+    action: Modify
+    prefab: CapeBrawler
+    recipeName: Recipe_CapeBrawler
+    craftedAt: piece_workbench
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Root
+        craftCost: 20
+        upgradeCost: 5
+      - prefab: MeadFrostResist
+        craftCost: 5
+      - prefab: Ooze
+        craftCost: 12
+        upgradeCost: 4
+  Recipe_CapeCrusader:
+    action: Modify
+    prefab: CapeCrusader
+    recipeName: Recipe_CapeCrusader
+    craftedAt: forge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: CapeLinen
+        craftCost: 1
+      - prefab: LinenThread
+        craftCost: 12
+        upgradeCost: 4
+      - prefab: Raspberry
+        craftCost: 10
+        upgradeCost: 5
+      - prefab: Silver
+        craftCost: 10
+        upgradeCost: 5
+  Recipe_CapeKnight:
+    action: Modify
+    prefab: CapeKnight
+    recipeName: Recipe_CapeKnight
+    craftedAt: forge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: CapeLinen
+        craftCost: 1
+      - prefab: Silver
+        craftCost: 15
+        upgradeCost: 5
+      - prefab: LinenThread
+        craftCost: 12
+        upgradeCost: 4
+      - prefab: Cloudberry
+        craftCost: 12
+        upgradeCost: 3
+      - prefab: Blueberries
+        craftCost: 8
+        upgradeCost: 2
+  Recipe_CapeSerpent:
+    action: Modify
+    prefab: CapeSerpent
+    recipeName: Recipe_CapeSerpent
+    craftedAt: piece_workbench
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: SerpentScale
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: TrophySerpent
+        craftCost: 1
+      - prefab: Chitin
+        craftCost: 5
+        upgradeCost: 3
+  Recipe_CapeShaman:
+    action: Modify
+    prefab: CapeShaman
+    recipeName: Recipe_CapeShaman
+    craftedAt: forge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Feathers
+        craftCost: 30
+        upgradeCost: 15
+      - prefab: TrophyGoblinShaman
+        craftCost: 5
+        upgradeCost: 3
+      - prefab: BlackMetal
+        craftCost: 12
+        upgradeCost: 4
+      - prefab: GoblinTotem
+        craftCost: 7
+        upgradeCost: 3
+  Recipe_CapeDvergr:
+    action: Modify
+    prefab: CapeDvergr
+    recipeName: Recipe_CapeDvergr
+    craftedAt: piece_magetable
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: JuteBlue
+        craftCost: 30
+        upgradeCost: 15
+      - prefab: Eitr
+        craftCost: 25
+        upgradeCost: 15
+      - prefab: TrophyDvergr
+        craftCost: 3
+        upgradeCost: 1
+  Recipe_CapeCultist:
+    action: Modify
+    prefab: CapeCultist
+    recipeName: Recipe_CapeCultist
+    craftedAt: forge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: JuteRed
+        craftCost: 20
+        upgradeCost: 7
+      - prefab: TrophyFenring
+        craftCost: 3
+        upgradeCost: 1
+      - prefab: Iron
+        craftCost: 12
+        upgradeCost: 4
+  Recipe_CapeNeck:
+    action: Modify
+    prefab: CapeNeck
+    recipeName: Recipe_CapeNeck
+    craftedAt: piece_workbench
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: TrophyNeck
+        craftCost: 7
+        upgradeCost: 3
+      - prefab: Feathers
+        craftCost: 12
+        upgradeCost: 4
+      - prefab: Flint
+        craftCost: 6
+        upgradeCost: 2
+  Recipe_CapeWolf:
+    action: Modify
+    prefab: CapeWolf
+    recipeName: Recipe_CapeWolf
+    craftedAt: forge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: WolfPelt
+        craftCost: 12
+        upgradeCost: 8
+      - prefab: Silver
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: TrophyWolf
+        craftCost: 1
+  Recipe_CapeTrollHide:
+    action: Modify
+    prefab: CapeTrollHide
+    recipeName: Recipe_CapeTrollHide
+    craftedAt: piece_workbench
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: TrollHide
+        craftCost: 15
+        upgradeCost: 5
+      - prefab: BoneFragments
+        craftCost: 10
+        upgradeCost: 5
+      - prefab: TrophyFrostTroll
+        craftCost: 1
+  Recipe_CapeLox:
+    action: Modify
+    prefab: CapeLox
+    recipeName: Recipe_CapeLox
+    craftedAt: forge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: LoxPelt
+        craftCost: 24
+        upgradeCost: 8
+      - prefab: LinenThread
+        craftCost: 18
+        upgradeCost: 6
+      - prefab: Silver
+        craftCost: 6
+        upgradeCost: 2
+      - prefab: TrophyLox
+        craftCost: 1
+  Recipe_CapeGreydwarf:
+    action: Modify
+    prefab: CapeGreydwarf
+    recipeName: Recipe_CapeGreydwarf
+    craftedAt: piece_workbench
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: GreydwarfEye
+        craftCost: 30
+        upgradeCost: 10
+      - prefab: TrophyGreydwarfShaman
+        craftCost: 3
+        upgradeCost: 1
+      - prefab: AncientSeed
+        craftCost: 7
+        upgradeCost: 3
+  Recipe_CapeLinen:
+    action: Modify
+    prefab: CapeLinen
+    recipeName: Recipe_CapeLinen
+    craftedAt: forge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: LinenThread
+        craftCost: 20
+        upgradeCost: 6
+      - prefab: Raspberry
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: Silver
+        craftCost: 5
+        upgradeCost: 3
+  Recipe_CapeDeerHide:
+    action: Modify
+    prefab: CapeDeerHide
+    recipeName: Recipe_CapeDeerHide
+    craftedAt: piece_workbench
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: DeerHide
+        craftCost: 12
+        upgradeCost: 8
+      - prefab: BoneFragments
+        craftCost: 10
+        upgradeCost: 5
+      - prefab: TrophyDeer
+        craftCost: 1
+  Recipe_CapeAsh:
+    action: Modify
+    prefab: CapeAsh
+    recipeName: Recipe_CapeAsh
+    craftedAt: blackforge
+    minStationLevel: 3
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: AskHide
+        craftCost: 12
+        upgradeCost: 4
+      - prefab: MorgenSinew
+        craftCost: 4
+        upgradeCost: 2
+      - prefab: FlametalNew
+        craftCost: 10
+        upgradeCost: 5
+  Recipe_CapeAsksvin:
+    action: Modify
+    prefab: CapeAsksvin
+    recipeName: Recipe_CapeAsksvin
+    craftedAt: piece_magetable
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: AskHide
+        craftCost: 12
+        upgradeCost: 4
+      - prefab: MorgenSinew
+        craftCost: 4
+        craftCost: 2

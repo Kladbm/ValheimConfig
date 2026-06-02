@@ -1,0 +1,325 @@
+#################################################
+# Shield Recipe Manipulation Config
+#################################################
+
+recipeModifications:
+  Recipe_ShieldBronzeBuckler:
+    action: Modify
+    prefab: ShieldBronzeBuckler
+    recipeName: Recipe_ShieldBronzeBuckler
+    craftedAt: forge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: RoundLog
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: Bronze
+        craftCost: 14
+        upgradeCost: 7
+      - prefab: DeerHide
+        craftCost: 2
+  ShieldBronzeBanded_TW_Recipe_Forge:
+    action: Modify
+    prefab: ShieldBronzeBanded_TW
+    recipeName: ShieldBronzeBanded_TW_Recipe_Forge
+    craftedAt: forge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: RoundLog
+        craftCost: 10
+        upgradeCost: 5
+      - prefab: Bronze
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: DeerHide
+        craftCost: 2
+  ShieldBronzeTower_TW_Recipe_Forge:
+    action: Modify
+    prefab: ShieldBronzeTower_TW
+    recipeName: ShieldBronzeTower_TW_Recipe_Forge
+    craftedAt: forge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: RoundLog
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: Bronze
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: DeerHide
+        craftCost: 4
+        upgradeCost: 2
+  Recipe_ShieldBoneTower:
+    action: Modify
+    prefab: ShieldBoneTower
+    recipeName: Recipe_ShieldBoneTower
+    craftedAt: piece_workbench
+    minStationLevel: 3
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Wood
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: BoneFragments
+        craftCost: 18
+        upgradeCost: 12
+      - prefab: TrophySkeleton
+        craftCost: 3
+  Recipe_ShieldSerpentscale:
+    action: Modify
+    prefab: ShieldSerpentscale
+    recipeName: Recipe_ShieldSerpentscale
+    craftedAt: forge
+    minStationLevel: 3
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FineWood
+        craftCost: 12
+        upgradeCost: 12
+      - prefab: Iron
+        craftCost: 4
+        upgradeCost: 2
+      - prefab: ElderBark
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: SerpentScale
+        craftCost: 12
+        upgradeCost: 6
+  ShieldChitinTower_TW_Recipe_Forge:
+    action: Modify
+    prefab: ShieldChitinTower_TW
+    recipeName: ShieldChitinTower_TW_Recipe_Forge
+    craftedAt: forge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Chitin
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: ElderBark
+        craftCost: 14
+        upgradeCost: 7
+      - prefab: Bronze
+        craftCost: 10
+        upgradeCost: 5
+  ShieldChitinBuckler_TW_Recipe_Forge:
+    action: Modify
+    prefab: ShieldChitinBuckler_TW
+    recipeName: ShieldChitinBuckler_TW_Recipe_Forge
+    craftedAt: forge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Chitin
+        craftCost: 21
+        upgradeCost: 14
+      - prefab: ElderBark
+        craftCost: 10
+        upgradeCost: 5
+      - prefab: Bronze
+        craftCost: 10
+        upgradeCost: 5
+  Recipe_ShieldBanded:
+    action: Modify
+    prefab: ShieldBanded
+    recipeName: Recipe_ShieldBanded
+    craftedAt: forge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FineWood
+        craftCost: 12
+        upgradeCost: 12
+      - prefab: Iron
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: RottenPelt_TW
+        craftCost: 12
+        upgradeCost: 6
+  Recipe_ShieldIronBuckler:
+    action: Modify
+    prefab: ShieldIronBuckler
+    recipeName: Recipe_ShieldIronBuckler
+    craftedAt: forge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Iron
+        craftCost: 14
+        upgradeCost: 7
+      - prefab: ElderBark
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: RottenPelt_TW
+        craftCost: 12
+        upgradeCost: 6
+  Recipe_ShieldIronTower:
+    action: Modify
+    prefab: ShieldIronTower
+    recipeName: Recipe_ShieldIronTower
+    craftedAt: forge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FineWood
+        craftCost: 18
+        upgradeCost: 12
+      - prefab: Iron
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: ElderBark
+        craftCost: 4
+        upgradeCost: 2
+      - prefab: RottenPelt_TW
+        craftCost: 12
+        upgradeCost: 6
+  ShieldSilverBuckler_TW_Recipe_Forge:
+    action: Modify
+    prefab: ShieldSilverBuckler_TW
+    recipeName: ShieldSilverBuckler_TW_Recipe_Forge
+    craftedAt: forge
+    minStationLevel: 3
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Silver
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: FineWood
+        craftCost: 9
+        upgradeCost: 6
+      - prefab: Crystal
+        craftCost: 12
+        upgradeCost: 9
+      - prefab: WolfPelt
+        craftCost: 4
+        upgradeCost: 2
+      - prefab: TrophySGolem
+        craftCost: 1
+  Recipe_ShieldSilver:
+    action: Modify
+    prefab: ShieldSilver
+    recipeName: Recipe_ShieldSilver
+    craftedAt: forge
+    minStationLevel: 3
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FineWood
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: Silver
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: WolfPelt
+        craftCost: 8
+        upgradeCost: 8
+  Recipe_ShieldBlackmetal:
+    action: Modify
+    prefab: ShieldBlackmetal
+    recipeName: Recipe_ShieldBlackmetal
+    craftedAt: forge
+    minStationLevel: 3
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ShieldIronBuckler
+        craftCost: 1
+      - prefab: FineWood
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: BlackMetal
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: Chain
+        craftCost: 6
+        upgradeCost: 2
+  Recipe_ShieldBlackmetalTower:
+    action: Modify
+    prefab: ShieldBlackmetalTower
+    recipeName: Recipe_ShieldBlackmetalTower
+    craftedAt: forge
+    minStationLevel: 3
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: BlackMetal
+        craftCost: 24
+        upgradeCost: 18
+      - prefab: FineWood
+        craftCost: 18
+        upgradeCost: 12
+      - prefab: Chain
+        craftCost: 9
+        upgradeCost: 6
+  ShieldBlackmetalBuckler_TW_Recipe_Forge:
+    action: Modify
+    prefab: ShieldBlackmetalBuckler_TW
+    recipeName: ShieldBlackmetalBuckler_TW_Recipe_Forge
+    craftedAt: forge
+    minStationLevel: 3
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ShieldIronBuckler
+        craftCost: 1
+      - prefab: BlackMetal
+        craftCost: 20
+        upgradeCost: 10
+      - prefab: FineWood
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: LinenThread
+        craftCost: 6
+        upgradeCost: 3
+      - prefab: TrophyLox
+        craftCost: 1
+  Recipe_ShieldFlametal:
+    action: Modify
+    prefab: ShieldFlametal
+    recipeName: Recipe_ShieldFlametal
+    craftedAt: blackforge
+    minStationLevel: 3
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Blackwood
+        craftCost: 12
+        upgradeCost: 12
+      - prefab: FlametalNew
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: AskHide
+        craftCost: 4
+        upgradeCost: 2
+  Recipe_ShieldFlametalTower:
+    action: Modify
+    prefab: ShieldFlametalTower
+    recipeName: Recipe_ShieldFlametalTower
+    craftedAt: blackforge
+    minStationLevel: 3
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Blackwood
+        craftCost: 18
+        upgradeCost: 12
+      - prefab: FlametalNew
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: AskHide
+        craftCost: 8
+        upgradeCost: 4

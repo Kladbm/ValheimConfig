@@ -1,0 +1,216 @@
+#################################################
+# Honey Recipe Manipulation Config
+#################################################
+
+recipeModifications:
+  $custom_item_honeysausages:
+    action: Disable
+    prefab: HoneySausages
+  $custom_item_meadbase_damage:
+    action: Disable
+    prefab: HoneyMeadBaseDamage
+  $custom_item_odinsdelight:
+    action: Modify
+    prefab: OdinsDelight
+    recipeName: $custom_item_odinsdelight
+    craftedAt: piece_apiary
+    minStationLevel: 3
+    craftAmount: 4
+    recipe:
+      ingredients:
+      - prefab: Raspberry
+        craftCost: 8
+      - prefab: Honey
+        craftCost: 8
+      - prefab: Cloudberry
+        craftCost: 2
+      - prefab: Blueberries
+        craftCost: 6
+  $custom_item_honeyyellowstew_lesser:
+    action: Modify
+    prefab: HoneyYellowStewLesser
+    recipeName: $custom_item_honeyyellowstew_lesser
+    craftedAt: piece_apiary
+    minStationLevel: 3
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Honey
+        craftCost: 6
+      - prefab: Cloudberry
+        craftCost: 3
+      - prefab: Onion
+        craftCost: 3
+  $custom_item_honeydessertpie_uncooked:
+    action: Modify
+    prefab: HoneyDessertPieUncooked
+    recipeName: $custom_item_honeydessertpie_uncooked
+    craftedAt: piece_apiary
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Honey
+        craftCost: 6
+      - prefab: BarleyFlour
+        craftCost: 3
+      - prefab: ChickenEgg
+        craftCost: 2
+      - prefab: Carrot
+        craftCost: 6
+  $custom_item_meadbase_speed:
+    action: Modify
+    prefab: HoneyMeadBaseSpeed
+    recipeName: $custom_item_meadbase_speed
+    craftedAt: piece_MeadCauldron
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Honey
+        craftCost: 9
+      - prefab: Cloudberry
+        craftCost: 9
+      - prefab: Barley
+        craftCost: 6
+      - prefab: CuredSquirrelHamstring
+        craftCost: 1
+  $custom_item_honeymushroomstew:
+    action: Modify
+    prefab: HoneyMushroomStew
+    recipeName: $custom_item_honeymushroomstew
+    craftedAt: piece_apiary
+    minStationLevel: 5
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: MushroomMagecap
+        craftCost: 3
+      - prefab: Honey
+        craftCost: 6
+      - prefab: MushroomJotunPuffs
+        craftCost: 3
+  $custom_item_honeyyellowstew:
+    action: Modify
+    prefab: HoneyYellowStew
+    recipeName: $custom_item_honeyyellowstew
+    craftedAt: piece_apiary
+    minStationLevel: 5
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Honey
+        craftCost: 6
+      - prefab: Cloudberry
+        craftCost: 3
+      - prefab: RoyalJelly
+        craftCost: 3
+      - prefab: ChickenEgg
+        craftCost: 3
+  $custom_item_honeycuredneck:
+    action: Modify
+    prefab: HoneyNeckJerky
+    recipeName: $custom_item_honeycuredneck
+    craftedAt: piece_apiary
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: NeckTail
+        craftCost: 1
+      - prefab: Honey
+        craftCost: 3
+  $custom_item_honeycureddeer:
+    action: Modify
+    prefab: HoneyDeerJerky
+    recipeName: $custom_item_honeycureddeer
+    craftedAt: piece_apiary
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: DeerMeat
+        craftCost: 1
+      - prefab: Honey
+        craftCost: 3
+  $custom_item_honeycuredlox:
+    action: Modify
+    prefab: HoneyLoxJerky
+    recipeName: $custom_item_honeycuredlox
+    craftedAt: piece_apiary
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: LoxMeat
+        craftCost: 1
+      - prefab: Honey
+        craftCost: 3
+  $custom_item_surtrsdelight:
+    action: Modify
+    prefab: SurtrsDelight
+    recipeName: $custom_item_surtrsdelight
+    craftedAt: piece_apiary
+    minStationLevel: 6
+    craftAmount: 2
+    recipe:
+      ingredients:
+      - prefab: Honey
+        craftCost: 8
+      - prefab: MushroomSmokePuff
+        craftCost: 4
+      - prefab: Fiddleheadfern
+        craftCost: 1
+      - prefab: Vineberry
+        craftCost: 1
+  $custom_item_volvasbrew:
+    action: Modify
+    prefab: VolvasBrew
+    recipeName: $custom_item_volvasbrew
+    craftedAt: piece_apiary
+    minStationLevel: 6
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Honey
+        craftCost: 6
+      - prefab: Sap
+        craftCost: 2
+      - prefab: MushroomMagecap
+        craftCost: 1
+      - prefab: MushroomSmokePuff
+        craftCost: 1
+      - prefab: Eitr
+        craftCost: 1
+  $custom_item_konungromelette:
+    action: Modify
+    prefab: KonungrOmelette
+    recipeName: $custom_item_konungromelette
+    craftedAt: piece_apiary
+    minStationLevel: 6
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Honey
+        craftCost: 8
+      - prefab: Fiddleheadfern
+        craftCost: 2
+      - prefab: MushroomSmokePuff
+        craftCost: 1
+      - prefab: VoltureEgg
+        craftCost: 1
+      - prefab: RoyalJelly
+        craftCost: 1
+  Recipe_WolfJerky:
+    action: Modify
+    prefab: WolfJerky
+    recipeName: Recipe_WolfJerky
+    craftedAt: piece_apiary
+    minStationLevel: 3
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: WolfMeat
+        craftCost: 1
+      - prefab: Honey
+        craftCost: 3

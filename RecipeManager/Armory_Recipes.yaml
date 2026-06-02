@@ -1,0 +1,1021 @@
+#################################################
+# Archer Recipe Manipulation Config
+#################################################
+
+recipeModifications:
+  BeltYmir_TW_Recipe_MageTable:
+    action: Modify
+    prefab: BeltYmir_TW
+    recipeName: BeltYmir_TW_Recipe_MageTable
+    craftedAt: piece_magetable
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: BeltStrength
+        craftCost: 1
+      - prefab: Eitr
+        craftCost: 24
+      - prefab: YmirRemains
+        craftCost: 6
+  HelmetLeather_TW_Recipe_Workbench:
+    action: Modify
+    prefab: HelmetLeather_TW
+    recipeName: HelmetLeather_TW_Recipe_Workbench
+    craftedAt: piece_workbench
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: HelmetLeather
+        craftCost: 1
+      - prefab: TrophyDeer
+        craftCost: 1
+      - prefab: DeerHide
+        craftCost: 6
+        upgradeCost: 3
+      - prefab: LeatherScraps
+        upgradeCost: 3
+  ArmorLeatherChest_TW_Recipe_Workbench:
+    action: Modify
+    prefab: ArmorLeatherChest_TW
+    recipeName: ArmorLeatherChest_TW_Recipe_Workbench
+    craftedAt: piece_workbench
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ArmorLeatherChest
+        craftCost: 1
+      - prefab: DeerHide
+        craftCost: 9
+        upgradeCost: 6
+      - prefab: FoxPelt_TW
+        craftCost: 6
+        upgradeCost: 3
+  ArmorLeatherLegs_TW_Recipe_Workbench:
+    action: Modify
+    prefab: ArmorLeatherLegs_TW
+    recipeName: ArmorLeatherLegs_TW_Recipe_Workbench
+    craftedAt: piece_workbench
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ArmorLeatherLegs
+        craftCost: 1
+      - prefab: LeatherScraps
+        craftCost: 9
+        upgradeCost: 6
+      - prefab: FoxPelt_TW
+        craftCost: 6
+        upgradeCost: 3
+  HelmetVigorousBM_TW_Recipe_Custom:
+    action: Modify
+    prefab: HelmetVigorousBM_TW
+    recipeName: HelmetVigorousBM_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: HelmetVigorousSilver_TW
+        craftCost: 1
+      - prefab: BlackMetal
+        craftCost: 25
+        upgradeCost: 12
+      - prefab: LinenThread
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: Tar
+        craftCost: 8
+        upgradeCost: 4
+  HelmetRazorback_TW_Recipe_Custom:
+    action: Modify
+    prefab: HelmetRazorback_TW
+    recipeName: HelmetRazorback_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: RazorbackLeather_TW
+        craftCost: 12
+        upgradeCost: 9
+      - prefab: RazorbackTusk_TW
+        craftCost: 6
+        upgradeCost: 3
+      - prefab: TrophyRazorback_TW
+        craftCost: 1
+  ArmorRazorbackChest_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArmorRazorbackChest_TW
+    recipeName: ArmorRazorbackChest_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: RazorbackLeather_TW
+        craftCost: 12
+        upgradeCost: 9
+      - prefab: Bronze
+        craftCost: 9
+        upgradeCost: 6
+      - prefab: RazorbackTusk_TW
+        craftCost: 6
+        upgradeCost: 3
+  ArmorRazorbackLegs_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArmorRazorbackLegs_TW
+    recipeName: ArmorRazorbackLegs_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: RazorbackLeather_TW
+        craftCost: 12
+        upgradeCost: 9
+      - prefab: Bronze
+        craftCost: 9
+        upgradeCost: 6
+      - prefab: RazorbackTusk_TW
+        craftCost: 6
+        upgradeCost: 3
+  HelmetLegion_TW_Recipe_Custom:
+    action: Modify
+    prefab: HelmetLegion_TW
+    recipeName: HelmetLegion_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: HelmetCarapace
+        craftCost: 1
+      - prefab: Carapace
+        craftCost: 16
+        upgradeCost: 16
+      - prefab: Eitr
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: Mandible
+        craftCost: 4
+        upgradeCost: 2
+  ArmorLegionChest_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArmorLegionChest_TW
+    recipeName: ArmorLegionChest_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ArmorCarapaceChest
+        craftCost: 1
+      - prefab: Carapace
+        craftCost: 16
+        upgradeCost: 16
+      - prefab: Eitr
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: DarkCrystal_TW
+        craftCost: 6
+        upgradeCost: 3
+  ArmorLegionLegs_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArmorLegionLegs_TW
+    recipeName: ArmorLegionLegs_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ArmorCarapaceLegs
+        craftCost: 1
+      - prefab: Softtissue
+        craftCost: 16
+        upgradeCost: 16
+      - prefab: Eitr
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: ScaleHide
+        craftCost: 8
+        upgradeCost: 4
+  HelmetBoldCarapace_TW_Recipe_Custom:
+    action: Modify
+    prefab: HelmetBoldCarapace_TW
+    recipeName: HelmetBoldCarapace_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: HelmetBold_TW
+        craftCost: 1
+      - prefab: Carapace
+        craftCost: 24
+        upgradeCost: 18
+      - prefab: Eitr
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: DarkCrystal_TW
+        craftCost: 6
+        upgradeCost: 3
+      - prefab: Mandible
+        craftCost: 2
+        upgradeCost: 1
+  ArmorBoldCarapaceChest_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArmorBoldCarapaceChest_TW
+    recipeName: ArmorBoldCarapaceChest_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ArmorBoldChest_TW
+        craftCost: 1
+      - prefab: Carapace
+        craftCost: 24
+        upgradeCost: 18
+      - prefab: Eitr
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: ScaleHide
+        craftCost: 15
+        upgradeCost: 8
+  ArmorBoldCarapaceLegs_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArmorBoldCarapaceLegs_TW
+    recipeName: ArmorBoldCarapaceLegs_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ArmorBoldLegs_TW
+        craftCost: 1
+      - prefab: Carapace
+        craftCost: 24
+        upgradeCost: 18
+      - prefab: Eitr
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: Softtissue
+        craftCost: 15
+        upgradeCost: 8
+  HelmetFenrirCarapace_TW_Recipe_Custom:
+    action: Modify
+    prefab: HelmetFenrirCarapace_TW
+    recipeName: HelmetFenrirCarapace_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: HelmetFenrirBM_TW
+        craftCost: 1
+      - prefab: Carapace
+        craftCost: 24
+        upgradeCost: 18
+      - prefab: Eitr
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: VenomousFang_TW
+        craftCost: 6
+        upgradeCost: 3
+      - prefab: Mandible
+        craftCost: 2
+        upgradeCost: 1
+  ArmorFenrirCarapaceChest_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArmorFenrirCarapaceChest_TW
+    recipeName: ArmorFenrirCarapaceChest_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ArmorFenrirBMChest_TW
+        craftCost: 1
+      - prefab: Softtissue
+        craftCost: 24
+        upgradeCost: 18
+      - prefab: Eitr
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: JuteBlack_TW
+        craftCost: 10
+        upgradeCost: 5
+  ArmorFenrirCarapaceLegs_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArmorFenrirCarapaceLegs_TW
+    recipeName: ArmorFenrirCarapaceLegs_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ArmorFenrirBMLegs_TW
+        craftCost: 1
+      - prefab: Softtissue
+        craftCost: 24
+        upgradeCost: 18
+      - prefab: Eitr
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: ScaleHide
+        craftCost: 12
+        upgradeCost: 6
+  HelmetVidarCarapace_TW_Recipe_Custom:
+    action: Modify
+    prefab: HelmetVidarCarapace_TW
+    recipeName: HelmetVidarCarapace_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: HelmetVidarBM_TW
+        craftCost: 1
+      - prefab: Carapace
+        craftCost: 24
+        upgradeCost: 18
+      - prefab: Eitr
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: DarkCrystal_TW
+        craftCost: 6
+        upgradeCost: 4
+      - prefab: Mandible
+        craftCost: 2
+        upgradeCost: 1
+  ArmorVidarCarapaceChest_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArmorVidarCarapaceChest_TW
+    recipeName: ArmorVidarCarapaceChest_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ArmorVidarBMChest_TW
+        craftCost: 1
+      - prefab: Carapace
+        craftCost: 24
+        upgradeCost: 18
+      - prefab: Eitr
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: ScaleHide
+        craftCost: 12
+        upgradeCost: 6
+  ArmorVidarCarapaceLegs_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArmorVidarCarapaceLegs_TW
+    recipeName: ArmorVidarCarapaceLegs_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ArmorVidarBMLegs_TW
+        craftCost: 1
+      - prefab: Softtissue
+        craftCost: 24
+        upgradeCost: 18
+      - prefab: Eitr
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: JuteBlack_TW
+        craftCost: 10
+        upgradeCost: 5
+  HelmetWarriorCarapace_TW_Recipe_Custom:
+    action: Modify
+    prefab: HelmetWarriorCarapace_TW
+    recipeName: HelmetWarriorCarapace_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: HelmetWarriorBM_TW
+        craftCost: 1
+      - prefab: Carapace
+        craftCost: 24
+        upgradeCost: 18
+      - prefab: Eitr
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: VenomousFang_TW
+        craftCost: 6
+        upgradeCost: 3
+      - prefab: Mandible
+        craftCost: 2
+        upgradeCost: 1
+  ArmorWarriorCarapaceChest_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArmorWarriorCarapaceChest_TW
+    recipeName: ArmorWarriorCarapaceChest_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ArmorWarriorBMChest_TW
+        craftCost: 1
+      - prefab: Carapace
+        craftCost: 24
+        upgradeCost: 18
+      - prefab: Eitr
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: Bilebag
+        craftCost: 6
+        upgradeCost: 3
+  ArmorWarriorCarapaceLegs_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArmorWarriorCarapaceLegs_TW
+    recipeName: ArmorWarriorCarapaceLegs_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ArmorWarriorBMLegs_TW
+        craftCost: 1
+      - prefab: Softtissue
+        craftCost: 24
+        upgradeCost: 18
+      - prefab: Eitr
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: ScaleHide
+        craftCost: 12
+        upgradeCost: 6
+  HelmetVigorousCarapace_TW_Recipe_Custom:
+    action: Modify
+    prefab: HelmetVigorousCarapace_TW
+    recipeName: HelmetVigorousCarapace_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: HelmetVigorousBM_TW
+        craftCost: 1
+      - prefab: Carapace
+        craftCost: 24
+        upgradeCost: 18
+      - prefab: Eitr
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: Mandible
+        craftCost: 6
+        upgradeCost: 3
+  ArmorVigorousCarapaceChest_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArmorVigorousCarapaceChest_TW
+    recipeName: ArmorVigorousCarapaceChest_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ArmorVigorousBMChest_TW
+        craftCost: 1
+      - prefab: Carapace
+        craftCost: 24
+        upgradeCost: 18
+      - prefab: Eitr
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: ScaleHide
+        craftCost: 10
+        upgradeCost: 5
+  ArmorVigorousCarapaceLegs_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArmorVigorousCarapaceLegs_TW
+    recipeName: ArmorVigorousCarapaceLegs_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ArmorVigorousBMLegs_TW
+        craftCost: 1
+      - prefab: Carapace
+        craftCost: 24
+        upgradeCost: 18
+      - prefab: Eitr
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: Softtissue
+        craftCost: 10
+        upgradeCost: 5
+  HelmetRogueCarapace_TW_Recipe_Custom:
+    action: Modify
+    prefab: HelmetRogueCarapace_TW
+    recipeName: HelmetRogueCarapace_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: HelmetRogueBM_TW
+        craftCost: 1
+      - prefab: Softtissue
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: Eitr
+        craftCost: 6
+        upgradeCost: 3
+      - prefab: VenomousFang_TW
+        craftCost: 6
+        upgradeCost: 3
+      - prefab: Mandible
+        craftCost: 2
+        upgradeCost: 1
+  ArmorRogueCarapaceChest_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArmorRogueCarapaceChest_TW
+    recipeName: ArmorRogueCarapaceChest_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ArmorRogueBMChest_TW
+        craftCost: 1
+      - prefab: Softtissue
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: Carapace
+        craftCost: 10
+        upgradeCost: 5
+      - prefab: Eitr
+        craftCost: 8
+        upgradeCost: 4
+  ArmorRogueCarapaceLegs_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArmorRogueCarapaceLegs_TW
+    recipeName: ArmorRogueCarapaceLegs_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ArmorRogueBMLegs_TW
+        craftCost: 1
+      - prefab: Softtissue
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: Eitr
+        craftCost: 6
+        upgradeCost: 3
+      - prefab: DarkCrystal_TW
+        craftCost: 6
+        upgradeCost: 3
+  HelmetHunterCarapace_TW_Recipe_Custom:
+    action: Modify
+    prefab: HelmetHunterCarapace_TW
+    recipeName: HelmetHunterCarapace_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: HelmetHunterBM_TW
+        craftCost: 1
+      - prefab: Carapace
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: Softtissue
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: Eitr
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: Mandible
+        craftCost: 2
+        upgradeCost: 1
+  ArmorHunterChestCarapace_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArmorHunterChestCarapace_TW
+    recipeName: ArmorHunterChestCarapace_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Carapace
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: Eitr
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: DarkCrystal_TW
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: ArmorHunterChestBM_TW
+        craftCost: 1
+  ArmorHunterLegsCarapace_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArmorHunterLegsCarapace_TW
+    recipeName: ArmorHunterLegsCarapace_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Carapace
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: Softtissue
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: ScaleHide
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: ArmorHunterLegsBM_TW
+        craftCost: 1
+  HelmetHunterIron_TW_Recipe_Custom:
+    action: Modify
+    prefab: HelmetHunterIron_TW
+    recipeName: HelmetHunterIron_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: RottenPelt_TW
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: Iron
+        craftCost: 10
+        upgradeCost: 4
+      - prefab: HelmetHunter_TW
+        craftCost: 1
+  ArmorHunterChestIron_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArmorHunterChestIron_TW
+    recipeName: ArmorHunterChestIron_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: RottenPelt_TW
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: Iron
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: ArmorHunterChest_TW
+        craftCost: 1
+  ArmorHunterLegsIron_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArmorHunterLegsIron_TW
+    recipeName: ArmorHunterLegsIron_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: RottenPelt_TW
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: Iron
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: ArmorHunterLegs_TW
+        craftCost: 1
+  HelmetRogueIron_TW_Recipe_Custom:
+    action: Modify
+    prefab: HelmetRogueIron_TW
+    recipeName: HelmetRogueIron_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: HelmetRogue_TW
+        craftCost: 1
+      - prefab: Iron
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: RottenPelt_TW
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: Ooze
+        upgradeCost: 3
+  ArmorRogueIronChest_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArmorRogueIronChest_TW
+    recipeName: ArmorRogueIronChest_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ArmorRogueChest_TW
+        craftCost: 1
+      - prefab: Iron
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: RottenPelt_TW
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: WitheredBone
+        upgradeCost: 2
+  ArmorRogueIronLegs_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArmorRogueIronLegs_TW
+    recipeName: ArmorRogueIronLegs_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ArmorRogueLegs_TW
+        craftCost: 1
+      - prefab: Iron
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: RottenPelt_TW
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: Entrails
+        upgradeCost: 4
+  HelmetVigorousIron_TW_Recipe_Custom:
+    action: Modify
+    prefab: HelmetVigorousIron_TW
+    recipeName: HelmetVigorousIron_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: HelmetVigorous_TW
+        craftCost: 1
+      - prefab: Iron
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: RottenPelt_TW
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: Ooze
+        craftCost: 4
+        upgradeCost: 2
+  ArmorVigorousIronLegs_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArmorVigorousIronLegs_TW
+    recipeName: ArmorVigorousIronLegs_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ArmorVigorousLegs_TW
+        craftCost: 1
+      - prefab: Iron
+        craftCost: 12
+        upgradeCost: 12
+      - prefab: RottenPelt_TW
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: Guck
+        craftCost: 6
+        upgradeCost: 3
+  HelmetWarrior_TW_Recipe_Custom:
+    action: Modify
+    prefab: HelmetWarrior_TW
+    recipeName: HelmetWarrior_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: HelmetIron
+        craftCost: 1
+      - prefab: Iron
+        craftCost: 12
+        upgradeCost: 12
+      - prefab: RottenPelt_TW
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: WitheredBone
+        craftCost: 3
+        upgradeCost: 2
+  ArmorWarriorChest_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArmorWarriorChest_TW
+    recipeName: ArmorWarriorChest_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ArmorIronChest
+        craftCost: 1
+      - prefab: Iron
+        craftCost: 12
+        upgradeCost: 12
+      - prefab: RottenPelt_TW
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: Guck
+        craftCost: 6
+        upgradeCost: 4
+  Recipe_HelmetBronze:
+    action: Modify
+    prefab: HelmetBronze
+    recipeName: Recipe_HelmetBronze
+    craftedAt: forge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Bronze
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: DeerHide
+        craftCost: 4
+        upgradeCost: 2
+  Recipe_ArmorBronzeChest:
+    action: Modify
+    prefab: ArmorBronzeChest
+    recipeName: Recipe_ArmorBronzeChest
+    craftedAt: forge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Bronze
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: DeerHide
+        craftCost: 4
+        upgradeCost: 2
+  Recipe_ArmorBronzeLegs:
+    action: Modify
+    prefab: ArmorBronzeLegs
+    recipeName: Recipe_ArmorBronzeLegs
+    craftedAt: forge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Bronze
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: DeerHide
+        craftCost: 4
+        upgradeCost: 2
+  Recipe_HelmetFishingHat:
+    action: Modify
+    prefab: HelmetFishingHat
+    recipeName: Recipe_HelmetFishingHat
+    craftedAt: piece_workbench
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Fish1
+        craftCost: 3
+        upgradeCost: 2
+      - prefab: Fish2
+        craftCost: 3
+        upgradeCost: 2
+      - prefab: Fish3
+        craftCost: 3
+        upgradeCost: 2
+      - prefab: Fish4_cave
+        craftCost: 3
+        upgradeCost: 2
+      - prefab: Fish5
+        craftCost: 3
+        upgradeCost: 2
+      - prefab: Fish6
+        craftCost: 3
+        upgradeCost: 2
+      - prefab: Fish8
+        craftCost: 3
+        upgradeCost: 2
+  Recipe_HelmetCarapace:
+    action: Modify
+    prefab: HelmetCarapace
+    recipeName: Recipe_HelmetCarapace
+    craftedAt: blackforge
+    repairAt: blackforge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Carapace
+        craftCost: 14
+        upgradeCost: 12
+      - prefab: ScaleHide
+        craftCost: 4
+        upgradeCost: 2
+      - prefab: Mandible
+        craftCost: 2
+        upgradeCost: 1
+      - prefab: Eitr
+        craftCost: 4
+        upgradeCost: 2
+  Recipe_ArmorCarapaceChest:
+    action: Modify
+    prefab: ArmorCarapaceChest
+    recipeName: Recipe_ArmorCarapaceChest
+    craftedAt: blackforge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Carapace
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: ScaleHide
+        craftCost: 4
+        upgradeCost: 2
+      - prefab: BlackMetal
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: Eitr
+        craftCost: 4
+        upgradeCost: 2
+  Recipe_ArmorCarapaceLegs:
+    action: Modify
+    prefab: ArmorCarapaceLegs
+    recipeName: Recipe_ArmorCarapaceLegs
+    craftedAt: blackforge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Carapace
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: ScaleHide
+        craftCost: 4
+        upgradeCost: 2
+      - prefab: BlackMetal
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: Eitr
+        craftCost: 4
+        upgradeCost: 2
+  HelmetHunter_TW_Recipe_Custom:
+    action: Modify
+    prefab: HelmetHunter_TW
+    recipeName: HelmetHunter_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: BjornHide
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: Bronze
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: TrophyBjorn
+        craftCost: 1
+  ArmorHunterChest_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArmorHunterChest_TW
+    recipeName: ArmorHunterChest_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: BjornHide
+        craftCost: 10
+        upgradeCost: 5
+      - prefab: Bronze
+        craftCost: 6
+        upgradeCost: 3
+      - prefab: TrollBone_TW
+        craftCost: 2
+  ArmorHunterLegs_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArmorHunterLegs_TW
+    recipeName: ArmorHunterLegs_TW_Recipe_Custom
+    craftedAt: Armory_TW
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: BjornHide
+        craftCost: 10
+        upgradeCost: 5
+      - prefab: Bronze
+        craftCost: 4
+        upgradeCost: 2
+      - prefab: RazorbackTusk_TW
+        craftCost: 2

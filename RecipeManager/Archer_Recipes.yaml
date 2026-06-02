@@ -1,0 +1,1033 @@
+#################################################
+# Archer Recipe Manipulation Config
+#################################################
+
+recipeModifications:
+  Recipe_Bow:
+    action: Modify
+    prefab: Bow
+    recipeName: Recipe_Bow
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Wood
+        craftCost: 15
+        upgradeCost: 5
+      - prefab: LeatherScraps
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: DeerHide
+        craftCost: 9
+        upgradeCost: 3
+  Recipe_BowFineWood:
+    action: Modify
+    prefab: BowFineWood
+    recipeName: Recipe_BowFineWood
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FineWood
+        craftCost: 15
+        upgradeCost: 5
+      - prefab: RoundLog
+        craftCost: 15
+        upgradeCost: 5
+      - prefab: DeerHide
+        craftCost: 6
+        upgradeCost: 3
+  Recipe_BowHuntsman:
+    action: Modify
+    prefab: BowHuntsman
+    recipeName: Recipe_BowHuntsman
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FineWood
+        craftCost: 15
+        upgradeCost: 5
+      - prefab: Iron
+        craftCost: 30
+        upgradeCost: 10
+      - prefab: Feathers
+        craftCost: 15
+        upgradeCost: 5
+      - prefab: DeerHide
+        craftCost: 9
+        upgradeCost: 3
+  Recipe_BowDraugrFang:
+    action: Modify
+    prefab: BowDraugrFang
+    recipeName: Recipe_BowDraugrFang
+    craftedAt: FletcherTable_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ElderBark
+        craftCost: 20
+        upgradeCost: 10
+      - prefab: Silver
+        craftCost: 30
+        upgradeCost: 15
+      - prefab: DeerHide
+        craftCost: 9
+        upgradeCost: 3
+      - prefab: Guck
+        craftCost: 15
+        upgradeCost: 5
+  Recipe_BowSpineSnap:
+    action: Modify
+    prefab: BowSpineSnap
+    recipeName: Recipe_BowSpineSnap
+    craftedAt: FletcherTable_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FineWood
+        craftCost: 20
+        upgradeCost: 10
+      - prefab: BoneFragments
+        craftCost: 40
+        upgradeCost: 20
+      - prefab: Eitr
+        craftCost: 20
+        upgradeCost: 10
+  Recipe_BowAshlands:
+    action: Modify
+    prefab: BowAshlands
+    recipeName: Recipe_BowAshlands
+    craftedAt: FletcherTable_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Blackwood
+        craftCost: 15
+        upgradeCost: 5
+      - prefab: CharredBone
+        craftCost: 24
+        upgradeCost: 10
+      - prefab: FlametalNew
+        craftCost: 15
+        upgradeCost: 10
+      - prefab: BonemawSerpentTooth
+        craftCost: 10
+        upgradeCost: 5
+  Recipe_BowAshlands_Blood:
+    action: Modify
+    prefab: BowAshlandsBlood
+    recipeName: Recipe_BowAshlands_Blood
+    craftedAt: FletcherTable_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: BowAshlands
+        craftCost: 1
+      - prefab: FlametalNew
+        craftCost: 15
+        upgradeCost: 10
+      - prefab: GemstoneRed
+        craftCost: 3
+        upgradeCost: 1
+  Recipe_BowAshlands_Lightning:
+    action: Modify
+    prefab: BowAshlandsStorm
+    recipeName: Recipe_BowAshlands_Lightning
+    craftedAt: FletcherTable_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: BowAshlands
+        craftCost: 1
+      - prefab: FlametalNew
+        craftCost: 15
+        upgradeCost: 10
+      - prefab: GemstoneBlue
+        craftCost: 3
+        upgradeCost: 1
+  Recipe_BowAshlands_Nature:
+    action: Modify
+    prefab: BowAshlandsRoot
+    recipeName: Recipe_BowAshlands_Nature
+    craftedAt: FletcherTable_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: BowAshlands
+        craftCost: 1
+      - prefab: FlametalNew
+        craftCost: 15
+        upgradeCost: 10
+      - prefab: GemstoneGreen
+        craftCost: 3
+        upgradeCost: 1
+  BowTrollBone_TW_Recipe_Custom:
+    action: Modify
+    prefab: BowTrollBone_TW
+    recipeName: BowTrollBone_TW_Recipe_Custom
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: TrollBone_TW
+        craftCost: 10
+        upgradeCost: 4
+      - prefab: RazorbackTusk_TW
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: Bronze
+        craftCost: 9
+        upgradeCost: 3
+  BowBlackmetal_TW_Recipe_Custom:
+    action: Modify
+    prefab: BowBlackmetal_TW
+    recipeName: BowBlackmetal_TW_Recipe_Custom
+    craftedAt: FletcherTable_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FineWood
+        craftCost: 45
+        upgradeCost: 15
+      - prefab: BlackMetal
+        craftCost: 30
+        upgradeCost: 15
+      - prefab: Needle
+        craftCost: 20
+        upgradeCost: 10
+      - prefab: TrophyDeathsquito
+        craftCost: 1
+  GreatbowModer_TW_Recipe_Custom:
+    action: Modify
+    prefab: GreatbowModer_TW
+    recipeName: GreatbowModer_TW_Recipe_Custom
+    craftedAt: FletcherTable_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Silver
+        craftCost: 75
+        upgradeCost: 25
+      - prefab: Crystal
+        craftCost: 45
+        upgradeCost: 25
+      - prefab: FreezeGland
+        craftCost: 30
+        upgradeCost: 15
+      - prefab: TrophyDragonQueen
+        craftCost: 3
+        upgradeCost: 2
+  GreatbowBlackmetal_TW_Recipe_Custom:
+    action: Modify
+    prefab: GreatbowBlackmetal_TW
+    recipeName: GreatbowBlackmetal_TW_Recipe_Custom
+    craftedAt: FletcherTable_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FineWood
+        craftCost: 60
+        upgradeCost: 20
+      - prefab: BlackMetal
+        craftCost: 45
+        upgradeCost: 15
+      - prefab: LoxBone_TW
+        craftCost: 20
+        upgradeCost: 10
+      - prefab: TrophyGoblinBrute
+        craftCost: 1
+  GreatbowDvergr_TW_Recipe_BlackForge:
+    action: Modify
+    prefab: GreatbowDvergr_TW
+    recipeName: GreatbowDvergr_TW_Recipe_BlackForge
+    craftedAt: FletcherTable_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: YggdrasilWood
+        craftCost: 60
+        upgradeCost: 20
+      - prefab: Eitr
+        craftCost: 20
+        upgradeCost: 10
+      - prefab: VenomousFang_TW
+        craftCost: 15
+        upgradeCost: 5
+      - prefab: TrophyGjall
+        craftCost: 1
+  Recipe_CrossbowArbalest:
+    action: Modify
+    prefab: CrossbowArbalest
+    recipeName: Recipe_CrossbowArbalest
+    craftedAt: FletcherTable_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: YggdrasilWood
+        craftCost: 60
+        upgradeCost: 20
+      - prefab: Eitr
+        craftCost: 20
+        upgradeCost: 10
+      - prefab: BlackMetal
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: Root
+        craftCost: 12
+        upgradeCost: 4
+  Recipe_CrossbowRipper:
+    action: Modify
+    prefab: CrossbowRipper
+    recipeName: Recipe_CrossbowRipper
+    craftedAt: FletcherTable_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Blackwood
+        craftCost: 30
+        upgradeCost: 10
+      - prefab: FlametalNew
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: MorgenSinew
+        craftCost: 6
+        upgradeCost: 3
+      - prefab: BonemawSerpentTooth
+        craftCost: 8
+        upgradeCost: 4
+  Recipe_CrossbowRipper_Blood:
+    action: Modify
+    prefab: CrossbowRipperBlood
+    recipeName: Recipe_CrossbowRipper_Blood
+    craftedAt: FletcherTable_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: CrossbowRipper
+        craftCost: 1
+      - prefab: FlametalNew
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: GemstoneRed
+        craftCost: 3
+        upgradeCost: 1
+  Recipe_CrossbowRipper_Lightning:
+    action: Modify
+    prefab: CrossbowRipperLightning
+    recipeName: Recipe_CrossbowRipper_Lightning
+    craftedAt: FletcherTable_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: CrossbowRipper
+        craftCost: 1
+      - prefab: FlametalNew
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: GemstoneBlue
+        craftCost: 3
+        upgradeCost: 1
+  Recipe_CrossbowRipper_Nature:
+    action: Modify
+    prefab: CrossbowRipperNature
+    recipeName: Recipe_CrossbowRipper_Nature
+    craftedAt: FletcherTable_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: CrossbowRipper
+        craftCost: 1
+      - prefab: FlametalNew
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: GemstoneGreen
+        craftCost: 3
+        upgradeCost: 1
+  CrossbowWood_TW_Recipe_Workbench:
+    action: Modify
+    prefab: CrossbowWood_TW
+    recipeName: CrossbowWood_TW_Recipe_Workbench
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Wood
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: DeerHide
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: LeatherScraps
+        craftCost: 6
+        upgradeCost: 3
+  CrossbowEikthyr_TW_Recipe_Custom:
+    action: Modify
+    prefab: CrossbowEikthyr_TW
+    recipeName: CrossbowEikthyr_TW_Recipe_Custom
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: RoundLog
+        craftCost: 45
+        upgradeCost: 15
+      - prefab: HardAntler
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: DeerHide
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: TrophyEikthyr
+        craftCost: 3
+        upgradeCost: 2
+  CrossbowBronze_TW_Recipe_Custom:
+    action: Modify
+    prefab: CrossbowBronze_TW
+    recipeName: CrossbowBronze_TW_Recipe_Custom
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: RoundLog
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: Bronze
+        craftCost: 18
+        upgradeCost: 6
+      - prefab: DeerHide
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: TrophyGreydwarfShaman
+        craftCost: 1
+  CrossbowChitin_TW_Recipe_Custom:
+    action: Modify
+    prefab: CrossbowChitin_TW
+    recipeName: CrossbowChitin_TW_Recipe_Custom
+    craftedAt: FletcherTable_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ElderBark
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: Bronze
+        craftCost: 21
+        upgradeCost: 7
+      - prefab: Chitin
+        craftCost: 30
+        upgradeCost: 15
+      - prefab: TrophyFrostTroll
+        craftCost: 1
+  CrossbowIron_TW_Recipe_Custom:
+    action: Modify
+    prefab: CrossbowIron_TW
+    recipeName: CrossbowIron_TW_Recipe_Custom
+    craftedAt: FletcherTable_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ElderBark
+        craftCost: 30
+        upgradeCost: 15
+      - prefab: Iron
+        craftCost: 30
+        upgradeCost: 15
+      - prefab: WitheredBone
+        craftCost: 12
+        upgradeCost: 4
+      - prefab: TrophyWraith
+        craftCost: 1
+  CrossbowSilver_TW_Recipe_Custom:
+    action: Modify
+    prefab: CrossbowSilver_TW
+    recipeName: CrossbowSilver_TW_Recipe_Custom
+    craftedAt: FletcherTable_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ElderBark
+        craftCost: 35
+        upgradeCost: 15
+      - prefab: Silver
+        craftCost: 35
+        upgradeCost: 15
+      - prefab: JuteRed
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: TrophyCultist
+        craftCost: 1
+  CrossbowBlackmetal_TW_Recipe_Custom:
+    action: Modify
+    prefab: CrossbowBlackmetal_TW
+    recipeName: CrossbowBlackmetal_TW_Recipe_Custom
+    craftedAt: FletcherTable_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FineWood
+        craftCost: 45
+        upgradeCost: 15
+      - prefab: BlackMetal
+        craftCost: 45
+        upgradeCost: 15
+      - prefab: LoxBone_TW
+        craftCost: 12
+        upgradeCost: 4
+      - prefab: TrophyGoblinBrute
+        craftCost: 1
+  Recipe_ArrowBronze:
+    action: Modify
+    prefab: ArrowBronze
+    recipeName: Recipe_ArrowBronze
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: Wood
+        craftCost: 12
+        upgradeCost: 1
+      - prefab: Bronze
+        craftCost: 1
+        upgradeCost: 1
+      - prefab: Feathers
+        craftCost: 3
+        upgradeCost: 1
+  Recipe_ArrowCarapace:
+    action: Modify
+    prefab: ArrowCarapace
+    recipeName: Recipe_ArrowCarapace
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: Carapace
+        craftCost: 6
+        upgradeCost: 1
+      - prefab: Feathers
+        craftCost: 3
+        upgradeCost: 1
+      - prefab: Wood
+        craftCost: 12
+        upgradeCost: 1
+  Recipe_ArrowCharred:
+    action: Modify
+    prefab: ArrowCharred
+    recipeName: Recipe_ArrowCharred
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: CharredBone
+        craftCost: 6
+        upgradeCost: 1
+      - prefab: Feathers
+        craftCost: 3
+        upgradeCost: 1
+      - prefab: Blackwood
+        craftCost: 12
+        upgradeCost: 1
+  Recipe_ArrowFire:
+    action: Modify
+    prefab: ArrowFire
+    recipeName: Recipe_ArrowFire
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: Wood
+        craftCost: 12
+        upgradeCost: 1
+      - prefab: Resin
+        craftCost: 12
+        upgradeCost: 1
+      - prefab: Feathers
+        craftCost: 3
+        upgradeCost: 1
+  Recipe_ArrowFlint:
+    action: Modify
+    prefab: ArrowFlint
+    recipeName: Recipe_ArrowFlint
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: Wood
+        craftCost: 12
+        upgradeCost: 1
+      - prefab: Flint
+        craftCost: 3
+        upgradeCost: 1
+      - prefab: Feathers
+        craftCost: 3
+        upgradeCost: 1
+  Recipe_ArrowFrost:
+    action: Modify
+    prefab: ArrowFrost
+    recipeName: Recipe_ArrowFrost
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: Wood
+        craftCost: 12
+        upgradeCost: 1
+      - prefab: Obsidian
+        craftCost: 6
+        upgradeCost: 1
+      - prefab: Feathers
+        craftCost: 3
+        upgradeCost: 1
+      - prefab: FreezeGland
+        craftCost: 1
+        upgradeCost: 1
+  Recipe_ArrowIron:
+    action: Modify
+    prefab: ArrowIron
+    recipeName: Recipe_ArrowIron
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: Wood
+        craftCost: 12
+        upgradeCost: 1
+      - prefab: Iron
+        craftCost: 1
+        upgradeCost: 1
+      - prefab: Feathers
+        craftCost: 3
+        upgradeCost: 1
+  Recipe_ArrowNeedle:
+    action: Modify
+    prefab: ArrowNeedle
+    recipeName: Recipe_ArrowNeedle
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: Needle
+        craftCost: 6
+        upgradeCost: 1
+      - prefab: Feathers
+        craftCost: 3
+        upgradeCost: 1
+  Recipe_ArrowObsidian:
+    action: Modify
+    prefab: ArrowObsidian
+    recipeName: Recipe_ArrowObsidian
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: Wood
+        craftCost: 12
+        upgradeCost: 1
+      - prefab: Obsidian
+        craftCost: 6
+        upgradeCost: 1
+      - prefab: Feathers
+        craftCost: 3
+        upgradeCost: 1
+  Recipe_ArrowPoison:
+    action: Modify
+    prefab: ArrowPoison
+    recipeName: Recipe_ArrowPoison
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: Wood
+        craftCost: 12
+        upgradeCost: 1
+      - prefab: Obsidian
+        craftCost: 6
+        upgradeCost: 1
+      - prefab: Feathers
+        craftCost: 3
+        upgradeCost: 1
+      - prefab: Ooze
+        craftCost: 3
+        upgradeCost: 1
+  Recipe_ArrowSilver:
+    action: Modify
+    prefab: ArrowSilver
+    recipeName: Recipe_ArrowSilver
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: Wood
+        craftCost: 12
+        upgradeCost: 1
+      - prefab: Silver
+        craftCost: 1
+        upgradeCost: 1
+      - prefab: Feathers
+        craftCost: 3
+        upgradeCost: 1
+  Recipe_ArrowWood:
+    action: Modify
+    prefab: ArrowWood
+    recipeName: Recipe_ArrowWood
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: Wood
+        craftCost: 12
+        upgradeCost: 2
+  ArrowBone_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArrowBone_TW
+    recipeName: ArrowBone_TW_Recipe_Custom
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: Wood
+        craftCost: 12
+      - prefab: BoneFragments
+        craftCost: 6
+      - prefab: Feathers
+        craftCost: 3
+  ArrowPickaxe_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArrowPickaxe_TW
+    recipeName: ArrowPickaxe_TW_Recipe_Custom
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: ElderBark
+        craftCost: 12
+      - prefab: Resin
+        craftCost: 2
+      - prefab: SurtlingCore
+        craftCost: 2
+      - prefab: Feathers
+        craftCost: 3
+  ArrowExplosiveLightning_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArrowExplosiveLightning_TW
+    recipeName: ArrowExplosiveLightning_TW_Recipe_Custom
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: YggdrasilWood
+        craftCost: 12
+      - prefab: Carapace
+        craftCost: 6
+      - prefab: Eitr
+        craftCost: 1
+  ArrowExplosivePoison_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArrowExplosivePoison_TW
+    recipeName: ArrowExplosivePoison_TW_Recipe_Custom
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: Wood
+        craftCost: 12
+      - prefab: BlackMetal
+        craftCost: 2
+      - prefab: Ooze
+        craftCost: 3
+  Recipe_BoltBlackmetal:
+    action: Modify
+    prefab: BoltBlackmetal
+    recipeName: Recipe_BoltBlackmetal
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: BlackMetal
+        craftCost: 2
+        upgradeCost: 1
+      - prefab: Wood
+        craftCost: 16
+        upgradeCost: 1
+      - prefab: Feathers
+        craftCost: 4
+        upgradeCost: 1
+  Recipe_BoltBone:
+    action: Modify
+    prefab: BoltBone
+    recipeName: Recipe_BoltBone
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: BoneFragments
+        craftCost: 16
+        upgradeCost: 1
+      - prefab: Feathers
+        craftCost: 4
+        upgradeCost: 1
+  Recipe_BoltCarapace:
+    action: Modify
+    prefab: BoltCarapace
+    recipeName: Recipe_BoltCarapace
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: Carapace
+        craftCost: 4
+        upgradeCost: 1
+      - prefab: Wood
+        craftCost: 16
+        upgradeCost: 1
+      - prefab: Feathers
+        craftCost: 4
+        upgradeCost: 1
+  Recipe_BoltCharred:
+    action: Modify
+    prefab: BoltCharred
+    recipeName: Recipe_BoltCharred
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: CharredBone
+        craftCost: 4
+        upgradeCost: 1
+      - prefab: Blackwood
+        craftCost: 16
+        upgradeCost: 1
+      - prefab: Feathers
+        craftCost: 4
+        upgradeCost: 1
+  Recipe_BoltIron:
+    action: Modify
+    prefab: BoltIron
+    recipeName: Recipe_BoltIron
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: Wood
+        craftCost: 16
+        upgradeCost: 1
+      - prefab: Iron
+        craftCost: 1
+        upgradeCost: 1
+      - prefab: Feathers
+        craftCost: 4
+        upgradeCost: 1
+  BoltWood_TW_Recipe_Workbench:
+    action: Modify
+    prefab: BoltWood_TW
+    recipeName: BoltWood_TW_Recipe_Workbench
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: Wood
+        craftCost: 16
+  BoltAntler_TW_Recipe_Workbench:
+    action: Modify
+    prefab: BoltAntler_TW
+    recipeName: BoltAntler_TW_Recipe_Workbench
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: Wood
+        craftCost: 16
+      - prefab: HardAntler
+        craftCost: 1
+  BoltBronze_TW_Recipe_Custom:
+    action: Modify
+    prefab: BoltBronze_TW
+    recipeName: BoltBronze_TW_Recipe_Custom
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: Wood
+        craftCost: 16
+      - prefab: Bronze
+        craftCost: 1
+      - prefab: Feathers
+        craftCost: 4
+  BoltFire_TW_Recipe_Custom:
+    action: Modify
+    prefab: BoltFire_TW
+    recipeName: BoltFire_TW_Recipe_Custom
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: Wood
+        craftCost: 16
+      - prefab: Resin
+        craftCost: 8
+      - prefab: Feathers
+        craftCost: 4
+  BoltFrost_TW_Recipe_Custom:
+    action: Modify
+    prefab: BoltFrost_TW
+    recipeName: BoltFrost_TW_Recipe_Custom
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: Wood
+        craftCost: 16
+      - prefab: Obsidian
+        craftCost: 6
+      - prefab: Feathers
+        craftCost: 4
+      - prefab: FreezeGland
+        craftCost: 1
+  BoltPoison_TW_Recipe_Custom:
+    action: Modify
+    prefab: BoltPoison_TW
+    recipeName: BoltPoison_TW_Recipe_Custom
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: Wood
+        craftCost: 16
+      - prefab: Obsidian
+        craftCost: 8
+      - prefab: Feathers
+        craftCost: 4
+      - prefab: Guck
+        craftCost: 1
+  BoltSilver_TW_Recipe_Custom:
+    action: Modify
+    prefab: BoltSilver_TW
+    recipeName: BoltSilver_TW_Recipe_Custom
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: Wood
+        craftCost: 16
+      - prefab: Silver
+        craftCost: 1
+      - prefab: Feathers
+        craftCost: 4
+  BoltBlunt_TW_Recipe_Custom:
+    action: Modify
+    prefab: BoltBlunt_TW
+    recipeName: BoltBlunt_TW_Recipe_Custom
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: Wood
+        craftCost: 16
+      - prefab: Obsidian
+        craftCost: 2
+      - prefab: Iron
+        craftCost: 1
+      - prefab: Feathers
+        craftCost: 4
+  BoltPickaxe_TW_Recipe_Custom:
+    action: Modify
+    prefab: BoltPickaxe_TW
+    recipeName: BoltPickaxe_TW_Recipe_Custom
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: ElderBark
+        craftCost: 16
+      - prefab: Resin
+        craftCost: 2
+      - prefab: SurtlingCore
+        craftCost: 2
+      - prefab: Feathers
+        craftCost: 4
+  BoltExplosiveLightning_TW_Recipe_Custom:
+    action: Modify
+    prefab: BoltExplosiveLightning_TW
+    recipeName: BoltExplosiveLightning_TW_Recipe_Custom
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: YggdrasilWood
+        craftCost: 16
+      - prefab: Carapace
+        craftCost: 4
+      - prefab: Eitr
+        craftCost: 1
+  BoltExplosivePoison_TW_Recipe_Custom:
+    action: Modify
+    prefab: BoltExplosivePoison_TW
+    recipeName: BoltExplosivePoison_TW_Recipe_Custom
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: Wood
+        craftCost: 16
+      - prefab: BlackMetal
+        craftCost: 2
+      - prefab: Tar
+        craftCost: 4

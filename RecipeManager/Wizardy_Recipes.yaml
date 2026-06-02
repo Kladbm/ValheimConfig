@@ -1,0 +1,738 @@
+#################################################
+# Wizardy Recipe Manipulation Config
+#################################################
+
+recipeModifications:
+  WoolYarn_Black_TW_Recipe_Custom:
+    action: Modify
+    prefab: WoolYarn_Black_TW
+    recipeName: WoolYarn_Black_TW_Recipe_Custom
+    craftedAt: WeavingLoom_TW
+    minStationLevel: 1
+    craftAmount: 2
+    recipe:
+      ingredients:
+      - prefab: WoolScraps_TW
+        craftCost: 4
+      - prefab: Tar
+        craftCost: 1
+  WoolYarn_Teal_TW_Recipe_Custom:
+    action: Modify
+    prefab: WoolYarn_Teal_TW
+    recipeName: WoolYarn_Teal_TW_Recipe_Custom
+    craftedAt: WeavingLoom_TW
+    minStationLevel: 1
+    craftAmount: 2
+    recipe:
+      ingredients:
+      - prefab: WoolScraps_TW
+        craftCost: 4
+      - prefab: Eitr
+        craftCost: 1
+  WoolYarn_Blue_TW_Recipe_Custom:
+    action: Modify
+    prefab: WoolYarn_Blue_TW
+    recipeName: WoolYarn_Blue_TW_Recipe_Custom
+    craftedAt: WeavingLoom_TW
+    minStationLevel: 1
+    craftAmount: 2
+    recipe:
+      ingredients:
+      - prefab: WoolScraps_TW
+        craftCost: 4
+      - prefab: FreezeGland
+        craftCost: 1
+  WoolYarn_Green_TW_Recipe_Custom:
+    action: Modify
+    prefab: WoolYarn_Green_TW
+    recipeName: WoolYarn_Green_TW_Recipe_Custom
+    craftedAt: WeavingLoom_TW
+    minStationLevel: 1
+    craftAmount: 2
+    recipe:
+      ingredients:
+      - prefab: WoolScraps_TW
+        craftCost: 4
+      - prefab: Ooze
+        craftCost: 1
+  WoolYarn_Brown_TW_Recipe_Custom:
+    action: Modify
+    prefab: WoolYarn_Brown_TW
+    recipeName: WoolYarn_Brown_TW_Recipe_Custom
+    craftedAt: WeavingLoom_TW
+    minStationLevel: 1
+    craftAmount: 2
+    recipe:
+      ingredients:
+      - prefab: WoolScraps_TW
+        craftCost: 8
+  WoolYarn_Red_TW_Recipe_Custom:
+    action: Modify
+    prefab: WoolYarn_Red_TW
+    recipeName: WoolYarn_Red_TW_Recipe_Custom
+    craftedAt: WeavingLoom_TW
+    minStationLevel: 1
+    craftAmount: 2
+    recipe:
+      ingredients:
+      - prefab: WoolScraps_TW
+        craftCost: 4
+      - prefab: Bloodbag
+        craftCost: 1
+  WoolYarn_White_TW_Recipe_Custom:
+    action: Modify
+    prefab: WoolYarn_White_TW
+    recipeName: WoolYarn_White_TW_Recipe_Custom
+    craftedAt: WeavingLoom_TW
+    minStationLevel: 1
+    craftAmount: 2
+    recipe:
+      ingredients:
+      - prefab: WoolScraps_TW
+        craftCost: 4
+      - prefab: Crystal
+        craftCost: 1
+  WoolYarn_Yellow_TW_Recipe_Custom:
+    action: Modify
+    prefab: WoolYarn_Yellow_TW
+    recipeName: WoolYarn_Yellow_TW_Recipe_Custom
+    craftedAt: WeavingLoom_TW
+    minStationLevel: 1
+    craftAmount: 2
+    recipe:
+      ingredients:
+      - prefab: WoolScraps_TW
+        craftCost: 4
+      - prefab: Dandelion
+        craftCost: 2
+  FabricBundle_Blackforest_TW_Recipe_Custom:
+    action: Modify
+    prefab: FabricBundle_Blackforest_TW
+    recipeName: FabricBundle_Blackforest_TW_Recipe_Custom
+    craftedAt: WeavingLoom_TW
+    minStationLevel: 1
+    craftAmount: 2
+    recipe:
+      ingredients:
+      - prefab: WoolYarn_Brown_TW
+        craftCost: 2
+      - prefab: WoolYarn_Yellow_TW
+        craftCost: 2
+  FabricBundle_Swamp_TW_Recipe_Custom:
+    action: Modify
+    prefab: FabricBundle_Swamp_TW
+    recipeName: FabricBundle_Swamp_TW_Recipe_Custom
+    craftedAt: WeavingLoom_TW
+    minStationLevel: 1
+    craftAmount: 2
+    recipe:
+      ingredients:
+      - prefab: WoolYarn_Brown_TW
+        craftCost: 2
+      - prefab: WoolYarn_Green_TW
+        craftCost: 2
+  FabricBundle_Mountain_TW_Recipe_Custom:
+    action: Modify
+    prefab: FabricBundle_Mountain_TW
+    recipeName: FabricBundle_Mountain_TW_Recipe_Custom
+    craftedAt: WeavingLoom_TW
+    minStationLevel: 1
+    craftAmount: 2
+    recipe:
+      ingredients:
+      - prefab: WoolYarn_White_TW
+        craftCost: 2
+      - prefab: WoolYarn_Blue_TW
+        craftCost: 2
+  FabricBundle_Plains_TW_Recipe_Custom:
+    action: Modify
+    prefab: FabricBundle_Plains_TW
+    recipeName: FabricBundle_Plains_TW_Recipe_Custom
+    craftedAt: WeavingLoom_TW
+    minStationLevel: 1
+    craftAmount: 2
+    recipe:
+      ingredients:
+      - prefab: WoolYarn_Black_TW
+        craftCost: 2
+      - prefab: WoolYarn_Red_TW
+        craftCost: 2
+  FabricBundle_Mistlands_TW_Recipe_Custom:
+    action: Modify
+    prefab: FabricBundle_Mistlands_TW
+    recipeName: FabricBundle_Mistlands_TW_Recipe_Custom
+    craftedAt: WeavingLoom_TW
+    minStationLevel: 1
+    craftAmount: 2
+    recipe:
+      ingredients:
+      - prefab: WoolYarn_Black_TW
+        craftCost: 2
+      - prefab: WoolYarn_Teal_TW
+        craftCost: 2
+  HelmetCircletBronze_TW_Recipe_Custom:
+    action: Modify
+    prefab: HelmetCircletBronze_TW
+    recipeName: HelmetCircletBronze_TW_Recipe_Custom
+    craftedAt: WizardTable_TW
+    minStationLevel: 3
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Bronze
+        craftCost: 12
+  HelmetCircletIron_TW_Recipe_Custom:
+    action: Modify
+    prefab: HelmetCircletIron_TW
+    recipeName: HelmetCircletIron_TW_Recipe_Custom
+    craftedAt: WizardTable_TW
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Iron
+        craftCost: 20
+  HelmetCircletSilver_TW_Recipe_Custom:
+    action: Modify
+    prefab: HelmetCircletSilver_TW
+    recipeName: HelmetCircletSilver_TW_Recipe_Custom
+    craftedAt: WizardTable_TW
+    minStationLevel: 5
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Silver
+        craftCost: 24
+  HelmetCircletBM_TW_Recipe_Custom:
+    action: Modify
+    prefab: HelmetCircletBM_TW
+    recipeName: HelmetCircletBM_TW_Recipe_Custom
+    craftedAt: WizardTable_TW
+    minStationLevel: 6
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: BlackMetal
+        craftCost: 28
+  HelmetCircletCarapace_TW_Recipe_Custom:
+    action: Modify
+    prefab: HelmetCircletCarapace_TW
+    recipeName: HelmetCircletCarapace_TW_Recipe_Custom
+    craftedAt: WizardTable_TW
+    minStationLevel: 7
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Carapace
+        craftCost: 32
+  RingMistlands_TW_Recipe_Custom:
+    action: Modify
+    prefab: RingMistlands_TW
+    recipeName: RingMistlands_TW_Recipe_Custom
+    craftedAt: ArcaneAnvil_TW
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ShardQueen_TW
+        craftCost: 4
+      - prefab: Bilebag
+        craftCost: 1
+      - prefab: Amethyst_TW
+        craftCost: 1
+        upgradeCost: 1
+      - prefab: TrophyTick
+        craftCost: 1
+  HelmetSpellslinger_BlackForest_TW_Recipe_Custom:
+    action: Modify
+    prefab: HelmetSpellslinger_BlackForest_TW
+    recipeName: HelmetSpellslinger_BlackForest_TW_Recipe_Custom
+    craftedAt: WizardTable_TW
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FabricBundle_Blackforest_TW
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: Feathers
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: ShardElder_TW
+        craftCost: 2
+        upgradeCost: 1
+  ArmorSpellSlingerChest_BlackForest_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArmorSpellSlingerChest_BlackForest_TW
+    recipeName: ArmorSpellSlingerChest_BlackForest_TW_Recipe_Custom
+    craftedAt: WizardTable_TW
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FabricBundle_Blackforest_TW
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: Bronze
+        craftCost: 10
+        upgradeCost: 5
+      - prefab: ShardElder_TW
+        craftCost: 2
+        upgradeCost: 2
+  ArmorSpellslingerLegs_BlackForest_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArmorSpellslingerLegs_BlackForest_TW
+    recipeName: ArmorSpellslingerLegs_BlackForest_TW_Recipe_Custom
+    craftedAt: WizardTable_TW
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FabricBundle_Blackforest_TW
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: BoneFragments
+        craftCost: 4
+        upgradeCost: 2
+      - prefab: ShardElder_TW
+        craftCost: 2
+        upgradeCost: 1
+  CapeSpellslinger_Blackforest_TW_Recipe_Custom:
+    action: Modify
+    prefab: CapeSpellslinger_Blackforest_TW
+    recipeName: CapeSpellslinger_Blackforest_TW_Recipe_Custom
+    craftedAt: WizardTable_TW
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FabricBundle_Blackforest_TW
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: BoneFragments
+        craftCost: 6
+        upgradeCost: 3
+      - prefab: ShardElder_TW
+        craftCost: 2
+        upgradeCost: 1
+  HelmetSpellslinger_Swamp_TW_Recipe_Custom:
+    action: Modify
+    prefab: HelmetSpellslinger_Swamp_TW
+    recipeName: HelmetSpellslinger_Swamp_TW_Recipe_Custom
+    craftedAt: WizardTable_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FabricBundle_Swamp_TW
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: Guck
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: ShardBonemass_TW
+        craftCost: 3
+        upgradeCost: 2
+  ArmorSpellSlingerChest_Swamp_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArmorSpellSlingerChest_Swamp_TW
+    recipeName: ArmorSpellSlingerChest_Swamp_TW_Recipe_Custom
+    craftedAt: WizardTable_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FabricBundle_Swamp_TW
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: Iron
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: ShardBonemass_TW
+        craftCost: 5
+        upgradeCost: 2
+  ArmorSpellslingerLegs_Swamp_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArmorSpellslingerLegs_Swamp_TW
+    recipeName: ArmorSpellslingerLegs_Swamp_TW_Recipe_Custom
+    craftedAt: WizardTable_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FabricBundle_Swamp_TW
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: Bloodbag
+        craftCost: 4
+        upgradeCost: 2
+      - prefab: ShardBonemass_TW
+        craftCost: 3
+        upgradeCost: 2
+  CapeSpellslinger_Swamp_TW_Recipe_Custom:
+    action: Modify
+    prefab: CapeSpellslinger_Swamp_TW
+    recipeName: CapeSpellslinger_Swamp_TW_Recipe_Custom
+    craftedAt: WizardTable_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FabricBundle_Swamp_TW
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: WitheredBone
+        craftCost: 2
+        upgradeCost: 1
+      - prefab: ShardBonemass_TW
+        craftCost: 3
+        upgradeCost: 1
+  HelmetSpellslinger_Mountain_TW_Recipe_Custom:
+    action: Modify
+    prefab: HelmetSpellslinger_Mountain_TW
+    recipeName: HelmetSpellslinger_Mountain_TW_Recipe_Custom
+    craftedAt: WizardTable_TW
+    minStationLevel: 3
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FabricBundle_Mountain_TW
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: WolfFang
+        craftCost: 6
+        upgradeCost: 3
+      - prefab: ShardModer_TW
+        craftCost: 5
+        upgradeCost: 2
+      - prefab: TrophyCultist
+        craftCost: 1
+  ArmorSpellSlingerChest_Mountain_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArmorSpellSlingerChest_Mountain_TW
+    recipeName: ArmorSpellSlingerChest_Mountain_TW_Recipe_Custom
+    craftedAt: WizardTable_TW
+    minStationLevel: 3
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FabricBundle_Mountain_TW
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: Silver
+        craftCost: 22
+        upgradeCost: 11
+      - prefab: ShardModer_TW
+        craftCost: 7
+        upgradeCost: 3
+      - prefab: WolfHairBundle
+        craftCost: 10
+  ArmorSpellslingerLegs_Mountain_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArmorSpellslingerLegs_Mountain_TW
+    recipeName: ArmorSpellslingerLegs_Mountain_TW_Recipe_Custom
+    craftedAt: WizardTable_TW
+    minStationLevel: 3
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FabricBundle_Mountain_TW
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: WolfPelt
+        craftCost: 4
+        upgradeCost: 2
+      - prefab: ShardModer_TW
+        craftCost: 5
+        upgradeCost: 2
+      - prefab: FreezeGland
+        craftCost: 4
+  CapeSpellslinger_Mountain_TW_Recipe_Custom:
+    action: Modify
+    prefab: CapeSpellslinger_Mountain_TW
+    recipeName: CapeSpellslinger_Mountain_TW_Recipe_Custom
+    craftedAt: WizardTable_TW
+    minStationLevel: 3
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FabricBundle_Mountain_TW
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: WolfFang
+        craftCost: 4
+        upgradeCost: 2
+      - prefab: ShardModer_TW
+        craftCost: 3
+        upgradeCost: 1
+      - prefab: Silver
+        craftCost: 1
+  HelmetSpellslinger_Plains_TW_Recipe_Custom:
+    action: Modify
+    prefab: HelmetSpellslinger_Plains_TW
+    recipeName: HelmetSpellslinger_Plains_TW_Recipe_Custom
+    craftedAt: WizardTable_TW
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FabricBundle_Plains_TW
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: Tar
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: ShardYagluth_TW
+        craftCost: 7
+        upgradeCost: 3
+      - prefab: TrophyLox
+        craftCost: 1
+  ArmorSpellSlingerChest_Plains_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArmorSpellSlingerChest_Plains_TW
+    recipeName: ArmorSpellSlingerChest_Plains_TW_Recipe_Custom
+    craftedAt: WizardTable_TW
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FabricBundle_Plains_TW
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: BlackMetal
+        craftCost: 30
+        upgradeCost: 15
+      - prefab: ShardYagluth_TW
+        craftCost: 8
+        upgradeCost: 3
+      - prefab: LoxPelt
+        craftCost: 8
+  ArmorSpellslingerLegs_Plains_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArmorSpellslingerLegs_Plains_TW
+    recipeName: ArmorSpellslingerLegs_Plains_TW_Recipe_Custom
+    craftedAt: WizardTable_TW
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FabricBundle_Plains_TW
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: Needle
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: ShardYagluth_TW
+        craftCost: 7
+        upgradeCost: 3
+      - prefab: Tar
+        craftCost: 8
+  CapeSpellslinger_Plains_TW_Recipe_Custom:
+    action: Modify
+    prefab: CapeSpellslinger_Plains_TW
+    recipeName: CapeSpellslinger_Plains_TW_Recipe_Custom
+    craftedAt: WizardTable_TW
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FabricBundle_Plains_TW
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: Needle
+        craftCost: 6
+        upgradeCost: 3
+      - prefab: ShardYagluth_TW
+        craftCost: 4
+        upgradeCost: 1
+      - prefab: BlackMetal
+        craftCost: 4
+  HelmetSpellslinger_Mistlands_TW_Recipe_Custom:
+    action: Modify
+    prefab: HelmetSpellslinger_Mistlands_TW
+    recipeName: HelmetSpellslinger_Mistlands_TW_Recipe_Custom
+    craftedAt: WizardTable_TW
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FabricBundle_Mistlands_TW
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: Eitr
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: ShardQueen_TW
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: TrophyGjall
+        craftCost: 1
+  ArmorSpellSlingerChest_Mistlands_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArmorSpellSlingerChest_Mistlands_TW
+    recipeName: ArmorSpellSlingerChest_Mistlands_TW_Recipe_Custom
+    craftedAt: WizardTable_TW
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FabricBundle_Mistlands_TW
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: BlackMetal
+        craftCost: 30
+        upgradeCost: 15
+      - prefab: ShardQueen_TW
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: LoxPelt
+        craftCost: 8
+  ArmorSpellslingerLegs_Mistlands_TW_Recipe_Custom:
+    action: Modify
+    prefab: ArmorSpellslingerLegs_Mistlands_TW
+    recipeName: ArmorSpellslingerLegs_Mistlands_TW_Recipe_Custom
+    craftedAt: WizardTable_TW
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FabricBundle_Mistlands_TW
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: Softtissue
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: ShardQueen_TW
+        craftCost: 6
+        upgradeCost: 3
+      - prefab: Carapace
+        craftCost: 8
+        upgradeCost: 4
+  CapeSpellslinger_Mistlands_TW_Recipe_Custom:
+    action: Modify
+    prefab: CapeSpellslinger_Mistlands_TW
+    recipeName: CapeSpellslinger_Mistlands_TW_Recipe_Custom
+    craftedAt: WizardTable_TW
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FabricBundle_Mistlands_TW
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: Needle
+        craftCost: 6
+        upgradeCost: 3
+      - prefab: ShardQueen_TW
+        craftCost: 6
+        upgradeCost: 1
+      - prefab: Carapace
+        craftCost: 8
+  Staffbase_BlackForest_TW_Recipe_Custom:
+    action: Modify
+    prefab: Staffbase_BlackForest_TW
+    recipeName: Staffbase_BlackForest_TW_Recipe_Custom
+    craftedAt: WizardTable_TW
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: EnchantedWoodBlackForest_TW
+        craftCost: 16
+      - prefab: SurtlingCore
+        craftCost: 8
+  Staffbase_Swamp_TW_Recipe_Custom:
+    action: Modify
+    prefab: Staffbase_Swamp_TW
+    recipeName: Staffbase_Swamp_TW_Recipe_Custom
+    craftedAt: WizardTable_TW
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: EnchantedWoodSwamp_TW
+        craftCost: 20
+      - prefab: Iron
+        craftCost: 12
+      - prefab: WitheredBone
+        craftCost: 8
+  Staffbase_Mountain_TW_Recipe_Custom:
+    action: Modify
+    prefab: Staffbase_Mountain_TW
+    recipeName: Staffbase_Mountain_TW_Recipe_Custom
+    craftedAt: WizardTable_TW
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: EnchantedWoodMountain_TW
+        craftCost: 24
+      - prefab: Silver
+        craftCost: 12
+      - prefab: FreezeGland
+        craftCost: 4
+  Staffbase_Plains_TW_Recipe_Custom:
+    action: Modify
+    prefab: Staffbase_Plains_TW
+    recipeName: Staffbase_Plains_TW_Recipe_Custom
+    craftedAt: WizardTable_TW
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: EnchantedWoodPlains_TW
+        craftCost: 28
+      - prefab: BlackMetal
+        craftCost: 14
+  Staffbase_Mistlands_TW_Recipe_Custom:
+    action: Modify
+    prefab: Staffbase_Mistlands_TW
+    recipeName: Staffbase_Mistlands_TW_Recipe_Custom
+    craftedAt: WizardTable_TW
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: EnchantedWoodMistlands_TW
+        craftCost: 32
+      - prefab: Carapace
+        craftCost: 16
+  StaffSurtling_TW_Recipe_Custom:
+    action: Modify
+    prefab: StaffSurtling_TW
+    recipeName: StaffSurtling_TW_Recipe_Custom
+    craftedAt: WizardTable_TW
+    minStationLevel: 3
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: SurtlingCore
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: ShardBonemass_TW
+        craftCost: 6
+        upgradeCost: 2
+      - prefab: TrophySurtling
+        craftCost: 3
+      - prefab: ArcaneScroll_Swamp_TW
+        upgradeCost: 2
+  StaffGolem_TW_Recipe_Custom:
+    action: Modify
+    prefab: StaffGolem_TW
+    recipeName: StaffGolem_TW_Recipe_Custom
+    craftedAt: WizardTable_TW
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Tar
+        craftCost: 32
+        upgradeCost: 16
+      - prefab: ShardYagluth_TW
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: GoblinTotem
+        craftCost: 4
+        upgradeCost: 2
+      - prefab: TrophyGrowth
+        craftCost: 3

@@ -1,0 +1,934 @@
+#################################################
+# Food Recipe Manipulation Config
+#################################################
+
+recipeModifications:
+  Recipe_SerpentStew:
+    action: Modify
+    prefab: SerpentStew
+    recipeName: Recipe_SerpentStew
+    craftedAt: piece_cauldron
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: SerpentMeatCooked
+        craftCost: 1
+        upgradeCost: 1
+      - prefab: Mushroom
+        craftCost: 2
+        upgradeCost: 1
+      - prefab: MushroomYellow
+        craftCost: 2
+        upgradeCost: 1
+      - prefab: Honey
+        craftCost: 2
+        upgradeCost: 1
+      - prefab: SpiceOceans
+        craftCost: 1
+        upgradeCost: 1
+  MixedGrill_TW_Recipe_Cauldron:
+    action: Modify
+    prefab: MixedGrill_TW
+    recipeName: MixedGrill_TW_Recipe_Cauldron
+    craftedAt: piece_cauldron
+    minStationLevel: 2
+    craftAmount: 2
+    recipe:
+      ingredients:
+      - prefab: BearSteak_TW
+        craftCost: 1
+      - prefab: Sausages
+        craftCost: 1
+      - prefab: WolfMeat
+        craftCost: 1
+      - prefab: FoxMeat_TW
+        craftCost: 1
+  SharkFinSoup_TW_Recipe_Cauldron:
+    action: Modify
+    prefab: SharkFinSoup_TW
+    recipeName: SharkFinSoup_TW_Recipe_Cauldron
+    craftedAt: piece_cauldron
+    minStationLevel: 4
+    craftAmount: 2
+    recipe:
+      ingredients:
+      - prefab: SharkMeat_TW
+        craftCost: 1
+      - prefab: SharkFin_TW
+        craftCost: 1
+      - prefab: Cloudberry
+        craftCost: 3
+      - prefab: MushroomWizardbutter_TW
+        craftCost: 3
+  ShroomSoupBlackForest_TW_Recipe_Cauldron:
+    action: Modify
+    prefab: ShroomSoupBlackForest_TW
+    recipeName: ShroomSoupBlackForest_TW_Recipe_Cauldron
+    craftedAt: piece_cauldron
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: MushroomWitcheye_TW
+        craftCost: 4
+      - prefab: Mushroom
+        craftCost: 4
+      - prefab: RawMeat
+        craftCost: 2
+  EitrPlateBlackForest_TW_Recipe_Cauldron:
+    action: Modify
+    prefab: EitrPlateBlackForest_TW
+    recipeName: EitrPlateBlackForest_TW_Recipe_Cauldron
+    craftedAt: piece_cauldron
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: MushroomWitcheye_TW
+        craftCost: 4
+      - prefab: DeerMeat
+        craftCost: 2
+      - prefab: Blueberries
+        craftCost: 2
+      - prefab: Thistle
+        craftCost: 1
+  BerryCandyBlackForest_TW_Recipe_Cauldron:
+    action: Modify
+    prefab: BerryCandyBlackForest_TW
+    recipeName: BerryCandyBlackForest_TW_Recipe_Cauldron
+    craftedAt: piece_cauldron
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: MushroomWitcheye_TW
+        craftCost: 4
+      - prefab: Blueberries
+        craftCost: 4
+      - prefab: Honey
+        craftCost: 6
+  ShroomSoupSwamp_TW_Recipe_Cauldron:
+    action: Modify
+    prefab: ShroomSoupSwamp_TW
+    recipeName: ShroomSoupSwamp_TW_Recipe_Cauldron
+    craftedAt: piece_cauldron
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: MushroomDeathcap_TW
+        craftCost: 3
+      - prefab: Carrot
+        craftCost: 2
+      - prefab: Entrails
+        craftCost: 3
+  EitrPlateSwamp_TW_Recipe_Cauldron:
+    action: Modify
+    prefab: EitrPlateSwamp_TW
+    recipeName: EitrPlateSwamp_TW_Recipe_Cauldron
+    craftedAt: piece_cauldron
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: MushroomDeathcap_TW
+        craftCost: 4
+      - prefab: Entrails
+        craftCost: 3
+      - prefab: Turnip
+        craftCost: 2
+      - prefab: Bloodbag
+        craftCost: 2
+  JellyCakeSwamp_TW_Recipe_Cauldron:
+    action: Modify
+    prefab: JellyCakeSwamp_TW
+    recipeName: JellyCakeSwamp_TW_Recipe_Cauldron
+    craftedAt: piece_cauldron
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: MushroomDeathcap_TW
+        craftCost: 3
+      - prefab: Ooze
+        craftCost: 2
+      - prefab: Honey
+        craftCost: 3
+  ShroomSoupMountain_TW_Recipe_Cauldron:
+    action: Modify
+    prefab: ShroomSoupMountain_TW
+    recipeName: ShroomSoupMountain_TW_Recipe_Cauldron
+    craftedAt: piece_cauldron
+    minStationLevel: 3
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: MushroomWizardbutter_TW
+        craftCost: 3
+      - prefab: Onion
+        craftCost: 3
+      - prefab: WolfMeat
+        craftCost: 2
+  EitrPlateMountain_TW_Recipe_Cauldron:
+    action: Modify
+    prefab: EitrPlateMountain_TW
+    recipeName: EitrPlateMountain_TW_Recipe_Cauldron
+    craftedAt: piece_cauldron
+    minStationLevel: 3
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: MushroomWizardbutter_TW
+        craftCost: 6
+      - prefab: WolfMeat
+        craftCost: 4
+      - prefab: Onion
+        craftCost: 4
+  IceHornMountain_TW_Recipe_Cauldron:
+    action: Modify
+    prefab: IceHornMountain_TW
+    recipeName: IceHornMountain_TW_Recipe_Cauldron
+    craftedAt: piece_cauldron
+    minStationLevel: 3
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: MushroomWizardbutter_TW
+        craftCost: 4
+      - prefab: FreezeGland
+        craftCost: 1
+      - prefab: Honey
+        craftCost: 4
+  ShroomSoupPlains_TW_Recipe_Cauldron:
+    action: Modify
+    prefab: ShroomSoupPlains_TW
+    recipeName: ShroomSoupPlains_TW_Recipe_Cauldron
+    craftedAt: piece_cauldron
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: MushroomDevilstongue_TW
+        craftCost: 4
+      - prefab: Barley
+        craftCost: 2
+      - prefab: LoxMeat
+        craftCost: 2
+  EitrPlatePlains_TW_Recipe_Cauldron:
+    action: Modify
+    prefab: EitrPlatePlains_TW
+    recipeName: EitrPlatePlains_TW_Recipe_Cauldron
+    craftedAt: piece_cauldron
+    minStationLevel: 3
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: MushroomDevilstongue_TW
+        craftCost: 4
+      - prefab: LoxMeat
+        craftCost: 3
+      - prefab: Cloudberry
+        craftCost: 2
+      - prefab: BarleyFlour
+        craftCost: 1
+  UncookedBerryCakePlains_TW_Recipe_PrepTable:
+    action: Modify
+    prefab: UncookedBerryCakePlains_TW
+    recipeName: UncookedBerryCakePlains_TW_Recipe_PrepTable
+    craftedAt: piece_preptable
+    minStationLevel: 1
+    craftAmount: 2
+    recipe:
+      ingredients:
+      - prefab: Cloudberry
+        craftCost: 8
+      - prefab: MushroomDevilstongue_TW
+        craftCost: 6
+      - prefab: Honey
+        craftCost: 8
+      - prefab: BarleyFlour
+        craftCost: 4
+  Recipe_FeastAshlands:
+    action: Modify
+    prefab: FeastAshlands_Material
+    recipeName: Recipe_FeastAshlands
+    craftedAt: piece_preptable
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: CookedAsksvinMeat
+        craftCost: 4
+        upgradeCost: 1
+      - prefab: Vineberry
+        craftCost: 6
+        upgradeCost: 1
+      - prefab: ScorchingMedley
+        craftCost: 3
+        upgradeCost: 1
+      - prefab: SpiceAshlands
+        craftCost: 3
+        upgradeCost: 1
+  Recipe_FeastBlackforest:
+    action: Modify
+    prefab: FeastBlackforest_Material
+    recipeName: Recipe_FeastBlackforest
+    craftedAt: piece_preptable
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: DeerStew
+        craftCost: 4
+        upgradeCost: 1
+      - prefab: Thistle
+        craftCost: 6
+        upgradeCost: 1
+      - prefab: QueensJam
+        craftCost: 5
+        upgradeCost: 1
+      - prefab: SpiceForests
+        craftCost: 3
+        upgradeCost: 1
+  Recipe_FeastMeadows:
+    action: Modify
+    prefab: FeastMeadows_Material
+    recipeName: Recipe_FeastMeadows
+    craftedAt: piece_preptable
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: CookedDeerMeat
+        craftCost: 3
+        upgradeCost: 1
+      - prefab: CookedMeat
+        craftCost: 6
+        upgradeCost: 1
+      - prefab: Dandelion
+        craftCost: 5
+        upgradeCost: 1
+      - prefab: SpiceForests
+        craftCost: 3
+        upgradeCost: 1
+  Recipe_FeastMistlands:
+    action: Modify
+    prefab: FeastMistlands_Material
+    recipeName: Recipe_FeastMistlands
+    craftedAt: piece_preptable
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: MisthareSupreme
+        craftCost: 2
+        upgradeCost: 1
+      - prefab: CookedBugMeat
+        craftCost: 4
+        upgradeCost: 1
+      - prefab: YggdrasilPorridge
+        craftCost: 1
+        upgradeCost: 1
+      - prefab: SpiceMistlands
+        craftCost: 3
+        upgradeCost: 1
+  Recipe_FeastMountains:
+    action: Modify
+    prefab: FeastMountains_Material
+    recipeName: Recipe_FeastMountains
+    craftedAt: piece_preptable
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: WolfMeatSkewer
+        craftCost: 3
+        upgradeCost: 1
+      - prefab: OnionSoup
+        craftCost: 4
+        upgradeCost: 1
+      - prefab: Carrot
+        craftCost: 5
+        upgradeCost: 1
+      - prefab: SpiceMountains
+        craftCost: 3
+        upgradeCost: 1
+  Recipe_FeastOceans:
+    action: Modify
+    prefab: FeastOceans_Material
+    recipeName: Recipe_FeastOceans
+    craftedAt: piece_preptable
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FishCooked
+        craftCost: 6
+        upgradeCost: 1
+      - prefab: Thistle
+        craftCost: 5
+        upgradeCost: 1
+      - prefab: SerpentMeatCooked
+        craftCost: 3
+        upgradeCost: 1
+      - prefab: SpiceOceans
+        craftCost: 3
+        upgradeCost: 1
+  Recipe_FeastPlains:
+    action: Modify
+    prefab: FeastPlains_Material
+    recipeName: Recipe_FeastPlains
+    craftedAt: piece_preptable
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Bread
+        craftCost: 4
+        upgradeCost: 1
+      - prefab: LoxPie
+        craftCost: 3
+        upgradeCost: 1
+      - prefab: Cloudberry
+        craftCost: 6
+        upgradeCost: 1
+      - prefab: SpicePlains
+        craftCost: 3
+        upgradeCost: 1
+  Recipe_FeastSwamps:
+    action: Modify
+    prefab: FeastSwamps_Material
+    recipeName: Recipe_FeastSwamps
+    craftedAt: piece_preptable
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Sausages
+        craftCost: 9
+        upgradeCost: 1
+      - prefab: Bloodbag
+        craftCost: 5
+        upgradeCost: 1
+      - prefab: TurnipStew
+        craftCost: 3
+        upgradeCost: 1
+      - prefab: SpiceForests
+        craftCost: 3
+        upgradeCost: 1
+  Recipe_CarrotSoup:
+    action: Modify
+    prefab: CarrotSoup
+    recipeName: Recipe_CarrotSoup
+    craftedAt: piece_cauldron
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: MushroomYellow
+        craftCost: 1
+        upgradeCost: 1
+      - prefab: Carrot
+        craftCost: 3
+        upgradeCost: 1
+  Recipe_QueensJam:
+    action: Modify
+    prefab: QueensJam
+    recipeName: Recipe_QueensJam
+    craftedAt: piece_cauldron
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Raspberry
+        craftCost: 2
+        upgradeCost: 1
+      - prefab: Blueberries
+        craftCost: 1
+        upgradeCost: 1
+  Recipe_DeerStew:
+    action: Modify
+    prefab: DeerStew
+    recipeName: Recipe_DeerStew
+    craftedAt: piece_cauldron
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: CookedDeerMeat
+        craftCost: 1
+        upgradeCost: 1
+      - prefab: Mushroom
+        craftCost: 1
+        upgradeCost: 1
+      - prefab: MushroomYellow
+        craftCost: 1
+        upgradeCost: 1
+      - prefab: Carrot
+        craftCost: 2
+        upgradeCost: 1
+  Recipe_MinceMeatSauce:
+    action: Modify
+    prefab: MinceMeatSauce
+    recipeName: Recipe_MinceMeatSauce
+    craftedAt: piece_cauldron
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: RawMeat
+        craftCost: 1
+        upgradeCost: 1
+      - prefab: NeckTail
+        craftCost: 2
+        upgradeCost: 1
+      - prefab: Carrot
+        craftCost: 1
+        upgradeCost: 1
+      - prefab: CarrotSeeds
+        craftCost: 3
+        upgradeCost: 1
+  Recipe_ShocklateSmoothie:
+    action: Modify
+    prefab: ShocklateSmoothie
+    recipeName: Recipe_ShocklateSmoothie
+    craftedAt: piece_cauldron
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Ooze
+        craftCost: 1
+        upgradeCost: 1
+      - prefab: Pukeberries
+        craftCost: 1
+        upgradeCost: 1
+      - prefab: Raspberry
+        craftCost: 3
+        upgradeCost: 1
+      - prefab: Blueberries
+        craftCost: 3
+        upgradeCost: 1
+  Recipe_TurnipStew:
+    action: Modify
+    prefab: TurnipStew
+    recipeName: Recipe_TurnipStew
+    craftedAt: piece_cauldron
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: NeckTailGrilled
+        craftCost: 1
+        upgradeCost: 1
+      - prefab: Blueberries
+        craftCost: 1
+        upgradeCost: 1
+      - prefab: Carrot
+        craftCost: 1
+        upgradeCost: 1
+      - prefab: Turnip
+        craftCost: 3
+        upgradeCost: 1
+  Recipe_Sausages:
+    action: Modify
+    prefab: Sausages
+    recipeName: Recipe_Sausages
+    craftedAt: piece_cauldron
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Entrails
+        craftCost: 1
+        upgradeCost: 1
+      - prefab: RawMeat
+        craftCost: 1
+        upgradeCost: 1
+      - prefab: Thistle
+        craftCost: 1
+        upgradeCost: 1
+  Recipe_Blacksoup:
+    action: Modify
+    prefab: BlackSoup
+    recipeName: Recipe_Blacksoup
+    craftedAt: piece_cauldron
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Bloodbag
+        craftCost: 1
+        upgradeCost: 1
+      - prefab: Blueberries
+        craftCost: 3
+        upgradeCost: 1
+      - prefab: Thistle
+        craftCost: 1
+        upgradeCost: 1
+      - prefab: Turnip
+        craftCost: 1
+        upgradeCost: 1
+  Recipe_Onionsoup:
+    action: Modify
+    prefab: OnionSoup
+    recipeName: Recipe_Onionsoup
+    craftedAt: piece_cauldron
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Onion
+        craftCost: 2
+        upgradeCost: 1
+      - prefab: Turnip
+        craftCost: 2
+        upgradeCost: 1
+  Recipe_WolfSkewer:
+    action: Modify
+    prefab: WolfMeatSkewer
+    recipeName: Recipe_WolfSkewer
+    craftedAt: piece_cauldron
+    minStationLevel: 3
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: WolfMeat
+        craftCost: 1
+        upgradeCost: 1
+      - prefab: Mushroom
+        craftCost: 2
+        upgradeCost: 1
+      - prefab: Onion
+        craftCost: 2
+        upgradeCost: 1
+      - prefab: Thistle
+        craftCost: 1
+        upgradeCost: 1
+  Recipe_Eyescream:
+    action: Modify
+    prefab: Eyescream
+    recipeName: Recipe_Eyescream
+    craftedAt: piece_cauldron
+    minStationLevel: 3
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: GreydwarfEye
+        craftCost: 3
+        upgradeCost: 1
+      - prefab: Honey
+        craftCost: 3
+        upgradeCost: 1
+      - prefab: FreezeGland
+        craftCost: 1
+        upgradeCost: 1
+  Recipe_FishWraps:
+    action: Modify
+    prefab: FishWraps
+    recipeName: Recipe_FishWraps
+    craftedAt: piece_cauldron
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FishCooked
+        craftCost: 2
+        upgradeCost: 1
+      - prefab: Onion
+        craftCost: 2
+        upgradeCost: 1
+      - prefab: BarleyFlour
+        craftCost: 4
+        upgradeCost: 1
+      - prefab: SpiceMountains
+        craftCost: 1
+        upgradeCost: 1
+  Recipe_Bread:
+    action: Modify
+    prefab: BreadDough
+    recipeName: Recipe_Bread
+    craftedAt: piece_preptable
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: BarleyFlour
+        craftCost: 6
+        upgradeCost: 1
+  Recipe_BloodPudding:
+    action: Modify
+    prefab: BloodPudding
+    recipeName: Recipe_BloodPudding
+    craftedAt: piece_cauldron
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Thistle
+        craftCost: 3
+        upgradeCost: 1
+      - prefab: Bloodbag
+        craftCost: 1
+        upgradeCost: 1
+      - prefab: BarleyFlour
+        craftCost: 6
+        upgradeCost: 1
+  Recipe_MeatPlatter:
+    action: Modify
+    prefab: MeatPlatterUncooked
+    recipeName: Recipe_MeatPlatter
+    craftedAt: piece_preptable
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: BugMeat
+        craftCost: 1
+        upgradeCost: 1
+      - prefab: LoxMeat
+        craftCost: 1
+        upgradeCost: 1
+      - prefab: ChickenMeat
+        craftCost: 2
+        upgradeCost: 1
+  Recipe_HoneyGlazedChicken:
+    action: Modify
+    prefab: HoneyGlazedChickenUncooked
+    recipeName: Recipe_HoneyGlazedChicken
+    craftedAt: piece_preptable
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ChickenMeat
+        craftCost: 1
+        upgradeCost: 1
+      - prefab: Honey
+        craftCost: 5
+        upgradeCost: 1
+      - prefab: MushroomJotunPuffs
+        craftCost: 3
+        upgradeCost: 1
+  Recipe_MisthareSupreme:
+    action: Modify
+    prefab: MisthareSupremeUncooked
+    recipeName: Recipe_MisthareSupreme
+    craftedAt: piece_preptable
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: HareMeat
+        craftCost: 1
+        upgradeCost: 1
+      - prefab: MushroomJotunPuffs
+        craftCost: 3
+        upgradeCost: 1
+      - prefab: Onion
+        craftCost: 2
+        upgradeCost: 1
+      - prefab: Carrot
+        craftCost: 2
+        upgradeCost: 1
+  Recipe_Salad:
+    action: Modify
+    prefab: Salad
+    recipeName: Recipe_Salad
+    craftedAt: piece_cauldron
+    minStationLevel: 5
+    craftAmount: 3
+    recipe:
+      ingredients:
+      - prefab: MushroomJotunPuffs
+        craftCost: 3
+        upgradeCost: 1
+      - prefab: Turnip
+        craftCost: 3
+        upgradeCost: 1
+      - prefab: Onion
+        craftCost: 3
+        upgradeCost: 1
+      - prefab: Cloudberry
+        craftCost: 3
+        upgradeCost: 1
+  Recipe_MushroomOmelette:
+    action: Modify
+    prefab: MushroomOmelette
+    recipeName: Recipe_MushroomOmelette
+    craftedAt: piece_cauldron
+    minStationLevel: 5
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ChickenEgg
+        craftCost: 3
+        upgradeCost: 1
+      - prefab: MushroomJotunPuffs
+        craftCost: 3
+        upgradeCost: 1
+      - prefab: Blueberries
+        craftCost: 3
+        upgradeCost: 1
+  Recipe_FishAndBread:
+    action: Modify
+    prefab: FishAndBreadUncooked
+    recipeName: Recipe_FishAndBread
+    craftedAt: piece_preptable
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Fish9
+        craftCost: 1
+        upgradeCost: 1
+      - prefab: BreadDough
+        craftCost: 3
+        upgradeCost: 1
+  Recipe_MarinatedGreens:
+    action: Modify
+    prefab: MarinatedGreens
+    recipeName: Recipe_MarinatedGreens
+    craftedAt: piece_cauldron
+    minStationLevel: 6
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Sap
+        craftCost: 3
+        upgradeCost: 1
+      - prefab: MushroomMagecap
+        craftCost: 2
+        upgradeCost: 1
+      - prefab: Onion
+        craftCost: 2
+        upgradeCost: 1
+      - prefab: Fiddleheadfern
+        craftCost: 2
+        upgradeCost: 1
+      - prefab: MushroomSmokePuff
+        craftCost: 2
+        upgradeCost: 1
+  Recipe_MashedMeat:
+    action: Modify
+    prefab: MashedMeat
+    recipeName: Recipe_MashedMeat
+    craftedAt: piece_cauldron
+    minStationLevel: 6
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: AsksvinMeat
+        craftCost: 1
+        upgradeCost: 1
+      - prefab: VoltureMeat
+        craftCost: 1
+        upgradeCost: 1
+      - prefab: HareMeat
+        craftCost: 1
+        upgradeCost: 1
+      - prefab: Fiddleheadfern
+        craftCost: 1
+        upgradeCost: 1
+  Recipe_ScorchingMedley:
+    action: Modify
+    prefab: ScorchingMedley
+    recipeName: Recipe_ScorchingMedley
+    craftedAt: piece_cauldron
+    minStationLevel: 6
+    craftAmount: 3
+    recipe:
+      ingredients:
+      - prefab: MushroomJotunPuffs
+        craftCost: 3
+        upgradeCost: 1
+      - prefab: Onion
+        craftCost: 3
+        upgradeCost: 1
+      - prefab: ScorchingMedley
+        craftCost: 3
+        upgradeCost: 1
+      - prefab: Fiddleheadfern
+        craftCost: 3
+        upgradeCost: 1
+  Recipe_SeekerAspic:
+    action: Modify
+    prefab: SeekerAspic
+    recipeName: Recipe_SeekerAspic
+    craftedAt: piece_cauldron
+    minStationLevel: 5
+    craftAmount: 2
+    recipe:
+      ingredients:
+      - prefab: BugMeat
+        craftCost: 2
+        upgradeCost: 1
+      - prefab: MushroomMagecap
+        craftCost: 2
+        upgradeCost: 1
+      - prefab: MushroomJotunPuffs
+        craftCost: 4
+        upgradeCost: 1
+      - prefab: RoyalJelly
+        craftCost: 4
+        upgradeCost: 1
+  Recipe_MagicallyStuffedShroom:
+    action: Modify
+    prefab: MagicallyStuffedShroomUncooked
+    recipeName: Recipe_MagicallyStuffedShroom
+    craftedAt: piece_preptable
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: MushroomMagecap
+        craftCost: 3
+        upgradeCost: 1
+      - prefab: GiantBloodSack
+        craftCost: 2
+        upgradeCost: 1
+      - prefab: Turnip
+        craftCost: 4
+        upgradeCost: 1
+  Recipe_BoarJerky:
+    action: Modify
+    prefab: BoarJerky
+    recipeName: Recipe_BoarJerky
+    craftedAt: piece_apiary
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: RawMeat
+        craftCost: 1
+        upgradeCost: 1
+      - prefab: Honey
+        craftCost: 3
+        upgradeCost: 1
+  BearJerky_TW_Recipe_Cauldron:
+    action: Modify
+    prefab: BearJerky_TW
+    recipeName: BearJerky_TW_Recipe_Cauldron
+    craftedAt: piece_apiary
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: BearSteak_TW
+        craftCost: 1
+      - prefab: Honey
+        craftCost: 3
+  FoxJerky_TW_Recipe_Cauldron:
+    action: Modify
+    prefab: FoxJerky_TW
+    recipeName: FoxJerky_TW_Recipe_Cauldron
+    craftedAt: piece_apiary
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FoxMeat_TW
+        craftCost: 1
+      - prefab: Honey
+        craftCost: 3

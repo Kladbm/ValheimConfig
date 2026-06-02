@@ -1,0 +1,2488 @@
+- text: $dream_random01
+  chance: 0.5
+- text: $dream_random02
+  chance: 0.5
+- text: $dream_random03
+  chance: 0.5
+- text: $dream_random04
+  chance: 0.5
+- text: $dream_random05
+  chance: 0.5
+- text: $dream_eikthyr01
+  chance: 0.1
+  forbiddenKeys: defeated_eikthyr
+- text: $dream_elder01
+  chance: 0.1
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: $dream_bonemass01
+  chance: 0.1
+  requiredKeys: defeated_gdking, defeated_eikthyr
+  forbiddenKeys: defeated_bonemass
+- text: $dream_moder01
+  chance: 0.1
+  requiredKeys: defeated_bonemass, defeated_gdking, defeated_eikthyr
+  forbiddenKeys: defeated_moder
+- text: $dream_yagluth01
+  chance: 0.1
+  requiredKeys: defeated_moder, defeated_bonemass, defeated_gdking, defeated_eikthyr
+  forbiddenKeys: defeated_goblinking
+- text: $dream_random06
+  chance: 0.5
+- text: $dream_random07
+  chance: 0.5
+- text: $dream_random08
+  chance: 0.5
+- text: $dream_random09
+  chance: 0.5
+- text: $dream_random10
+  chance: 0.5
+- text: $dream_random11
+  chance: 0.5
+- text: $dream_random12
+  chance: 0.5
+- text: $dream_random13
+  chance: 0.5
+- text: $dream_random14
+  chance: 0.5
+- text: $dream_random15
+  chance: 0.5
+- text: $dream_random16
+  chance: 0.5
+- text: $dream_random17
+  chance: 0.5
+- text: $dream_mistlands01
+  chance: 0.1
+  requiredKeys: defeated_goblinking
+- text: $dream_mistlands02
+  chance: 0.1
+  requiredKeys: defeated_goblinking
+- text: $dream_mistlands03
+  chance: 0.1
+  requiredKeys: defeated_goblinking
+- text: $dream_ashlands01
+  chance: 0.1
+  requiredKeys: defeated_queen
+- text: $dream_ashlands02
+  chance: 0.1
+  requiredKeys: defeated_queen
+- text: $dream_ashlands03
+  chance: 0.1
+  requiredKeys: defeated_queen
+- text: $dream_ashlands04
+  chance: 0.1
+  requiredKeys: defeated_queen
+- text: "Ти блукаєш туманним лісом, де серед дерев мерехтять примарні тіні."
+  chance: 0.45
+  forbiddenKeys: defeated_eikthyr
+- text: "Десь неподалік чути звук рогів, і ти бачиш силует величезного оленя."
+  chance: 0.5
+  forbiddenKeys: defeated_eikthyr
+- text: "У нічній темряві над тобою пролітає ворона, її очі блищать у місячному сяйві."
+  chance: 0.6
+  forbiddenKeys: defeated_eikthyr
+- text: "Ти відчуваєш, як холод від землі пробирається до кісток, і чуєш крики древніх душ."
+  chance: 0.55
+  forbiddenKeys: defeated_eikthyr
+- text: "Ти знаходиш уламки стародавнього кола стоячих каменів."
+  chance: 0.4
+  forbiddenKeys: defeated_eikthyr
+- text: "На горизонті виринає силует кам'яної брами, за якою ховаються невідомі сили."
+  chance: 0.5
+  forbiddenKeys: defeated_eikthyr
+- text: "Ти бачиш у вогні образ старого воїна з однією рукою, що мовчки дивиться на тебе."
+  chance: 0.5
+  forbiddenKeys: defeated_eikthyr
+- text: "У вісні до тебе приходить велетенський олень з рогами, сплетеними блискавками."
+  chance: 0.6
+  forbiddenKeys: defeated_eikthyr
+- text: "Ти торкаєшся древнього руна, і відчуваєш, як слова Одіна шепочуть у твоїй голові."
+  chance: 0.4
+  forbiddenKeys: defeated_eikthyr
+- text: "На мить здається, що ти бачиш райдужний міст Біфрест, але він розчиняється у хмарах."
+  chance: 0.55
+  forbiddenKeys: defeated_eikthyr
+- text: "Вітер приносить запах диму та смоли, як у часи древніх битв."
+  chance: 0.5
+  forbiddenKeys: defeated_eikthyr
+- text: "Ти чуєш дзвін коваля, який кує зброю для богів."
+  chance: 0.45
+  forbiddenKeys: defeated_eikthyr
+- text: "У ночі тобі сниться берег із уламками розбитого плоту."
+  chance: 0.6
+  forbiddenKeys: defeated_eikthyr
+- text: "В лісі щось невидиме спостерігає за тобою крізь густий туман."
+  chance: 0.4
+  forbiddenKeys: defeated_eikthyr
+- text: "Десь високо на горі видніється кам'яна статуя воїна із сокирою."
+  chance: 0.6
+  forbiddenKeys: defeated_eikthyr
+- text: "Ворон Хугін прилітає до тебе у сні, мовчки сідає на плече й щось шепоче про майбутнє."
+  chance: 0.5
+  forbiddenKeys: defeated_eikthyr
+- text: "Ти проходиш повз обгорілі дерева, і на корі бачиш руни про стародавню владу."
+  chance: 0.55
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "У сні лунає глухий стукіт — мов кам'яні ворота відчиняються у глибині лісу."
+  chance: 0.45
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Ти торкаєшся осколка древнього трону, і відчуваєш присутність давнього царя."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Між деревами тобі привиділась велетенська фігура з корінням замість рук."
+  chance: 0.6
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Ти стоїш на порозі покинутого храму, де відлунюють кроки Древнього."
+  chance: 0.45
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "У глибокій ночі ти бачиш, як корені просочуються крізь землю і тягнуться до неба."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Ти чуєш, як земля стогне під вагою тисячоліть, а вітром долинають голоси давніх."
+  chance: 0.55
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Ворон приносить тобі шматок старого кореня, обплетений мохом."
+  chance: 0.45
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "В глибинах лісу ти знаходиш стародавню чашу, що світиться зеленим сяйвом."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Ти бачиш, як у корі дерев проступають обличчя, що дивляться на тебе з мудрістю і тугою."
+  chance: 0.6
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Ти чуєш стогін дерев — вітри приносять попередження про пробудження чогось давнього."
+  chance: 0.4
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Перед тобою з'являється силует велетенської істоти, укритої листям і гілками."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Вітер приносить слова, які ти не можеш зрозуміти, але відчуваєш у них силу і тягар років."
+  chance: 0.55
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Серед моху ти знаходиш старий амулет, який теплий на дотик."
+  chance: 0.45
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "У сні ти йдеш стежкою, що веде до велетенського пня, від якого віє древньою магією."
+  chance: 0.6
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Ти бачиш у воді відображення дерев, які рухаються самі по собі."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Ти стоїш у тіні старого дуба, і чуєш тихий шепіт листя — воно вітає тебе як переможця."
+  chance: 0.55
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Ти йдеш крізь туманне болото, і кожен крок тоне у зеленій твані."
+  chance: 0.6
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Десь під водою щось гуде й булькотить — ти відчуваєш запах гнилі."
+  chance: 0.45
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Ти бачиш скелети, що повстають із багнюки, і чуєш скрегіт кісток."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Над болотом витає зелений туман, а у воді відображаються черепи."
+  chance: 0.55
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Ти відчуваєш тяжкість, ніби на тебе дивиться невидиме око із глибини болота."
+  chance: 0.4
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Серед багнюки ти знаходиш уламки давньої зброї, вкриті пліснявою."
+  chance: 0.6
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Ти чуєш ревіння, ніби весь світ задихається у тумані й смердючій воді."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "У воді пропливає щось величезне і слизьке, але ти бачиш лише хвилю."
+  chance: 0.45
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Ворон Хугін приносить попередження: у болотах спить щось, що не повинно прокидатися."
+  chance: 0.55
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Ти знаходиш величезну кістку, яку не може підняти жодна жива істота."
+  chance: 0.6
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "У сні ти бредеш у мряці, і на плечі осідає щось важке й липке."
+  chance: 0.4
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Відлуння стародавніх голосів кличе тебе у глибини трясовини."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Ти бачиш кам'яний вівтар, вкритий кістками та зеленими мохами."
+  chance: 0.6
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Під ногами щось рухається — ти розумієш, що це кістяки забутих воїнів."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Ти стоїш на порозі древньої гробниці, з якої віє смородом і страхом."
+  chance: 0.45
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Болото навколо тебе стискається, і здається, що саме повітря стало густішим."
+  chance: 0.4
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Серед туманів ти бачиш обриси величезної фігури, складеної з бруду і кісток."
+  chance: 0.55
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Древній дзвін під водою кличе душі до пробудження."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Ти чуєш бурління, а з болота здіймається хмара зловісного туману."
+  chance: 0.6
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "В нічній тиші болота здаються безкрайніми, але ти знаєш — у їхніх надрах щось чекає."
+  chance: 0.45
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Ти піднімаєшся крутими сніжними схилами, де вітер рве твій одяг на шматки."
+  chance: 0.6
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Вночі тобі сниться крижаний палац серед хмар, звідки лунає ревіння."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "На вершині гори ти бачиш велетенський слід, залишений чиєюсь пазуристою лапою."
+  chance: 0.45
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Серед снігів ти знаходиш замерзлу статую дракона, що пильно дивиться на тебе."
+  chance: 0.4
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Ти відчуваєш крижану лють, що пронизує твоє серце на вершині засніженої скелі."
+  chance: 0.55
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Сон приносить тобі видіння летючих тіней, які кружляють над засніженим лісом."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Ти чуєш голос, що шепоче: «Не кожен підкорює гори живим»."
+  chance: 0.6
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Під льодом ти бачиш застиглі обличчя воїнів, які не змогли дістатися вершини."
+  chance: 0.45
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Ти знаходиш уламки драккара, затиснутого у віковічному снігу."
+  chance: 0.4
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "На засніженій стежці з'являється силует летючої істоти, що ковзає у хмарах."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Ти бачиш біле полум'я, що охоплює вершину — і чуєш ревіння дракона."
+  chance: 0.6
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Серед снігової бурі з'являється кам'яний круг, де світиться стародавня руна."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Ти відчуваєш, як холод стискає легені, а вітер співає про велич Древньої."
+  chance: 0.55
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Під зорями ти знаходиш сріблясту луску, що світиться у темряві."
+  chance: 0.45
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Ти бачиш, як на вершині гори збирається хмара — з неї визирає гострий хвіст."
+  chance: 0.4
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Сон приносить тобі спогад про давню битву з драконом у лютому снігу."
+  chance: 0.6
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "У горах тебе переслідує лункий сміх, що розноситься від скелі до скелі."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Ти знаходиш вхід до печери, всередині якої блищить крижана корона."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Вітер приносить крижану пісню, у якій чутно згадку про ім'я Матері."
+  chance: 0.55
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Ти бачиш у сні, як у сніжній бурі розкриваються гігантські крила."
+  chance: 0.6
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Ти блукаєш високою травою, де щось рухається на рівні твого зору."
+  chance: 0.45
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "У нічному степу ти бачиш далекі вогнища, що палають серед кам’яних руїн."
+  chance: 0.5
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Десь поряд хтось сміється — сміх жорстокий, хижий, ніби лунає з самого мороку."
+  chance: 0.55
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Ти відчуваєш на собі погляд із темряви, і шкіра вкривається морозом."
+  chance: 0.6
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Вогняний метеор розсікає небо, а земля під тобою здригається."
+  chance: 0.5
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Ти знаходиш уламки золотого кубка, вкритого попелом і кров’ю."
+  chance: 0.4
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Уві сні чутно тупіт малих ніг — це фулінги кличуть когось свого."
+  chance: 0.6
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Серед трави ти бачиш кам’яну голову, розтріскану від старості."
+  chance: 0.45
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "На небі танцюють зелені спалахи, а вітер приносить запах паленого м’яса."
+  chance: 0.55
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Ти бачиш кістяні тотеми — їхні очі світяться у темряві."
+  chance: 0.5
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Відчувається тиск сили, що виходить із глибини землі, мов сама вона готується вибухнути."
+  chance: 0.6
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "У степу тобі сниться язикатий череп, що промовляє про полум'я і кінець."
+  chance: 0.45
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Ти стоїш на полі, де з усіх боків лунають бойові крики фулінгів."
+  chance: 0.5
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Вітром доноситься запах смаженого м’яса, а у повітрі відчувається небезпека."
+  chance: 0.55
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Ти бачиш фіолетове сяйво, що з'являється серед трави, і відчуваєш страх."
+  chance: 0.4
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Сон приносить відлуння стародавнього прокляття, що лине із розпечених каменів."
+  chance: 0.5
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Над рівнинами ти бачиш клуби чорного диму, а вдалині – вежу, що горить."
+  chance: 0.55
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Ти знаходиш уламки щита, обгорілого і майже знищеного."
+  chance: 0.45
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Ти блукаєш серед руїн у тумані, і всюди видно сліди важких комахиних лап — шукачі зовсім поруч."
+  chance: 0.6
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Уві сні ти знаходиш покинуту майстерню двергів, в якій ще світяться древні лампи."
+  chance: 0.45
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "З туману виринає постать шукача, його панцир блищить у холодному світлі."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Ти відчуваєш, як земля під ногами вібрує — десь у глибині працюють механізми двергів."
+  chance: 0.55
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "У тумані ледь видно, як дверг намагається щось полагодити біля розбитої машини."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Ти чуєш крики двергів, що борються з величезним шукачем біля вежі."
+  chance: 0.6
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Серед уламків ти знаходиш уламки древнього пристрою, на якому вигравірувано знак двергів."
+  chance: 0.4
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "В тумані блимають ліхтарі двергів, але кожен крок усе більше загрожує зіткненням із шукачем."
+  chance: 0.45
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Ти бачиш, як шукачі збираються навколо великого чорного кристалу, і з тіні за ними спостерігають дверги."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Серед руїн у тумані дверги споруджують нову вежу — під постійною загрозою нападу шукачів."
+  chance: 0.55
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Ти знаходиш покинуту схованку двергів, у якій зберігаються дивні інструменти й уламки."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Сон приносить тобі видіння бою між двергами та полчищем шукачів у крутому тумані."
+  chance: 0.6
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Ти бачиш механічний міст, який тримають кілька двергів — з іншого боку надходить гуркіт шукачів."
+  chance: 0.45
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "У тумані видно чорні панцирі шукачів, а поруч — двергійські пастки, що ще димлять після бою."
+  chance: 0.4
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Відлуння кроків двергів губиться серед уламків, і навіть вони бояться зустрічі з Королевою."
+  chance: 0.55
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Ти бачиш золотий маяк двергів у далечині, але шлях до нього загородили шукачі."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "В тумані до тебе підходить дверг і попереджає: Не шукай те, що спить під землею..."
+  chance: 0.6
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Шукачі гуртуються довкола руїн, ніби чекають чиїхось наказів — і дверги ховаються у тіні."
+  chance: 0.45
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Ти знаходиш пошкоджений автомат двергів, на якому залишилися сліди кігтів шукача."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Ти бачиш, як у тумані дверги будують стіни, а за ними повзуть шукачі, чекаючи моменту нападу."
+  chance: 0.55
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Ти бредеш чорними землями, де попіл падає, як сніг, і кожен крок віддається жаром під ногами."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Серед лави ти бачиш велетенські кістки — тут усе нагадує про давні битви велетнів."
+  chance: 0.4
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "В повітрі чути глухий гуркіт, ніби під землею ворушиться щось величезне й могутнє."
+  chance: 0.6
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Ти бачиш, як з розколин вириваються язики полум’я, освітлюючи тіні на чорних скелях."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Сон приносить відлуння реву, що розноситься з глибини розпечених гір."
+  chance: 0.55
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Ти знаходиш уламок стародавньої зброї, розпеченої й вкритої попелом."
+  chance: 0.45
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Серед попелу мерехтять дивні символи — попередження про щось страшніше, ніж вогонь."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Ти відчуваєш дим у легенях, і вдалині бачиш силует істоти з вогняними крилами."
+  chance: 0.6
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Уві сні ти торкаєшся розпеченої землі, яка пульсує під твоїми пальцями."
+  chance: 0.45
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "На обрії виростає чорний замок, і з його воріт виривається клубок диму."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Ти чуєш, як хтось шепоче зі згорілих руїн: Обернись — Батько пробуджується..."
+  chance: 0.55
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "На тлі полум’я ти бачиш сліди гігантських кігтів, що ведуть до вулкана."
+  chance: 0.4
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Ти проходиш повз озеро лави, де на поверхні плаває кам’яна корона."
+  chance: 0.6
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "З розпеченого кратера виривається крик — у ньому відчувається древній біль."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "У попелі ти знаходиш уламки щита, розплавленого полум’ям."
+  chance: 0.45
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Сон приносить тобі образи битв, де вороги палають разом із землею під ногами."
+  chance: 0.6
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Ти бачиш, як небо червоніє, і на ньому з’являється тінь з крилами з вогню."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Уві сні до тебе підходить силует у попелі й каже: Вогонь знищить усе, якщо ти не зупиниш його."
+  chance: 0.55
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Серед лави ти бачиш статую воїна, розпечену так, що її неможливо торкнутись."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Ти стоїш на краю провалля, звідки виривається полум'я, а внизу блукають тіні істот."
+  chance: 0.45
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Ти пливеш уночі по темному морю, і під човном ворушиться величезна тінь."
+  chance: 0.6
+  requiredKeys: defeated_serpent
+- text: "Хвилі розступаються, відкриваючи блискучу луску гігантської істоти в глибинах."
+  chance: 0.55
+  requiredKeys: defeated_serpent
+- text: "Вітром приносить запах солі й крові, і ти чуєш далекий крик загиблого моряка."
+  chance: 0.5
+  requiredKeys: defeated_serpent
+- text: "Серед шторму ти бачиш обриси змія, що обвиває уламки затонулого драккара."
+  chance: 0.45
+  requiredKeys: defeated_serpent
+- text: "Ти бачиш мерехтливе сяйво у морських глибинах — воно рухається за тобою."
+  chance: 0.4
+  requiredKeys: defeated_serpent
+- text: "Десь у тумані виринає острів, а навколо нього хвилями кружляють змії."
+  chance: 0.6
+  requiredKeys: defeated_serpent
+- text: "Ти знаходиш уламки корабля, обплетені слизькою лускою й морськими водоростями."
+  chance: 0.5
+  requiredKeys: defeated_serpent
+- text: "Вночі ти бачиш, як навколо човна підіймаються водяні спіралі — це граються тіні морських чудовиськ."
+  chance: 0.45
+  requiredKeys: defeated_serpent
+- text: "Тобі сниться давній корабель, екіпаж якого перетворився на лускатих створінь."
+  chance: 0.55
+  requiredKeys: defeated_serpent
+- text: "У морській пітьмі ти відчуваєш щось величезне — воно стежить за тобою з глибини."
+  chance: 0.5
+  requiredKeys: defeated_serpent
+- text: "Ти пливеш до берегу, але з кожною хвилею здається, що суша віддаляється."
+  chance: 0.4
+  requiredKeys: defeated_serpent
+- text: "На горизонті ти бачиш спалах блискавки — у світлі видно гігантську пащу."
+  chance: 0.55
+  requiredKeys: defeated_serpent
+- text: "Ти торкаєшся моря, і воно стає чорним та холодним, як очі змія."
+  chance: 0.5
+  requiredKeys: defeated_serpent
+- text: "Серед хвиль підіймається коло піни, а в центрі — око велетенської істоти."
+  chance: 0.45
+  requiredKeys: defeated_serpent
+- text: "Ти знаходиш золоту монету з вигравіруваним змієм — вона гаряча на дотик."
+  chance: 0.4
+  requiredKeys: defeated_serpent
+- text: "Під зоряним небом море мовчить, і тільки десь у глибині лунає важке дихання."
+  chance: 0.6
+  requiredKeys: defeated_serpent
+- text: "Уві сні ти тонеш, але тебе несе вперед довге лускате тіло — ти вже не боїшся."
+  chance: 0.5
+  requiredKeys: defeated_serpent
+- text: "Ти бачиш, як у хвилях зникає старий човен — останнє, що видно, це зміїна тінь."
+  chance: 0.55
+  requiredKeys: defeated_serpent
+- text: "Морська піна лишає на березі слід — він нагадує символ давньої істоти."
+  chance: 0.45
+  requiredKeys: defeated_serpent
+- text: "Ти стоїш на носі корабля, і з води до тебе тягнеться вусата морська голова."
+  chance: 0.5
+  requiredKeys: defeated_serpent
+- text: "Ти знаходиш дикий вулик серед густого чагарнику — запах меду тягне тебе ближче."
+  chance: 0.5
+  forbiddenKeys: defeated_eikthyr
+- text: "Уві сні бджоли кружляють навколо тебе, і з їхнього дзижчання ти розбираєш стародавню пісню."
+  chance: 0.55
+  forbiddenKeys: defeated_eikthyr
+- text: "Ти смакуєш свіжий мед із руїн, і відчуваєш, як сили наповнюють тіло."
+  chance: 0.45
+  forbiddenKeys: defeated_eikthyr
+- text: "Ти знаходиш покинутий вулик у дуплі, а навколо бродять тіні древніх дерев."
+  chance: 0.6
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Бджоли ховаються від тіні великого коріння, але їхній мед світиться у темряві."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Ти смакуєш лісовий мед, і здається, ніби сама земля дякує тобі за це."
+  chance: 0.4
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Ти знаходиш вулик, прихований серед моху, і пробуєш кислуватий болотяний мед."
+  chance: 0.45
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Бджоли злітаються над болотом, їхній мед має присмак диму та туману."
+  chance: 0.55
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Ти бачиш, як бджоли збирають нектар із квітів, що проростають крізь кістки."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Уві сні ти знаходиш гірський вулик, з якого тече густий, холодний мед."
+  chance: 0.6
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Бджоли зимові, повільні, але їхній мед рятує тебе від лютого вітру."
+  chance: 0.45
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Ти знаходиш кришталь, всередині якого схований медовий запас — тепло й сила у кожній краплі."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Ти бачиш золотий степовий вулик, а мед у ньому пахне вогнем і сонцем."
+  chance: 0.55
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Бджоли атакують фулінгів, захищаючи свій гострий і солодкий мед."
+  chance: 0.5
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Ти смакуєш степовий мед — він залишає на губах присмак дикої свободи."
+  chance: 0.45
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "У тумані ти знаходиш темний вулик, його бджоли великі, а мед густий і темний."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Дверги пригощають тебе медом — у ньому вгадується присмак магії."
+  chance: 0.55
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Шукачі уникають бджіл, а їхній мед зберігає тепло навіть у найгустішому тумані."
+  chance: 0.45
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Ти знаходиш вулик на розпеченому камені, а попіл змішується з медом — і смакує, як жар."
+  chance: 0.6
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "У попелі бджоли виживають, їхній мед пахне димом і залишає легке печіння."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Ти смакуєш мед, зібраний серед вогняних квітів, і відчуваєш спалах сили в кожному ковтку."
+  chance: 0.4
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Ти знаходиш блискуче пір'я на зеленій траві — вітер підхоплює його й несе у далечінь."
+  chance: 0.55
+  forbiddenKeys: defeated_eikthyr
+- text: "Птах із пір'ям кружляє над тобою, і кожен його крик приносить спокій."
+  chance: 0.45
+  forbiddenKeys: defeated_eikthyr
+- text: "Серед темних гілок ти знаходиш чорне вороняче пір'я, холодне й важке."
+  chance: 0.6
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Уві сні до тебе прилітає ворона, лишаючи за собою шлейф із темних пір'їн."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Ти знаходиш вогке, чорне пір'я, яке прилипло до моху на старому корчі."
+  chance: 0.45
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Серед туману летить птах, і за ним осипаються пір'їни, що тануть у болотній воді."
+  chance: 0.6
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "У засніженому вітрі ти ловиш велике пір'я — воно холодне, як кришталь."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "На схилі гори ти знаходиш пір'я, що виблискує у сонячних променях."
+  chance: 0.55
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Високо в небі кружляють дикі птахи, і з неба падає строкате пір'я, яке пахне сонцем і степом."
+  chance: 0.6
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Серед високої трави ти знаходиш велике пір'я — символ сили рівнин."
+  chance: 0.5
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Ти знаходиш у траві старий плащ із кабанячої шкіри, а з ним — відчуття невідомої сили."
+  chance: 0.5
+  forbiddenKeys: defeated_eikthyr
+- text: "Уві сні з тіні дерев з’являється фігура в зеленому каптурі — її плащ мерехтить, як свіжа роса."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Під гілками ти натрапляєш на хутряний плащ троля, який шепоче про невидимість у тіні."
+  chance: 0.4
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Серед гнилих корчів ти знаходиш важкий накид із чорного хутра — він пахне болотом і таємницями."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "На вітрі розвівається плащ, що світиться зеленим, а внизу — мокрі сліди примар."
+  chance: 0.45
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Вітер приносить до тебе білий плащ, у якому відчувається сила блискавки та бурі."
+  chance: 0.55
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Ти знаходиш слід від вовчої лапи на снігу, а поруч — хутряний плащ, що гріє серце."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "У степах ти бачиш лицаря у блискучому плащі, який зникає разом із ранковим туманом."
+  chance: 0.6
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Пориви вітру носять плащ із льону, який дарує впевненість та міць у бою."
+  chance: 0.45
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Ти знаходиш переливчастий плащ із пір'я, що сповільнює падіння у густому тумані."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Серед руїн дверги шиють дивний плащ із чарівною вишивкою, він світиться у присутності магії."
+  chance: 0.6
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Ти знаходиш обгорілий плащ із попелу, і відчуваєш силу вогню, що ховається всередині."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Вночі на гарячому камені ти бачиш плащ із червоних пер, який виблискує, наче розпечене залізо."
+  chance: 0.6
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Ти торкаєшся стародавнього каменя, і руни на ньому світяться ніжним світлом."
+  chance: 0.5
+  forbiddenKeys: defeated_eikthyr
+- text: "Вітер приносить до тебе блискучу руну, яка обіцяє захист і гармонію лугів."
+  chance: 0.4
+  forbiddenKeys: defeated_eikthyr
+- text: "Серед мшистих валунів ти знаходиш візерунок руни — його світло показує приховані стежки."
+  chance: 0.6
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Доторкнувшись до руни на камені, ти відчуваєш легкий шепіт старих духів лісу."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Ти знаходиш руну, що виросла крізь мох — вона захищає від холоду та смороду боліт."
+  chance: 0.45
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Уві сні болотяна руна спалахує, очищуючи місце від туману й давнього зла."
+  chance: 0.6
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Сніг покриває древню руну на скелі — вона світиться, коли наближається буря."
+  chance: 0.55
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Ти викарбовуєш руну у льоду, і вона дає тобі силу долати морозні вершини."
+  chance: 0.45
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "На золотих каменях ти бачиш руни, що кличуть вітер та захищають від стріл фулінгів."
+  chance: 0.6
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Ти знаходиш руну на уламку стоячого каменя — її сяйво розганяє темряву рівнин."
+  chance: 0.5
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "У тумані ти бачиш блискучу руну, яка допомагає не загубитися серед мороку Містлендів."
+  chance: 0.55
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Ти торкаєшся фіолетової руни на старому моноліті — вона відкриває шлях до невідомих земель."
+  chance: 0.45
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Серед попелу ти знаходиш гарячу руну — її сяйво дає захист від полум'я."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Ти викарбовуєш руну на лаві, і вона стишує бурю, хоч навколо реве вулкан."
+  chance: 0.6
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Ти смакуєш смажене оленяче м’ясо під відкритим небом, а мед стікає по пальцях."
+  chance: 0.5
+  forbiddenKeys: defeated_eikthyr
+- text: "Біля вогнища ти їси хрусткий хвіст нікса, запиваючи його дикими малинами."
+  chance: 0.6
+  forbiddenKeys: defeated_eikthyr
+- text: "Уві сні ти знаходиш золотий гриб, а його смак надає сил для нових відкриттів."
+  chance: 0.4
+  forbiddenKeys: defeated_eikthyr
+- text: "Ти смакуєш ніжну свинячу вирізку, а смак її довго гріє душу після пробудження."
+  chance: 0.5
+  forbiddenKeys: defeated_eikthyr
+- text: "У лісі ти вариш морквяний суп, і аромат приваблює ворон до твого багаття."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Ти ласуєш королівським джемом з ягід, і відчуваєш, як серце наповнює радість."
+  chance: 0.6
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Уві сні ти готуєш дичину з пряними травами, і вогонь у нічному лісі світить тепліше."
+  chance: 0.4
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Медові ковбаски розганяють туман навколо тебе, даруючи тепло та радість."
+  chance: 0.45
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "На болоті ти їси ковбаски, а смак нагадує про спокій далекого дому."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Ти вариш чорний суп, і його аромат лякає примар, які кружляють довкола."
+  chance: 0.4
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Уві сні ти куштуєш тушкованого змія, а його м’ясо дарує дивну енергію."
+  chance: 0.6
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Ти їси гострий вовчий шашлик біля замерзлого багаття, і тепло розливається по тілу."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Вітром із гір приносить аромат цибулевого супу, і навіть лід здається менш холодним."
+  chance: 0.6
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Серед хуртовини ти смакуєш мариноване вовче м’ясо — його гострий смак підбадьорює на нові звершення."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Уві сні ти тримаєш в руках очний крем — його прохолода освіжає думки й сили."
+  chance: 0.4
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Ти куштуєш пиріг із м’яса бикоящерів, і степова спека здається рідною."
+  chance: 0.5
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "М’який медовий хліб дарує тобі енергію пробігти цілий день рівнинами."
+  chance: 0.45
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "У сні ти ламаєш хрустку скоринку хліба й намотуєш на неї рибу з обгортки."
+  chance: 0.4
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Ти їси криваву ковбасу й відчуваєш силу воїнів минулого, що ходили цими рівнинами."
+  chance: 0.6
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Ти смакуєш туманну страву з риби й хліба, а кожен шматок дарує ясність думок."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Ти їси королівський пиріг із м'яса зайця, і відчуваєш, як у тумані прорізується нова сила."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Уві сні ти їси омлет із грибів і меду, і кожен ковток викликає кольорові видіння."
+  chance: 0.4
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Дверги пригощають тебе стравою із мисхаря — смак незабутній, а сили нестримні."
+  chance: 0.6
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Ти їси гострий пікантний пиріг біля лави, і навіть попіл здається солодшим."
+  chance: 0.6
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Вогняна юшка гріє тебе серед попелу — її смак пекучий, як саме життя."
+  chance: 0.4
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Ти смакуєш яскраву мармеладку зі спецій, а вуста ще довго печуть після сну."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Ти ловиш окуня у тихому озері: вода тиха, а риба блищить золотим боком."
+  chance: 0.5
+  forbiddenKeys: defeated_eikthyr
+- text: "Під берегом плісецько плескається щука — ти відчуваєш, як її сила переходить у твої руки."
+  chance: 0.4
+  forbiddenKeys: defeated_eikthyr
+- text: "На ранковій росі ти знаходиш рибальську кістку з лускою окуня, що приносить удачу."
+  chance: 0.6
+  forbiddenKeys: defeated_eikthyr
+- text: "У гущавині чорного лісу ти ловиш троллячу рибу — її шкіра товста, як броня."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Ти ловиш щуку у темних затонах, і вода віддає холодком старого лісу."
+  chance: 0.6
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Серед каміння ти знаходиш окуня, і його луска виблискує між мохом і тінями."
+  chance: 0.4
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "На болотах ти ловиш гігантського оселедця, його сила наче приходить із глибини часу."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Ти тягнеш сіру рибину з багна, і її очі здаються старішими за самі болота."
+  chance: 0.4
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Уві сні ти вудиш рибу на іржавий гачок, і кожна риба залишає залізну луску."
+  chance: 0.6
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "У крижаній печері ти знаходиш тетру, її луска холодна, як сніг на ранковому світлі."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "На замерзлому озері ловиш окуня, а вітер приносить запах пригод і морозу."
+  chance: 0.4
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Ти бачиш, як тетра ховається між льодовиками — рибалка тут вимагає терпіння та тиші."
+  chance: 0.6
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "У степу на березі ти ловиш групера, а його спина мовчки виблискує в сонячному світлі."
+  chance: 0.6
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Серед високої трави знаходиш залишки луски групера — знак багатої здобичі."
+  chance: 0.5
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Ти ловиш окуня на глибокому плесі рівнин і чуєш у воді відлуння далеких гроз."
+  chance: 0.4
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "На туманному березі ловиш ліхтарну рибу — її очі світяться навіть у найгустішому мороці."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "У глибинах біля скель ти тягнеш на гачок рибу-пухир — вона шипить і блищить отруйним світлом."
+  chance: 0.6
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "На розпеченому березі ти ловиш магмову рибу, її луска гаряча, як попіл."
+  chance: 0.6
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Ти тягнеш з води блискучу магмову рибину, і від неї іде легкий димок навіть у сні."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Уві сні ти ловиш рибу серед лави, і кожен її рух створює вогняні спіралі у воді."
+  chance: 0.4
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Уві сні ти знаходиш стару шкіряну броню на новій кузні — вона світиться слабким сяйвом сили."
+  chance: 0.5
+  forbiddenKeys: defeated_eikthyr
+- text: "На галявині ти знаходиш старий спис, він резонує з тобою — немов створений для швидких атак."
+  chance: 0.5
+  forbiddenKeys: defeated_eikthyr
+- text: "Ти викуєш свій перший меч з кременю, і відчуваєш себе справжнім воїном."
+  chance: 0.4
+  forbiddenKeys: defeated_eikthyr
+- text: "Уві сні ти торкаєшся простого дерев’яного посоха, але з нього злітають іскри магії."
+  chance: 0.5
+  forbiddenKeys: defeated_eikthyr
+- text: "Ти знаходиш старий амулет у траві — він на мить спалахує зеленим полум’ям."
+  chance: 0.4
+  forbiddenKeys: defeated_eikthyr
+- text: "У високій траві ти чуєш писк лисеняти — поруч ховається мати-лисиця."
+  chance: 0.5
+  forbiddenKeys: defeated_eikthyr
+- text: "Ти бачиш, як маленький кабанчик тікає від тіні величезної тварини серед лугів."
+  chance: 0.4
+  forbiddenKeys: defeated_eikthyr
+- text: "Ти знаходиш мисливську броню з хутра та кісток — вона дозволяє тобі тихо рухатися поміж сосен."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "На новій кузні ти викуєш грізний шолом з рогами, що додає відваги у темряві."
+  chance: 0.4
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Ти знаходиш важкий бойовий молот, що розбиває навіть кам’яні гробниці гре́йдворфів."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Біля річки ти вчишся користуватись арбалетом — стріла летить крізь ніч."
+  chance: 0.4
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Серед моху ти знаходиш зачаровану паличку — вона вказує шлях у темряві."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Уві сні ти відкриваєш стару книгу руни й розумієш кілька таємних слів."
+  chance: 0.4
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Ти бачиш, як троляча риба тікає від лапи чорного ведмедя."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Уві сні ти стикаєшся з істотою, що світиться в тумані — новий хижак у лісі."
+  chance: 0.4
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Серед багна ти знаходиш міцний залізний обладунок, що захищає від отрути й кістяних стріл."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Ти одягаєш незвичну накидку — її тканина тягнеться, як тіні болота."
+  chance: 0.4
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Уві сні ти піднімаєш величезний молот, зроблений із кісток древніх чудовиськ."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Серед багна ти випробовуєш кинджал, що тоне у тілі ворожих примар."
+  chance: 0.4
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Ти вариш зелене зілля, і його пара відкриває приховані проходи серед трясовин."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Уві сні ти знаходиш магічну кістку — вона вібрує, коли поряд щось надприродне."
+  chance: 0.4
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Серед тіней ти бачиш гнилого лося — його рев розганяє туман."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "У холоді ти приміряєш обладунок з вовчого хутра — він дарує тепло і спокій."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Ти знаходиш срібний шолом, він мерехтить під сонцем — кожен вдих стає легшим."
+  chance: 0.4
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "На сніжній вершині ти виконуєш удари новим срібним мечем, що бринить льодом."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Ти створюєш велику крижану булаву, яка здатна розбити навіть скелі."
+  chance: 0.4
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Уві сні ти закликаєш крижане полум’я через магічний жезл."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Серед льодовиків знаходиш зачароване кільце — воно дарує силу пережити бурю."
+  chance: 0.4
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "На снігу ти зустрічаєш грізлі — він атакує шалено, але за поразку залишає шкуру для трофея."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Ти бачиш тінь гірського голема — його серце виблискує обсидіаном."
+  chance: 0.4
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Серед золотої трави ти приміряєш легкі латні обладунки — вони підкреслюють силу та спритність."
+  chance: 0.5
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Ти натягуєш новий гігантський лук — його стріли пронизують навіть найтовстіший панцир."
+  chance: 0.5
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Уві сні ти створюєш легкий меч, гострий як блискавка, і відчуваєш себе непереможним."
+  chance: 0.4
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "У степах ти знаходиш магічний сувій — його символи світяться і кличуть вітер."
+  chance: 0.5
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Ти куштуєш солодку еітрову страву, і відчуваєш, як думки стають яснішими."
+  chance: 0.4
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Відлуння степу приносить крик невідомої істоти — її шкура сяє на сонці."
+  chance: 0.4
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Ти приміряєш броню із загадкових матеріалів двергів — у ній відчуваєш магію туману."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Серед руїн ти знаходиш кришталевий шолом, який світиться в сутінках."
+  chance: 0.4
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "У тумані ти майструєш новий арбалет, і кожний болт зникає у мороці, мов привид."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Ти знаходиш бойову булаву із обсидіану, її удари відлунюють навіть у стінах двергських башт."
+  chance: 0.4
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Ти вариш невідому мікстуру з грибів — у тумані вона починає світитися блакитним."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Серед руїн знаходиш магічну тканину — вона струмує силою еітра."
+  chance: 0.4
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Ти бачиш тінь шукача, що полює біля берега."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "В густому тумані ти приручаєш дивну істоту, яка веде тебе до двергів."
+  chance: 0.4
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Серед вулканічного попелу ти створюєш броню з флейметалів, і вона спалахує при кожному русі."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Ти приміряєш плащ, що не горить навіть у полум’ї — справжня зброя проти вогню."
+  chance: 0.4
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Ти виконуєш вправи з мечем, який залишає за собою вогняний слід."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Уві сні ти кидаєш спис, що іскрить, ніби блискавка в попелі."
+  chance: 0.4
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "У жерлі вулкана ти створюєш магічний амулет із червоного кристалу."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Ти вариш зілля, яке дозволяє ходити по лаві, не відчуваючи жару."
+  chance: 0.4
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Ти зустрічаєш гігантську тінь, яка реве так, що навіть земля дрижить."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Серед попелу ти збираєш кістки невідомої істоти — вони світяться в темряві."
+  chance: 0.4
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Ти бачиш кабана, що риється в траві, і його рев здається тобі закликом до пригод."
+  chance: 0.5
+  forbiddenKeys: defeated_eikthyr
+- text: "Олені спокійно пасуться на світанку, їх роги мерехтять у росі."
+  chance: 0.5
+  forbiddenKeys: defeated_eikthyr
+- text: "Грейлінг вистрибує з кущів — світло його очей тривожить твій спокій."
+  chance: 0.5
+  forbiddenKeys: defeated_eikthyr
+- text: "Ти полюєш на нікса біля води, його слід зникає у хвилях."
+  chance: 0.5
+  forbiddenKeys: defeated_eikthyr
+- text: "Уві сні ти стоїш перед Ейктюром, його роги сяють блискавками."
+  chance: 1
+  forbiddenKeys: defeated_eikthyr
+- text: "Олень мчить крізь густий ліс, і від його стрибків тріщить гілля."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Грейдворф викидає камінь із тіні, його очі світилися зеленим світлом."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Дикі грейдворфи ревуть на галявині, їх руки здіймаються до неба."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Грейдворф-шаман творить дивний ритуал, навколо нього туман і шепіт."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Ти бачиш, як троль руйнує дерева, земля здригається від його кроків."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Привид ширяє між деревами, його погляд холодний, як ніч."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Скелет піднімається з-під землі — його кістки риплять у тиші."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Ти знаходиш гнилі останки, і їх запах затьмарює повітря."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Бренна намагається сховатися у гущавині, але її очі стежать за тобою."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Ти стоїш перед Древнім, його коріння проростає навіть у сні."
+  chance: 1
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Скелет стоїть на межі болота, його обличчя порожнє, як ніч."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Сгустень кружляє у багні, лишаючи за собою туманний слід."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Слизняк повзе по корчах, його тіло блищить в місячному світлі."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Драугр виходить з води — його очі палають синім полум’ям."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Елітний драугр виблискує в обладунках, навколо нього плавають тіні."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "П’явка звивається у воді — її укус відчуваєш навіть крізь сон."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Мерзота реве в тумані, її кроки глухі, як грім."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Суртлінг розбризкує вогняні іскри, його голос тріщить, як жар."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Привид ховається в тумані боліт — від його подиху холоне душа."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Квастур здіймається з багна, його очі спостерігають за кожним рухом."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Ти стоїш перед Масою кісток — навколо тебе кістяна буря."
+  chance: 1
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Вовк крадеться снігом, його шерсть блищить на сонці."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Дракон пролітає над вершинами, його крила затуляють місяць."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Кам’яний голем рухає скелі — його рухи важкі й невблаганні."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Фенрінг з’являється у ночі, його погляд лякає навіть хоробрих."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Ульв біжить по схилу, залишаючи слід на снігу."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Культист малює символи на льоду, і вітри завивають навколо нього."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Летюча миша пролітає біля вуха, її крила ледь чутні у нічній тиші."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Гейдрафа кружляє у хуртовині, її шипіння звучить, як пісня льоду."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Ти стоїш перед Матір’ю — її крила затуляють сонце, сніг кришиться під ногами."
+  chance: 1
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Смертожал пролітає повз, його дзижчання ріже тишу."
+  chance: 0.5
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Фулінги зграєю нападає зі степу — їх очі палкі, як сонце."
+  chance: 0.5
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Фулінг-берсерк несе свій тотем, його рев чути здалеку."
+  chance: 0.5
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Фулінг-шаман креслить вогняне коло, і над полем підіймається дим."
+  chance: 0.5
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Поросль вилазить із землі, його коріння обплітає все навколо."
+  chance: 0.5
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Ти стоїш перед Зілом і Танґром — їхні очі спалахують магією."
+  chance: 0.5
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Ти стоїш перед Яглутом — його вогонь поглинає все на своєму шляху."
+  chance: 1
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Шукач повзе у тумані — його щелепи клацають у нічній тиші."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Виводок шукача збирається навколо гнізда, кожен крок — загроза."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Шукач-солдат крушить каміння, його панцир виблискує у млі."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Ґяль стрибає у мороці, її тіло покрите слизом."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Кліщ присмоктується до каміння, його лапи гострі, як бритва."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Дверг-розбійник ховається між руїнами — його тінь кличе до бою."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Дверг-маг творить невидимий бар'єр, крізь який не пробитися навіть світлу."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Ти стоїш перед Королевою — її голос лунає у кожній краплі туману."
+  chance: 1
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Попелястий ворон кружляє над руїнами, його крик провіщає біду."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Падша валькірія пролітає у попелі, її крила мерехтять червоним світлом."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Обвуглений чорнокнижник вимовляє закляття, його тінь стає ще довшою."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Обвуглений воїн кує зброю в полум’ї, його броня чорна, як ніч."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Обвуглений лучник натягує палаючий лук — стріла залишає за собою слід жару."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Морген піднімає свої клешні до неба, іскри летять у всі боки."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Костепасть прокидається, її тінь простягається на сотні кроків."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Пеплозавр повільно йде по попелу, його спина світиться від жару."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Стервулканник шукає падаль серед руїн, його очі світяться помаранчевим."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Лавовий сгустень рухається крізь розпечене каміння, залишаючи за собою вогняну стежку."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Ти стоїш перед Владикою Рето, і його погляд палить навіть крізь сон."
+  chance: 1
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Ти стоїш перед Прародителем — його тінь накриває весь горизонт."
+  chance: 1
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Левіафан піднімається з глибин, його спина нагадує острів."
+  chance: 0.5
+  requiredKeys: defeated_serpent
+- text: "Змій рухається у темній воді, його хвіст здіймає хвилі."
+  chance: 0.5
+  requiredKeys: defeated_serpent
+- text: "Ти зустрічаєш Хільдір на ярмарку серед лугів — вона пропонує таємничі товари, яких ти ще не бачив."
+  chance: 0.6
+  forbiddenKeys: defeated_moder
+- text: "Уві сні Хільдір запрошує тебе до шатра, де світяться вогники, і ти чуєш сміх за завісою."
+  chance: 0.5
+  forbiddenKeys: defeated_moder
+- text: "Серед густого лісу ти знаходиш Хальдора — його вогонь яскраво горить у нічній тиші."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_queen
+- text: "Уві сні Хальдор торгується з тобою за янтар, і його борода тріпоче на вітрі."
+  chance: 0.4
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_queen
+- text: "Ти бачиш, як Хальдор годує свого друга, а навколо — пахощі диму й пряних трав."
+  chance: 0.6
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_queen
+- text: "Ти стоїш перед Болотною відьмою, її голос луною відбивається у тумані."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+- text: "Уві сні відьма простягає тобі флакон зілля, і від нього йде прохолодний туман."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+- text: "Ти бачиш, як Болотна відьма варить свої зілля серед мертвої води, і її очі світяться зеленим."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+- text: "Валькірія несе тебе крізь хмари, і вітер гуде у вухах."
+  chance: 0.4
+- text: "Вона спускається з неба, і її крила виблискують золотом."
+  chance: 0.5
+- text: "Валькірія торкається твого плеча — від дотику ти відчуваєш силу."
+  chance: 0.4
+- text: "Ти летиш разом з Валькірією над лісами і річками."
+  chance: 0.6
+- text: "Уві сні вона шепоче слова відваги, і серце твоє наповнюється спокоєм."
+  chance: 0.4
+- text: "Ти бачиш, як Валькірія зустрічає загиблих воїнів, і веде їх у чертоги."
+  chance: 0.5
+- text: "Її тінь падає на землю, коли ти ступаєш у новий біом."
+  chance: 0.5
+- text: "Чорний ворон Хугін сідає на паркан і каркає про небезпеку."
+  chance: 0.4
+- text: "Хугін кружляє навколо, коли ти знаходиш старі руїни."
+  chance: 0.5
+- text: "Уві сні Хугін підказує тобі шлях крізь бурю."
+  chance: 0.4
+- text: "Ти бачиш Хугіна, що несе щось у дзьобі — це виглядає як ключ."
+  chance: 0.6
+- text: "Ворон супроводжує тебе під час полювання, каркаючи у вечірньому тумані."
+  chance: 0.5
+- text: "Мунін прилітає з півночі — його очі бачать навіть крізь сніг."
+  chance: 0.5
+- text: "Він сідає на гілку поруч і тихо говорить про стародавні таємниці."
+  chance: 0.5
+- text: "Уві сні Мунін показує тобі карту забутих земель."
+  chance: 0.5
+- text: "Його крила закривають місяць, і ти відчуваєш мудрість у кожному пориві вітру."
+  chance: 0.4
+- text: "Мунін підказує, як розгадати руни на камені, що світиться у сутінках."
+  chance: 0.4
+- text: "Хальштейн супроводжує тебе у лісі — його рохкання вселяє спокій."
+  chance: 0.5
+  forbiddenKeys: defeated_queen
+- text: "Ти годуєш Хальштейна ягодами, і його очі блищать вдячністю."
+  chance: 0.5
+  forbiddenKeys: defeated_queen
+- text: "Бикоящер Черничка бігає по лузі — її вуха стирчать з трави, немов маленькі прапори."
+  chance: 0.5
+  forbiddenKeys: defeated_queen
+- text: "Бикоящер Черничка розгрібає листя у пошуках ласощів, а ти спостерігаєш за нею у затінку."
+  chance: 0.5
+  forbiddenKeys: defeated_queen
+- text: "Бикоящер Малинка ховається серед кущів — її рохкання чути на всю округу."
+  chance: 0.5
+  forbiddenKeys: defeated_queen
+- text: "Бикоящер Малинка весело стрибає навколо багаття, не боїться навіть нічної темряви."
+  chance: 0.5
+  forbiddenKeys: defeated_queen
+- text: "Один стоїть на пагорбі, його плащ майорить на вітрі, але ти бачиш лише тінь."
+  chance: 0.4
+- text: "Ти відчуваєш погляд Одина, коли проходиш через темний ліс."
+  chance: 0.5
+- text: "Уві сні Один говорить із тобою про долю та честь."
+  chance: 0.5
+- text: "Ти бачиш Одина, що тримає спис, його око сяє вогнем мудрості."
+  chance: 0.5
+- text: "Один крокує слідом за тобою, але не залишає слідів на землі."
+  chance: 0.5
+- text: "Його голос чутно серед бурі — він кличе не відступати."
+  chance: 0.5
+- text: "Один зникає у ранковому тумані, залишаючи по собі легкий слід віри."
+  chance: 0.5
+- text: vvalheim.exe
+  chance: 0.2
+- text: vaaaalheim.exe
+  chance: 0.2
+- text: v@lh3im.exe
+  chance: 0.2
+- text: valh__eim.exe
+  chance: 0.2
+- text: v?alheim.exe
+  chance: 0.2
+- text: valheeeeeim.exe
+  chance: 0.2
+- text: valheim.exe
+  chance: 0.2
+- text: valheim.exe.exe
+  chance: 0.2
+- text: vvvvalheim.exe
+  chance: 0.2
+- text: vaaaalheiiiiim.exe
+  chance: 0.2
+- text: v@@@lh333im.exe
+  chance: 0.2
+- text: v___alh__eim.exe
+  chance: 0.2
+- text: ?v?al?h?eim?.exe?
+  chance: 0.2
+- text: exe.valheim
+  chance: 0.2
+- text: exe.exe.valheim
+  chance: 0.2
+- text: "Ти бачиш, як твоє тіло лежить серед квітів, а над тобою кружляють ворони."
+  chance: 0.4
+  forbiddenKeys: defeated_eikthyr
+- text: "Тіні забирають тебе з поля бою — ти відчуваєш полегшення і спокій."
+  chance: 0.5
+  forbiddenKeys: defeated_eikthyr
+- text: "Уві сні твоя душа летить до хмар, а земля залишається далеко внизу."
+  chance: 0.4
+  forbiddenKeys: defeated_eikthyr
+- text: "Ти ідеш через квітучі луги, і вітер приносить аромати далеких місць."
+  chance: 0.5
+  forbiddenKeys: defeated_eikthyr
+- text: "Сонячний шлях веде тебе до невідомого лісу, і кожен крок легкий."
+  chance: 0.4
+  forbiddenKeys: defeated_eikthyr
+- text: "Уві сні ти знаходиш маленьку стежку, що губиться за горизонтом."
+  chance: 0.4
+  forbiddenKeys: defeated_eikthyr
+- text: "Над тобою з'являється веселка після дощу, і краплі світяться на сонці."
+  chance: 0.5
+  forbiddenKeys: defeated_eikthyr
+- text: "Нічне небо вкрите зорями, і одна падає прямо перед тобою."
+  chance: 0.4
+  forbiddenKeys: defeated_eikthyr
+- text: "Грім розбудив тебе у сні, але замість страху ти відчуваєш радість."
+  chance: 0.4
+  forbiddenKeys: defeated_eikthyr
+- text: "Ти вперше знаходиш метал у землі, і серце співає від радості відкриття."
+  chance: 0.5
+  forbiddenKeys: defeated_eikthyr
+- text: "Побудова першого дому у лугах здається тобі святом."
+  chance: 0.5
+  forbiddenKeys: defeated_eikthyr
+- text: "Ти нарешті приручаєш дикого кабана — він вірно біжить поряд."
+  chance: 0.5
+  forbiddenKeys: defeated_eikthyr
+- text: "Ти дрімаєш під деревом, а сонячний зайчик грається на твоєму обличчі."
+  chance: 0.5
+  forbiddenKeys: defeated_eikthyr
+- text: "Уві сні ти збираєш малину, і жодна пчела не жалить тебе."
+  chance: 0.4
+  forbiddenKeys: defeated_eikthyr
+- text: "Ти плетеш вінок із польових квітів для свого житла."
+  chance: 0.5
+  forbiddenKeys: defeated_eikthyr
+- text: "Ти бачиш море і човен, який забирає тебе у невідомі землі."
+  chance: 0.5
+  forbiddenKeys: defeated_eikthyr
+- text: "Уві сні до тебе приходить посланець з дивною вісткою — час мандрівки настає."
+  chance: 0.4
+  forbiddenKeys: defeated_eikthyr
+- text: "Ти прощаєшся з рідними, залишаючи батьківщину в далечині."
+  chance: 0.4
+  forbiddenKeys: defeated_eikthyr
+- text: "Ти біжиш через туман, але ніби не можеш втекти від невидимого переслідувача."
+  chance: 0.5
+  forbiddenKeys: defeated_eikthyr
+- text: "Темрява падає на луг, і ти раптом не впізнаєш жодного куточка."
+  chance: 0.4
+  forbiddenKeys: defeated_eikthyr
+- text: "Тіні дерев простягаються до тебе, і щось шепоче твоє ім’я."
+  chance: 0.4
+  forbiddenKeys: defeated_eikthyr
+- text: "Один з'являється у сні й радить не боятися майбутнього."
+  chance: 0.5
+  forbiddenKeys: defeated_eikthyr
+- text: "Валькірія шепоче: Завжди шукай дорогу додому."
+  chance: 0.4
+  forbiddenKeys: defeated_eikthyr
+- text: "Хугін приносить тобі гілку — це символ нового початку."
+  chance: 0.4
+  forbiddenKeys: defeated_eikthyr
+- text: "Твій спис ламається під час полювання, але ти смієшся й робиш новий."
+  chance: 0.4
+  forbiddenKeys: defeated_eikthyr
+- text: "Уві сні лезо твого меча тріскає, і ти відчуваєш легку тривогу."
+  chance: 0.5
+  forbiddenKeys: defeated_eikthyr
+- text: "Ти намагаєшся відремонтувати сокиру, але вона розсипається в руках."
+  chance: 0.5
+  forbiddenKeys: defeated_eikthyr
+- text: "Ти дивишся на свої руки й розумієш, що хтось інший ними керує."
+  chance: 0.4
+  forbiddenKeys: defeated_eikthyr
+- text: "Уві сні ти чуєш голос: Збережи гру перед пригодою."
+  chance: 0.5
+  forbiddenKeys: defeated_eikthyr
+- text: "Ти бачиш велику мапу світу і розумієш, що за тобою хтось спостерігає."
+  chance: 0.5
+  forbiddenKeys: defeated_eikthyr
+- text: "Ти падаєш у битві з грейдворфами — лісове листя огортає тебе."
+  chance: 0.4
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Тінь троля накриває тебе, і твоя душа летить поміж дерев."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Скелети виводять тебе з темряви лісу до світла Вальгалли."
+  chance: 0.4
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Ти мандруєш глибоко в ліс, а кожен крок все далі від дому."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Уві сні дорога приводить тебе до покинутої гробниці."
+  chance: 0.4
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Ти йдеш слідом за зорями, що мерехтять крізь гілки."
+  chance: 0.4
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Молочний туман оповив ліс, і дерева стали примарними."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Блискавка розколює старий дуб, але ти не відчуваєш страху."
+  chance: 0.4
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Злива заливає всі стежки, і тільки сова веде тебе далі."
+  chance: 0.4
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Ти добуваєш першу мідь — і весь ліс наче затихає."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Уві сні ти відчиняєш стародавній склеп — пил здіймається стовпом."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Ти збираєш гриби серед папороті, і відчуваєш себе дитиною."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Уві сні ти спостерігаєш, як зайці ховаються від дощу."
+  chance: 0.4
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Ти підкидаєш жолудь у вогонь і рахуєш іскри."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Ти бачиш велике місто, яке залишив, і відчуваєш ностальгію."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Твоя стара сокира блищить у ранковому світлі."
+  chance: 0.4
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Уві сні ти біжиш полем у дитинстві, а за спиною ліс."
+  chance: 0.4
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Ти тікаєш від троля, але земля ніби зникає під ногами."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Гілки дерев перетворюються на руки, які тягнуться до тебе."
+  chance: 0.4
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Очі грейдворфів світяться у темряві — ти відчуваєш їхній подих."
+  chance: 0.4
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Один наказує тобі не входити у ліс без світла."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Мунін радить шукати скарби під старими дубами."
+  chance: 0.4
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Валькірія шепоче: Там, де мох, знайдеш свій шлях."
+  chance: 0.4
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Сокира обламується об корінь, а ліс сміється над твоєю невдачею."
+  chance: 0.4
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Мідний меч розвалюється, залишаючи тебе беззбройним перед тролем."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Ти намагаєшся відремонтувати щит, але цвяхи вислизають із рук."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Ти бачиш курсор миші, який рухає твій меч."
+  chance: 0.4
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Уві сні твоя рука зупиняється, поки хтось читає меню."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Ти чуєш голос: Час зробити збереження перед битвою."
+  chance: 0.5
+  requiredKeys: defeated_eikthyr
+  forbiddenKeys: defeated_gdking
+- text: "Уві сні ти тоне в багнюці, а холодна вода затягує у темряву."
+  chance: 0.4
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Ти бачиш свій відбиток у калюжі, але він повільно зникає."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Коли ти падаєш у болоті, привид тягне тебе в безодню."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Ти пробираєшся серед туману, шукаючи стежку поміж мертвих дерев."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Болота здаються нескінченними, але ти знаходиш острівець спокою."
+  chance: 0.4
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Уві сні ти пливеш на човні, і кожен веслування здається вічністю."
+  chance: 0.4
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Холодний туман оповиває все навколо, залишаючи лише силуети дерев."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Ти вперше добуваєш залізо, розбиваючи стару труну в склепі."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Ти будуєш міст через болото, і кожен крок наповнює гордістю."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Уві сні ти зустрічаєш відьму, яка дає дивне зілля."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Ти знаходиш сухе місце і просто спиш, не думаючи про небезпеку."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Ти згадуєш дитинство біля річки, коли ще не знав страху перед болотом."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Мати кличе тебе до вечері, і запах свіжого хліба повертає спокій."
+  chance: 0.4
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Уві сні ти йдеш додому старою стежкою, якої вже немає."
+  chance: 0.4
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Драугри піднімаються навколо тебе, і ти не можеш рушити з місця."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Уві сні ти тікаєш від велетенської п’явки, що повзе за тобою."
+  chance: 0.4
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Туман перетворюється на руки, які хапають тебе за ноги."
+  chance: 0.4
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Один шепоче: Справжнє багатство приховане під болотом."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Валькірія попереджає: Остерігайся того, що плазує у воді."
+  chance: 0.4
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Мунін радить знайти сухе дерево для безпечної ночі."
+  chance: 0.4
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Меч іржавіє просто в руках, і ти відчуваєш розчарування."
+  chance: 0.4
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Щит тріскає під натиском слизняка, і ти лишаєшся без захисту."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Ти намагаєшся заточити сокиру, але лезо розсипається на порох."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Ти бачиш, як хтось відкриває твій інвентар, і не можеш опиратися."
+  chance: 0.4
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Уві сні ти усвідомлюєш, що тебе пересувають по карті."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Ти чуєш голос: Збережи ресурси для зілля."
+  chance: 0.5
+  requiredKeys: defeated_gdking
+  forbiddenKeys: defeated_bonemass
+- text: "Ти падаєш у прірву, а сніг огортає твоє тіло холодом."
+  chance: 0.4
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Вовки женуть тебе до краю скелі, і ти більше не відчуваєш страху."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Льодовий вітер стирає твій слід, а ти зникаєш у хуртовині."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Ти піднімаєшся все вище, і повітря стає тоншим і чистішим."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Сон веде тебе до крижаної печери, де спочиває давня таємниця."
+  chance: 0.4
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Ти йдеш слідами дракона по снігу, відчуваючи подих пригоди."
+  chance: 0.4
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Снігова буря накриває гору, і ти бачиш лиш білу стіну перед собою."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Уві сні блискавка вдаряє в вершину, розкидаючи іскри навкруги."
+  chance: 0.4
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Зоряне небо в горах виглядає ніби килим із самоцвітів."
+  chance: 0.4
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Ти здобуваєш перший срібний самородок і відчуваєш себе переможцем."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Ти приручаєш вовка, і він стає твоїм супутником у заметах."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Уві сні ти вперше підкорюєш вершину і бачиш весь світ під собою."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Ти грієшся біля багаття, поки за вікном лютує завірюха."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Вовк кладе голову тобі на коліна, і ти відчуваєш тепло."
+  chance: 0.4
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Ти спостерігаєш, як сніжинки повільно падають на рукавицю."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Ти бачиш рідні гори далеко за морем, вони вкриті снігом."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Уві сні ти катаєшся на санчатах із братом у дитинстві."
+  chance: 0.4
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Ти згадуєш, як навчився розпалювати багаття у хуртовині."
+  chance: 0.4
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Фенрінг крадеться за тобою, і твоя тінь танцює на снігу."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Уві сні ти втрачаєш дорогу під час бурі, і немає орієнтирів."
+  chance: 0.4
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Ти падаєш у крижану прірву, і з неї нема виходу."
+  chance: 0.4
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Один радить шукати срібло там, де кришталь блищить під снігом."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Валькірія нагадує: Пильнуй слід вовка, він веде до безпеки."
+  chance: 0.4
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Мунін шепоче: Ніколи не ігноруй крижані печери."
+  chance: 0.4
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Твій срібний меч ламається об крижаний камінь."
+  chance: 0.4
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Лук тріскає від морозу, і ти залишаєшся беззахисним."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Сокира випадає з рук, і тоне в снігу назавжди."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Ти бачиш у небі надпис: Ваш персонаж замерзає."
+  chance: 0.4
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Уві сні курсор миші тремтить від холоду."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Ти чуєш фразу: Відкрий карту, щоб знайти схованку."
+  chance: 0.5
+  requiredKeys: defeated_bonemass
+  forbiddenKeys: defeated_moder
+- text: "Смертожал жалить тебе у сні, і ти відчуваєш пекучий біль навіть наяву."
+  chance: 0.4
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Ти падаєш у високу траву, і вона закриває тебе від сонця назавжди."
+  chance: 0.5
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Раптовий напад фулінга обриває твій шлях, і ти стаєш частиною рівнин."
+  chance: 0.5
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Ти перетинаєш золоті рівнини, сонце сліпить очі, але попереду — пригоди."
+  chance: 0.5
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Уві сні ти знаходиш величезний курган серед степу."
+  chance: 0.4
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Ти переслідуєш табун бикоящерів, і відчуваєш свободу у кожному стрибку."
+  chance: 0.4
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Блискавка розколює дерево на рівнині, і ти прокидаєшся від гуркоту."
+  chance: 0.5
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Жара згинає траву, і ти шукаєш тінь під старим каменем."
+  chance: 0.4
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Сонце не заходить за обрій, і ніч ніяк не настає."
+  chance: 0.4
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Ти вперше вбиваєш бикоящера — це наче перемога над самим собою."
+  chance: 0.5
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Уві сні ти добуваєш чорний метал, і він здається теплим у долонях."
+  chance: 0.5
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Ти приручаєш бикоящерів і катаєшся верхи у сні."
+  chance: 0.5
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Ти спостерігаєш, як фулінги грають у піжмурки серед пагорбів."
+  chance: 0.5
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Бикоящер облизує твою руку, і ти смієшся від несподіванки."
+  chance: 0.4
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Уві сні ти знаходиш затишний гай і відпочиваєш у тіні."
+  chance: 0.5
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Ти згадуєш, як гнався за конем у дитинстві по великому полю."
+  chance: 0.5
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Уві сні твоя сім’я святкує врожай — всі щасливі й ситі."
+  chance: 0.4
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Ти бачиш стару хату серед степу, і відчуваєш ностальгію."
+  chance: 0.4
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Ти тікаєш від смертожалів, які всюди навколо."
+  chance: 0.4
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Полум’я пожирає табір, і ти прокидаєшся в холодному поту."
+  chance: 0.4
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Одін шепоче: Чорний метал відкриває шлях до сили."
+  chance: 0.5
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Валькірія каже: Довіряй своїм бикоящерам, вони вірні."
+  chance: 0.4
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Мунін радить уникати великих зграй фулінгів."
+  chance: 0.4
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Лезо меча розплавляється на сонці й тріскається."
+  chance: 0.4
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Щит розбивається під ударом смертожалу."
+  chance: 0.5
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Ти намагаєшся натягнути лук, але тетива рветься."
+  chance: 0.5
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Ти бачиш панель інвентаря прямо перед очима."
+  chance: 0.4
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Голос каже: Ви досі не прокачали вміння їзди на бикоящері."
+  chance: 0.5
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Ти чуєш, як хтось говорить: Збережи гру перед атакою Яглута."
+  chance: 0.5
+  requiredKeys: defeated_moder
+  forbiddenKeys: defeated_goblinking
+- text: "Туман повністю поглинає тебе, і ти зникаєш без сліду."
+  chance: 0.4
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Гострі щелепи шукача закриваються, і ти вже не відчуваєш болю."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Дверг-маг зникає в імлі, залишаючи тебе сам на сам із порожнечею."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Ти блукаєш у вічному тумані, але кожен крок — це нове відкриття."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Сон веде тебе крізь руїни древніх двергів."
+  chance: 0.4
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Уві сні ти знаходиш міст до острова, якого немає на карті."
+  chance: 0.4
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Фіолетовий туман густішає, і світло ліхтаря майже не допомагає."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Світлячки збираються у дивний візерунок над головою."
+  chance: 0.4
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Земля під ногами стає м’якою, як мох."
+  chance: 0.4
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Ти відкриваєш новий рецепт — і весь світ навколо раптом змінюється."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Дверг продає тобі унікальний амулет, і ти відчуваєш його силу."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Уві сні ти вперше перемагаєш шукача і відчуваєш себе героєм."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Ти спостерігаєш, як зайці ховаються у тумані."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Дверг-кухар готує для тебе найкращий омлет у житті."
+  chance: 0.4
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Ти відпочиваєш на даху древньої вежі, слухаючи вітер."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Ти згадуєш казку про золотий туман, яку слухав у дитинстві."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Уві сні твоя родина святкує повернення з далекої мандрівки."
+  chance: 0.4
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Ти згадуєш перший подарунок, отриманий від мами."
+  chance: 0.4
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Величезний шукач наближається, і ти не можеш закричати."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Ти падаєш з великої вежі у густий туман."
+  chance: 0.4
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Кожен крок віддається луною — ти не один у цих землях."
+  chance: 0.4
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Одін попереджає: Тримайся світла — тінь тут надто густа."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Валькірія каже: Завжди знайди шлях додому через туман."
+  chance: 0.4
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Мунін підказує: Дверги — твої найкращі союзники."
+  chance: 0.4
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Меч ламається об панцир шукача, і ти відчуваєш безпорадність."
+  chance: 0.4
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Арбалет заклинює саме тоді, коли найбільше потрібен."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Щит вислизає з рук у вогкому тумані."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Ти бачиш повідомлення: Підключення до сервера втрачено."
+  chance: 0.4
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Уві сні курсор намагається намалювати карту, але все заливає туман."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Ти чуєш голос: Цей біом ще не оптимізований."
+  chance: 0.5
+  requiredKeys: defeated_goblinking
+  forbiddenKeys: defeated_queen
+- text: "Попіл засипає тебе, і все навколо стає тихо."
+  chance: 0.4
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Обвуглений воїн завдає останнього удару, і ти згораєш без болю."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Ворон виносить твою душу з палаючої долини."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Ти блукаєш серед лави, шукаючи новий шлях серед розломів."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Обпалені дерева супроводжують тебе у кожній подорожі цими землями."
+  chance: 0.4
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Ти знаходиш уламки стародавньої фортеці, яку вогонь не пожалів."
+  chance: 0.4
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Виверження вулкану кидає іскри у небо."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Попіл падає, наче сніг, вкриваючи все навколо."
+  chance: 0.4
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Жар від каміння змушує повітря тремтіти."
+  chance: 0.4
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Ти добуваєш перший шматок фламеталу — він світиться жаром."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Ти приручаєш моргена — і не віриш, що це можливо."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Уві сні ти долаєш свого першого обвугленого чернокнижника."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Ворон сідає на плече і співає дивну пісню про попіл."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Ти знаходиш прохолодний камінь і відпочиваєш у його тіні."
+  chance: 0.4
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Уві сні ти малюєш руни на обвугленій стіні."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Ти згадуєш дім і відчуваєш запах печеної картоплі серед попелу."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Мати шепоче тобі казку про жар-птицю."
+  chance: 0.4
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Ти бачиш, як діти граються на попелищі — і це не лякає тебе."
+  chance: 0.4
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Ти тікаєш від вогню, який переслідує тебе навіть у сні."
+  chance: 0.4
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Крики вітру серед попелу не дають заснути."
+  chance: 0.4
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Один говорить: Не бійся вогню — він очищає."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Валькірія нагадує: Життя знайдеш навіть серед попелу."
+  chance: 0.4
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Мунін радить не наближатися до лави у сутінках."
+  chance: 0.4
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Вогонь розплавляє твій меч у руках."
+  chance: 0.4
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Обвуглений щит розсипається, як тільки ти його підіймаєш."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Спис тріскає від жару й ламається на дві частини."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Ти бачиш, як хтось змінює графічні налаштування прямо перед тобою."
+  chance: 0.4
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Уві сні фреймрейт падає, і ти не можеш рухатися."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Ти чуєш: Цей біом ще у розробці."
+  chance: 0.5
+  requiredKeys: defeated_queen
+  forbiddenKeys: defeated_fader
+- text: "Тебе затягує хвиля, і світ навколо стає безмежним і холодним."
+  chance: 0.4
+  requiredKeys: defeated_serpent
+- text: "Змій проковтує човен, і ти відчуваєш тільки солоний смак моря."
+  chance: 0.5
+  requiredKeys: defeated_serpent
+- text: "Ти падаєш у чорну безодню, і дно стає твоїм останнім прихистком."
+  chance: 0.5
+  requiredKeys: defeated_serpent
+- text: "Ти керуєш драккаром крізь бурхливі хвилі у невідоме."
+  chance: 0.5
+  requiredKeys: defeated_serpent
+- text: "Тобі сниться острів, який постійно тікає з горизонту."
+  chance: 0.4
+  requiredKeys: defeated_serpent
+- text: "Морські вітри наповнюють вітрила, і ти відчуваєш себе вільним."
+  chance: 0.4
+  requiredKeys: defeated_serpent
+- text: "Дощ заливає палубу, а блискавка вдаряє у воду поруч."
+  chance: 0.5
+  requiredKeys: defeated_serpent
+- text: "Місячна доріжка веде човен просто у млу."
+  chance: 0.4
+  requiredKeys: defeated_serpent
+- text: "Вода світиться дивними відблисками, і ти намагаєшся їх дістати."
+  chance: 0.4
+  requiredKeys: defeated_serpent
+- text: "Ти вперше підбираєш скарб на затонулому острові."
+  chance: 0.5
+  requiredKeys: defeated_serpent
+- text: "Уві сні ти долаєш змія разом із друзями."
+  chance: 0.5
+  requiredKeys: defeated_serpent
+- text: "Ти ловиш величезну рибу, якої ще не бачив."
+  chance: 0.5
+  requiredKeys: defeated_serpent
+- text: "Ти сидиш на носі човна, милуєшся світанком."
+  chance: 0.5
+  requiredKeys: defeated_serpent
+- text: "Друзі жартують, кидаючи рибу одне одному."
+  chance: 0.4
+  requiredKeys: defeated_serpent
+- text: "Уві сні ти спиш під шум прибою на борту корабля."
+  chance: 0.5
+  requiredKeys: defeated_serpent
+- text: "Ти згадуєш, як уперше побачив море в дитинстві."
+  chance: 0.5
+  requiredKeys: defeated_serpent
+- text: "Уві сні ти плаваєш у невеликій човняці разом із батьком."
+  chance: 0.4
+  requiredKeys: defeated_serpent
+- text: "Ти ловиш рибу у тиші і спокої, як колись давно."
+  chance: 0.4
+  requiredKeys: defeated_serpent
+- text: "Безодня затягує човен, і ти не бачиш дна."
+  chance: 0.5
+  requiredKeys: defeated_serpent
+- text: "Величезний левіафан піднімається з глибин прямо під тобою."
+  chance: 0.4
+  requiredKeys: defeated_serpent
+- text: "Ти залишаєшся наодинці посеред океану."
+  chance: 0.4
+  requiredKeys: defeated_serpent
+- text: "Один шепоче: Вітер завжди приведе тебе додому."
+  chance: 0.5
+  requiredKeys: defeated_serpent
+- text: "Валькірія каже: Довіряй течії, вона знає свій шлях."
+  chance: 0.4
+  requiredKeys: defeated_serpent
+- text: "Мунін радить: Ніколи не ігноруй маяк у тумані."
+  chance: 0.4
+  requiredKeys: defeated_serpent
+- text: "Весло ламається посеред шторму, і ти не можеш керувати човном."
+  chance: 0.4
+  requiredKeys: defeated_serpent
+- text: "Гарпун вислизає з рук під час бою зі змієм."
+  chance: 0.5
+  requiredKeys: defeated_serpent
+- text: "Кріплення щита тріскає і падає за борт."
+  chance: 0.5
+  requiredKeys: defeated_serpent
+- text: "Ти бачиш, як хтось змінює кут огляду прямо над твоєю головою."
+  chance: 0.4
+  requiredKeys: defeated_serpent
+- text: "Уві сні хтось натискає ESC, і ти зависаєш у часі."
+  chance: 0.5
+  requiredKeys: defeated_serpent
+- text: "Ти чуєш: Збережи гру перед виходом у море."
+  chance: 0.5
+  requiredKeys: defeated_serpent

@@ -1,0 +1,107 @@
+#################################################
+# Archer Recipe Manipulation Config
+#################################################
+
+pieceModifications:
+  FletcherTable_TW:
+    action: Modify
+    prefab: FletcherTable_TW
+    requirements:
+    - prefab: Feathers
+      amount: 12
+    - prefab: Wood
+      amount: 20
+    - prefab: Flint
+      amount: 12
+    - prefab: LeatherScraps
+      amount: 6
+    - prefab: DeerHide
+      amount: 4
+    requiredToPlaceCraftingStation: piece_workbench
+    canBeDeconstructed: true
+    pieceCategory: 9
+    pieceName: $piece_fletchertable_TW
+    pieceDescription: $piece_fletchertable_description_TW
+    enablePiece: true
+  FletcherTable_ext1_TW:
+    action: Modify
+    prefab: FletcherTable_ext1_TW
+    requirements:
+    - prefab: Bronze
+      amount: 6
+    - prefab: FineWood
+      amount: 12
+    - prefab: RoundLog
+      amount: 8
+    - prefab: BronzeNails
+      amount: 30
+    - prefab: DeerHide
+      amount: 4
+    requiredToPlaceCraftingStation: FletcherTable_TW
+    canBeDeconstructed: true
+    pieceCategory: 9
+    isUpgradeForStation: true
+    pieceName: $piece_fletchertable_ext1_TW
+    pieceDescription: $piece_fletchertable_ext1_description_TW
+    enablePiece: true
+  FletcherTable_ext2_TW:
+    action: Modify
+    prefab: FletcherTable_ext2_TW
+    requirements:
+    - prefab: BronzeNails
+      amount: 30
+    - prefab: RoundLog
+      amount: 12
+    - prefab: TrollHide
+      amount: 15
+    - prefab: TrollBone_TW
+      amount: 3
+    requiredToPlaceCraftingStation: FletcherTable_TW
+    canBeDeconstructed: true
+    pieceCategory: 9
+    isUpgradeForStation: true
+    pieceName: $piece_fletchertable_ext2_TW
+    pieceDescription: $piece_fletchertable_ext2_description_TW
+    enablePiece: true
+  FletcherTable_ext3_TW:
+    action: Modify
+    prefab: FletcherTable_ext3_TW
+    requirements:
+    - prefab: Iron
+      amount: 12
+    - prefab: ElderBark
+      amount: 12
+    - prefab: RoundLog
+      amount: 24
+    - prefab: IronNails
+      amount: 50
+    - prefab: RottenPelt_TW
+      amount: 8
+    requiredToPlaceCraftingStation: FletcherTable_TW
+    canBeDeconstructed: true
+    pieceCategory: 9
+    isUpgradeForStation: true
+    pieceName: $piece_fletchertable_ext3_TW
+    pieceDescription: $piece_fletchertable_ext3_description_TW
+    enablePiece: true
+  FletcherTable_ext4_TW:
+    action: Modify
+    prefab: FletcherTable_ext4_TW
+    requirements:
+    - prefab: Silver
+      amount: 16
+    - prefab: FineWood
+      amount: 10
+    - prefab: Obsidian
+      amount: 12
+    - prefab: WolfPelt
+      amount: 8
+    - prefab: RottenPelt_TW
+      amount: 12
+    requiredToPlaceCraftingStation: FletcherTable_TW
+    canBeDeconstructed: true
+    pieceCategory: 9
+    isUpgradeForStation: true
+    pieceName: $piece_fletchertable_ext4_TW
+    pieceDescription: $piece_fletchertable_ext4_description_TW
+    enablePiece: true

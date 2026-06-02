@@ -1,0 +1,178 @@
+#################################################
+# Some Recipe Manipulation Config
+#################################################
+
+pieceModifications:
+  rae_Campsite_MiniPit:
+    action: Disable
+    prefab: rae_Campsite_MiniPit
+  piece_turret:
+    action: Modify
+    prefab: piece_turret
+    requirements:
+    - prefab: Bronze
+      amount: 12
+    - prefab: Iron
+      amount: 12
+    - prefab: Silver
+      amount: 6
+    - prefab: Wood
+      amount: 16
+    - prefab: FineWood
+      amount: 16
+    - prefab: RoundLog
+      amount: 16
+    - prefab: MechanicalSpring
+      amount: 3
+    requiredToPlaceCraftingStation: piece_workbench
+    allowedInDungeon: true
+    canBeDeconstructed: true
+    pieceName: $piece_turret
+    pieceDescription: $piece_turret_description
+    enablePiece: true
+  blackforge_ext2_vise:
+    action: Modify
+    prefab: blackforge_ext2_vise
+    requirements:
+    - prefab: Iron
+      amount: 5
+    - prefab: BlackMetal
+      amount: 5
+    - prefab: Copper
+      amount: 8
+    - prefab: MechanicalSpring
+      amount: 2
+    requiredToPlaceCraftingStation: blackforge
+    canBeDeconstructed: true
+    pieceCategory: Crafting
+    isUpgradeForStation: true
+    spaceRequired: 2
+    pieceName: $piece_blackforge_ext2
+    pieceDescription: $piece_blackforge $piece_upgrade
+    enablePiece: true
+  piece_trap_troll:
+    action: Modify
+    prefab: piece_trap_troll
+    requirements:
+    - prefab: BlackMetal
+      amount: 5
+    - prefab: BronzeNails
+      amount: 20
+    - prefab: MechanicalSpring
+      amount: 1
+    requiredToPlaceCraftingStation: piece_workbench
+    allowedInDungeon: true
+    canBeDeconstructed: true
+    pieceName: $piece_trap
+    pieceDescription: ''
+    enablePiece: true
+  forge_ext5:
+    action: Modify
+    prefab: forge_ext5
+    requirements:
+    - prefab: FineWood
+      amount: 25
+    - prefab: Copper
+      amount: 10
+    - prefab: TrophyAsmodeus_TW
+      amount: 1
+    requiredToPlaceCraftingStation: piece_workbench
+    canBeDeconstructed: true
+    pieceCategory: Crafting
+    isUpgradeForStation: true
+    spaceRequired: 2
+    pieceName: $piece_forge_ext5
+    pieceDescription: $piece_forge $piece_upgrade
+    enablePiece: true
+  forge_ext2:
+    action: Modify
+    prefab: forge_ext2
+    requirements:
+    - prefab: Wood
+      amount: 5
+    - prefab: Bronze
+      amount: 2
+    - prefab: TrophyAsmodeus_TW
+      amount: 1
+    requiredToPlaceCraftingStation: piece_workbench
+    canBeDeconstructed: true
+    pieceCategory: Crafting
+    isUpgradeForStation: true
+    spaceRequired: 2
+    pieceName: $piece_forge_ext2
+    pieceDescription: $piece_forge $piece_upgrade
+    enablePiece: true
+  forge_ext4:
+    action: Modify
+    prefab: forge_ext4
+    requirements:
+    - prefab: Iron
+      amount: 20
+    - prefab: Wood
+      amount: 5
+    - prefab: TrophySvalt_TW
+      amount: 1
+    requiredToPlaceCraftingStation: piece_workbench
+    canBeDeconstructed: true
+    pieceCategory: Crafting
+    isUpgradeForStation: true
+    spaceRequired: 2
+    pieceName: $piece_forge_ext4
+    pieceDescription: $piece_forge $piece_upgrade
+    enablePiece: true
+  forge_ext6:
+    action: Modify
+    prefab: forge_ext6
+    requirements:
+    - prefab: Iron
+      amount: 15
+    - prefab: Wood
+      amount: 10
+    - prefab: TrophySvalt_TW
+      amount: 1
+    requiredToPlaceCraftingStation: piece_workbench
+    canBeDeconstructed: true
+    pieceCategory: Crafting
+    isUpgradeForStation: true
+    spaceRequired: 2
+    pieceName: $piece_forge_ext6
+    pieceDescription: $piece_forge $piece_upgrade
+    enablePiece: true
+  forge_ext1:
+    action: Modify
+    prefab: forge_ext1
+    requirements:
+    - prefab: Wood
+      amount: 5
+    - prefab: DeerHide
+      amount: 5
+    - prefab: Chain
+      amount: 4
+    - prefab: TrophyVrykolathas_TW
+      amount: 1
+    requiredToPlaceCraftingStation: piece_workbench
+    canBeDeconstructed: true
+    pieceCategory: Crafting
+    isUpgradeForStation: true
+    spaceRequired: 2
+    pieceName: $piece_forge_ext1
+    pieceDescription: $piece_forge $piece_upgrade
+    enablePiece: true
+  forge_ext3:
+    action: Modify
+    prefab: forge_ext3
+    requirements:
+    - prefab: Wood
+      amount: 25
+    - prefab: SharpeningStone
+      amount: 1
+    - prefab: TrophyVrykolathas_TW
+      amount: 1
+    requiredToPlaceCraftingStation: piece_workbench
+    canBeDeconstructed: true
+    pieceCategory: Crafting
+    isUpgradeForStation: true
+    spaceRequired: 2
+    pieceName: $piece_forge_ext3
+    pieceDescription: $piece_forge $piece_upgrade
+    enablePiece: true

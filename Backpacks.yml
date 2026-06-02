@@ -1,0 +1,364 @@
+"Сумка для зелий":
+  description: "Специализированная сумка среднего размера, созданная для алхимиков. Идеально подходит для переноски зелий, эликсиров, настоек и свитков. Увеличивает их вес на 5%"
+  size: 3x1
+  unique: type
+  appearance:
+    Sleepbag: hidden
+    BackpackStrapTop: hidden
+    BackpackStrapBottom: 2a1a0a    # тёмно-коричневый ремень
+    BackpackBody: 1a1a1a           # почти чёрная кожа
+    BackpackFlap: 2d1f0f           # тёмно-коричневый клапан
+    Pickaxe: hidden
+    RingBottomLeft: 4a7c59         # медно-зелёный
+    MetalclipLeft: hidden
+    MetalclipFrontLeft: 4a7c59     # медно-зелёный
+    MetalclipFrontRight: 4a7c59    # медно-зелёный
+    ToolstrapTop: hidden
+    ToolstrapBottom: hidden
+    PouchFront: 2d1f0f             # тёмно-коричневый
+    PouchLeft: 1a1a1a              # тёмный
+    Knife: hidden
+    Knifesheath: hidden
+    Pot: 4a7c59                    # медно-зелёный котелок
+    Teapot: 4a7c59                 # медно-зелёный
+  crafting:
+    station: Forge
+    level: 1
+    costs:
+      LeatherScraps: 16
+      DeerHide: 16
+      BjornHide: 12
+      RazorbackLeather_TW: 12
+      FoxPelt_TW: 6
+      TrollHide: 6
+      WoolScraps_TW: 4
+      SurtlingCore: 4     
+      TrophyGreydwarfBrute: 2
+  valid items:
+    - HoneyMeadDamage
+    - HoneyMeadSpeed
+    - PotionRejuvenationMedium_TW
+    - PotionRejuvenationMinor_TW
+    - PotionStoneskin_TW
+    - PotionSpeed_TW
+    - PotionSkills_TW
+    - PotionOx_TW
+    - PotionAquatic_TW
+    - PotionSneak_TW
+    - PotionLumberjack_TW
+    - PotionMiner_TW
+    - MeadEitrMountain_TW
+    - MeadEitrBlackForest_TW
+    - ArcaneScroll_DamageBuff_TW
+    - ArcaneScroll_SpeedBuff_TW
+    - ArcaneScroll_JumpBuff_TW
+    - ArcaneScroll_SlowfallBuff_TW
+    - MeadLightningResist_TW
+    - MeadStaminaLingeringMedium_TW
+    - MeadStaminaLingeringMinor_TW
+    - Brew_of_Thunderous_Words
+    - Brew_of_Spiritual_Death
+    - Brew_of_Icy_Touch
+    - Brew_of_Fiery_Revenge
+    - Brew_of_Cunning_Toxicity
+    - Grand_Group_Healing
+    - Medium_Group_Healing
+    - Lesser_Group_Healing
+    - Odins_Weapon_Oil
+    - Lesser_Stamina_Vial
+    - Lesser_Spiritual_Healing_Vial
+    - Flask_of_the_Gods
+    - Flask_of_Magelight
+    - Flask_of_Second_Wind
+    - Grand_Healing_Tide_Potion
+    - Grand_Spiritual_Healing_Potion
+    - Grand_Stamina_Elixir
+    - Grand_Stealth_Elixir
+    - Medium_Healing_Tide_Flask
+    - Medium_Spiritual_Healing_Flask
+    - Medium_Stamina_Flask
+    - Lesser_Healing_Tide_Vial
+    - Flask_of_Elements
+    - Flask_of_Fortification
+    - MeadTrollPheromones
+    - MeadTasty
+    - MeadTamer
+    - MeadSwimmer
+    - MeadStrength
+    - MeadStaminaMinor
+    - MeadStaminaMedium
+    - MeadStaminaLingering
+    - MeadPoisonResist
+    - MeadLightfoot
+    - MeadHealthMinor
+    - MeadHealthMedium
+    - MeadHealthMajor
+    - MeadHealthLingering
+    - MeadHasty
+    - MeadFrostResist
+    - MeadEitrMinor
+    - MeadEitrLingering
+    - MeadBzerker
+    - MeadBugRepellent
+    - BarleyWine
+    - BH_SlowFallElixer
+    - BH_RunnerElixer
+    - BH_MinorStaminaTonic
+    - BH_MinorHealthTonic
+    - BH_MinorEitrTonic
+    - BH_MediumStaminaTonic
+    - BH_MediumHealthTonic
+    - BH_MediumEitrTonic
+    - BH_LearningElixer
+    - BH_LargeStaminaTonic
+    - BH_LargeHealthTonic
+    - BH_LargeEitrTonic
+    - BH_JumpElixer
+    - BH_HeavyLifterElixer
+    - BH_BeserkerElixer
+    - BH_DefenderElixer
+    - BH_GhostElixer
+  upgrade:
+    1:
+      Entrails: 16
+      Bloodbag: 16
+      BjornHide: 12
+      RazorbackLeather_TW: 12
+      TrollHide: 6
+      RottenPelt_TW: 6
+      SurtlingCore: 4
+      Root: 4
+      TrophyDraugrElite: 2
+      size: 4x1
+    2:
+      WolfPelt: 16
+      GrizzlyBearPelt_TW: 16
+      Entrails: 12
+      Bloodbag: 12
+      RottenPelt_TW: 6
+      WolfHairBundle: 6
+      Root: 4
+      Chitin: 4
+      TrophyFenring: 2
+      size: 3x2
+    3:
+      Flax: 16
+      LinenThread: 16
+      WolfPelt: 12
+      GrizzlyBearPelt_TW: 12
+      LoxPelt: 6
+      WolfHairBundle: 6
+      Chitin: 4
+      SerpentScale: 4
+      TrophyGoblinBrute: 2
+      size: 4x2
+  weight factor: 1.05
+  teleport: false  
+  
+"Сумка для перекуса":
+  description: "Компактная и удобная коробка среднего размера, предназначенная для переноски самых разных продуктов для путешественников. Увеличивает их вес на 5%"
+  size: 3x1
+  unique: type
+  appearance:
+    Sleepbag: 8b6914              # соломенно-жёлтый спальник (скатка еды/одеяла)
+    BackpackStrapTop: 5c3d1e      # средне-коричневый ремень
+    BackpackStrapBottom: 5c3d1e   # средне-коричневый
+    BackpackBody: 8b5e2d          # тёплая коричневая кожа
+    BackpackFlap: a0734a          # светлее тела — потёртый клапан
+    Pickaxe: hidden
+    RingBottomLeft: c8922a        # медно-золотистый
+    MetalclipLeft: c8922a         # медно-золотистый
+    MetalclipFrontLeft: c8922a
+    MetalclipFrontRight: c8922a
+    ToolstrapTop: 5c3d1e
+    ToolstrapBottom: hidden
+    PouchFront: 7a4f2a            # коричневый карман
+    PouchLeft: 6b4423             # чуть темнее
+    Knife: hidden
+    Knifesheath: hidden
+    Pot: 8b6914                   # медный котелок путешественника
+    Teapot: c8922a                # золотистый чайник
+  crafting:
+    station: Forge
+    level: 1
+    costs:
+      BjornHide: 16
+      RazorbackLeather_TW: 16
+      LeatherScraps: 12
+      DeerHide: 12
+      FoxPelt_TW: 6
+      TrollHide: 6
+      WoolScraps_TW: 4
+      SurtlingCore: 4
+      TrophyGreydwarfShaman: 2
+  valid items:
+    - VikingCupcake
+    - BlackSoup
+    - CookedBjornMeat
+    - BloodPudding
+    - Blueberries
+    - BoarJerky
+    - Bread
+    - Carrot
+    - CarrotSoup
+    - Cloudberry
+    - CookedAsksvinMeat
+    - CookedBoneMawSerpentMeat
+    - CookedBugMeat
+    - CookedChickenMeat
+    - CookedDeerMeat
+    - CookedEgg
+    - CookedHareMeat
+    - CookedLoxMeat
+    - CookedMeat
+    - CookedWolfMeat
+    - CookedVoltureMeat
+    - DeerStew
+    - Eyescream
+    - FeastAshlands
+    - FeastBlackforest
+    - FeastMeadows
+    - FeastMistlands
+    - FeastMountains
+    - FeastOceans
+    - FeastPlains
+    - FeastSwamps
+    - Fiddleheadfern
+    - FierySvinstew
+    - FishAndBread
+    - FishCooked
+    - FishWraps
+    - Honey
+    - HoneyGlazedChicken
+    - LoxPie
+    - MagicallyStuffedShroom
+    - MarinatedGreens
+    - MashedMeat
+    - MeatPlatter
+    - MinceMeatSauce
+    - MisthareSupreme
+    - Mushroom
+    - MushroomBlue
+    - MushroomJotunPuffs
+    - MushroomMagecap
+    - MushroomOmelette
+    - MushroomSmokePuff
+    - MushroomYellow
+    - NeckTailGrilled
+    - Onion
+    - OnionSoup
+    - PiquantPie
+    - QueensJam
+    - Raspberry
+    - RoastedCrustPie
+    - RoyalJelly
+    - Salad
+    - Sausages
+    - ScorchingMedley
+    - SeekerAspic
+    - SerpentMeatCooked
+    - SerpentStew
+    - ShocklateSmoothie
+    - SizzlingBerryBroth
+    - SparklingShroomshake
+    - SpicyMarmalade
+    - TurnipStew
+    - Vineberry
+    - WolfJerky
+    - WolfMeatSkewer
+    - YggdrasilPorridge
+    - CookedFoxMeat_TW
+    - FoxJerky_TW
+    - CookedBearSteak_TW
+    - BearJerky_TW
+    - MixedGrill_TW
+    - CookedSharkMeat_TW
+    - SharkFinSoup_TW
+    - MushroomWitcheye_TW
+    - MushroomDeathcap_TW
+    - MushroomWizardbutter_TW
+    - MushroomDevilstongue_TW
+    - ShroomSoupBlackForest_TW
+    - EitrPlateBlackForest_TW
+    - BerryCandyBlackForest_TW
+    - ShroomSoupSwamp_TW
+    - EitrPlateSwamp_TW
+    - JellyCakeSwamp_TW
+    - ShroomSoupMountain_TW
+    - EitrPlateMountain_TW
+    - IceHornMountain_TW
+    - ShroomSoupPlains_TW
+    - EitrPlatePlains_TW
+    - BerryCakePlains_TW
+    - HoneyCookedMeat
+    - HoneyCookedDeer
+    - HoneyCookedNeck
+    - HoneyTeriyakiSalmon
+    - HoneySausages
+    - HoneySerpentMeat
+    - HoneyMushroomSoup
+    - HoneyTeriyakiSalmonWrap
+    - HoneyCookedWolf
+    - OdinsDelight
+    - HoneyYellowStewLesser
+    - HoneyBread
+    - HoneyCookedLox
+    - HoneyCookedHare
+    - HoneyCookedSeeker
+    - HoneyMushroomStew
+    - HoneyYellowStew
+    - HoneyNeckJerky
+    - HoneyDeerJerky
+    - HoneyLoxJerky
+    - HoneyCooked
+    - HoneyDessertPie
+    - HoneyHarePie
+    - HoneyCookedVoltureMeat
+    - HoneyCookedAsksvin
+    - SurtrsDelight
+    - VolvasBrew
+    - KonungrOmelette
+    - FeastAshlands_Material
+    - FeastBlackforest_Material
+    - FeastMeadows_Material
+    - FeastMistlands_Material
+    - FeastMountains_Material
+    - FeastOceans_Material
+    - FeastPlains_Material
+    - FeastSwamps_Material
+  upgrade:
+    1:
+      BjornHide: 16
+      RazorbackLeather_TW: 16
+      Entrails: 12
+      Bloodbag: 12
+      TrollHide: 6
+      RottenPelt_TW: 6
+      SurtlingCore: 4
+      Root: 4
+      TrophyLeech: 2
+      size: 4x1
+    2:
+      Entrails: 16
+      Bloodbag: 16
+      WolfPelt: 12
+      GrizzlyBearPelt_TW: 12
+      RottenPelt_TW: 6
+      WolfHairBundle: 6
+      Root: 4
+      Chitin: 4
+      TrophyUlv: 2
+      size: 3x2
+    3:
+      WolfPelt: 16
+      GrizzlyBearPelt_TW: 16
+      Flax: 12
+      LinenThread: 12
+      LoxPelt: 6
+      WolfHairBundle: 6
+      Chitin: 4
+      SerpentScale: 4
+      TrophyGoblinShaman: 2
+      size: 4x2
+  weight factor: 1.05
+  teleport: false  

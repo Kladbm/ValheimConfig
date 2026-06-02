@@ -1,0 +1,61 @@
+#################################################
+# ThrowAxe Recipe Manipulation Config
+#################################################
+
+recipeModifications:
+  Recipe_TurretBoltWood:
+    action: Modify
+    prefab: TurretBoltWood
+    recipeName: Recipe_TurretBoltWood
+    craftedAt: piece_workbench
+    minStationLevel: 5
+    craftAmount: 40
+    recipe:
+      ingredients:
+      - prefab: RoundLog
+        craftCost: 10
+        upgradeCost: 1
+      - prefab: Feathers
+        craftCost: 4
+        upgradeCost: 1
+  Recipe_SadleLox:
+    action: Modify
+    prefab: SaddleLox
+    recipeName: Recipe_SadleLox
+    craftedAt: piece_workbench
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: LeatherScraps
+        craftCost: 12
+        upgradeCost: 1
+      - prefab: Raspberry
+        craftCost: 12
+        upgradeCost: 1
+      - prefab: LinenThread
+        craftCost: 24
+        upgradeCost: 1
+      - prefab: BlackMetal
+        craftCost: 16
+        upgradeCost: 1
+  SaddleBear_TW_Recipe_Workbench:
+    action: Disable
+    prefab: SaddleBear_TW
+  ClaymoreBronze_TW_Recipe_Forge:
+    action: Modify
+    prefab: ClaymoreBronze_TW
+    recipeName: ClaymoreBronze_TW_Recipe_Forge
+    craftedAt: forge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: RoundLog
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: Bronze
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: TrophyBjorn
+        craftCost: 1

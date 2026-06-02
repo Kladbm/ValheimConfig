@@ -1,0 +1,209 @@
+# More World Locations AIO - Location Quantity Configuration
+# Quantity = number of this location the game will attempt to place during world generation
+# Set to 0 to disable a location
+
+# For internal mod use only
+version: 1
+
+Meadows:
+  MWL_StoneShrine2: 7
+  MWL_StoreHouseStone1: 7
+  MWL_DeerShrine1: 6
+  MWL_DeerShrine2: 6
+  MWL_MaypoleHut1: 6
+  MWL_MeadowsBarn1: 3
+  MWL_MeadowsFarm1: 6
+  MWL_MeadowsHouse2: 9
+  MWL_MeadowsLighthouse1: 6
+  MWL_MeadowsRuin1: 3
+  MWL_MeadowsSawmill1: 6
+  MWL_MeadowsTavern1: 6
+  MWL_MeadowsTomb4: 6
+  MWL_MeadowsTower1: 7
+  MWL_MeadowsWall1: 6
+  MWL_OakHut1: 7
+  MWL_Ruins1: 3
+  MWL_Ruins2: 6
+  MWL_Ruins3: 9
+  MWL_Ruins6: 3
+  MWL_Ruins7: 2
+  MWL_Ruins8: 3
+  MWL_RuinsArena1: 9
+  MWL_RuinsArena3: 9
+  MWL_RuinsChurch1: 9
+  MWL_RuinsWell1: 3
+  MWL_SmallHouse1: 9
+  MWL_VikingSacrifice1: 6
+
+BlackForest:
+  MWL_StoneTower3: 7
+  MWL_CoastTower1: 7
+  MWL_ForestCamp1: 9
+  MWL_ForestForge1: 9
+  MWL_ForestForge2: 9
+  MWL_ForestGreatHouse2: 9
+  MWL_ForestGrove1: 7
+  MWL_ForestHouse2: 9
+  MWL_ForestPillar1: 7
+  MWL_ForestRuin1: 9
+  MWL_ForestRuin2: 7
+  MWL_ForestRuin3: 7
+  MWL_ForestSkull1: 7
+  MWL_ForestTower2: 9
+  MWL_ForestTower3: 9
+  MWL_ForestTower4: 7
+  MWL_ForestTower5: 7
+  MWL_GuardTower1: 3
+  MWL_MassGrave1: 7
+  MWL_RockShrine1: 7
+  MWL_RootRuins1: 7
+  MWL_RootsTower1: 9
+  MWL_RootsTower2: 6
+  MWL_RuinedRootTower5: 6
+  MWL_RuinedTower1: 7
+  MWL_RuinsArena2: 3
+  MWL_RuinsCastle1: 7
+  MWL_RuinsCastle3: 3
+  MWL_RuinsTower3: 7
+  MWL_RuinsTower6: 7
+  MWL_RuinsTower8: 6
+  MWL_StoneFormation1: 7
+  MWL_StoneOutlook1: 6
+  MWL_Tavern1: 7
+  MWL_SupplyBarn1: 6
+  MWL_WoodTower1: 6
+  MWL_WoodTower2: 6
+  MWL_WoodTower3: 6
+
+Swamp:
+  MWL_StoneBeacon1: 7
+  MWL_AbandonedHouse1: 7
+  MWL_Belmont1: 3
+  MWL_CastleCorner1: 7
+  MWL_FortBakkarhalt1: 3
+  MWL_GuckPit1: 7
+  MWL_Shipyard1: 9
+  MWL_StoneCircle1: 6
+  MWL_SwampAltar1: 7
+  MWL_SwampAltar2: 6
+  MWL_SwampAltar3: 6
+  MWL_SwampAltar4: 6
+  MWL_SwampBrokenTower1: 7
+  MWL_SwampBrokenTower3: 6
+  MWL_SwampCastle2: 6
+  MWL_SwampCourtyard1: 3
+  MWL_SwampGrave1: 9
+  MWL_SwampHouse1: 9
+  MWL_SwampRuin1: 9
+  MWL_SwampStakeFort1: 6
+  MWL_SwampTemple1: 6
+  MWL_SwampTower1: 9
+  MWL_SwampTower2: 9
+  MWL_SwampTower3: 9
+  MWL_SwampWell1: 9
+  MWL_Treehouse1: 9
+  MWL_TreeTowers1: 9
+
+Mountains:
+  MWL_MountainsAedicule1: 7
+  MWL_MountainCultShrine1: 7
+  MWL_MountainDvergrShrine1: 7
+  MWL_MountainDvergrShrine2: 7
+  MWL_MountainOverlook1: 7
+  MWL_MountainsHogan1: 6
+  MWL_MountainsPagota1: 6
+  MWL_MountainsTower1: 6
+  MWL_MountainShrine1: 9
+  MWL_RuinsChurch2: 7
+  MWL_StoneAltar1: 7
+  MWL_StoneCastle1: 3
+  MWL_StoneFort1: 6
+  MWL_StoneHall1: 6
+  MWL_StoneTavern1: 6
+  MWL_StoneTower1: 6
+  MWL_StoneTower2: 6
+  MWL_TempleShrine1: 3
+  MWL_WoodBarn1: 6
+  MWL_WoodFarm1: 6
+  MWL_WoodHouse1: 3
+
+Plains:
+  MWL_FulingStoneHouse1: 5
+  MWL_FulingStoneHouse2: 5
+  MWL_FulingStoneHouse3: 5
+  MWL_FulingStoneHouse4: 5
+  MWL_FulingStoneHouse5: 5
+  MWL_FulingStoneOpen1: 5
+  MWL_FulingStoneOpen2: 5
+  MWL_FulingTemple5: 5
+  MWL_MinddripHallow1: 5
+  MWL_StoneTopHouse1: 5
+  MWL_FulingTarPit1: 5
+  MWL_FulingRock1: 5
+  MWL_FulingTemple1: 5
+  MWL_FulingTemple2: 5
+  MWL_FulingTemple3: 7
+  MWL_FulingTemple4: 5
+  MWL_FulingTempleBroken1: 5
+  MWL_FulingTower1: 7
+  MWL_FulingVillage1: 6
+  MWL_FulingVillage2: 6
+  MWL_FulingWall1: 7
+  MWL_GoblinFort1: 5
+  MWL_PlainsArena2: 5
+  MWL_PlainsOracle1: 5
+  MWL_PlainsPillar1: 6
+  MWL_RockGarden1: 6
+
+Mistlands:
+  MWL_AncientShrine1: 7
+  MWL_DvergrEitrSingularity1: 9
+  MWL_DvergrHouse1: 9
+  MWL_DvergrHouseWood1: 6
+  MWL_DvergrHouseWood2: 6
+  MWL_DvergrKnowledgeExtractor1: 7
+  MWL_MarbleCage1: 6
+  MWL_MarbleCliffAltar1: 6
+  MWL_MarbleHome1: 6
+  MWL_MarbleHome2: 6
+  MWL_MarbleJail1: 6
+  MWL_MistFort2: 9
+  MWL_MistHut1: 9
+  MWL_MistHut2: 7
+  MWL_MistPond1: 6
+  MWL_MistShrine1: 7
+  MWL_MistTower1: 9
+  MWL_MistTower2: 9
+  MWL_MistWall1: 7
+  MWL_MistWorkshop1: 9
+  MWL_SecretRoom1: 7
+
+Ashlands:
+  MWL_AshWallPost1: 3
+  MWL_AshlandsFort4: 3
+  MWL_AshTower1: 3
+  MWL_AshlandsFort1: 3
+  MWL_AshlandsFort2: 3
+  MWL_AshlandsFort3: 3
+
+Ports:
+  MWL_Port1: 0
+  MWL_Port2: 0
+  MWL_Port3: 0
+  MWL_Port4: 0
+  MWL_Port5: 0
+
+Traders:
+  MWL_BlackForestBlacksmith1: 2
+  MWL_BlackForestBlacksmith2: 2
+  MWL_MistlandsBlacksmith1: 2
+  MWL_MountainsBlacksmith1: 2
+  MWL_OceanTavern1: 3
+  MWL_PlainsCamp1: 3
+  MWL_PlainsTavern1: 3
+
+Trainers:
+  MWL_MeadowsTrainer1: 3
+  MWL_MistTrainer1: 3
+  MWL_PlainsTrainer1: 3
+  MWL_SwampTrainer1: 3
