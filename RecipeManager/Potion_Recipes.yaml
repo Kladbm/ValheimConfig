@@ -15,7 +15,7 @@ recipeModifications:
       - prefab: ShardElder_TW
         craftCost: 2
       - prefab: MushroomWitcheye_TW
-        craftCost: 4
+        craftCost: 5
       - prefab: AncientSeed
         craftCost: 3
       - prefab: Thistle
@@ -34,7 +34,7 @@ recipeModifications:
       - prefab: ShardBonemass_TW
         craftCost: 1
       - prefab: MushroomDeathcap_TW
-        craftCost: 5
+        craftCost: 6
       - prefab: BoneFragments
         craftCost: 6
       - prefab: Blueberries
@@ -53,9 +53,9 @@ recipeModifications:
       - prefab: ShardBonemass_TW
         craftCost: 1
       - prefab: MushroomWitcheye_TW
-        craftCost: 4
+        craftCost: 5
       - prefab: MushroomDeathcap_TW
-        craftCost: 4
+        craftCost: 5
       - prefab: Carrot
         craftCost: 3
   PotionOx_TW_Recipe_Custom:
@@ -70,9 +70,9 @@ recipeModifications:
       - prefab: ShardElder_TW
         craftCost: 2
       - prefab: MushroomWitcheye_TW
-        craftCost: 5
+        craftCost: 6
       - prefab: Carrot
-        craftCost: 5
+        craftCost: 6
       - prefab: Bloodbag
         craftCost: 2
   PotionSkills_TW_Recipe_Custom:
@@ -95,7 +95,7 @@ recipeModifications:
       - prefab: MushroomDevilstongue_TW
         craftCost: 6
       - prefab: Cloudberry
-        craftCost: 8
+        craftCost: 12
   PotionSpeed_TW_Recipe_Custom:
     action: Modify
     prefab: PotionSpeed_TW
@@ -108,7 +108,7 @@ recipeModifications:
       - prefab: ShardYagluth_TW
         craftCost: 1
       - prefab: MushroomDevilstongue_TW
-        craftCost: 4
+        craftCost: 5
       - prefab: Cloudberry
         craftCost: 4
       - prefab: Guck
@@ -125,9 +125,9 @@ recipeModifications:
       - prefab: ShardYagluth_TW
         craftCost: 2
       - prefab: MushroomDevilstongue_TW
-        craftCost: 6
+        craftCost: 7
       - prefab: Stone
-        craftCost: 14
+        craftCost: 16
       - prefab: Obsidian
         craftCost: 8
   MeadBaseEitrBlackForest_TW_Recipe_MeadCauldron:
@@ -142,9 +142,9 @@ recipeModifications:
       - prefab: MeadTasty
         craftCost: 3
       - prefab: MushroomWitcheye_TW
-        craftCost: 6
+        craftCost: 7
       - prefab: Honey
-        craftCost: 10
+        craftCost: 12
   MeadBaseEitrMountain_TW_Recipe_MeadCauldron:
     action: Modify
     prefab: MeadBaseEitrMountain_TW
@@ -157,9 +157,9 @@ recipeModifications:
       - prefab: MeadTasty
         craftCost: 3
       - prefab: MushroomWizardbutter_TW
-        craftCost: 6
+        craftCost: 7
       - prefab: Honey
-        craftCost: 10
+        craftCost: 12
   MeadBaseLightningResist_TW_Recipe_MeadCauldron:
     action: Modify
     prefab: MeadBaseLightningResist_TW
@@ -170,7 +170,7 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Honey
-        craftCost: 10
+        craftCost: 12
       - prefab: Barley
         craftCost: 4
       - prefab: Flax
@@ -187,13 +187,13 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Barley
-        craftCost: 10
+        craftCost: 12
         upgradeCost: 1
       - prefab: Cloudberry
-        craftCost: 10
+        craftCost: 12
         upgradeCost: 1
       - prefab: Honey
-        craftCost: 10
+        craftCost: 12
         upgradeCost: 1
   Recipe_MeadBaseBugRepellent:
     action: Modify
@@ -205,7 +205,7 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Cloudberry
-        craftCost: 10
+        craftCost: 12
         upgradeCost: 1
       - prefab: Thistle
         craftCost: 6
@@ -226,13 +226,13 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Mushroom
-        craftCost: 10
+        craftCost: 12
         upgradeCost: 1
       - prefab: MushroomYellow
-        craftCost: 10
+        craftCost: 12
         upgradeCost: 1
       - prefab: Honey
-        craftCost: 10
+        craftCost: 12
         upgradeCost: 1
       - prefab: MushroomBzerker
         craftCost: 1
@@ -253,7 +253,7 @@ recipeModifications:
         craftCost: 10
         upgradeCost: 1
       - prefab: MushroomMagecap
-        craftCost: 10
+        craftCost: 12
         upgradeCost: 1
       - prefab: Eitr
         craftCost: 3
@@ -268,16 +268,16 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Honey
-        craftCost: 10
+        craftCost: 12
         upgradeCost: 1
       - prefab: Sap
         craftCost: 5
         upgradeCost: 1
       - prefab: MushroomJotunPuffs
-        craftCost: 3
+        craftCost: 4
         upgradeCost: 1
       - prefab: MushroomMagecap
-        craftCost: 3
+        craftCost: 4
         upgradeCost: 1
       - prefab: Eitr
         craftCost: 1
@@ -292,13 +292,13 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Honey
-        craftCost: 10
+        craftCost: 12
         upgradeCost: 1
       - prefab: Blueberries
-        craftCost: 7
+        craftCost: 8
         upgradeCost: 1
       - prefab: Raspberry
-        craftCost: 7
+        craftCost: 8
         upgradeCost: 1
       - prefab: CuredSquirrelHamstring
         craftCost: 1
@@ -313,7 +313,7 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Honey
-        craftCost: 10
+        craftCost: 12
         upgradeCost: 1
       - prefab: Sap
         craftCost: 10
@@ -334,7 +334,7 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Honey
-        craftCost: 10
+        craftCost: 12
         upgradeCost: 1
       - prefab: GiantBloodSack
         craftCost: 6
@@ -355,10 +355,10 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Honey
-        craftCost: 10
+        craftCost: 12
         upgradeCost: 1
       - prefab: Raspberry
-        craftCost: 10
+        craftCost: 12
         upgradeCost: 1
       - prefab: Bloodbag
         craftCost: 2
@@ -376,16 +376,16 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Honey
-        craftCost: 10
+        craftCost: 12
         upgradeCost: 1
       - prefab: Blueberries
-        craftCost: 10
+        craftCost: 12
         upgradeCost: 1
       - prefab: Raspberry
-        craftCost: 10
+        craftCost: 12
         upgradeCost: 1
       - prefab: Dandelion
-        craftCost: 3
+        craftCost: 4
         upgradeCost: 1
   Recipe_MeadBasePoisonResist:
     action: Modify
@@ -397,7 +397,7 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Honey
-        craftCost: 10
+        craftCost: 12
         upgradeCost: 1
       - prefab: Thistle
         craftCost: 7
@@ -406,7 +406,7 @@ recipeModifications:
         craftCost: 5
         upgradeCost: 1
       - prefab: Dandelion
-        craftCost: 3
+        craftCost: 4
         upgradeCost: 1
   Recipe_MeadBaseStaminaLingering:
     action: Modify
@@ -418,16 +418,16 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Honey
-        craftCost: 10
+        craftCost: 12
         upgradeCost: 1
       - prefab: Sap
-        craftCost: 10
+        craftCost: 12
         upgradeCost: 1
       - prefab: Cloudberry
-        craftCost: 10
+        craftCost: 12
         upgradeCost: 1
       - prefab: MushroomJotunPuffs
-        craftCost: 10
+        craftCost: 12
         upgradeCost: 1
   Recipe_MeadBaseStaminaMedium:
     action: Modify
@@ -445,10 +445,10 @@ recipeModifications:
         craftCost: 10
         upgradeCost: 1
       - prefab: MushroomYellow
-        craftCost: 10
+        craftCost: 12
         upgradeCost: 1
       - prefab: Dandelion
-        craftCost: 5
+        craftCost: 6
         upgradeCost: 1
   Recipe_MeadBaseStaminaMinor:
     action: Modify
@@ -466,10 +466,10 @@ recipeModifications:
         craftCost: 10
         upgradeCost: 1
       - prefab: MushroomYellow
-        craftCost: 10
+        craftCost: 12
         upgradeCost: 1
       - prefab: Dandelion
-        craftCost: 5
+        craftCost: 6
         upgradeCost: 1
   Recipe_MeadBaseStrength:
     action: Modify
@@ -484,7 +484,7 @@ recipeModifications:
         craftCost: 3
         upgradeCost: 1
       - prefab: Honey
-        craftCost: 10
+        craftCost: 12
         upgradeCost: 1
       - prefab: PowderedDragonEgg
         craftCost: 1

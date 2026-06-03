@@ -22,7 +22,7 @@ recipeModifications:
         craftCost: 2
         upgradeCost: 1
       - prefab: Honey
-        craftCost: 2
+        craftCost: 3
         upgradeCost: 1
       - prefab: SpiceOceans
         craftCost: 1
@@ -58,7 +58,7 @@ recipeModifications:
       - prefab: SharkFin_TW
         craftCost: 1
       - prefab: Cloudberry
-        craftCost: 3
+        craftCost: 4
       - prefab: MushroomWizardbutter_TW
         craftCost: 3
   ShroomSoupBlackForest_TW_Recipe_Cauldron:
@@ -90,7 +90,7 @@ recipeModifications:
       - prefab: DeerMeat
         craftCost: 2
       - prefab: Blueberries
-        craftCost: 2
+        craftCost: 3
       - prefab: Thistle
         craftCost: 1
   BerryCandyBlackForest_TW_Recipe_Cauldron:
@@ -105,9 +105,9 @@ recipeModifications:
       - prefab: MushroomWitcheye_TW
         craftCost: 4
       - prefab: Blueberries
-        craftCost: 4
+        craftCost: 5
       - prefab: Honey
-        craftCost: 6
+        craftCost: 7
   ShroomSoupSwamp_TW_Recipe_Cauldron:
     action: Modify
     prefab: ShroomSoupSwamp_TW
@@ -154,7 +154,7 @@ recipeModifications:
       - prefab: Ooze
         craftCost: 2
       - prefab: Honey
-        craftCost: 3
+        craftCost: 4
   ShroomSoupMountain_TW_Recipe_Cauldron:
     action: Modify
     prefab: ShroomSoupMountain_TW
@@ -199,7 +199,7 @@ recipeModifications:
       - prefab: FreezeGland
         craftCost: 1
       - prefab: Honey
-        craftCost: 4
+        craftCost: 5
   ShroomSoupPlains_TW_Recipe_Cauldron:
     action: Modify
     prefab: ShroomSoupPlains_TW
@@ -229,7 +229,7 @@ recipeModifications:
       - prefab: LoxMeat
         craftCost: 3
       - prefab: Cloudberry
-        craftCost: 2
+        craftCost: 3
       - prefab: BarleyFlour
         craftCost: 1
   UncookedBerryCakePlains_TW_Recipe_PrepTable:
@@ -242,11 +242,11 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Cloudberry
-        craftCost: 8
+        craftCost: 9
       - prefab: MushroomDevilstongue_TW
         craftCost: 6
       - prefab: Honey
-        craftCost: 8
+        craftCost: 9
       - prefab: BarleyFlour
         craftCost: 4
   Recipe_FeastAshlands:
@@ -262,7 +262,7 @@ recipeModifications:
         craftCost: 4
         upgradeCost: 1
       - prefab: Vineberry
-        craftCost: 6
+        craftCost: 7
         upgradeCost: 1
       - prefab: ScorchingMedley
         craftCost: 3
@@ -391,7 +391,7 @@ recipeModifications:
         craftCost: 3
         upgradeCost: 1
       - prefab: Cloudberry
-        craftCost: 6
+        craftCost: 7
         upgradeCost: 1
       - prefab: SpicePlains
         craftCost: 3
@@ -442,7 +442,7 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Raspberry
-        craftCost: 2
+        craftCost: 3
         upgradeCost: 1
       - prefab: Blueberries
         craftCost: 1
@@ -505,10 +505,10 @@ recipeModifications:
         craftCost: 1
         upgradeCost: 1
       - prefab: Raspberry
-        craftCost: 3
+        craftCost: 4
         upgradeCost: 1
       - prefab: Blueberries
-        craftCost: 3
+        craftCost: 4
         upgradeCost: 1
   Recipe_TurnipStew:
     action: Modify
@@ -523,7 +523,7 @@ recipeModifications:
         craftCost: 1
         upgradeCost: 1
       - prefab: Blueberries
-        craftCost: 1
+        craftCost: 2
         upgradeCost: 1
       - prefab: Carrot
         craftCost: 1
@@ -562,7 +562,7 @@ recipeModifications:
         craftCost: 1
         upgradeCost: 1
       - prefab: Blueberries
-        craftCost: 3
+        craftCost: 4
         upgradeCost: 1
       - prefab: Thistle
         craftCost: 1
@@ -619,7 +619,7 @@ recipeModifications:
         craftCost: 3
         upgradeCost: 1
       - prefab: Honey
-        craftCost: 3
+        craftCost: 4
         upgradeCost: 1
       - prefab: FreezeGland
         craftCost: 1
@@ -706,7 +706,7 @@ recipeModifications:
         craftCost: 1
         upgradeCost: 1
       - prefab: Honey
-        craftCost: 5
+        craftCost: 6
         upgradeCost: 1
       - prefab: MushroomJotunPuffs
         craftCost: 3
@@ -751,7 +751,7 @@ recipeModifications:
         craftCost: 3
         upgradeCost: 1
       - prefab: Cloudberry
-        craftCost: 3
+        craftCost: 4
         upgradeCost: 1
   Recipe_MushroomOmelette:
     action: Modify
@@ -769,7 +769,7 @@ recipeModifications:
         craftCost: 3
         upgradeCost: 1
       - prefab: Blueberries
-        craftCost: 3
+        craftCost: 4
         upgradeCost: 1
   Recipe_FishAndBread:
     action: Modify
@@ -904,7 +904,7 @@ recipeModifications:
         craftCost: 1
         upgradeCost: 1
       - prefab: Honey
-        craftCost: 3
+        craftCost: 4
         upgradeCost: 1
   BearJerky_TW_Recipe_Cauldron:
     action: Modify
@@ -918,7 +918,7 @@ recipeModifications:
       - prefab: BearSteak_TW
         craftCost: 1
       - prefab: Honey
-        craftCost: 3
+        craftCost: 4
   FoxJerky_TW_Recipe_Cauldron:
     action: Modify
     prefab: FoxJerky_TW
@@ -931,4 +931,4 @@ recipeModifications:
       - prefab: FoxMeat_TW
         craftCost: 1
       - prefab: Honey
-        craftCost: 3
+        craftCost: 4

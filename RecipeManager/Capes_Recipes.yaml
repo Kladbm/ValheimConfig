@@ -13,13 +13,13 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: IronScrap
-        craftCost: 12
-        upgradeCost: 3
+        craftCost: 16
+        upgradeCost: 4
       - prefab: TrophyDraugrElite
         craftCost: 1
       - prefab: Guck
-        craftCost: 5
-        upgradeCost: 3
+        craftCost: 7
+        upgradeCost: 5
   Recipe_CapeRabbit:
     action: Modify
     prefab: CapeRabbit
@@ -30,8 +30,8 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: ScaleHide
-        craftCost: 15
-        upgradeCost: 10
+        craftCost: 21
+        upgradeCost: 14
       - prefab: Eitr
         craftCost: 20
         upgradeCost: 3
@@ -52,6 +52,7 @@ recipeModifications:
         upgradeCost: 7
       - prefab: Silver
         craftCost: 7
+        upgradeCost: 3
       - prefab: Guck
         craftCost: 5
         upgradeCost: 3
@@ -65,10 +66,11 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: WolfHairBundle
-        craftCost: 15
-        upgradeCost: 5
+        craftCost: 20
+        upgradeCost: 10
       - prefab: Silver
         craftCost: 5
+        upgradeCost: 3
       - prefab: Obsidian
         craftCost: 12
         upgradeCost: 6
@@ -103,16 +105,16 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: MushroomYellow
-        craftCost: 20
-        upgradeCost: 10
+        craftCost: 30
+        upgradeCost: 15
       - prefab: LeatherScraps
-        craftCost: 10
-        upgradeCost: 5
+        craftCost: 15
+        upgradeCost: 10
       - prefab: YmirRemains
         craftCost: 6
         upgradeCost: 3
   Recipe_CapeWraith:
-    action: Modify
+    action: Disable
     prefab: CapeWraith
     recipeName: Recipe_CapeWraith
     craftedAt: forge
@@ -160,8 +162,8 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: WolfHairBundle
-        craftCost: 15
-        upgradeCost: 5
+        craftCost: 20
+        upgradeCost: 10
       - prefab: Silver
         craftCost: 7
         upgradeCost: 3      
@@ -169,8 +171,8 @@ recipeModifications:
         craftCost: 20
         upgradeCost: 4
       - prefab: Obsidian
-        craftCost: 12
-        upgradeCost: 4
+        craftCost: 15
+        upgradeCost: 5
       - prefab: MushroomBzerker
         craftCost: 1
   Recipe_CapeLeech:
@@ -186,11 +188,11 @@ recipeModifications:
         craftCost: 30
         upgradeCost: 10
       - prefab: Iron
-        craftCost: 15
-        upgradeCost: 4
+        craftCost: 21
+        upgradeCost: 7
       - prefab: Root
-        craftCost: 8
-        upgradeCost: 4
+        craftCost: 12
+        upgradeCost: 6
   Recipe_CapeBrawler:
     action: Modify
     prefab: CapeBrawler
@@ -201,10 +203,11 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Root
-        craftCost: 20
-        upgradeCost: 5
+        craftCost: 25
+        upgradeCost: 10
       - prefab: MeadFrostResist
         craftCost: 5
+        upgradeCost: 3
       - prefab: Ooze
         craftCost: 12
         upgradeCost: 4
@@ -220,14 +223,14 @@ recipeModifications:
       - prefab: CapeLinen
         craftCost: 1
       - prefab: LinenThread
-        craftCost: 12
-        upgradeCost: 4
+        craftCost: 16
+        upgradeCost: 8
       - prefab: Raspberry
-        craftCost: 10
-        upgradeCost: 5
+        craftCost: 12
+        upgradeCost: 6
       - prefab: Silver
-        craftCost: 10
-        upgradeCost: 5
+        craftCost: 12
+        upgradeCost: 6
   Recipe_CapeKnight:
     action: Modify
     prefab: CapeKnight
@@ -243,14 +246,14 @@ recipeModifications:
         craftCost: 15
         upgradeCost: 5
       - prefab: LinenThread
-        craftCost: 12
-        upgradeCost: 4
+        craftCost: 16
+        upgradeCost: 8
       - prefab: Cloudberry
-        craftCost: 12
-        upgradeCost: 3
+        craftCost: 16
+        upgradeCost: 8
       - prefab: Blueberries
-        craftCost: 8
-        upgradeCost: 2
+        craftCost: 12
+        upgradeCost: 6
   Recipe_CapeSerpent:
     action: Modify
     prefab: CapeSerpent
@@ -261,13 +264,13 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: SerpentScale
-        craftCost: 12
-        upgradeCost: 6
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: Chitin
+        craftCost: 16
+        upgradeCost: 8
       - prefab: TrophySerpent
         craftCost: 1
-      - prefab: Chitin
-        craftCost: 5
-        upgradeCost: 3
   Recipe_CapeShaman:
     action: Modify
     prefab: CapeShaman
@@ -285,7 +288,7 @@ recipeModifications:
         upgradeCost: 3
       - prefab: BlackMetal
         craftCost: 12
-        upgradeCost: 4
+        upgradeCost: 6
       - prefab: GoblinTotem
         craftCost: 7
         upgradeCost: 3
@@ -317,14 +320,14 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: JuteRed
-        craftCost: 20
+        craftCost: 21
         upgradeCost: 7
       - prefab: TrophyFenring
         craftCost: 3
         upgradeCost: 1
       - prefab: Iron
         craftCost: 12
-        upgradeCost: 4
+        upgradeCost: 6
   Recipe_CapeNeck:
     action: Modify
     prefab: CapeNeck
@@ -338,8 +341,8 @@ recipeModifications:
         craftCost: 7
         upgradeCost: 3
       - prefab: Feathers
-        craftCost: 12
-        upgradeCost: 4
+        craftCost: 24
+        upgradeCost: 12
       - prefab: Flint
         craftCost: 6
         upgradeCost: 2
@@ -353,11 +356,11 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: WolfPelt
-        craftCost: 12
+        craftCost: 16
         upgradeCost: 8
       - prefab: Silver
-        craftCost: 8
-        upgradeCost: 4
+        craftCost: 12
+        upgradeCost: 6
       - prefab: TrophyWolf
         craftCost: 1
   Recipe_CapeTrollHide:
@@ -370,8 +373,8 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: TrollHide
-        craftCost: 15
-        upgradeCost: 5
+        craftCost: 20
+        upgradeCost: 10
       - prefab: BoneFragments
         craftCost: 10
         upgradeCost: 5
@@ -388,13 +391,13 @@ recipeModifications:
       ingredients:
       - prefab: LoxPelt
         craftCost: 24
-        upgradeCost: 8
+        upgradeCost: 12
       - prefab: LinenThread
         craftCost: 18
-        upgradeCost: 6
+        upgradeCost: 9
       - prefab: Silver
         craftCost: 6
-        upgradeCost: 2
+        upgradeCost: 3
       - prefab: TrophyLox
         craftCost: 1
   Recipe_CapeGreydwarf:
@@ -426,7 +429,7 @@ recipeModifications:
       ingredients:
       - prefab: LinenThread
         craftCost: 20
-        upgradeCost: 6
+        upgradeCost: 10
       - prefab: Raspberry
         craftCost: 12
         upgradeCost: 6
@@ -443,11 +446,11 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: DeerHide
-        craftCost: 12
+        craftCost: 16
         upgradeCost: 8
       - prefab: BoneFragments
-        craftCost: 10
-        upgradeCost: 5
+        craftCost: 12
+        upgradeCost: 6
       - prefab: TrophyDeer
         craftCost: 1
   Recipe_CapeAsh:
@@ -460,8 +463,8 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: AskHide
-        craftCost: 12
-        upgradeCost: 4
+        craftCost: 16
+        upgradeCost: 8
       - prefab: MorgenSinew
         craftCost: 4
         upgradeCost: 2
@@ -478,8 +481,8 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: AskHide
-        craftCost: 12
-        upgradeCost: 4
+        craftCost: 16
+        upgradeCost: 8
       - prefab: MorgenSinew
         craftCost: 4
         craftCost: 2

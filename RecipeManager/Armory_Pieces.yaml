@@ -14,11 +14,11 @@ pieceModifications:
     - prefab: FineWood
       amount: 20
     - prefab: Bronze
-      amount: 20
+      amount: 30
     - prefab: SurtlingCore
       amount: 15
     - prefab: TrophyEikthyr
-      amount: 1
+      amount: 3
     requiredToPlaceCraftingStation: forge
     canBeDeconstructed: true
     pieceCategory: 9

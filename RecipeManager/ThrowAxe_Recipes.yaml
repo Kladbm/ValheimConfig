@@ -15,7 +15,7 @@ recipeModifications:
       - prefab: Wood
         craftCost: 12
       - prefab: Flint
-        craftCost: 3
+        craftCost: 2
   ThrowAxeBronze_TW_Recipe_Forge:
     action: Modify
     prefab: ThrowAxeBronze_TW
@@ -28,7 +28,7 @@ recipeModifications:
       - prefab: RoundLog
         craftCost: 12
       - prefab: Bronze
-        craftCost: 2
+        craftCost: 1
   ThrowAxeIron_TW_Recipe_Forge:
     action: Modify
     prefab: ThrowAxeIron_TW
@@ -41,7 +41,7 @@ recipeModifications:
       - prefab: ElderBark
         craftCost: 12
       - prefab: Iron
-        craftCost: 3
+        craftCost: 2
   ThrowAxeSilver_TW_Recipe_Forge:
     action: Modify
     prefab: ThrowAxeSilver_TW
@@ -54,7 +54,7 @@ recipeModifications:
       - prefab: FineWood
         craftCost: 12
       - prefab: Silver
-        craftCost: 3
+        craftCost: 2
   ThrowAxeBlackmetal_TW_Recipe_Forge:
     action: Modify
     prefab: ThrowAxeBlackmetal_TW
@@ -69,7 +69,7 @@ recipeModifications:
       - prefab: LinenThread
         craftCost: 1
       - prefab: BlackMetal
-        craftCost: 3
+        craftCost: 2
   ThrowAxeDvergr_TW_Recipe_BlackForge:
     action: Modify
     prefab: ThrowAxeDvergr_TW
@@ -82,6 +82,6 @@ recipeModifications:
       - prefab: YggdrasilWood
         craftCost: 15
       - prefab: Carapace
-        craftCost: 6
+        craftCost: 4
       - prefab: Eitr
-        craftCost: 2
+        craftCost: 1

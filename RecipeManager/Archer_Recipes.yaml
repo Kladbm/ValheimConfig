@@ -512,13 +512,13 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Wood
-        craftCost: 12
+        craftCost: 16
         upgradeCost: 1
       - prefab: Bronze
         craftCost: 1
         upgradeCost: 1
       - prefab: Feathers
-        craftCost: 3
+        craftCost: 5
         upgradeCost: 1
   Recipe_ArrowCarapace:
     action: Modify
@@ -533,10 +533,10 @@ recipeModifications:
         craftCost: 6
         upgradeCost: 1
       - prefab: Feathers
-        craftCost: 3
+        craftCost: 5
         upgradeCost: 1
       - prefab: Wood
-        craftCost: 12
+        craftCost: 16
         upgradeCost: 1
   Recipe_ArrowCharred:
     action: Modify
@@ -551,10 +551,10 @@ recipeModifications:
         craftCost: 6
         upgradeCost: 1
       - prefab: Feathers
-        craftCost: 3
+        craftCost: 5
         upgradeCost: 1
       - prefab: Blackwood
-        craftCost: 12
+        craftCost: 16
         upgradeCost: 1
   Recipe_ArrowFire:
     action: Modify
@@ -566,13 +566,13 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Wood
-        craftCost: 12
+        craftCost: 16
         upgradeCost: 1
       - prefab: Resin
         craftCost: 12
         upgradeCost: 1
       - prefab: Feathers
-        craftCost: 3
+        craftCost: 5
         upgradeCost: 1
   Recipe_ArrowFlint:
     action: Modify
@@ -584,13 +584,13 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Wood
-        craftCost: 12
+        craftCost: 16
         upgradeCost: 1
       - prefab: Flint
         craftCost: 3
         upgradeCost: 1
       - prefab: Feathers
-        craftCost: 3
+        craftCost: 5
         upgradeCost: 1
   Recipe_ArrowFrost:
     action: Modify
@@ -602,13 +602,13 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Wood
-        craftCost: 12
+        craftCost: 16
         upgradeCost: 1
       - prefab: Obsidian
-        craftCost: 6
+        craftCost: 8
         upgradeCost: 1
       - prefab: Feathers
-        craftCost: 3
+        craftCost: 5
         upgradeCost: 1
       - prefab: FreezeGland
         craftCost: 1
@@ -623,13 +623,13 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Wood
-        craftCost: 12
+        craftCost: 16
         upgradeCost: 1
       - prefab: Iron
         craftCost: 1
         upgradeCost: 1
       - prefab: Feathers
-        craftCost: 3
+        craftCost: 5
         upgradeCost: 1
   Recipe_ArrowNeedle:
     action: Modify
@@ -641,10 +641,10 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Needle
-        craftCost: 6
+        craftCost: 8
         upgradeCost: 1
       - prefab: Feathers
-        craftCost: 3
+        craftCost: 5
         upgradeCost: 1
   Recipe_ArrowObsidian:
     action: Modify
@@ -656,13 +656,13 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Wood
-        craftCost: 12
+        craftCost: 16
         upgradeCost: 1
       - prefab: Obsidian
         craftCost: 6
         upgradeCost: 1
       - prefab: Feathers
-        craftCost: 3
+        craftCost: 5
         upgradeCost: 1
   Recipe_ArrowPoison:
     action: Modify
@@ -674,13 +674,13 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Wood
-        craftCost: 12
+        craftCost: 15
         upgradeCost: 1
       - prefab: Obsidian
-        craftCost: 6
+        craftCost: 8
         upgradeCost: 1
       - prefab: Feathers
-        craftCost: 3
+        craftCost: 5
         upgradeCost: 1
       - prefab: Ooze
         craftCost: 3
@@ -695,13 +695,13 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Wood
-        craftCost: 12
+        craftCost: 16
         upgradeCost: 1
       - prefab: Silver
         craftCost: 1
         upgradeCost: 1
       - prefab: Feathers
-        craftCost: 3
+        craftCost: 5
         upgradeCost: 1
   Recipe_ArrowWood:
     action: Modify
@@ -713,7 +713,7 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Wood
-        craftCost: 12
+        craftCost: 16
         upgradeCost: 2
   ArrowBone_TW_Recipe_Custom:
     action: Modify
@@ -725,11 +725,11 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Wood
-        craftCost: 12
+        craftCost: 16
       - prefab: BoneFragments
         craftCost: 6
       - prefab: Feathers
-        craftCost: 3
+        craftCost: 5
   ArrowPickaxe_TW_Recipe_Custom:
     action: Modify
     prefab: ArrowPickaxe_TW
@@ -740,13 +740,13 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: ElderBark
-        craftCost: 12
+        craftCost: 16
       - prefab: Resin
         craftCost: 2
       - prefab: SurtlingCore
         craftCost: 2
       - prefab: Feathers
-        craftCost: 3
+        craftCost: 5
   ArrowExplosiveLightning_TW_Recipe_Custom:
     action: Modify
     prefab: ArrowExplosiveLightning_TW
@@ -757,7 +757,7 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: YggdrasilWood
-        craftCost: 12
+        craftCost: 16
       - prefab: Carapace
         craftCost: 6
       - prefab: Eitr
@@ -772,7 +772,7 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Wood
-        craftCost: 12
+        craftCost: 16
       - prefab: BlackMetal
         craftCost: 2
       - prefab: Ooze

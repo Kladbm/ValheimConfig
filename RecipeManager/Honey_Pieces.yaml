@@ -8,11 +8,11 @@ pieceModifications:
     prefab: piece_apiary
     requirements:
     - prefab: Wood
-      amount: 15
+      amount: 21
     - prefab: Honey
       amount: 12
     - prefab: QueenBee
-      amount: 1
+      amount: 3
     requiredToPlaceCraftingStation: piece_workbench
     canBeDeconstructed: true
     pieceCategory: Crafting
@@ -26,9 +26,9 @@ pieceModifications:
     - prefab: Copper
       amount: 7
     - prefab: LeatherScraps
-      amount: 7
+      amount: 14
     - prefab: Coal
-      amount: 5
+      amount: 10
     requiredToPlaceCraftingStation: forge
     canBeDeconstructed: true
     pieceCategory: Crafting
@@ -44,9 +44,9 @@ pieceModifications:
     - prefab: Silver
       amount: 4
     - prefab: FineWood
-      amount: 7
+      amount: 11
     - prefab: Obsidian
-      amount: 5
+      amount: 7
     requiredToPlaceCraftingStation: forge
     canBeDeconstructed: true
     pieceCategory: Crafting
@@ -64,7 +64,7 @@ pieceModifications:
     - prefab: Crystal
       amount: 11
     - prefab: RoundLog
-      amount: 5
+      amount: 7
     requiredToPlaceCraftingStation: forge
     canBeDeconstructed: true
     pieceCategory: Crafting
@@ -82,9 +82,9 @@ pieceModifications:
     - prefab: YggdrasilWood
       amount: 9
     - prefab: Eitr
-      amount: 3
-    - prefab: Wisp
       amount: 5
+    - prefab: Wisp
+      amount: 7
     requiredToPlaceCraftingStation: piece_magetable
     canBeDeconstructed: true
     pieceCategory: Crafting
@@ -98,9 +98,9 @@ pieceModifications:
     prefab: apiary_ext5
     requirements:
     - prefab: Grausten
-      amount: 7
-    - prefab: Blackwood
       amount: 9
+    - prefab: Blackwood
+      amount: 11
     - prefab: FlametalNew
       amount: 4
     - prefab: MoltenCore

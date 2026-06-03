@@ -10,13 +10,13 @@ pieceModifications:
     - prefab: Feathers
       amount: 12
     - prefab: Wood
-      amount: 20
+      amount: 24
     - prefab: Flint
       amount: 12
     - prefab: LeatherScraps
-      amount: 6
+      amount: 12
     - prefab: DeerHide
-      amount: 4
+      amount: 8
     requiredToPlaceCraftingStation: piece_workbench
     canBeDeconstructed: true
     pieceCategory: 9
@@ -30,13 +30,13 @@ pieceModifications:
     - prefab: Bronze
       amount: 6
     - prefab: FineWood
-      amount: 12
+      amount: 16
     - prefab: RoundLog
-      amount: 8
+      amount: 12
     - prefab: BronzeNails
       amount: 30
     - prefab: DeerHide
-      amount: 4
+      amount: 8
     requiredToPlaceCraftingStation: FletcherTable_TW
     canBeDeconstructed: true
     pieceCategory: 9
@@ -49,7 +49,7 @@ pieceModifications:
     prefab: FletcherTable_ext2_TW
     requirements:
     - prefab: BronzeNails
-      amount: 30
+      amount: 40
     - prefab: RoundLog
       amount: 12
     - prefab: TrollHide
@@ -70,7 +70,7 @@ pieceModifications:
     - prefab: Iron
       amount: 12
     - prefab: ElderBark
-      amount: 12
+      amount: 16
     - prefab: RoundLog
       amount: 24
     - prefab: IronNails
@@ -91,9 +91,9 @@ pieceModifications:
     - prefab: Silver
       amount: 16
     - prefab: FineWood
-      amount: 10
-    - prefab: Obsidian
       amount: 12
+    - prefab: Obsidian
+      amount: 16
     - prefab: WolfPelt
       amount: 8
     - prefab: RottenPelt_TW

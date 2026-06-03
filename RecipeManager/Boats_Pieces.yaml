@@ -13,5 +13,5 @@ pieceModifications:
     action: Disable
     prefab: VikingShip
   VikingShip_Ashlands:
-    action: Enable
+    action: Disable
     prefab: VikingShip_Ashlands

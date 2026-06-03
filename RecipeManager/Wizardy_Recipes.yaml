@@ -13,7 +13,7 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: WoolScraps_TW
-        craftCost: 4
+        craftCost: 6
       - prefab: Tar
         craftCost: 1
   WoolYarn_Teal_TW_Recipe_Custom:
@@ -26,7 +26,7 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: WoolScraps_TW
-        craftCost: 4
+        craftCost: 6
       - prefab: Eitr
         craftCost: 1
   WoolYarn_Blue_TW_Recipe_Custom:
@@ -39,7 +39,7 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: WoolScraps_TW
-        craftCost: 4
+        craftCost: 6
       - prefab: FreezeGland
         craftCost: 1
   WoolYarn_Green_TW_Recipe_Custom:
@@ -52,7 +52,7 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: WoolScraps_TW
-        craftCost: 4
+        craftCost: 6
       - prefab: Ooze
         craftCost: 1
   WoolYarn_Brown_TW_Recipe_Custom:
@@ -76,7 +76,7 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: WoolScraps_TW
-        craftCost: 4
+        craftCost: 6
       - prefab: Bloodbag
         craftCost: 1
   WoolYarn_White_TW_Recipe_Custom:
@@ -89,7 +89,7 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: WoolScraps_TW
-        craftCost: 4
+        craftCost: 6
       - prefab: Crystal
         craftCost: 1
   WoolYarn_Yellow_TW_Recipe_Custom:
@@ -102,7 +102,7 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: WoolScraps_TW
-        craftCost: 4
+        craftCost: 6
       - prefab: Dandelion
         craftCost: 2
   FabricBundle_Blackforest_TW_Recipe_Custom:
@@ -115,9 +115,9 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: WoolYarn_Brown_TW
-        craftCost: 2
+        craftCost: 3
       - prefab: WoolYarn_Yellow_TW
-        craftCost: 2
+        craftCost: 3
   FabricBundle_Swamp_TW_Recipe_Custom:
     action: Modify
     prefab: FabricBundle_Swamp_TW
@@ -128,9 +128,9 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: WoolYarn_Brown_TW
-        craftCost: 2
+        craftCost: 3
       - prefab: WoolYarn_Green_TW
-        craftCost: 2
+        craftCost: 3
   FabricBundle_Mountain_TW_Recipe_Custom:
     action: Modify
     prefab: FabricBundle_Mountain_TW
@@ -141,9 +141,9 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: WoolYarn_White_TW
-        craftCost: 2
+        craftCost: 3
       - prefab: WoolYarn_Blue_TW
-        craftCost: 2
+        craftCost: 3
   FabricBundle_Plains_TW_Recipe_Custom:
     action: Modify
     prefab: FabricBundle_Plains_TW
@@ -154,9 +154,9 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: WoolYarn_Black_TW
-        craftCost: 2
+        craftCost: 3
       - prefab: WoolYarn_Red_TW
-        craftCost: 2
+        craftCost: 3
   FabricBundle_Mistlands_TW_Recipe_Custom:
     action: Modify
     prefab: FabricBundle_Mistlands_TW
@@ -167,9 +167,9 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: WoolYarn_Black_TW
-        craftCost: 2
+        craftCost: 3
       - prefab: WoolYarn_Teal_TW
-        craftCost: 2
+        craftCost: 3
   HelmetCircletBronze_TW_Recipe_Custom:
     action: Modify
     prefab: HelmetCircletBronze_TW
@@ -235,7 +235,7 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: ShardQueen_TW
-        craftCost: 4
+        craftCost: 5
       - prefab: Bilebag
         craftCost: 1
       - prefab: Amethyst_TW
@@ -259,7 +259,7 @@ recipeModifications:
         craftCost: 8
         upgradeCost: 4
       - prefab: ShardElder_TW
-        craftCost: 2
+        craftCost: 3
         upgradeCost: 1
   ArmorSpellSlingerChest_BlackForest_TW_Recipe_Custom:
     action: Modify
@@ -277,7 +277,7 @@ recipeModifications:
         craftCost: 10
         upgradeCost: 5
       - prefab: ShardElder_TW
-        craftCost: 2
+        craftCost: 3
         upgradeCost: 2
   ArmorSpellslingerLegs_BlackForest_TW_Recipe_Custom:
     action: Modify
@@ -295,7 +295,7 @@ recipeModifications:
         craftCost: 4
         upgradeCost: 2
       - prefab: ShardElder_TW
-        craftCost: 2
+        craftCost: 3
         upgradeCost: 1
   CapeSpellslinger_Blackforest_TW_Recipe_Custom:
     action: Modify
@@ -313,7 +313,7 @@ recipeModifications:
         craftCost: 6
         upgradeCost: 3
       - prefab: ShardElder_TW
-        craftCost: 2
+        craftCost: 3
         upgradeCost: 1
   HelmetSpellslinger_Swamp_TW_Recipe_Custom:
     action: Modify
@@ -331,7 +331,7 @@ recipeModifications:
         craftCost: 8
         upgradeCost: 4
       - prefab: ShardBonemass_TW
-        craftCost: 3
+        craftCost: 4
         upgradeCost: 2
   ArmorSpellSlingerChest_Swamp_TW_Recipe_Custom:
     action: Modify
@@ -349,7 +349,7 @@ recipeModifications:
         craftCost: 16
         upgradeCost: 8
       - prefab: ShardBonemass_TW
-        craftCost: 5
+        craftCost: 6
         upgradeCost: 2
   ArmorSpellslingerLegs_Swamp_TW_Recipe_Custom:
     action: Modify
@@ -367,7 +367,7 @@ recipeModifications:
         craftCost: 4
         upgradeCost: 2
       - prefab: ShardBonemass_TW
-        craftCost: 3
+        craftCost: 4
         upgradeCost: 2
   CapeSpellslinger_Swamp_TW_Recipe_Custom:
     action: Modify
@@ -385,7 +385,7 @@ recipeModifications:
         craftCost: 2
         upgradeCost: 1
       - prefab: ShardBonemass_TW
-        craftCost: 3
+        craftCost: 4
         upgradeCost: 1
   HelmetSpellslinger_Mountain_TW_Recipe_Custom:
     action: Modify
@@ -403,7 +403,7 @@ recipeModifications:
         craftCost: 6
         upgradeCost: 3
       - prefab: ShardModer_TW
-        craftCost: 5
+        craftCost: 6
         upgradeCost: 2
       - prefab: TrophyCultist
         craftCost: 1
@@ -423,7 +423,7 @@ recipeModifications:
         craftCost: 22
         upgradeCost: 11
       - prefab: ShardModer_TW
-        craftCost: 7
+        craftCost: 8
         upgradeCost: 3
       - prefab: WolfHairBundle
         craftCost: 10
@@ -443,7 +443,7 @@ recipeModifications:
         craftCost: 4
         upgradeCost: 2
       - prefab: ShardModer_TW
-        craftCost: 5
+        craftCost: 6
         upgradeCost: 2
       - prefab: FreezeGland
         craftCost: 4
@@ -463,7 +463,7 @@ recipeModifications:
         craftCost: 4
         upgradeCost: 2
       - prefab: ShardModer_TW
-        craftCost: 3
+        craftCost: 4
         upgradeCost: 1
       - prefab: Silver
         craftCost: 1
@@ -483,7 +483,7 @@ recipeModifications:
         craftCost: 12
         upgradeCost: 6
       - prefab: ShardYagluth_TW
-        craftCost: 7
+        craftCost: 8
         upgradeCost: 3
       - prefab: TrophyLox
         craftCost: 1
@@ -523,7 +523,7 @@ recipeModifications:
         craftCost: 12
         upgradeCost: 6
       - prefab: ShardYagluth_TW
-        craftCost: 7
+        craftCost: 8
         upgradeCost: 3
       - prefab: Tar
         craftCost: 8
@@ -543,7 +543,7 @@ recipeModifications:
         craftCost: 6
         upgradeCost: 3
       - prefab: ShardYagluth_TW
-        craftCost: 4
+        craftCost: 5
         upgradeCost: 1
       - prefab: BlackMetal
         craftCost: 4
@@ -603,7 +603,7 @@ recipeModifications:
         craftCost: 12
         upgradeCost: 6
       - prefab: ShardQueen_TW
-        craftCost: 6
+        craftCost: 8
         upgradeCost: 3
       - prefab: Carapace
         craftCost: 8
@@ -624,7 +624,7 @@ recipeModifications:
         craftCost: 6
         upgradeCost: 3
       - prefab: ShardQueen_TW
-        craftCost: 6
+        craftCost: 8
         upgradeCost: 1
       - prefab: Carapace
         craftCost: 8
@@ -710,7 +710,7 @@ recipeModifications:
         craftCost: 16
         upgradeCost: 8
       - prefab: ShardBonemass_TW
-        craftCost: 6
+        craftCost: 8
         upgradeCost: 2
       - prefab: TrophySurtling
         craftCost: 3

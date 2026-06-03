@@ -19,9 +19,9 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Raspberry
-        craftCost: 8
+        craftCost: 9
       - prefab: Honey
-        craftCost: 8
+        craftCost: 9
       - prefab: Cloudberry
         craftCost: 2
       - prefab: Blueberries
@@ -36,11 +36,11 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Honey
-        craftCost: 6
+        craftCost: 7
       - prefab: Cloudberry
         craftCost: 3
       - prefab: Onion
-        craftCost: 3
+        craftCost: 4
   $custom_item_honeydessertpie_uncooked:
     action: Modify
     prefab: HoneyDessertPieUncooked
@@ -51,7 +51,7 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Honey
-        craftCost: 6
+        craftCost: 7
       - prefab: BarleyFlour
         craftCost: 3
       - prefab: ChickenEgg
@@ -68,7 +68,7 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Honey
-        craftCost: 9
+        craftCost: 10
       - prefab: Cloudberry
         craftCost: 9
       - prefab: Barley
@@ -87,7 +87,7 @@ recipeModifications:
       - prefab: MushroomMagecap
         craftCost: 3
       - prefab: Honey
-        craftCost: 6
+        craftCost: 7
       - prefab: MushroomJotunPuffs
         craftCost: 3
   $custom_item_honeyyellowstew:
@@ -100,7 +100,7 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Honey
-        craftCost: 6
+        craftCost: 7
       - prefab: Cloudberry
         craftCost: 3
       - prefab: RoyalJelly
@@ -119,7 +119,7 @@ recipeModifications:
       - prefab: NeckTail
         craftCost: 1
       - prefab: Honey
-        craftCost: 3
+        craftCost: 4
   $custom_item_honeycureddeer:
     action: Modify
     prefab: HoneyDeerJerky
@@ -132,7 +132,7 @@ recipeModifications:
       - prefab: DeerMeat
         craftCost: 1
       - prefab: Honey
-        craftCost: 3
+        craftCost: 4
   $custom_item_honeycuredlox:
     action: Modify
     prefab: HoneyLoxJerky
@@ -145,7 +145,7 @@ recipeModifications:
       - prefab: LoxMeat
         craftCost: 1
       - prefab: Honey
-        craftCost: 3
+        craftCost: 4
   $custom_item_surtrsdelight:
     action: Modify
     prefab: SurtrsDelight
@@ -156,7 +156,7 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Honey
-        craftCost: 8
+        craftCost: 9
       - prefab: MushroomSmokePuff
         craftCost: 4
       - prefab: Fiddleheadfern
@@ -173,7 +173,7 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Honey
-        craftCost: 6
+        craftCost: 7
       - prefab: Sap
         craftCost: 2
       - prefab: MushroomMagecap
@@ -192,7 +192,7 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Honey
-        craftCost: 8
+        craftCost: 9
       - prefab: Fiddleheadfern
         craftCost: 2
       - prefab: MushroomSmokePuff
@@ -213,4 +213,4 @@ recipeModifications:
       - prefab: WolfMeat
         craftCost: 1
       - prefab: Honey
-        craftCost: 3
+        craftCost: 4

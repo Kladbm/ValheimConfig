@@ -8,9 +8,9 @@ pieceModifications:
     prefab: WizardTable_TW
     requirements:
     - prefab: SurtlingCore
-      amount: 6
+      amount: 8
     - prefab: Bronze
-      amount: 12
+      amount: 16
     - prefab: RoundLog
       amount: 8
     - prefab: TrollHide
@@ -28,9 +28,9 @@ pieceModifications:
     prefab: ArcaneAnvil_TW
     requirements:
     - prefab: Stone
-      amount: 16
+      amount: 24
     - prefab: SurtlingCore
-      amount: 8
+      amount: 12
     - prefab: ShardElder_TW
       amount: 4
     requiredToPlaceCraftingStation: WizardTable_TW
@@ -45,13 +45,13 @@ pieceModifications:
     prefab: PotionCauldron_TW
     requirements:
     - prefab: Iron
-      amount: 12
+      amount: 16
     - prefab: Bronze
-      amount: 6
-    - prefab: Guck
       amount: 8
+    - prefab: Guck
+      amount: 12
     - prefab: ShardBonemass_TW
-      amount: 2
+      amount: 3
     requiredToPlaceCraftingStation: WizardTable_TW
     canBeDeconstructed: true
     pieceCategory: 9
@@ -64,7 +64,7 @@ pieceModifications:
     prefab: WeavingLoom_TW
     requirements:
     - prefab: RoundLog
-      amount: 16
+      amount: 24
     - prefab: HardAntler
       amount: 3
     - prefab: Thistle
@@ -83,11 +83,11 @@ pieceModifications:
     prefab: WizardTable_ext3_TW
     requirements:
     - prefab: Crystal
-      amount: 8
-    - prefab: FineWood
       amount: 12
+    - prefab: FineWood
+      amount: 24
     - prefab: Obsidian
-      amount: 6
+      amount: 8
     - prefab: ShardModer_TW
       amount: 4
     requiredToPlaceCraftingStation: WizardTable_TW
@@ -102,9 +102,9 @@ pieceModifications:
     prefab: WizardTable_ext4_TW
     requirements:
     - prefab: Tar
-      amount: 12
+      amount: 16
     - prefab: GoblinTotem
-      amount: 6
+      amount: 8
     - prefab: TrophySkeleton
       amount: 3
     - prefab: ShardYagluth_TW
@@ -121,13 +121,13 @@ pieceModifications:
     prefab: WizardTable_ext2_TW
     requirements:
     - prefab: WitheredBone
-      amount: 6
+      amount: 8
     - prefab: ElderBark
-      amount: 10
+      amount: 16
     - prefab: Ooze
-      amount: 3
+      amount: 5
     - prefab: ShardBonemass_TW
-      amount: 2
+      amount: 3
     requiredToPlaceCraftingStation: WizardTable_TW
     canBeDeconstructed: true
     pieceCategory: 9
