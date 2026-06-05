@@ -192,8 +192,8 @@ pieceModifications:
     - prefab: Resin
       amount: 12
       recover: true
-    - prefab: Resin
-      amount: 12
+    - prefab: GreydwarfEye
+      amount: 3
       recover: true
     requiredToPlaceCraftingStation: piece_workbench
     canBeDeconstructed: true
