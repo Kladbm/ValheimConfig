@@ -176,3 +176,28 @@ pieceModifications:
     pieceName: $piece_forge_ext3
     pieceDescription: $piece_forge $piece_upgrade
     enablePiece: true
+  BH_MortarAndPestle:
+    action: Modify
+    prefab: BH_MortarAndPestle
+    requirements:
+    - prefab: Stone
+      amount: 16
+      recover: true
+    - prefab: Wood
+      amount: 12
+      recover: true
+    - prefab: Flint
+      amount: 12
+      recover: true
+    - prefab: Resin
+      amount: 12
+      recover: true
+    - prefab: Resin
+      amount: 12
+      recover: true
+    requiredToPlaceCraftingStation: piece_workbench
+    canBeDeconstructed: true
+    pieceCategory: Crafting
+    pieceName: $bh_mortarandpestle
+    pieceDescription: $bh_mortarandpestle_description
+    enablePiece: true

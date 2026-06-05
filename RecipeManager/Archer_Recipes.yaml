@@ -715,6 +715,9 @@ recipeModifications:
       - prefab: Wood
         craftCost: 16
         upgradeCost: 2
+      - prefab: Feathers
+        craftCost: 1
+        upgradeCost: 1
   ArrowBone_TW_Recipe_Custom:
     action: Modify
     prefab: ArrowBone_TW
@@ -793,7 +796,7 @@ recipeModifications:
         craftCost: 16
         upgradeCost: 1
       - prefab: Feathers
-        craftCost: 4
+        craftCost: 5
         upgradeCost: 1
   Recipe_BoltBone:
     action: Modify
@@ -808,7 +811,7 @@ recipeModifications:
         craftCost: 16
         upgradeCost: 1
       - prefab: Feathers
-        craftCost: 4
+        craftCost: 5
         upgradeCost: 1
   Recipe_BoltCarapace:
     action: Modify
@@ -826,7 +829,7 @@ recipeModifications:
         craftCost: 16
         upgradeCost: 1
       - prefab: Feathers
-        craftCost: 4
+        craftCost: 5
         upgradeCost: 1
   Recipe_BoltCharred:
     action: Modify
@@ -844,7 +847,7 @@ recipeModifications:
         craftCost: 16
         upgradeCost: 1
       - prefab: Feathers
-        craftCost: 4
+        craftCost: 5
         upgradeCost: 1
   Recipe_BoltIron:
     action: Modify
@@ -862,7 +865,7 @@ recipeModifications:
         craftCost: 1
         upgradeCost: 1
       - prefab: Feathers
-        craftCost: 4
+        craftCost: 5
         upgradeCost: 1
   BoltWood_TW_Recipe_Workbench:
     action: Modify
@@ -875,6 +878,8 @@ recipeModifications:
       ingredients:
       - prefab: Wood
         craftCost: 16
+      - prefab: Feathers
+        craftCost: 1
   BoltAntler_TW_Recipe_Workbench:
     action: Modify
     prefab: BoltAntler_TW
@@ -902,7 +907,7 @@ recipeModifications:
       - prefab: Bronze
         craftCost: 1
       - prefab: Feathers
-        craftCost: 4
+        craftCost: 5
   BoltFire_TW_Recipe_Custom:
     action: Modify
     prefab: BoltFire_TW
@@ -917,7 +922,7 @@ recipeModifications:
       - prefab: Resin
         craftCost: 8
       - prefab: Feathers
-        craftCost: 4
+        craftCost: 5
   BoltFrost_TW_Recipe_Custom:
     action: Modify
     prefab: BoltFrost_TW
@@ -932,7 +937,7 @@ recipeModifications:
       - prefab: Obsidian
         craftCost: 6
       - prefab: Feathers
-        craftCost: 4
+        craftCost: 5
       - prefab: FreezeGland
         craftCost: 1
   BoltPoison_TW_Recipe_Custom:
@@ -949,7 +954,7 @@ recipeModifications:
       - prefab: Obsidian
         craftCost: 8
       - prefab: Feathers
-        craftCost: 4
+        craftCost: 5
       - prefab: Guck
         craftCost: 1
   BoltSilver_TW_Recipe_Custom:
@@ -966,7 +971,7 @@ recipeModifications:
       - prefab: Silver
         craftCost: 1
       - prefab: Feathers
-        craftCost: 4
+        craftCost: 5
   BoltBlunt_TW_Recipe_Custom:
     action: Modify
     prefab: BoltBlunt_TW
@@ -983,7 +988,7 @@ recipeModifications:
       - prefab: Iron
         craftCost: 1
       - prefab: Feathers
-        craftCost: 4
+        craftCost: 5
   BoltPickaxe_TW_Recipe_Custom:
     action: Modify
     prefab: BoltPickaxe_TW
@@ -1000,7 +1005,7 @@ recipeModifications:
       - prefab: SurtlingCore
         craftCost: 2
       - prefab: Feathers
-        craftCost: 4
+        craftCost: 5
   BoltExplosiveLightning_TW_Recipe_Custom:
     action: Modify
     prefab: BoltExplosiveLightning_TW
