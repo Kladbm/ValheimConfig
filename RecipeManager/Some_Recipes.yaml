@@ -59,3 +59,23 @@ recipeModifications:
         upgradeCost: 6
       - prefab: TrophyBjorn
         craftCost: 1
+  Recipe_AxeEarly:
+    action: Modify
+    prefab: AxeEarly
+    recipeName: Recipe_AxeEarly
+    craftedAt: piece_workbench
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FineWood
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: LeatherScraps
+        upgradeCost: 4
+      - prefab: Flint
+        upgradeCost: 4
+      - prefab: AxeHead1
+        craftCost: 1
+      - prefab: AxeHead2
+        craftCost: 1
