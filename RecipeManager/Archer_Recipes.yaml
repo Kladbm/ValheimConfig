@@ -569,7 +569,7 @@ recipeModifications:
         craftCost: 16
         upgradeCost: 1
       - prefab: Resin
-        craftCost: 12
+        craftCost: 8
         upgradeCost: 1
       - prefab: Feathers
         craftCost: 5
