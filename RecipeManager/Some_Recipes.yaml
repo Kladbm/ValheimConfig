@@ -79,3 +79,18 @@ recipeModifications:
         craftCost: 1
       - prefab: AxeHead2
         craftCost: 1
+  Recipe_PickaxeAntler:
+    action: Modify
+    prefab: PickaxeAntler
+    recipeName: Recipe_PickaxeAntler
+    craftedAt: piece_workbench
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Wood
+        craftCost: 10
+        upgradeCost: 4
+      - prefab: HardAntler
+        craftCost: 1
+        upgradeCost: 1
