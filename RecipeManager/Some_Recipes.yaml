@@ -79,18 +79,82 @@ recipeModifications:
         craftCost: 1
       - prefab: AxeHead2
         craftCost: 1
-  Recipe_PickaxeAntler:
+  Hellbroth_of_Flames_Recipe_Custom:
     action: Modify
-    prefab: PickaxeAntler
-    recipeName: Recipe_PickaxeAntler
+    prefab: Hellbroth_of_Flames
+    recipeName: Hellbroth_of_Flames_Recipe_Custom
+    craftedAt: opalchemy
+    minStationLevel: 1
+    craftAmount: 4
+    recipe:
+      ingredients:
+      - prefab: Resin
+        craftCost: 10
+      - prefab: Torch
+        craftCost: 1
+  Recipe_BH_EmptyBottle:
+    action: Modify
+    prefab: BH_EmptyBottle
+    recipeName: Recipe_BH_EmptyBottle
     craftedAt: piece_workbench
     minStationLevel: 1
     craftAmount: 1
     recipe:
       ingredients:
-      - prefab: Wood
-        craftCost: 10
-        upgradeCost: 4
-      - prefab: HardAntler
+      - prefab: Crystal
+        craftCost: 6
+      - prefab: FineWood
         craftCost: 1
-        upgradeCost: 1
+      - prefab: Resin
+        craftCost: 8
+  Recipe_BH_EmptyContainer:
+    action: Modify
+    prefab: BH_EmptyContainer
+    recipeName: Recipe_BH_EmptyContainer
+    craftedAt: piece_workbench
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: GreydwarfEye
+        craftCost: 2
+      - prefab: DeerHide
+        craftCost: 3
+      - prefab: LeatherScraps
+        craftCost: 4
+      - prefab: Resin
+        craftCost: 4
+  Recipe_BH_EmptyElixirBottle:
+    action: Modify
+    prefab: BH_EmptyElixerBottle
+    recipeName: Recipe_BH_EmptyElixirBottle
+    craftedAt: piece_workbench
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Copper
+        craftCost: 1
+      - prefab: TrollHide
+        craftCost: 1
+      - prefab: DeerHide
+        craftCost: 3
+      - prefab: Resin
+        craftCost: 3
+  Recipe_BH_EmptyLargeBottle:
+    action: Modify
+    prefab: BH_EmptyLargeBottle
+    recipeName: Recipe_BH_EmptyLargeBottle
+    craftedAt: piece_workbench
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Copper
+        craftCost: 1
+      - prefab: Crystal
+        craftCost: 6
+      - prefab: FineWood
+        craftCost: 2
+      - prefab: Resin
+        craftCost: 8

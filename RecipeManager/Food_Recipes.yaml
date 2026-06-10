@@ -103,11 +103,11 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: MushroomWitcheye_TW
-        craftCost: 4
+        craftCost: 2
       - prefab: Blueberries
-        craftCost: 5
+        craftCost: 3
       - prefab: Honey
-        craftCost: 7
+        craftCost: 5
   ShroomSoupSwamp_TW_Recipe_Cauldron:
     action: Modify
     prefab: ShroomSoupSwamp_TW

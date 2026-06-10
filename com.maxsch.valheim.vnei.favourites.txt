@@ -3,3 +3,9 @@ AxeHead1
 AxeHead2
 Lesser_Spiritual_Healing_Vial
 BH_MinorHealthTonic
+VAdverger_tower
+VAsilver_tower
+VAModer_shield
+VAModer_RoundShield
+VAElderRoundShield
+VAserpent_buckler
