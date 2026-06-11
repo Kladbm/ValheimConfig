@@ -1,0 +1,1795 @@
+#################################################
+# ThrowAxe Recipe Manipulation Config
+#################################################
+
+recipeModifications:
+  Recipe_VAdverger_tower:
+    action: Modify
+    prefab: VAdverger_tower
+    recipeName: Recipe_VAdverger_tower
+    craftedAt: blackforge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: BlackMarble
+        craftCost: 25
+        upgradeCost: 15
+      - prefab: YggdrasilWood
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: BlackCore
+        craftCost: 1
+        upgradeCost: 1
+      - prefab: Copper
+        craftCost: 14
+        upgradeCost: 7
+      - prefab: Wisp
+        craftCost: 3
+        upgradeCost: 1
+  Recipe_VAsilver_tower:
+    action: Modify
+    prefab: VAsilver_tower
+    recipeName: Recipe_VAsilver_tower
+    craftedAt: forge
+    minStationLevel: 3
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FineWood
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: Silver
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: WolfPelt
+        craftCost: 4
+        upgradeCost: 2
+      - prefab: Crystal
+        craftCost: 4
+        upgradeCost: 2
+      - prefab: TrophyWolf
+        craftCost: 1
+        upgradeCost: 1
+      - prefab: TrophyUlv
+        craftCost: 1
+        upgradeCost: 1
+  Recipe_VAModer_shield:
+    action: Modify
+    prefab: VAModer_shield
+    recipeName: Recipe_VAModer_shield
+    craftedAt: forge
+    minStationLevel: 3
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FineWood
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: Silver
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: DragonTear
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: TrophyDragonQueen
+        craftCost: 1
+      - prefab: Obsidian
+        upgradeCost: 4
+      - prefab: JuteRed
+        upgradeCost: 4
+  Recipe_VAModer_RoundShield:
+    action: Modify
+    prefab: VAModer_RoundShield
+    recipeName: Recipe_VAModer_RoundShield
+    craftedAt: forge
+    minStationLevel: 3
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FineWood
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: Silver
+        craftCost: 20
+        upgradeCost: 10
+      - prefab: DragonTear
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: TrophyDragonQueen
+        craftCost: 1
+      - prefab: Obsidian
+        upgradeCost: 4
+      - prefab: JuteRed
+        upgradeCost: 4
+  Recipe_VAElderRoundShield:
+    action: Modify
+    prefab: VAElderRoundShield
+    recipeName: Recipe_VAElderRoundShield
+    craftedAt: forge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Wood
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: Bronze
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: CryptKey
+        craftCost: 1
+        upgradeCost: 1
+      - prefab: TrophyTheElder
+        craftCost: 1
+        upgradeCost: 1
+  Recipe_VAserpent_buckler:
+    action: Modify
+    prefab: VAserpent_buckler
+    recipeName: Recipe_VAserpent_buckler
+    craftedAt: forge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FineWood
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: Iron
+        craftCost: 4
+        upgradeCost: 2
+      - prefab: ElderBark
+        craftCost: 4
+        upgradeCost: 2
+      - prefab: SerpentScale
+        craftCost: 8
+        upgradeCost: 4
+  Recipe_VAMeteorAtgeir_blood:
+    action: Modify
+    prefab: VAMeteorAtgeir_blood
+    recipeName: Recipe_VAMeteorAtgeir_blood
+    craftedAt: blackforge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: VAMeteorAtgeir
+        craftCost: 1
+      - prefab: FlametalNew
+        craftCost: 8
+        upgradeCost: 8
+      - prefab: Blackwood
+        craftCost: 5
+      - prefab: GemstoneRed
+        craftCost: 1
+        upgradeCost: 1
+  Recipe_VAMeteorAtgeir_lightning:
+    action: Modify
+    prefab: VAMeteorAtgeir_lightning
+    recipeName: Recipe_VAMeteorAtgeir_lightning
+    craftedAt: blackforge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: VAMeteorAtgeir
+        craftCost: 1
+      - prefab: FlametalNew
+        craftCost: 8
+        upgradeCost: 8
+      - prefab: Blackwood
+        craftCost: 5
+      - prefab: GemstoneBlue
+        craftCost: 1
+        upgradeCost: 1
+  Recipe_VAMeteorAtgeir_nature:
+    action: Modify
+    prefab: VAMeteorAtgeir_nature
+    recipeName: Recipe_VAMeteorAtgeir_nature
+    craftedAt: blackforge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: VAMeteorAtgeir
+        craftCost: 1
+      - prefab: FlametalNew
+        craftCost: 8
+        upgradeCost: 8
+      - prefab: Blackwood
+        craftCost: 5
+      - prefab: GemstoneGreen
+        craftCost: 1
+        upgradeCost: 1
+  Recipe_VAMeteorAtgeir:
+    action: Modify
+    prefab: VAMeteorAtgeir
+    recipeName: Recipe_VAMeteorAtgeir
+    craftedAt: blackforge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FlametalNew
+        craftCost: 15
+        upgradeCost: 10
+      - prefab: Iron
+        craftCost: 4
+        upgradeCost: 2
+      - prefab: Blackwood
+        craftCost: 10
+      - prefab: MorgenSinew
+        craftCost: 2
+        upgradeCost: 2
+  Recipe_VAYagluthAtgeir:
+    action: Modify
+    prefab: VAYagluthAtgeir
+    recipeName: Recipe_VAYagluthAtgeir
+    craftedAt: forge
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: BlackMetal
+        craftCost: 30
+        upgradeCost: 15
+      - prefab: Iron
+        craftCost: 10
+        upgradeCost: 5
+      - prefab: YagluthDrop
+        craftCost: 2
+        upgradeCost: 1
+      - prefab: TrophyGoblinKing
+        craftCost: 1
+      - prefab: Tar
+        upgradeCost: 6
+      - prefab: LinenThread
+        upgradeCost: 4
+  Recipe_VASilverAtgeir:
+    action: Disable
+    prefab: VASilverAtgeir
+  Recipe_VAAtgeirChitin:
+    action: Modify
+    prefab: VAAtgeirChitin
+    recipeName: Recipe_VAAtgeirChitin
+    craftedAt: piece_workbench
+    minStationLevel: 3
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FineWood
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: Chitin
+        craftCost: 30
+        upgradeCost: 15
+      - prefab: DeerHide
+        craftCost: 4
+        upgradeCost: 2
+  Recipe_VAatgeir_antler:
+    action: Modify
+    prefab: VAatgeir_antler
+    recipeName: Recipe_VAatgeir_antler
+    craftedAt: piece_workbench
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FineWood
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: Resin
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: HardAntler
+        craftCost: 6
+        upgradeCost: 3
+      - prefab: TrophyEikthyr
+        craftCost: 1
+        upgradeCost: 1
+  Recipe_VAAtgeir_Flint:
+    action: Disable
+    prefab: VAAtgeir_Flint
+  Recipe_VAdagger_meteor_2h_blood:
+    action: Modify
+    prefab: VAdagger_meteor_2h_blood
+    recipeName: Recipe_VAdagger_meteor_2h_blood
+    craftedAt: blackforge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: VAdagger_meteor_2h
+        craftCost: 1
+      - prefab: FlametalNew
+        craftCost: 8
+        upgradeCost: 8
+      - prefab: GemstoneRed
+        craftCost: 1
+        upgradeCost: 1
+  Recipe_VAdagger_meteor_2h_lightning:
+    action: Modify
+    prefab: VAdagger_meteor_2h_lightning
+    recipeName: Recipe_VAdagger_meteor_2h_lightning
+    craftedAt: blackforge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: VAdagger_meteor_2h
+        craftCost: 1
+      - prefab: FlametalNew
+        craftCost: 8
+        upgradeCost: 8
+      - prefab: GemstoneBlue
+        craftCost: 1
+        upgradeCost: 1
+  Recipe_VAdagger_meteor_2h_nature:
+    action: Modify
+    prefab: VAdagger_meteor_2h_nature
+    recipeName: Recipe_VAdagger_meteor_2h_nature
+    craftedAt: blackforge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: VAdagger_meteor_2h
+        craftCost: 1
+      - prefab: FlametalNew
+        craftCost: 8
+        upgradeCost: 8
+      - prefab: GemstoneGreen
+        craftCost: 1
+        upgradeCost: 1
+  Recipe_VAdagger_meteor_2h:
+    action: Modify
+    prefab: VAdagger_meteor_2h
+    recipeName: Recipe_VAdagger_meteor_2h
+    craftedAt: blackforge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FlametalNew
+        craftCost: 14
+        upgradeCost: 6
+      - prefab: Iron
+        craftCost: 2
+        upgradeCost: 1
+      - prefab: Blackwood
+        craftCost: 6
+      - prefab: MorgenSinew
+        craftCost: 4
+        upgradeCost: 2
+  Recipe_VAdagger_meteor_blood:
+    action: Modify
+    prefab: VAdagger_meteor_blood
+    recipeName: Recipe_VAdagger_meteor_blood
+    craftedAt: blackforge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: VAdagger_meteor
+        craftCost: 1
+      - prefab: FlametalNew
+        craftCost: 4
+        upgradeCost: 4
+      - prefab: GemstoneRed
+        craftCost: 1
+        upgradeCost: 1
+  Recipe_VAdagger_meteor_lightning:
+    action: Modify
+    prefab: VAdagger_meteor_lightning
+    recipeName: Recipe_VAdagger_meteor_lightning
+    craftedAt: blackforge
+    minStationLevel: 1
+    craftAmount: 2
+    recipe:
+      ingredients:
+      - prefab: VAdagger_meteor
+        craftCost: 1
+      - prefab: FlametalNew
+        craftCost: 4
+        upgradeCost: 4
+      - prefab: GemstoneBlue
+        craftCost: 1
+        upgradeCost: 1
+  Recipe_VAdagger_meteor_nature:
+    action: Modify
+    prefab: VAdagger_meteor_nature
+    recipeName: Recipe_VAdagger_meteor_nature
+    craftedAt: blackforge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: VAdagger_meteor
+        craftCost: 1
+      - prefab: FlametalNew
+        craftCost: 4
+        upgradeCost: 4
+      - prefab: GemstoneGreen
+        craftCost: 1
+        upgradeCost: 1
+  Recipe_VAdagger_meteor:
+    action: Modify
+    prefab: VAdagger_meteor
+    recipeName: Recipe_VAdagger_meteor
+    craftedAt: blackforge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FlametalNew
+        craftCost: 10
+        upgradeCost: 4
+      - prefab: Iron
+        craftCost: 2
+        upgradeCost: 1
+      - prefab: Blackwood
+        craftCost: 4
+      - prefab: MorgenSinew
+        craftCost: 4
+        upgradeCost: 2
+  Recipe_VAdagger_queen:
+    action: Modify
+    prefab: VAdagger_queen
+    recipeName: Recipe_VAdagger_queen
+    craftedAt: blackforge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: YggdrasilWood
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: Eitr
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: JuteBlue
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: TrophySeekerQueen
+        craftCost: 1
+        upgradeCost: 1
+      - prefab: Carapace
+        upgradeCost: 8
+  Recipe_VABonemassDagger:
+    action: Modify
+    prefab: VABonemassDagger
+    recipeName: Recipe_VABonemassDagger
+    craftedAt: forge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: WitheredBone
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: Iron
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: Wishbone
+        craftCost: 1
+      - prefab: TrophyBonemass
+        craftCost: 1
+      - prefab: ElderBark
+        upgradeCost: 8
+      - prefab: LeatherScraps
+        upgradeCost: 8
+  Recipe_VAdagger_moder_2h:
+    action: Modify
+    prefab: VAdagger_moder_2h
+    recipeName: Recipe_VAdagger_moder_2h
+    craftedAt: forge
+    minStationLevel: 3
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: DragonTear
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: TrophyDragonQueen
+        craftCost: 1
+      - prefab: Silver
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: ElderBark
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: JuteRed
+        upgradeCost: 6
+  Recipe_VAdagger_moder:
+    action: Modify
+    prefab: VAdagger_moder
+    recipeName: Recipe_VAdagger_moder
+    craftedAt: forge
+    minStationLevel: 3
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: DragonTear
+        craftCost: 6
+        upgradeCost: 3
+      - prefab: TrophyDragonQueen
+        craftCost: 1
+      - prefab: Silver
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: ElderBark
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: Obsidian
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: JuteRed
+        upgradeCost: 4
+  Recipe_VAdagger_silver_2h:
+    action: Disable
+    prefab: VAdagger_silver_2h
+  Recipe_VAdagger_iron:
+    action: Disable
+    prefab: VAdagger_iron
+  Recipe_VAdagger_iron_2h:
+    action: Disable
+    prefab: VAdagger_iron_2h
+  Recipe_VAdagger_chitin_2h:
+    action: Disable
+    prefab: VAdagger_chitin_2h
+  Recipe_VAdagger_copper_2h:
+    action: Modify
+    prefab: VAdagger_copper_2h
+    recipeName: Recipe_VAdagger_copper_2h
+    craftedAt: forge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: RoundLog
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: Copper
+        craftCost: 16
+        upgradeCost: 4
+      - prefab: LeatherScraps
+        craftCost: 4
+        upgradeCost: 2
+  Recipe_VAAntler_dagger:
+    action: Modify
+    prefab: VAAntler_dagger
+    recipeName: Recipe_VAAntler_dagger
+    craftedAt: piece_workbench
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FineWood
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: Resin
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: HardAntler
+        craftCost: 6
+        upgradeCost: 3
+      - prefab: TrophyEikthyr
+        craftCost: 1
+        upgradeCost: 1
+  Recipe_VADagger_Flint_2h:
+    action: Disable
+    prefab: VADagger_Flint_2h
+  Recipe_VAknife_blackmetal:
+    action: Disable
+    prefab: VAknife_blackmetal
+  Recipe_VAdagger_blackmetal_mistlands:
+    action: Modify
+    prefab: VAdagger_blackmetal_mistlands
+    recipeName: Recipe_VAdagger_blackmetal_mistlands
+    craftedAt: blackforge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FineWood
+        craftCost: 6
+        upgradeCost: 3
+      - prefab: BlackMetal
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: Iron
+        craftCost: 4
+        upgradeCost: 2
+  Recipe_VASpearFader:
+    action: Modify
+    prefab: VASpearFader
+    recipeName: Recipe_VASpearFader
+    craftedAt: blackforge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FlametalNew
+        craftCost: 24
+        upgradeCost: 24
+      - prefab: Blackwood
+        craftCost: 32
+        upgradeCost: 16
+      - prefab: TrophyFader
+        craftCost: 1
+      - prefab: FaderDrop
+        craftCost: 1
+        upgradeCost: 1
+  Recipe_VASpearBlackmetal:
+    action: Disable
+    prefab: VASpearBlackmetal
+  Recipe_VASpearModer:
+    action: Modify
+    prefab: VASpearModer
+    recipeName: Recipe_VASpearModer
+    craftedAt: forge
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ElderBark
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: Obsidian
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: DragonTear
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: TrophyDragonQueen
+        craftCost: 1
+      - prefab: Silver
+        craftCost: 16      
+        upgradeCost: 8
+      - prefab: JuteRed
+        craftCost: 8       
+        upgradeCost: 4
+  Recipe_VASpearFlint:
+    action: Disable
+    prefab: VASpearFlint
+  Recipe_VASilverSledge:
+    action: Disable
+    prefab: VASilverSledge
+  Recipe_VABonemassWarhammer:
+    action: Modify
+    prefab: VABonemassWarhammer
+    recipeName: Recipe_VABonemassWarhammer
+    craftedAt: forge
+    minStationLevel: 3
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: WitheredBone
+        craftCost: 10
+        upgradeCost: 5
+      - prefab: Iron
+        craftCost: 30
+        upgradeCost: 10
+      - prefab: ElderBark
+        craftCost: 20
+        upgradeCost: 10
+      - prefab: Guck
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: Ooze
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: Wishbone
+        craftCost: 1
+      - prefab: TrophyBonemass
+        craftCost: 1
+  Recipe_VABronzeSledge:
+    action: Disable
+    prefab: VABronzeSledge
+  Recipe_VAElderHammer:
+    action: Modify
+    prefab: VAElderHammer
+    recipeName: Recipe_VAElderHammer
+    craftedAt: forge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ElderBark
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: Stone
+        craftCost: 40
+        upgradeCost: 20
+      - prefab: RoundLog
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: CryptKey
+        craftCost: 1
+      - prefab: TrophyTheElder
+        craftCost: 1
+  Recipe_VAblackmetal_sledge:
+    action: Disable
+    prefab: VAblackmetal_sledge
+  Recipe_VAmistland_mace:
+    action: Modify
+    prefab: VAmistland_mace
+    recipeName: Recipe_VAmistland_mace
+    craftedAt: blackforge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: YggdrasilWood
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: Bronze
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: Eitr
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: BlackMarble
+        craftCost: 24
+        upgradeCost: 12
+  Recipe_VAflametal_sledge:
+    action: Modify
+    prefab: VAflametal_sledge
+    recipeName: Recipe_VAflametal_sledge
+    craftedAt: blackforge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FlametalNew
+        craftCost: 30
+        upgradeCost: 15
+      - prefab: Iron
+        craftCost: 4
+      - prefab: Eitr
+        craftCost: 6
+        upgradeCost: 3
+      - prefab: Blackwood
+        craftCost: 12
+        upgradeCost: 6
+  Recipe_VAflametal_sledge_blood:
+    action: Modify
+    prefab: VAflametal_sledge_blood
+    recipeName: Recipe_VAflametal_sledge_blood
+    craftedAt: blackforge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: VAflametal_sledge
+        craftCost: 1
+      - prefab: FlametalNew
+        craftCost: 8
+        upgradeCost: 8
+      - prefab: Blackwood
+        craftCost: 5
+      - prefab: GemstoneRed
+        craftCost: 1
+        upgradeCost: 1
+  Recipe_VAflametal_sledge_lightning:
+    action: Modify
+    prefab: VAflametal_sledge_lightning
+    recipeName: Recipe_VAflametal_sledge_lightning
+    craftedAt: blackforge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: VAflametal_sledge
+        craftCost: 1
+      - prefab: FlametalNew
+        craftCost: 8
+        upgradeCost: 8
+      - prefab: Blackwood
+        craftCost: 5
+      - prefab: GemstoneBlue
+        craftCost: 1
+        upgradeCost: 1
+  Recipe_VAflametal_sledge_nature:
+    action: Modify
+    prefab: VAflametal_sledge_nature
+    recipeName: Recipe_VAflametal_sledge_nature
+    craftedAt: blackforge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: VAflametal_sledge
+        craftCost: 1
+      - prefab: FlametalNew
+        craftCost: 8
+        upgradeCost: 8
+      - prefab: Blackwood
+        craftCost: 5
+      - prefab: GemstoneGreen
+        craftCost: 1
+        upgradeCost: 1
+  Recipe_VAFlintMace:
+    action: Disable
+    prefab: VAFlintMace
+  Recipe_VAElder_mace:
+    action: Modify
+    prefab: VAElder_mace
+    recipeName: Recipe_VAElder_mace
+    craftedAt: forge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ElderBark
+        craftCost: 30
+        upgradeCost: 15
+      - prefab: Stone
+        craftCost: 40
+        upgradeCost: 20
+      - prefab: CryptKey
+        craftCost: 1
+      - prefab: TrophyTheElder
+        craftCost: 1
+      - prefab: RoundLog
+        upgradeCost: 12
+  Recipe_VABlood_Bones_pickaxe:
+    action: Disable
+    prefab: VABlood_Bones_pickaxe
+  Recipe_VAFireBolt:
+    action: Disable
+    prefab: VAFireBolt
+  Recipe_VABoltNeedle:
+    action: Modify
+    prefab: VABoltNeedle
+    recipeName: Recipe_VABoltNeedle
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: Needle
+        craftCost: 8
+      - prefab: Feathers
+        craftCost: 5
+  Recipe_VASurtlingBolt:
+    action: Modify
+    prefab: VASurtlingBolt
+    recipeName: Recipe_VASurtlingBolt
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: Wood
+        craftCost: 16
+      - prefab: Iron
+        craftCost: 1
+      - prefab: Feathers
+        craftCost: 5
+      - prefab: SurtlingCore
+        craftCost: 1
+  Recipe_VAbolt_frost:
+    action: Disable
+    prefab: VAbolt_frost
+  Recipe_VAObsidianBolt:
+    action: Disable
+    prefab: VAObsidianBolt
+  Recipe_VAbolt_poison:
+    action: Disable
+    prefab: VAbolt_poison
+  Recipe_VAbolt_bronze:
+    action: Disable
+    prefab: VAbolt_bronze
+  Recipe_VABoltCoreWood:
+    action: Modify
+    prefab: VABoltCoreWood
+    recipeName: Recipe_VABoltCoreWood
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: RoundLog
+        craftCost: 16
+      - prefab: Feathers
+        craftCost: 5
+  Recipe_VABoltWood:
+    action: Disable
+    prefab: VABoltWood
+  Recipe_VAChitinArrow:
+    action: Modify
+    prefab: VAChitinArrow
+    recipeName: Recipe_VAChitinArrow
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: Wood
+        craftCost: 16
+      - prefab: Chitin
+        craftCost: 2
+      - prefab: Feathers
+        craftCost: 5
+  Recipe_VAArrowAncient:
+    action: Modify
+    prefab: VAArrowAncient
+    recipeName: Recipe_VAArrowAncient
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: ElderBark
+        craftCost: 12
+      - prefab: Feathers
+        craftCost: 5
+  Recipe_VAarrow_surtling_fire:
+    action: Modify
+    prefab: VAarrow_surtling_fire
+    recipeName: Recipe_VAarrow_surtling_fire
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: Wood
+        craftCost: 16
+      - prefab: Iron
+        craftCost: 1
+      - prefab: Feathers
+        craftCost: 5
+      - prefab: SurtlingCore
+        craftCost: 1
+  Recipe_VAArrowBone:
+    action: Disable
+    prefab: VAArrowBone
+  Recipe_VAArrowGreenMetal:
+    action: Modify
+    prefab: VAArrowGreenMetal
+    recipeName: Recipe_VAArrowGreenMetal
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 20
+    recipe:
+      ingredients:
+      - prefab: Wood
+        craftCost: 16
+      - prefab: BlackMetal
+        craftCost: 2
+      - prefab: Feathers
+        craftCost: 5
+  Recipe_VAQueen_bow:
+    action: Modify
+    prefab: VAQueen_bow
+    recipeName: Recipe_VAQueen_bow
+    craftedAt: FletcherTable_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: YggdrasilWood
+        craftCost: 42
+        upgradeCost: 24
+      - prefab: Eitr
+        craftCost: 30   
+        upgradeCost: 15
+      - prefab: JuteBlue
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: TrophySeekerQueen
+        craftCost: 1
+      - prefab: Carapace
+        upgradeCost: 6
+  Recipe_VAAntler_Bow:
+    action: Modify
+    prefab: VAAntler_Bow
+    recipeName: Recipe_VAAntler_Bow
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FineWood
+        craftCost: 15
+        upgradeCost: 5
+      - prefab: Resin
+        craftCost: 20
+        upgradeCost: 10
+      - prefab: HardAntler
+        craftCost: 3
+        upgradeCost: 3
+      - prefab: TrophyEikthyr
+        craftCost: 1
+        upgradeCost: 1
+  Recipe_VABlood_bone_bow:
+    action: Modify
+    prefab: VABlood_bone_bow
+    recipeName: Recipe_VABlood_bone_bow
+    craftedAt: FletcherTable_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ElderBark
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: Silver
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: BoneFragments
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: TrophyUlv
+        craftCost: 3
+  Recipe_VAHeavy_Blood_Bone_Bow:
+    action: Modify
+    prefab: VAHeavy_Blood_Bone_Bow
+    recipeName: Recipe_VAHeavy_Blood_Bone_Bow
+    craftedAt: FletcherTable_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: YggdrasilWood
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: Iron
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: Carapace
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: TrophyTick
+        craftCost: 3
+      - prefab: Eitr
+        upgradeCost: 12
+  Recipe_VABlackmetal_bow:
+    action: Disable
+    prefab: VABlackmetal_bow
+  Recipe_VASoulStealer:
+    action: Disable
+    prefab: VASoulStealer
+  Recipe_VACrossbowModer:
+    action: Modify
+    prefab: VACrossbowModer
+    recipeName: Recipe_VACrossbowModer
+    craftedAt: FletcherTable_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ElderBark
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: Obsidian
+        craftCost: 32
+        upgradeCost: 16
+      - prefab: DragonTear
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: TrophyDragonQueen
+        craftCost: 1
+      - prefab: Silver
+        craftCost: 12
+        upgradeCost: 6
+  Recipe_VACrossbowElder:
+    action: Modify
+    prefab: VACrossbowElder
+    recipeName: Recipe_VACrossbowElder
+    craftedAt: FletcherTable_TW
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Bronze
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: RoundLog
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: DeerHide
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: CryptKey
+        craftCost: 1
+      - prefab: TrophyTheElder
+        craftCost: 1
+  Recipe_VACrossbowWood:
+    action: Disable
+    prefab: VACrossbowWood
+  Recipe_VACrossbowBronze:
+    action: Disable
+    prefab: VACrossbowBronze
+  Recipe_VACrossbowBlackmetal:
+    action: Disable
+    prefab: VACrossbowBlackmetal
+  Recipe_VACrossbowSilver:
+    action: Disable
+    prefab: VACrossbowSilver
+  Recipe_VACrossbowIron:
+    action: Disable
+    prefab: VACrossbowIron
+  Recipe_VAArbalistBronze:
+    action: Disable
+    prefab: VAArbalistBronze
+  Recipe_VAStaff_Druid_Fire:
+    action: Disable
+    prefab: VAStaff_Druid_Fire
+  Recipe_VAStaff_Druid_Ice:
+    action: Disable
+    prefab: VAStaff_Druid_Ice
+  Recipe_VAStaff_Druid_Spirit:
+    action: Disable
+    prefab: VAStaff_Druid_Spirit
+  Recipe_VAStaff_Druid_Poison:
+    action: Disable
+    prefab: VAStaff_Druid_Poison
+  Recipe_VAStaff_Spirit:
+    action: Disable
+    prefab: VAStaff_Spirit
+  Recipe_VAStaff_Poison:
+    action: Disable
+    prefab: VAStaff_Poison
+  Recipe_VAFist_Yagluth:
+    action: Modify
+    prefab: VAFist_Yagluth
+    recipeName: Recipe_VAFist_Yagluth
+    craftedAt: forge
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: BlackMetal
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: Iron
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: YagluthDrop
+        craftCost: 2
+        upgradeCost: 1
+      - prefab: TrophyGoblinKing
+        craftCost: 1
+      - prefab: Tar
+        upgradeCost: 6
+      - prefab: LinenThread
+        upgradeCost: 4
+  Recipe_VAFist_Iron:
+    action: Disable
+    prefab: VAFist_Iron
+  Recipe_VAFist_Bronze:
+    action: Disable
+    prefab: VAFist_Bronze
+  Recipe_VAFist_Flint:
+    action: Disable
+    prefab: VAFist_Flint
+  Recipe_VASwordQueen:
+    action: Modify
+    prefab: VASwordQueen
+    recipeName: Recipe_VASwordQueen
+    craftedAt: blackforge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: YggdrasilWood
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: Eitr
+        craftCost: 30
+        upgradeCost: 15
+      - prefab: JuteBlue
+        craftCost: 12
+        upgradeCost: 4
+      - prefab: TrophySeekerQueen
+        craftCost: 1
+      - prefab: Carapace
+        upgradeCost: 12
+  Recipe_VAQueen_greatsword:
+    action: Modify
+    prefab: VAQueen_greatsword
+    recipeName: Recipe_VAQueen_greatsword
+    craftedAt: blackforge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: YggdrasilWood
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: Eitr
+        craftCost: 30
+        upgradeCost: 15
+      - prefab: JuteBlue
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: TrophySeekerQueen
+        craftCost: 1
+      - prefab: Carapace
+        upgradeCost: 16
+  Recipe_VAFlint_Greatsword:
+    action: Disable
+    prefab: VAFlint_Greatsword
+  Recipe_VAFlint_Sword:
+    action: Disable
+    prefab: VAFlint_Sword
+  Recipe_VAYagluth_greatsword:
+    action: Modify
+    prefab: VAYagluth_greatsword
+    recipeName: Recipe_VAYagluth_greatsword
+    craftedAt: forge
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: BlackMetal
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: Iron
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: YagluthDrop
+        craftCost: 2
+        upgradeCost: 1       
+      - prefab: TrophyGoblinKing
+        craftCost: 1
+      - prefab: Tar
+        upgradeCost: 6
+      - prefab: LinenThread
+        upgradeCost: 6
+  Recipe_VABonemassGreatsword:
+    action: Modify
+    prefab: VABonemassGreatsword
+    recipeName: Recipe_VABonemassGreatsword
+    craftedAt: forge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: WitheredBone
+        craftCost: 15
+        upgradeCost: 5
+      - prefab: Iron
+        craftCost: 30
+        upgradeCost: 15
+      - prefab: ElderBark
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: LeatherScraps
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: Wishbone
+        craftCost: 1
+      - prefab: TrophyBonemass
+        craftCost: 1
+  Recipe_VABonemassSword:
+    action: Modify
+    prefab: VABonemassSword
+    recipeName: Recipe_VABonemassSword
+    craftedAt: forge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: WitheredBone
+        craftCost: 10
+        upgradeCost: 5
+      - prefab: Iron
+        craftCost: 25
+        upgradeCost: 15
+      - prefab: ElderBark
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: LeatherScraps
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: Wishbone
+        craftCost: 1
+      - prefab: TrophyBonemass
+        craftCost: 1
+  Recipe_VAsilver_greatsword:
+    action: Disable
+    prefab: VAsilver_greatsword
+  Recipe_VAiron_greatsword:
+    action: Disable
+    prefab: VAiron_greatsword
+  Recipe_VAbronze_greatsword:
+    action: Disable
+    prefab: VAbronze_greatsword
+  Recipe_VAModer_greatsword:
+    action: Modify
+    prefab: VAModer_greatsword
+    recipeName: Recipe_VAModer_greatsword
+    craftedAt: forge
+    minStationLevel: 3
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Crystal
+        craftCost: 25
+        upgradeCost: 10
+      - prefab: Obsidian
+        craftCost: 15
+        upgradeCost: 10
+      - prefab: DragonTear
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: TrophyDragonQueen
+        craftCost: 1
+      - prefab: Silver
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: JuteRed
+        upgradeCost: 4
+  Recipe_VASwordModer:
+    action: Modify
+    prefab: VASwordModer
+    recipeName: Recipe_VASwordModer
+    craftedAt: forge
+    minStationLevel: 3
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ElderBark
+        craftCost: 4
+        upgradeCost: 2
+      - prefab: Obsidian
+        craftCost: 30
+        upgradeCost: 15
+      - prefab: DragonTear
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: TrophyDragonQueen
+        craftCost: 1
+      - prefab: Silver
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: JuteRed
+        upgradeCost: 4
+  Recipe_VAVine_Sword:
+    action: Modify
+    prefab: VAVine_Sword
+    recipeName: Recipe_VAVine_Sword
+    craftedAt: forge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Bronze
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: Stone
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: CryptKey
+        craftCost: 1
+      - prefab: TrophyTheElder
+        craftCost: 1
+      - prefab: RoundLog
+        upgradeCost: 8
+  Recipe_VAAntler_Sword:
+    action: Modify
+    prefab: VAAntler_Sword
+    recipeName: Recipe_VAAntler_Sword
+    craftedAt: piece_workbench
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FineWood
+        craftCost: 12
+        upgradeCost: 4
+      - prefab: Resin
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: HardAntler
+        craftCost: 3
+        upgradeCost: 3
+      - prefab: TrophyEikthyr
+        craftCost: 1
+        upgradeCost: 1
+  Recipe_VASwordChitin:
+    action: Disable
+    prefab: VASwordChitin
+  Recipe_VABlackmetal_greatsword:
+    action: Disable
+    prefab: VABlackmetal_greatsword
+  Recipe_VAGreatswordFader:
+    action: Modify
+    prefab: VAGreatswordFader
+    recipeName: Recipe_VAGreatswordFader
+    craftedAt: blackforge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FlametalNew
+        craftCost: 40
+        upgradeCost: 20
+      - prefab: CharredBone
+        craftCost: 20
+        upgradeCost: 20
+      - prefab: TrophyFader
+        craftCost: 1
+      - prefab: FaderDrop
+        craftCost: 1
+  Recipe_VASwordFader:
+    action: Modify
+    prefab: VASwordFader
+    recipeName: Recipe_VASwordFader
+    craftedAt: blackforge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FlametalNew
+        craftCost: 30
+        upgradeCost: 30
+      - prefab: CharredBone
+        craftCost: 30
+        upgradeCost: 30
+      - prefab: TrophyFader
+        craftCost: 1
+      - prefab: FaderDrop
+        craftCost: 1
+  Recipe_VAFlametal_Axe_Blood:
+    action: Modify
+    prefab: VAFlametal_Axe_Blood
+    recipeName: Recipe_VAFlametal_Axe_Blood
+    craftedAt: blackforge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FlametalNew
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: GemstoneRed
+        craftCost: 4
+        upgradeCost: 1
+      - prefab: CharredBone
+        craftCost: 10
+      - prefab: VAFlametal_Axe
+        craftCost: 1
+  Recipe_VAFlametal_Axe_Lightning:
+    action: Modify
+    prefab: VAFlametal_Axe_Lightning
+    recipeName: Recipe_VAFlametal_Axe_Lightning
+    craftedAt: blackforge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FlametalNew
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: GemstoneBlue
+        craftCost: 4
+        upgradeCost: 1
+      - prefab: CharredBone
+        craftCost: 10
+      - prefab: VAFlametal_Axe
+        craftCost: 1
+  Recipe_VAFlametal_Axe_Primal:
+    action: Modify
+    prefab: VAFlametal_Axe_Primal
+    recipeName: Recipe_VAFlametal_Axe_Primal
+    craftedAt: blackforge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FlametalNew
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: GemstoneGreen
+        craftCost: 4
+        upgradeCost: 1
+      - prefab: CharredBone
+        craftCost: 10
+      - prefab: VAFlametal_Axe
+        craftCost: 1
+  Recipe_VAFlametal_Axe:
+    action: Modify
+    prefab: VAFlametal_Axe
+    recipeName: Recipe_VAFlametal_Axe
+    craftedAt: blackforge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FlametalNew
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: AskHide
+        craftCost: 4
+        upgradeCost: 1
+      - prefab: CharredBone
+        craftCost: 10
+  Recipe_VAFlametalAxe_blood_2h:
+    action: Modify
+    prefab: VAFlametalAxe_blood_2h
+    recipeName: Recipe_VAFlametalAxe_blood_2h
+    craftedAt: blackforge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: VAFlametalAxe_2h
+        craftCost: 1
+      - prefab: Blackwood
+        craftCost: 5
+      - prefab: FlametalNew
+        craftCost: 10
+        upgradeCost: 5
+      - prefab: GemstoneRed
+        craftCost: 1
+        upgradeCost: 1
+  Recipe_VAFlametalAxe_lightning_2h:
+    action: Modify
+    prefab: VAFlametalAxe_lightning_2h
+    recipeName: Recipe_VAFlametalAxe_lightning_2h
+    craftedAt: blackforge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: VAFlametalAxe_2h
+        craftCost: 1
+      - prefab: Blackwood
+        craftCost: 5
+      - prefab: FlametalNew
+        craftCost: 10
+        upgradeCost: 5
+      - prefab: GemstoneBlue
+        craftCost: 1
+        upgradeCost: 1
+  Recipe_VAFlametalAxe_primal_2h:
+    action: Modify
+    prefab: VAFlametalAxe_primal_2h
+    recipeName: Recipe_VAFlametalAxe_primal_2h
+    craftedAt: blackforge
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: VAFlametalAxe_2h
+        craftCost: 1
+      - prefab: Blackwood
+        craftCost: 5
+      - prefab: FlametalNew
+        craftCost: 10
+        upgradeCost: 5
+      - prefab: GemstoneGreen
+        craftCost: 1
+        upgradeCost: 1
+  Recipe_VAFlametalAxe_2h:
+    action: Modify
+    prefab: VAFlametalAxe_2h
+    recipeName: Recipe_VAFlametalAxe_2h
+    craftedAt: blackforge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Blackwood
+        craftCost: 10
+        upgradeCost: 5
+      - prefab: FlametalNew
+        craftCost: 20
+        upgradeCost: 10
+      - prefab: CharredBone
+        craftCost: 20
+        upgradeCost: 15
+      - prefab: AskHide
+        craftCost: 4
+  Recipe_VAblackmetal_battleaxe:
+    action: Disable
+    prefab: VAblackmetal_battleaxe
+  Recipe_VAAntler_greataxe:
+    action: Modify
+    prefab: VAAntler_greataxe
+    recipeName: Recipe_VAAntler_greataxe
+    craftedAt: piece_workbench
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: FineWood
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: Resin
+        craftCost: 30
+        upgradeCost: 15
+      - prefab: HardAntler
+        craftCost: 3
+        upgradeCost: 3
+      - prefab: TrophyEikthyr
+        craftCost: 1
+        upgradeCost: 1
+  Recipe_VAJotunn_single_axe:
+    action: Disable
+    prefab: VAJotunn_single_axe
+  Recipe_VAJotunn_2h_axe:
+    action: Modify
+    prefab: VAJotunn_2h_axe
+    recipeName: Recipe_VAJotunn_2h_axe
+    craftedAt: blackforge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Eitr
+        craftCost: 30
+        upgradeCost: 20
+      - prefab: Iron
+        craftCost: 25
+        upgradeCost: 15
+      - prefab: YggdrasilWood
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: Bilebag
+        craftCost: 6
+        upgradeCost: 3
+  Recipe_VAJotunn_dualaxes:
+    action: Disable
+    prefab: VAJotunn_dualaxes
+  Recipe_VAblackmetal_2h_axe:
+    action: Disable
+    prefab: VAblackmetal_2h_axe
+  Recipe_VABlackmetal_dualaxes:
+    action: Modify
+    prefab: VABlackmetal_dualaxes
+    recipeName: Recipe_VABlackmetal_dualaxes
+    craftedAt: forge
+    minStationLevel: 4
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: BlackMetal
+        craftCost: 50
+        upgradeCost: 25
+      - prefab: FineWood
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: LinenThread
+        craftCost: 12
+        upgradeCost: 6
+  Recipe_VAModer_dualaxes:
+    action: Modify
+    prefab: VAModer_dualaxes
+    recipeName: Recipe_VAModer_dualaxes
+    craftedAt: forge
+    minStationLevel: 3
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: DragonTear
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: TrophyDragonQueen
+        craftCost: 1
+      - prefab: Silver
+        craftCost: 30
+        upgradeCost: 30
+      - prefab: FineWood
+        craftCost: 16
+        upgradeCost: 8
+  Recipe_VAModer_Axe:
+    action: Modify
+    prefab: VAModer_Axe
+    recipeName: Recipe_VAModer_Axe
+    craftedAt: forge
+    minStationLevel: 3
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: DragonTear
+        craftCost: 8
+        upgradeCost: 4
+      - prefab: TrophyDragonQueen
+        craftCost: 1
+      - prefab: Silver
+        craftCost: 25
+        upgradeCost: 15
+      - prefab: FineWood
+        craftCost: 12
+        upgradeCost: 6
+  Recipe_VACrystal_dualaxes:
+    action: Modify
+    prefab: VACrystal_dualaxes
+    recipeName: Recipe_VACrystal_dualaxes
+    craftedAt: forge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ElderBark
+        craftCost: 30
+        upgradeCost: 15
+      - prefab: Silver
+        craftCost: 50
+        upgradeCost: 25
+      - prefab: Crystal
+        craftCost: 16
+        upgradeCost: 8
+  Recipe_VAcrystal_axe:
+    action: Modify
+    prefab: VAcrystal_axe
+    recipeName: Recipe_VAcrystal_axe
+    craftedAt: forge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ElderBark
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: Silver
+        craftCost: 25
+        upgradeCost: 15
+      - prefab: Crystal
+        craftCost: 12
+        upgradeCost: 6
+  Recipe_VABone_dualaxes:
+    action: Modify
+    prefab: VABone_dualaxes
+    recipeName: Recipe_VABone_dualaxes
+    craftedAt: forge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: WitheredBone
+        craftCost: 20
+        upgradeCost: 10
+      - prefab: Iron
+        craftCost: 40
+        upgradeCost: 20
+      - prefab: Wishbone
+        craftCost: 1
+      - prefab: TrophyBonemass
+        craftCost: 1
+      - prefab: LeatherScraps
+        upgradeCost: 8
+  Recipe_VABone_axe:
+    action: Modify
+    prefab: VABone_axe
+    recipeName: Recipe_VABone_axe
+    craftedAt: forge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: WitheredBone
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: Iron
+        craftCost: 25
+        upgradeCost: 15
+      - prefab: Wishbone
+        craftCost: 1
+      - prefab: TrophyBonemass
+        craftCost: 1
+      - prefab: LeatherScraps
+        upgradeCost: 8
+  Recipe_VAIron_dualaxes:
+    action: Disable
+    prefab: VAIron_dualaxes
+  Recipe_VABronze_dualaxes:
+    action: Disable
+    prefab: VABronze_dualaxes
+  Recipe_VAbronze_battleaxe:
+    action: Disable
+    prefab: VAbronze_battleaxe
+  Recipe_VAFlint_dualaxes:
+    action: Disable
+    prefab: VAFlint_dualaxes
+  Recipe_VAFlint_greataxe:
+    action: Disable
+    prefab: VAFlint_greataxe
+  Recipe_VAFlint_Axe:
+    action: Disable
+    prefab: VAFlint_Axe
