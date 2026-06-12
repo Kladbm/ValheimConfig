@@ -514,8 +514,8 @@ recipeModifications:
       - prefab: Wood
         craftCost: 16
         upgradeCost: 1
-      - prefab: Bronze
-        craftCost: 1
+      - prefab: BronzeNails
+        craftCost: 5
         upgradeCost: 1
       - prefab: Feathers
         craftCost: 5
@@ -625,8 +625,8 @@ recipeModifications:
       - prefab: Wood
         craftCost: 16
         upgradeCost: 1
-      - prefab: Iron
-        craftCost: 1
+      - prefab: IronNails
+        craftCost: 5
         upgradeCost: 1
       - prefab: Feathers
         craftCost: 5
@@ -861,8 +861,8 @@ recipeModifications:
       - prefab: Wood
         craftCost: 16
         upgradeCost: 1
-      - prefab: Iron
-        craftCost: 1
+      - prefab: IronNails
+        craftCost: 5
         upgradeCost: 1
       - prefab: Feathers
         craftCost: 5
@@ -904,8 +904,8 @@ recipeModifications:
       ingredients:
       - prefab: Wood
         craftCost: 16
-      - prefab: Bronze
-        craftCost: 1
+      - prefab: BronzeNails
+        craftCost: 5
       - prefab: Feathers
         craftCost: 5
   BoltFire_TW_Recipe_Custom:
@@ -985,8 +985,8 @@ recipeModifications:
         craftCost: 16
       - prefab: Obsidian
         craftCost: 2
-      - prefab: Iron
-        craftCost: 1
+      - prefab: IronNails
+        craftCost: 5
       - prefab: Feathers
         craftCost: 5
   BoltPickaxe_TW_Recipe_Custom:

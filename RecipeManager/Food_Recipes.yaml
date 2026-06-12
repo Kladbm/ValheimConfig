@@ -71,7 +71,7 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: MushroomWitcheye_TW
-        craftCost: 4
+        craftCost: 3
       - prefab: Mushroom
         craftCost: 4
       - prefab: RawMeat
@@ -88,7 +88,7 @@ recipeModifications:
       - prefab: MushroomWitcheye_TW
         craftCost: 4
       - prefab: DeerMeat
-        craftCost: 2
+        craftCost: 3
       - prefab: Blueberries
         craftCost: 3
       - prefab: Thistle
@@ -107,7 +107,7 @@ recipeModifications:
       - prefab: Blueberries
         craftCost: 3
       - prefab: Honey
-        craftCost: 5
+        craftCost: 4
   ShroomSoupSwamp_TW_Recipe_Cauldron:
     action: Modify
     prefab: ShroomSoupSwamp_TW

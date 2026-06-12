@@ -8,6 +8,8 @@
   chance: 0.5
 - text: $dream_random05
   chance: 0.5
+- text: "У вас не залишилося серця суртлінга..."
+  chance: 0.55
 - text: $dream_eikthyr01
   chance: 0.1
   forbiddenKeys: defeated_eikthyr

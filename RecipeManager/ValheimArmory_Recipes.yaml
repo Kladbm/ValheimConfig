@@ -863,8 +863,8 @@ recipeModifications:
       ingredients:
       - prefab: Wood
         craftCost: 16
-      - prefab: Iron
-        craftCost: 1
+      - prefab: IronNails
+        craftCost: 5
       - prefab: Feathers
         craftCost: 5
       - prefab: SurtlingCore
@@ -936,8 +936,8 @@ recipeModifications:
       ingredients:
       - prefab: Wood
         craftCost: 16
-      - prefab: Iron
-        craftCost: 1
+      - prefab: IronNails
+        craftCost: 5
       - prefab: Feathers
         craftCost: 5
       - prefab: SurtlingCore
