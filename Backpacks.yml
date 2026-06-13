@@ -1,6 +1,6 @@
 "Сумка для зелий":
   description: "Специализированная сумка среднего размера, созданная для алхимиков. Идеально подходит для переноски зелий, эликсиров, настоек и свитков. Увеличивает их вес на 1%"
-  size: 3x1
+  size: 4x1
   unique: type
   appearance:
     Sleepbag: hidden
@@ -35,6 +35,10 @@
       SurtlingCore: 4     
       TrophyGreydwarfBrute: 2
   valid items:
+    - BH_EmptyBottle
+    - BH_EmptyContainer
+    - BH_EmptyElixerBottle
+    - BH_EmptyLargeBottle
     - HoneyMeadDamage
     - HoneyMeadSpeed
     - PotionRejuvenationMedium_TW
@@ -129,7 +133,7 @@
       SurtlingCore: 4
       Root: 4
       TrophyDraugrElite: 2
-      size: 4x1
+      size: 3x2
     2:
       WolfPelt: 16
       GrizzlyBearPelt_TW: 16
@@ -140,7 +144,7 @@
       Root: 4
       Chitin: 4
       TrophyFenring: 2
-      size: 3x2
+      size: 4x2
     3:
       Flax: 16
       LinenThread: 16
@@ -151,12 +155,12 @@
       Chitin: 4
       SerpentScale: 4
       TrophyGoblinBrute: 2
-      size: 4x2
+      size: 5x2
   weight factor: 1.01
   teleport: false  
   
 "Сумка для перекуса":
-  description: "Компактная и удобная коробка среднего размера, предназначенная для переноски самых разных продуктов для путешественников. Увеличивает их вес на 1%"
+  description: "Компактная и удобная сумка среднего размера, предназначенная для переноски разного перекуса для путешественников. Увеличивает их вес на 1%"
   size: 3x1
   unique: type
   appearance:
@@ -182,14 +186,14 @@
     station: Forge
     level: 1
     costs:
-      BjornHide: 6
-      RazorbackLeather_TW: 16
-      LeatherScraps: 12
-      DeerHide: 8
-      FoxPelt_TW: 6
-      TrollHide: 6
-      WoolScraps_TW: 4
-      SurtlingCore: 4
+      BjornHide: 5
+      RazorbackLeather_TW: 12
+      LeatherScraps: 9
+      DeerHide: 6
+      FoxPelt_TW: 5
+      TrollHide: 5
+      WoolScraps_TW: 3
+      SurtlingCore: 3
       TrophyGreydwarfShaman: 2
   valid items:
     - VikingCupcake
@@ -328,36 +332,36 @@
     - FeastSwamps_Material
   upgrade:
     1:
-      BjornHide: 8
-      RazorbackLeather_TW: 16
-      Entrails: 12
-      Bloodbag: 12
-      TrollHide: 6
-      RottenPelt_TW: 6
-      SurtlingCore: 4
-      Root: 4
+      BjornHide: 6
+      RazorbackLeather_TW: 12
+      Entrails: 9
+      Bloodbag: 9
+      TrollHide: 5
+      RottenPelt_TW: 5
+      SurtlingCore: 3
+      Root: 3
       TrophyLeech: 2
       size: 4x1
     2:
-      Entrails: 16
-      Bloodbag: 16
-      WolfPelt: 12
-      GrizzlyBearPelt_TW: 12
-      RottenPelt_TW: 6
-      WolfHairBundle: 6
-      Root: 4
-      Chitin: 4
+      Entrails: 12
+      Bloodbag: 12
+      WolfPelt: 9
+      GrizzlyBearPelt_TW: 9
+      RottenPelt_TW: 5
+      WolfHairBundle: 5
+      Root: 3
+      Chitin: 3
       TrophyUlv: 2
       size: 3x2
     3:
-      WolfPelt: 16
-      GrizzlyBearPelt_TW: 16
-      Flax: 12
-      LinenThread: 12
-      LoxPelt: 6
-      WolfHairBundle: 6
-      Chitin: 4
-      SerpentScale: 4
+      WolfPelt: 12
+      GrizzlyBearPelt_TW: 12
+      Flax: 9
+      LinenThread: 9
+      LoxPelt: 5
+      WolfHairBundle: 5
+      Chitin: 3
+      SerpentScale: 3
       TrophyGoblinShaman: 2
       size: 4x2
   weight factor: 1.01
