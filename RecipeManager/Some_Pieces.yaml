@@ -148,7 +148,7 @@ pieceModifications:
       amount: 5
     - prefab: Chain
       amount: 4
-    - prefab: TrophyVrykolathas_TW
+    - prefab: TrophySvalt_TW
       amount: 1
     requiredToPlaceCraftingStation: piece_workbench
     canBeDeconstructed: true
@@ -166,7 +166,7 @@ pieceModifications:
       amount: 25
     - prefab: SharpeningStone
       amount: 1
-    - prefab: TrophyVrykolathas_TW
+    - prefab: TrophySvalt_TW
       amount: 1
     requiredToPlaceCraftingStation: piece_workbench
     canBeDeconstructed: true

@@ -1,0 +1,136 @@
+{
+    "prefabName": "BH_Pickable_Boswellia",
+    "resourceName": "BH_Boswellia",
+    "resourceCost": 10,
+    "groundOnly": true,
+    "pieceName": "Boswellia",
+    "pieceDescription": "Plant Boswellia"
+};
+{
+    "prefabName": "BH_Pickable_Chamomile",
+    "resourceName": "BH_Chamomile",
+    "resourceCost": 10,
+    "groundOnly": true,
+    "pieceName": "Chamomile",
+    "pieceDescription": "Plant Chamomile"
+};
+{
+    "prefabName": "BH_Pickable_Chicory",
+    "resourceName": "BH_Chicory",
+    "resourceCost": 10,
+    "groundOnly": true,
+    "pieceName": "Chicory",
+    "pieceDescription": "Plant Chicory"
+};
+{
+    "prefabName": "BH_Pickable_Daisy",
+    "resourceName": "BH_Daisy",
+    "resourceCost": 10,
+    "groundOnly": true,
+    "pieceName": "Daisy",
+    "pieceDescription": "Plant Daisy"
+};
+{
+    "prefabName": "BH_Pickable_Echinacea",
+    "resourceName": "BH_Echinacea",
+    "resourceCost": 10,
+    "groundOnly": true,
+    "pieceName": "Echinacea",
+    "pieceDescription": "Plant Echinacea"
+};
+{
+    "prefabName": "BH_Pickable_Lavender",
+    "resourceName": "BH_Lavender",
+    "resourceCost": 10,
+    "groundOnly": true,
+    "pieceName": "Lavender",
+    "pieceDescription": "Plant Lavender"
+};
+{
+    "prefabName": "BH_Pickable_AslaugsHerb",
+    "resourceName": "BH_AslaugsHerb",
+    "resourceCost": 10,
+    "groundOnly": true,
+    "pieceName": "Aslaug's Herb",
+    "pieceDescription": "Plant Aslaug's Herb"
+};
+{
+    "prefabName": "BH_Pickable_Bjorncap",
+    "resourceName": "BH_Bjorncap",
+    "resourceCost": 10,
+    "groundOnly": true,
+    "pieceName": "Bjorncap",
+    "pieceDescription": "Plant Bjorncap"
+};
+{
+    "prefabName": "BH_Pickable_HelshadeFungus",
+    "resourceName": "BH_HelshadeFungus",
+    "resourceCost": 10,
+    "groundOnly": true,
+    "pieceName": "Helshade Fungus",
+    "pieceDescription": "Plant Helshade Fungus"
+};
+{
+    "prefabName": "BH_Pickable_LokisTrickcap",
+    "resourceName": "BH_LokisTrickcap",
+    "resourceCost": 10,
+    "groundOnly": true,
+    "pieceName": "Loki's Trickcap",
+    "pieceDescription": "Plant Loki's Trickcap"
+};
+{
+    "prefabName": "BH_Pickable_NordicFirebloom",
+    "resourceName": "BH_NordicFirebloom",
+    "resourceCost": 10,
+    "groundOnly": true,
+    "pieceName": "Nordic Firebloom",
+    "pieceDescription": "Plant Nordic Firebloom"
+};
+{
+    "prefabName": "BH_Pickable_SeidrBlossoms",
+    "resourceName": "BH_SeidrBlossoms",
+    "resourceCost": 10,
+    "groundOnly": true,
+    "pieceName": "Seidr Blossoms",
+    "pieceDescription": "Plant Seidr Blossoms"
+};
+{
+    "prefabName": "BH_Pickable_SkaldsIvy",
+    "resourceName": "BH_SkaldsIvy",
+    "resourceCost": 10,
+    "groundOnly": true,
+    "pieceName": "Skald's Ivy",
+    "pieceDescription": "Plant Skald's Ivy"
+};
+{
+    "prefabName": "BH_Pickable_ThorsToadstool",
+    "resourceName": "BH_ThorsToadstool",
+    "resourceCost": 10,
+    "groundOnly": true,
+    "pieceName": "Thor's Toadstool",
+    "pieceDescription": "Plant Thor's Toadstool"
+};
+{
+    "prefabName": "BH_Pickable_Valhallaberry",
+    "resourceName": "BH_Valhallaberry",
+    "resourceCost": 10,
+    "groundOnly": true,
+    "pieceName": "Valhallaberry",
+    "pieceDescription": "Plant Valhallaberry"
+};
+{
+    "prefabName": "BH_Pickable_ValkyrieFern",
+    "resourceName": "BH_ValkyrieFern",
+    "resourceCost": 7,
+    "groundOnly": true,
+    "pieceName": "Valkyrie Fern",
+    "pieceDescription": "Plant Valkyrie Fern"
+};
+{
+    "prefabName": "BH_Pickable_VikingsBreadcap",
+    "resourceName": "BH_VikingsBreadcap",
+    "resourceCost": 10,
+    "groundOnly": true,
+    "pieceName": "Viking's Breadcap",
+    "pieceDescription": "Plant Viking's Breadcap"
+};
