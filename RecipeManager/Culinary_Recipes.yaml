@@ -1,0 +1,32 @@
+#################################################
+# ThrowAxe Recipe Manipulation Config
+#################################################
+
+recipeModifications:
+  sparklingmuckshake_Recipe_Custom:
+    action: Enable
+    prefab: sparklingmuckshake
+    recipeName: sparklingmuckshake_Recipe_Custom
+    craftedAt: piece_cauldron
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ShocklateSmoothie
+        craftCost: 1
+      - prefab: MushroomDeathcap_TW
+        craftCost: 3
+      - prefab: surtlingcinders
+        craftCost: 1
+  firstlandsfeast_material_Recipe_Custom:
+    action: Disable
+    prefab: firstlandsfeast_material
+  pinesmokedvegetables_material_Recipe_Custom:
+    action: Disable
+    prefab: pinesmokedvegetables_material
+  eldersinfusedsap_material_Recipe_Custom:
+    action: Disable
+    prefab: eldersinfusedsap_material
+  drippingporktrimmings_material_Recipe_Custom:
+    action: Disable
+    prefab: drippingporktrimmings_material
