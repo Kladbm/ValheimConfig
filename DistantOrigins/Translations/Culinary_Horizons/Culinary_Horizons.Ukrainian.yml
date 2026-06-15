@@ -1,0 +1,399 @@
+#_Stations_#
+
+piece_station_elderwok_CH: "Ельдервок"
+piece_station_description_elderwok_CH: "Викуваний із міцного сплаву, Ельдервок може створювати давно забуті рецепти."
+
+piece_banquetbench_CH: "Бенкетний стіл із бронзового дерева"
+piece_banquetbench_description_CH: "Місце, де шеф-кухар готує грандіозні бенкети, оснащене найкращими інструментами та столовими приборами десятого царства."
+
+piece_station_spicetable_CH: "Стіл для спецій"
+piece_station_spicetable_description_CH: "Стіл для створення різноманітних звичайних та елітних спецій із трав, знайдених по всьому царству."
+
+#_Station_Extensions_#
+
+piece_spicetable_ext1_rackedvials_CH: "Стелаж із пляшечками"
+piece_spicetable_ext1_rackedvials_description_CH: "Серія скляних ємностей для зберігання різноманітних спецій для вашого столу спецій."
+
+piece_spicetable_ext2_roastingbasin_CH: "Деко для смаження"
+piece_spicetable_ext2_roastingbasin_description_CH: "Завдяки високій температурі це деко може підсмажити майже будь-яку спецію, готову до використання за столом спецій."
+
+piece_spicetable_ext3_reinforcedsealbreaker_CH: "Підсилений розривач печаток"
+piece_spicetable_ext3_reinforcedsealbreaker_description_CH: "Краплі енергії, що стікають із розривача печаток, перетворюють будь-яку траву, яка піддається їх впливу."
+
+piece_elderwok_ext1_obsidianequipment_CH: "Кухонне обладнання з обсидіану"
+piece_elderwok_ext1_obsidianequipment_description_CH: "Серія підвісних черпаків і ложок, які допомагають у приготуванні їжі на Ельдервоку."
+
+piece_elderwok_ext2_shamanspots_CH: "Шаманські горщики"
+piece_elderwok_ext2_shamanspots_description_CH: "Ця колекція горщиків створена за мотивами шаманів Рівнин, щоб покращити ваше приготування їжі на Ельдервоку."
+
+piece_elderwok_ext3_sharpenedcarapacerazors_CH: "Заточені леза з карапаксу"
+piece_elderwok_ext3_sharpenedcarapacerazors_description_CH: "Найгостріша пара лез, яка розріже будь-яке м'ясо як масло."
+
+#_Tutorials_#
+
+tutorial_processor_spicegrinder_topic_CH: "Тестова тема"
+tutorial_processor_spicegrinder_label_CH: "Тестова мітка"
+tutorial_processor_spicegrinder_text_CH: "Тестовий текст"
+
+tutorial_processor_alloyfurnace_topic_CH: "Тестова тема"
+tutorial_processor_alloyfurnace_label_CH: "Тестова мітка"
+tutorial_processor_alloyfurnace_text_CH: "Тестовий текст"
+
+#_Configcheckerstart_#
+
+config_update_title_DO: "{0} Оновлено"
+
+config_update_line_1_DO: "{0} оновлено до версії {1}."
+config_update_line_2_DO: "Це оновлення включає нові значення конфігурації."
+
+config_update_line_3_DO: "Скинути налаштування до нових значень за замовчуванням?"
+config_update_line_4_DO: "- ТАК - застосувати рекомендовані налаштування за замовчуванням."
+config_update_line_5_DO: "- НІ - залишити ваші поточні налаштування."
+
+#_Processors_
+
+piece_spicegrinder_CH: "Млин для спецій"
+piece_spicegrinder_additem_CH: "Додати предмет"
+piece_spicegrinder_empty_CH: "Спорожнити"
+
+piece_alloyfurnace_CH: "Плавильна піч для сплавів"
+piece_alloyfurnace_additem_CH: "Додати предмет"
+piece_alloyfurnace_empty_CH: "Спорожнити"
+
+piece_thejarlshearth_CH: "Вогнище Ярла"
+piece_thejarlshearth_additem_CH: "Додати предмет"
+piece_thejarlshearth_empty_CH: "Спорожнити"
+
+#_Alloys_#
+
+item_alloy_bar_dokkborn_CH: "Доккборн"
+item_alloy_bar_dokkborn_description_CH: "Суміш бронзи та заліза, цей щільний сплав здатний витримувати величезне тепло та зберігати форму."
+
+item_alloy_bar_glaesfir_CH: "Ґлесфір"
+item_alloy_bar_glaesfir_description_CH: "Сплав срібла та чорного металу, його візерунок, здається, змінюється щоразу, коли ви на нього дивитеся."
+
+item_alloy_scrap_glaesfir_CH: "Брухт Ґлесфіру"
+item_alloy_scrap_glaesfir_description_CH: "Сирий, необроблений шматок ґлесфіру."
+
+item_alloy_scrap_dokkborn_CH: "Брухт Доккборну"
+item_alloy_scrap_dokkborn_description_CH: "Сирий, необроблений шматок доккборну."
+
+#_Drops_#
+
+item_mobdrops_smokingectoplasm_CH: "Димляча ектоплазма"
+item_mobdrops_smokingectoplasm_description_CH: "Тліючі вуглики духу Примари."
+
+item_mobdrops_forestheart_CH: "Лісове серце"
+item_mobdrops_forestheart_description_CH: "Слабосвітне серце Шамана-Ґрейдварфа."
+
+#_Unprocessed_Common_Spices_#
+
+item_spice_unprocessed_common_giantsseasoning_CH: "Сировинна приправа велетнів"
+item_spice_unprocessed_common_giantsseasoning_description_CH: "Сировинна спеція, яку, як вважають, використовували Йотуни, додає страві свіжого трав'янистого смаку."
+
+item_spice_unprocessed_common_surtlingcinders_CH: "Сировинний попіл суртлінга"
+item_spice_unprocessed_common_surtlingcinders_description_CH: "Кістяний пил та попіл можуть не звучати апетитно в сирому вигляді, але при подрібненні вони надають землистої текстури."
+
+item_spice_unprocessed_common_frostedpowder_CH: "Сировинний морозний порошок"
+item_spice_unprocessed_common_frostedpowder_description_CH: "У сирому вигляді цей порошок все ще може консервувати все, чого торкається."
+
+item_spice_unprocessed_common_cracklingflakes_CH: "Сировинні хрусткі пластівці"
+item_spice_unprocessed_common_cracklingflakes_description_CH: "Хрусткі та терпкі навіть у сирому вигляді."
+
+item_spice_unprocessed_common_shroudedseasonings_CH: "Сировинна окутана приправа"
+item_spice_unprocessed_common_shroudedseasonings_description_CH: "Легкий туман огортає цей сирий порошок."
+
+item_spice_unprocessed_common_sorrowfulcinders_CH: "Сировинна скорботна зола"
+item_spice_unprocessed_common_sorrowfulcinders_description_CH: "З цієї сирої спеції вириваються вогняні іскри."
+
+#_Processed_Common_Spices_#
+
+item_spice_processed_common_giantsseasoning_CH: "Приправа велетнів"
+item_spice_processed_common_giantsseasoning_description_CH: "Спеція, яку, як вважають, використовували Йотуни, додає страві свіжого трав'янистого смаку."
+
+item_spice_processed_common_surtlingcinders_CH: "Попіл суртлінга"
+item_spice_processed_common_surtlingcinders_description_CH: "Кістяний пил та попіл тепер надають землистої текстури."
+
+item_spice_processed_common_frostedpowder_CH: "Морозний порошок"
+item_spice_processed_common_frostedpowder_description_CH: "Тепер, після обробки, цей порошок є чудовим консервантом."
+
+item_spice_processed_common_cracklingflakes_CH: "Хрусткі пластівці"
+item_spice_processed_common_cracklingflakes_description_CH: "Кожен шматочок будь-якої їжі з цією приправою призведе до вибуху смаку."
+
+item_spice_processed_common_shroudedseasonings_CH: "Окута приправа"
+item_spice_processed_common_shroudedseasonings_description_CH: "Ця спеція додає будь-якій страві дещо солодкуватого та заспокійливого смаку."
+
+item_spice_processed_common_sorrowfulcinders_CH: "Скорботна зола"
+item_spice_processed_common_sorrowfulcinders_description_CH: "Спека від цієї спеції змусить будь-якого вікінга почервоніти."
+
+#_Unprocessed_Elite_Spices_#
+
+item_spice_unprocessed_elite_eldakras_CH: "Сировинна Ельдакрас"
+item_spice_unprocessed_elite_eldakras_description_CH: "Потужне зелене світіння оточує цю спецію, обіцяючи безліч смаків."
+
+item_spice_unprocessed_elite_marshmas_CH: "Сировинна Маршмас"
+item_spice_unprocessed_elite_marshmas_description_CH: "Темна та замшиста, Маршмас залишить незабутнє враження на будь-якому вікінгу."
+
+item_spice_unprocessed_elite_vindfros_CH: "Сировинна Віндфрос"
+item_spice_unprocessed_elite_vindfros_description_CH: "Сама Модер використала б це для своїх страв, якби вміла готувати."
+
+item_spice_unprocessed_elite_solakras_CH: "Сировинна Солакрас"
+item_spice_unprocessed_elite_solakras_description_CH: "У сирому вигляді Солакрас має сонячну та якимось чином веселу природу."
+
+item_spice_unprocessed_elite_mistilteig_CH: "Сировинна Містільтейґ"
+item_spice_unprocessed_elite_mistilteig_description_CH: "Навіть у сирому вигляді крізь цю спецію просочується сік Іґґдрасіля."
+
+item_spice_unprocessed_elite_Alvmas_CH: "Сировинна Альвмас"
+item_spice_unprocessed_elite_Alvmas_description_CH: "Така ж щільна, як лава, цю сиру спецію потрібно буде ретельно подрібнити."
+
+#_Processed_Elite_Spices_#
+
+item_spice_processed_elite_eldakras_CH: "Ельдакрас"
+item_spice_processed_elite_eldakras_description_CH: "Тепер, після обробки, ця спеція має спокусливий аромат, який перетворить будь-яку страву на шедевр."
+
+item_spice_processed_elite_marshmas_CH: "Маршмас"
+item_spice_processed_elite_marshmas_description_CH: "Темна та замшиста, Маршмас залишить незабутнє враження на будь-якому вікінгу."
+
+item_spice_processed_elite_vindfros_CH: "Віндфрос"
+item_spice_processed_elite_vindfros_description_CH: "Сама Модер використала б це для своїх страв, якби вміла готувати."
+
+item_spice_processed_elite_solakras_CH: "Солакрас"
+item_spice_processed_elite_solakras_description_CH: "Повністю оброблена та підготовлена, ця спеція знадобиться для найкращих бенкетів."
+
+item_spice_processed_elite_mistilteig_CH: "Містільтейґ"
+item_spice_processed_elite_mistilteig_description_CH: "Сік Іґґдрасіля просочується крізь цю спецію, благословляючи будь-яку страву, до якої її додано."
+
+item_spice_processed_elite_Alvmas_CH: "Альвмас"
+item_spice_processed_elite_Alvmas_description_CH: "Давні кулінарні практики, здається, просякнули цю спецію, залишаючи незабутній вплив на будь-яку страву, до якої її додано."
+
+#_Enhanced_Foods_#
+
+item_enhanced_boar_meat_CH: "Приправлене варене м'ясо кабана"
+item_enhanced_boar_meat_description_CH: "Свіжоприготований та приправлений шматок кабана."
+
+item_enhanced_deer_meat_CH: "Приправлене варене оленина"
+item_enhanced_deer_meat_description_CH: "Свіжоприготовані та приправлені ребра оленя."
+
+item_enhanced_mushroom_CH: "Приправлений гриб"
+item_enhanced_mushroom_description_CH: "Приправлений гриб сам по собі поживна закуска, але краще використовувати як інгредієнт."
+
+item_enhanced_carrot_CH: "Приправлена морква"
+item_enhanced_carrot_description_CH: "Обережно приправлена, ця морква ніжно додасться до будь-якої страви."
+
+item_enhanced_sausages_CH: "Приправлені ковбаски"
+item_enhanced_sausages_description_CH: "Дивчасті та пікантні, ці ковбаски обожнюються будь-яким вікінгом."
+
+item_enhanced_muckshake_CH: "Ігристе багнисте питво"
+item_enhanced_muckshake_description_CH: "Бульбашки та потріскування роблять це питво трохи більш стерпним."
+
+item_enhanced_turnip_CH: "Приправлена ріпа"
+item_enhanced_turnip_description_CH: "Хоча все ще не їстівна, ця ріпа стане чудовим доповненням до будь-якої страви."
+
+item_enhanced_wolfmeat_CH: "Приправлене варене м'ясо вовка"
+item_enhanced_wolfmeat_description_CH: "Смак цього м'яса може зробити полювання в горах вартим зусиль."
+
+item_enhanced_onion_CH: "Приправлена цибуля"
+item_enhanced_onion_description_CH: "Ця цибуля приносить освіжаючий хрускіт у раціон вікінга."
+
+item_enhanced_vegetableskewer_CH: "Приправлений овочевий шампур"
+item_enhanced_vegetableskewer_description_CH: "Свіжозібрані овочі на маленькій паличці, посипані приправою."
+
+item_enhanced_eyescream_CH: "Посипане очне морозиво"
+item_enhanced_eyescream_description_CH: "Тепер з подвійним шансом викликати заморожування мозку!"
+
+item_enhanced_soakedloxmeat_CH: "Вимочене м'ясо локса"
+item_enhanced_soakedloxmeat_description_CH: "М'ясо локса, занурене в смолу, готове до повільного смаження на вогнищі."
+
+item_enhanced_roastedloxmeat_CH: "Смажене м'ясо локса"
+item_enhanced_roastedloxmeat_description_CH: "Великий шматок повільно смаженого м'яса локса."
+
+item_enhanced_charredloxmeat_CH: "Обвуглене м'ясо локса"
+item_enhanced_charredloxmeat_description_CH: "Обвуглена нога локса, на диво ніжна на смак."
+
+item_enhanced_seededbreaddough_CH: "Тісто з насінням"
+item_enhanced_seededbreaddough_description_CH: "Буханець тіста, ретельно посипаний приправою."
+
+item_enhanced_seededbread_CH: "Хліб з насінням"
+item_enhanced_seededbread_description_CH: "М'яка буханка з хрусткою скоринкою."
+
+item_enhanced_fishskewer_CH: "Приправлений рибний шампур"
+item_enhanced_fishskewer_description_CH: "Скибочки риби в клярі в поєднанні з морошкою та грибами."
+
+item_enhanced_infusedjotunnpuffs_CH: "Настоєні пуфи йотуна"
+item_enhanced_infusedjotunnpuffs_description_CH: "Меркотливі та яскраві, ці пуфи йотуна мають чудовий хрускіт."
+
+item_enhanced_infusedmagecaps_CH: "Настоєні шапки мага"
+item_enhanced_infusedmagecaps_description_CH: "Ці шапки мага переповнені енергією."
+
+item_enhanced_infusedcookedharemeat_CH: "Настоєне варене м'ясо зайця"
+item_enhanced_infusedcookedharemeat_description_CH: "Пісний і ніжний шматок м'яса зайця, оповитий легким фіолетовим відтінком."
+
+item_enhanced_infusedcookedseekermeat_CH: "Настоєне варене м'ясо шукача"
+item_enhanced_infusedcookedseekermeat_description_CH: "М'яка, але хрустка текстура цього м'яса шукача просто тане в роті."
+
+item_enhanced_scorchedcookedvolturemeat_CH: "Підпалене варене м'ясо вольтура"
+item_enhanced_scorchedcookedvolturemeat_description_CH: "Підпалений і блискучий, цей соковитий шматок м'яса підходить будь-якому вікінгу."
+
+item_enhanced_scorchedcookedasksvintail_CH: "Підпалений варений хвіст асксвіна"
+item_enhanced_scorchedcookedasksvintail_description_CH: "Пісний хвіст асксвіна з дивовижно хрустким укусом."
+
+item_enhanced_scorchedsmokepuff_CH: "Підпалений димний пуф"
+item_enhanced_scorchedsmokepuff_description_CH: "Підпалений димний пуф з ледь теплим світінням."
+
+item_enhanced_scorchedmorgenheart_CH: "Підпалене серце моргена"
+item_enhanced_scorchedmorgenheart_description_CH: "Тепер, коли воно підпалене, це буде ситна їжа, але не очікуйте, що вона наповнить вас енергією."
+
+#_Forgotten_Recipes_#
+
+item_forgotten_marbledmixedmeats_CH: "Мармурове м'ясне асорті"
+item_forgotten_marbledmixedmeats_description_CH: "Це щедре блюдо з високоякісного м'яса послужить ситною їжею."
+
+item_forgotten_honeycoatedvegetables_CH: "Овочі в медовому покритті"
+item_forgotten_honeycoatedvegetables_description_CH: "Асорті з глазурованих медом овочів для будь-якого вікінга, який має довгий день попереду."
+
+item_forgotten_berrybraisedboar_CH: "Тушкований з ягодами кабан"
+item_forgotten_berrybraisedboar_description_CH: "Хоча вікінгам важко вимовити цю назву, це збалансоване блюдо є улюбленим для багатьох."
+
+item_forgotten_agedcuredmeats_CH: "Витримане в'ялене м'ясо"
+item_forgotten_agedcuredmeats_description_CH: "Тонко витримане м'ясо, ретельно викладене для любителів м'яса у світі."
+
+item_forgotten_sweetenedvegetablebowl_CH: "Миска підсолоджених овочів"
+item_forgotten_sweetenedvegetablebowl_description_CH: "Зварені в солодкому бульйоні, ці овочі стануть пам'ятними ласощами."
+
+item_forgotten_swampystew_CH: "Болотне рагу"
+item_forgotten_swampystew_description_CH: "Як традиція для боліт, цей смачний суп виглядає трохи... дивно."
+
+item_forgotten_fenringmeatboard_CH: "М'ясна дошка Фенрінґа"
+item_forgotten_fenringmeatboard_description_CH: "Блюдо, гідне Фенрінґа, з широким асортиментом соковитих шматків."
+
+item_forgotten_highlandssoup_CH: "Нагірний варений суп"
+item_forgotten_highlandssoup_description_CH: "Легкий і освіжаючий суп, який відчувається як маленький шматочок дому."
+
+item_forgotten_poacheddrakescales_CH: "Зварені драконячі лусочки"
+item_forgotten_poacheddrakescales_description_CH: "Прохолодні на дотик, ці лусочки схожі на свинячу шкварку з великого жаркого."
+
+item_forgotten_uncooked_tarredplainspies_CH: "Невипечені дьогтьові пироги Рівнин"
+item_forgotten_uncooked_tarredplainspies_description_CH: "Невипечені пироги з вимоченим м'ясом, які потребують спеціального вогнища для правильного приготування."
+
+item_forgotten_cooked_tarredplainspies_CH: "Випечені дьогтьові пироги Рівнин"
+item_forgotten_cooked_tarredplainspies_description_CH: "Випечені пироги, сповнені смаку, будь-який вікінг наб'є шлунок після їжі."
+
+item_forgotten_charred_tarredplainspies_CH: "Обвуглені дьогтьові пироги Рівнин"
+item_forgotten_charred_tarredplainspies_description_CH: "Обвуглення надало цьому блюду чудової хрусткості."
+
+item_forgotten_uncooked_mixeddoughplatter_CH: "Невипечене асорті з тіста"
+item_forgotten_uncooked_mixeddoughplatter_description_CH: "Блюдо з невипеченого тіста різних форм і розмірів."
+
+item_forgotten_cooked_mixeddoughplatter_CH: "Випечене асорті з тіста"
+item_forgotten_cooked_mixeddoughplatter_description_CH: "Широкий асортимент випічки, деяка хрустка, деяка м'яка, і вся вона - Смачна."
+
+item_forgotten_uncooked_jotunnsbounty_CH: "Неприготовлена здобич Йотуна"
+item_forgotten_uncooked_jotunnsbounty_description_CH: "Широкий асортимент м'яса, зібраного в Туманних землях, готовий до приготування."
+
+item_forgotten_cooked_jotunnsbounty_CH: "Здобич Йотуна"
+item_forgotten_cooked_jotunnsbounty_description_CH: "Рясне блюдо з ніжного м'яса та шматків, навіть давній Йотун почувався б ситим після його споживання."
+
+item_forgotten_uncooked_seekersupreme_CH: "Неприготовлений найвищий шукач"
+item_forgotten_uncooked_seekersupreme_description_CH: "Асорті з ніжних шампурів з м'яса шукача, готових до приготування."
+
+item_forgotten_cooked_seekersupreme_CH: "Найвищий шукач"
+item_forgotten_cooked_seekersupreme_description_CH: "Ніжне, соковите та поживне, не дивно, що все блюдо можна з'їсти за один присід."
+
+item_forgotten_gjallsfireybroth_CH: "Вогненний бульйон Ґ'ялла"
+item_forgotten_gjallsfireybroth_description_CH: "Тепер ви знаєте, чому Ґ'ялли ревуть крізь тумани."
+
+#_Banquets_#
+
+item_banquet_meadows_feast_CH: "Бенкет Перших Земель"
+item_banquet_meadows_feast_description_CH: "Луки — це домівка для всіх життєвих зручностей десятого царства, це блюдо служить нагадуванням про те, що потрібно іноді робити перерву та насолоджуватися життям."
+
+item_banquet_blackforest_pinevegetables_CH: "Овочі, копчені на сосні"
+item_banquet_blackforest_pinevegetables_description_CH: "Грубий набір грибів та моркви, копчених на сосновій колоді. З'ївши це, ви відчуєте приплив енергії в руках, достатній, щоб повалити ліс."
+
+item_banquet_blackforest_sap_CH: "Настоєний сік Древнього"
+item_banquet_blackforest_sap_description_CH: "Цей сік діє як ворота в море спогадів Древнього, кожна порція розповідає іншу історію та залишає вас із припливом мотивації."
+
+item_banquet_swamp_pork_CH: "Соковиті свинячі обрізки"
+item_banquet_swamp_pork_description_CH: "Ковбаски, ковбаски, ковбаски! Вікінг із цим блюдом ніколи не залишиться голодним і не впаде без бою."
+
+item_banquet_swamp_roots_CH: "Блюдо з коріння та пагонів"
+item_banquet_swamp_roots_description_CH: ""
+
+item_banquet_swamp_ale_CH: "Ель п'явки"
+item_banquet_swamp_ale_description_CH: ""
+
+item_banquet_mountains_festival_CH: "Фестиваль Замерзлого Ікла"
+item_banquet_mountains_festival_description_CH: ""
+
+item_banquet_mountains_delight_CH: "Насолода Модер"
+item_banquet_mountains_delight_description_CH: ""
+
+item_banquet_mountains_summit_CH: "Морозна Вершинна Вечірка"
+item_banquet_mountains_summit_description_CH: ""
+
+item_banquet_plains_king_CH: "Останній бенкет Короля Гоблінів"
+item_banquet_plains_king_description_CH: ""
+
+item_banquet_plains_bakery_CH: "Пекарня «Кров та Ячмінь»"
+item_banquet_plains_bakery_description_CH: ""
+
+item_banquet_plains_cloudy_CH: "Кухоль Хмарного елю"
+item_banquet_plains_cloudy_description_CH: ""
+
+item_banquet_mistlands_yggdrasil_CH: "Благословенне блюдо Іґґдрасіля"
+item_banquet_mistlands_yggdrasil_description_CH: ""
+
+item_banquet_mistlands_dvergr_CH: "Зачарований бенкет Дверґрів"
+item_banquet_mistlands_dvergr_description_CH: ""
+
+item_banquet_mistlands_wispy_CH: "Примарний напій"
+item_banquet_mistlands_wispy_description_CH: ""
+
+item_banquet_ashlands_emeraldflame_CH: "Здобич Смарагдового Полум'я"
+item_banquet_ashlands_emeraldflame_description_CH: ""
+
+item_banquet_ashlands_vegetablemedley_CH: "Церемоніальне асорті з овочів"
+item_banquet_ashlands_vegetablemedley_description_CH: ""
+
+item_banquet_ashlands_smokingkegs_CH: "Димлячі барильця та кухлі"
+item_banquet_ashlands_smokingkegs_description_CH: ""
+
+#_Status_Effects_#
+
+item_banquet_meadows_feast_buff_CH: "Бенкет Перших Земель"
+se_banquet_meadows_feast_buff_tooltip_CH: "Луки — це домівка для всіх життєвих зручностей десятого царства, це блюдо служить нагадуванням про те, що потрібно іноді робити перерву та насолоджуватися життям."
+
+item_banquet_blackforest_pinevegetables_buff_CH: "Овочі, копчені на сосні"
+se_banquet_blackforest_pinevegetables_buff_tooltip_CH: "Грубий набір грибів та моркви, копчених на сосновій колоді. З'ївши це, ви відчуєте приплив енергії в руках, достатній, щоб повалити ліс."
+
+item_banquet_blackforest_sap_buff_CH: "Настоєний сік Древнього"
+se_banquet_blackforest_sap_buff_tooltip_CH: "Цей сік діє як ворота в море спогадів Древнього, кожна порція розповідає іншу історію та залишає вас із припливом мотивації."
+
+item_banquet_swamp_pork_buff_CH: "Соковиті свинячі ребра"
+se_banquet_swamp_pork_buff_tooltip_CH: "Ковбаски, ковбаски, ковбаски, вікінг із цим блюдом ніколи не залишиться голодним і не впаде без бою."
+
+item_banquet_swamp_roots_buff_CH: "Блюдо з коріння та пагонів"
+se_banquet_swamp_roots_buff_tooltip_CH: ""
+
+item_banquet_swamp_ale_buff_CH: "Ель п'явки"
+se_banquet_swamp_ale_buff_tooltip_CH: ""
+
+item_banquet_mountains_festival_buff_CH: "Фестиваль Замерзлого Ікла"
+se_banquet_mountains_festival_buff_tooltip_CH: ""
+
+item_banquet_mountains_delight_buff_CH: "Насолода Модер"
+se_banquet_mountains_delight_buff_tooltip_CH: ""
+
+item_banquet_mountains_summit_buff_CH: "Морозна Вершинна Вечірка"
+se_banquet_mountains_summit_buff_tooltip_CH: ""
+
+item_banquet_plains_king_buff_CH: "Останній бенкет Короля Гоблінів"
+se_banquet_plains_king_buff_tooltip_CH: ""
+
+item_banquet_plains_bakery_buff_CH: "Пекарня «Кров та Ячмінь»"
+se_banquet_plains_bakery_buff_tooltip_CH: ""
+
+item_banquet_plains_cloudy_buff_CH: "Кухоль Хмарного елю"
+se_banquet_plains_cloudy_buff_tooltip_CH: ""
+
+item_banquet_mistlands_yggdrasil_buff_CH: "Благословенне блюдо Іґ

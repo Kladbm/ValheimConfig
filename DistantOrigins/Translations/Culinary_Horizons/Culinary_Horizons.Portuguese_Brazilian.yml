@@ -1,0 +1,415 @@
+#_Stations_#
+
+piece_station_elderwok_CH: "Elderwok"
+piece_station_description_elderwok_CH: "Forjado com uma liga durável, o Elderwok pode recriar receitas há muito esquecidas."
+
+piece_banquetbench_CH: "Banco de Banquete de Madeira de Bronze"
+piece_banquetbench_description_CH: "Onde um chef prepara grandes banquetes, equipado com as melhores ferramentas e talheres do 10º reino."
+
+piece_station_spicetable_CH: "Mesa de Especiarias"
+piece_station_spicetable_description_CH: "Uma mesa para criar diversas especiarias comuns e de elite com ervas encontradas pelo reino."
+
+#_Station_Extensions_#
+
+piece_spicetable_ext1_rackedvials_CH: "Suporte de Frascos"
+piece_spicetable_ext1_rackedvials_description_CH: "Uma série de recipientes de vidro para armazenar uma variedade de especiarias para sua mesa de especiarias."
+
+piece_spicetable_ext2_roastingbasin_CH: "Assadeira de Torra"
+piece_spicetable_ext2_roastingbasin_description_CH: "Com temperaturas escaldantes, essa assadeira pode torrar quase qualquer especiaria, deixando-a pronta para uso na mesa de especiarias."
+
+piece_spicetable_ext3_reinforcedsealbreaker_CH: "Quebra-Selo Reforçado"
+piece_spicetable_ext3_reinforcedsealbreaker_description_CH: "Os orbes de energia que escorrem do quebra-selo transformam qualquer erva exposta a eles."
+
+piece_elderwok_ext1_obsidianequipment_CH: "Equipamento de Cozinha de Obsidiana"
+piece_elderwok_ext1_obsidianequipment_description_CH: "Uma série de conchas e colheres penduradas para auxiliar no cozimento no Elderwok."
+
+piece_elderwok_ext2_shamanspots_CH: "Panelas dos Xamãs"
+piece_elderwok_ext2_shamanspots_description_CH: "Esta coleção de panelas foi inspirada nos xamãs das Planícies para aprimorar seu cozimento no Elderwok."
+
+piece_elderwok_ext3_sharpenedcarapacerazors_CH: "Lâminas de Carapaça Afiadas"
+piece_elderwok_ext3_sharpenedcarapacerazors_description_CH: "O par de lâminas mais afiado que existe, capaz de cortar qualquer carne como manteiga."
+
+#_Tutorials_#
+
+tutorial_processor_spicegrinder_topic_CH: "Tópico de Teste"
+tutorial_processor_spicegrinder_label_CH: "Rótulo de Teste"
+tutorial_processor_spicegrinder_text_CH: "Texto de Teste"
+
+tutorial_processor_alloyfurnace_topic_CH: "Tópico de Teste"
+tutorial_processor_alloyfurnace_label_CH: "Rótulo de Teste"
+tutorial_processor_alloyfurnace_text_CH: "Texto de Teste"
+
+#_Configcheckerstart_#
+
+config_update_title_DO: "{0} Atualizado"
+
+config_update_line_1_DO: "{0} foi atualizado para a versão {1}."
+config_update_line_2_DO: "Esta atualização inclui novos valores de configuração."
+
+config_update_line_3_DO: "Redefinir as configurações para os novos valores padrão?"
+config_update_line_4_DO: "- SIM - aplicar os padrões recomendados."
+config_update_line_5_DO: "- NÃO - manter suas configurações atuais."
+
+#_Processors_
+
+piece_spicegrinder_CH: "Moedor de Especiarias"
+piece_spicegrinder_additem_CH: "Adicionar Item"
+piece_spicegrinder_empty_CH: "Vazio"
+
+piece_alloyfurnace_CH: "Forno de Liga"
+piece_alloyfurnace_additem_CH: "Adicionar Item"
+piece_alloyfurnace_empty_CH: "Vazio"
+
+piece_thejarlshearth_CH: "A Lareira do Jarl"
+piece_thejarlshearth_additem_CH: "Adicionar Item"
+piece_thejarlshearth_empty_CH: "Vazio"
+
+#_Alloys_#
+
+item_alloy_bar_dokkborn_CH: "Dokkborn"
+item_alloy_bar_dokkborn_description_CH: "Uma mistura de bronze e ferro, esta liga densa é capaz de suportar calor intenso e manter sua forma."
+
+item_alloy_bar_glaesfir_CH: "Glaesfir"
+item_alloy_bar_glaesfir_description_CH: "Uma liga de prata e metal negro, cujo padrão parece mudar cada vez que você olha para ela."
+
+item_alloy_scrap_glaesfir_CH: "Sucata de Glaesfir"
+item_alloy_scrap_glaesfir_description_CH: "O torrão bruto e não processado de glaesfir."
+
+item_alloy_scrap_dokkborn_CH: "Sucata de Dokkborn"
+item_alloy_scrap_dokkborn_description_CH: "O torrão bruto e não processado de dokkborn."
+
+#_Drops_#
+
+item_mobdrops_smokingectoplasm_CH: "Ectoplasma Fumegante"
+item_mobdrops_smokingectoplasm_description_CH: "As brasas fumegantes do espírito de um Espectro."
+
+item_mobdrops_forestheart_CH: "Coração da Floresta"
+item_mobdrops_forestheart_description_CH: "O coração fracamente luminoso de um Xamã Greydwarf."
+
+#_Unprocessed_Common_Spices_#
+
+item_spice_unprocessed_common_giantsseasoning_CH: "Tempero dos Gigantes Bruto"
+item_spice_unprocessed_common_giantsseasoning_description_CH: "Um tempero bruto que se acredita ter sido usado pelos Jotunn, adicionando um sabor herbal fresco a uma refeição."
+
+item_spice_unprocessed_common_surtlingcinders_CH: "Cinzas de Surtling Brutas"
+item_spice_unprocessed_common_surtlingcinders_description_CH: "Ossos empoeirados e cinzas podem não parecer apetitosos em sua forma bruta, mas quando moídos proporcionam uma textura terrosa."
+
+item_spice_unprocessed_common_frostedpowder_CH: "Pó Gelado Bruto"
+item_spice_unprocessed_common_frostedpowder_description_CH: "Mesmo em estado bruto, este pó ainda é capaz de conservar tudo que toca."
+
+item_spice_unprocessed_common_cracklingflakes_CH: "Flocos Crepitantes Brutos"
+item_spice_unprocessed_common_cracklingflakes_description_CH: "Crocantes e ácidos mesmo em sua forma bruta."
+
+item_spice_unprocessed_common_shroudedseasonings_CH: "Temperos Encobertos Brutos"
+item_spice_unprocessed_common_shroudedseasonings_description_CH: "Uma névoa suave paira sobre este pó bruto."
+
+item_spice_unprocessed_common_sorrowfulcinders_CH: "Cinzas da Tristeza Brutas"
+item_spice_unprocessed_common_sorrowfulcinders_description_CH: "Brasas ardentes estouram deste tempero bruto."
+
+#_Processed_Common_Spices_#
+
+item_spice_processed_common_giantsseasoning_CH: "Tempero dos Gigantes"
+item_spice_processed_common_giantsseasoning_description_CH: "Um tempero que se acredita ter sido usado pelos Jotunn, adicionando um sabor herbal fresco a uma refeição."
+
+item_spice_processed_common_surtlingcinders_CH: "Cinzas de Surtling"
+item_spice_processed_common_surtlingcinders_description_CH: "Ossos empoeirados e cinzas podem não parecer apetitosos em sua forma bruta, mas agora proporcionam uma textura terrosa."
+
+item_spice_processed_common_frostedpowder_CH: "Pó Gelado"
+item_spice_processed_common_frostedpowder_description_CH: "Agora processado, este pó é um excelente conservante."
+
+item_spice_processed_common_cracklingflakes_CH: "Flocos Crepitantes"
+item_spice_processed_common_cracklingflakes_description_CH: "Cada mordida em qualquer alimento com este tempero resultará em uma explosão de sabores."
+
+item_spice_processed_common_shroudedseasonings_CH: "Tempero Encoberto"
+item_spice_processed_common_shroudedseasonings_description_CH: "Este tempero confere um sabor vagamente doce e reconfortante a qualquer refeição."
+
+item_spice_processed_common_sorrowfulcinders_CH: "Cinzas da Tristeza"
+item_spice_processed_common_sorrowfulcinders_description_CH: "O ardor deste tempero certamente deixará qualquer viking com o rosto vermelho."
+
+#_Unprocessed_Elite_Spices_#
+
+item_spice_unprocessed_elite_eldakras_CH: "Eldakras Bruto"
+item_spice_unprocessed_elite_eldakras_description_CH: "Um poderoso brilho verde envolve esta especiaria, prometendo uma infinidade de sabores."
+
+item_spice_unprocessed_elite_marshmas_CH: "Marshmas Bruto"
+item_spice_unprocessed_elite_marshmas_description_CH: "Escuro e musgoso, o Marshmas deixará uma impressão duradoura em qualquer viking."
+
+item_spice_unprocessed_elite_vindfros_CH: "Vindfros Bruto"
+item_spice_unprocessed_elite_vindfros_description_CH: "A própria Moder teria usado isto em suas refeições, se soubesse cozinhar."
+
+item_spice_unprocessed_elite_solakras_CH: "Solakras Bruto"
+item_spice_unprocessed_elite_solakras_description_CH: "Mesmo em estado bruto, o Solakras tem uma natureza ensolarada e curiosamente alegre."
+
+item_spice_unprocessed_elite_mistilteig_CH: "Mistilteig Bruto"
+item_spice_unprocessed_elite_mistilteig_description_CH: "Mesmo em estado bruto, a seiva de Yggdrasil permeia esta especiaria."
+
+item_spice_unprocessed_elite_Alvmas_CH: "Alvmas Bruto"
+item_spice_unprocessed_elite_Alvmas_description_CH: "Tão denso quanto lava, este tempero bruto precisará ser moído cuidadosamente."
+
+#_Processed_Elite_Spices_#
+
+item_spice_processed_elite_eldakras_CH: "Eldakras"
+item_spice_processed_elite_eldakras_description_CH: "Agora processada, esta especiaria exala um aroma sedutente que transformará qualquer refeição em uma obra-prima."
+
+item_spice_processed_elite_marshmas_CH: "Marshmas"
+item_spice_processed_elite_marshmas_description_CH: "Escuro e musgoso, o Marshmas deixará uma impressão duradoura em qualquer viking."
+
+item_spice_processed_elite_vindfros_CH: "Vindfros"
+item_spice_processed_elite_vindfros_description_CH: "A própria Moder teria usado isto em suas refeições, se soubesse cozinhar."
+
+item_spice_processed_elite_solakras_CH: "Solakras"
+item_spice_processed_elite_solakras_description_CH: "Totalmente processada e preparada, esta especiaria será indispensável nos banquetes mais refinados."
+
+item_spice_processed_elite_mistilteig_CH: "Mistilteig"
+item_spice_processed_elite_mistilteig_description_CH: "A seiva de Yggdrasil permeia esta especiaria, abençoando qualquer refeição à qual for adicionada."
+
+item_spice_processed_elite_Alvmas_CH: "Alvmas"
+item_spice_processed_elite_Alvmas_description_CH: "Práticas culinárias ancestrais parecem ter se impregnado nesta especiaria, deixando um impacto duradouro em qualquer refeição à qual for adicionada."
+
+#_Enhanced_Foods_#
+
+item_enhanced_boar_meat_CH: "Carne de Javali Assada Temperada"
+item_enhanced_boar_meat_description_CH: "Um pedaço de javali recém-assado e temperado."
+
+item_enhanced_deer_meat_CH: "Carne de Veado Assada Temperada"
+item_enhanced_deer_meat_description_CH: "Costelas de veado recém-assadas e temperadas."
+
+item_enhanced_mushroom_CH: "Cogumelo Temperado"
+item_enhanced_mushroom_description_CH: "Um cogumelo temperado faz um lanche substancial, mas seria melhor como ingrediente."
+
+item_enhanced_carrot_CH: "Cenoura Temperada"
+item_enhanced_carrot_description_CH: "Levemente temperada, esta cenoura irá complementar qualquer refeição com delicadeza."
+
+item_enhanced_sausages_CH: "Salsichas Temperadas"
+item_enhanced_sausages_description_CH: "Defumadas e saborosas, estas salsichas são adoradas por qualquer viking."
+
+item_enhanced_muckshake_CH: "Lama Borbulhante"
+item_enhanced_muckshake_description_CH: "As bolhas e estouros tornam este shake um pouco mais palatável."
+
+item_enhanced_turnip_CH: "Nabo Temperado"
+item_enhanced_turnip_description_CH: "Ainda não comestível sozinho, este nabo será uma boa adição a qualquer prato."
+
+item_enhanced_wolfmeat_CH: "Carne de Lobo Assada Temperada"
+item_enhanced_wolfmeat_description_CH: "O sabor desta carne pode tornar a caça nas Montanhas algo que vale a pena."
+
+item_enhanced_onion_CH: "Cebola Temperada"
+item_enhanced_onion_description_CH: "Esta cebola traz uma crocância refrescante para a dieta de um viking."
+
+item_enhanced_vegetableskewer_CH: "Espeto de Legumes Temperado"
+item_enhanced_vegetableskewer_description_CH: "Legumes recém-colhidos em um pequeno espeto, polvilhados com tempero."
+
+item_enhanced_eyescream_CH: "Sorvete de Olho Polvilhado"
+item_enhanced_eyescream_description_CH: "Agora com o dobro de chance de dar uma dor de cabeça gelada!"
+
+item_enhanced_soakedloxmeat_CH: "Carne de Lox Embebida"
+item_enhanced_soakedloxmeat_description_CH: "Carne de lox mergulhada em alcatrão, pronta para assar lentamente sobre uma lareira."
+
+item_enhanced_roastedloxmeat_CH: "Carne de Lox Assada"
+item_enhanced_roastedloxmeat_description_CH: "Um generoso pedaço de carne de lox assada lentamente."
+
+item_enhanced_charredloxmeat_CH: "Carne de Lox Carbonizada"
+item_enhanced_charredloxmeat_description_CH: "Uma perna de lox carbonizada, surpreendentemente macia ao comer."
+
+item_enhanced_seededbreaddough_CH: "Massa de Pão com Sementes"
+item_enhanced_seededbreaddough_description_CH: "Um pão de massa cuidadosamente polvilhado com tempero."
+
+item_enhanced_seededbread_CH: "Pão com Sementes"
+item_enhanced_seededbread_description_CH: "Um pão macio com uma casca crocante."
+
+item_enhanced_fishskewer_CH: "Espeto de Peixe Temperado"
+item_enhanced_fishskewer_description_CH: "Fatias de peixe empanadas combinadas com cambuci e cogumelos."
+
+item_enhanced_infusedjotunnpuffs_CH: "Puffs de Jotunn Infundidos"
+item_enhanced_infusedjotunnpuffs_description_CH: "Brilhantes e luminosos, estes Puffs de Jotunn têm uma crocância deliciosa."
+
+item_enhanced_infusedmagecaps_CH: "Chapéus de Mago Infundidos"
+item_enhanced_infusedmagecaps_description_CH: "Estes Chapéus de Mago estão transbordando de energia."
+
+item_enhanced_infusedcookedharemeat_CH: "Carne de Lebre Cozida Infundida"
+item_enhanced_infusedcookedharemeat_description_CH: "Um corte magro e macio de carne de lebre, envolto em um tênue brilho roxo."
+
+item_enhanced_infusedcookedseekermeat_CH: "Carne de Buscador Cozida Infundida"
+item_enhanced_infusedcookedseekermeat_description_CH: "A textura macia e ao mesmo tempo crocante desta carne de buscador simplesmente derrete na boca."
+
+item_enhanced_scorchedcookedvolturemeat_CH: "Carne de Abutre Cozida Chamuscada"
+item_enhanced_scorchedcookedvolturemeat_description_CH: "Chamuscada e reluzente, este generoso pedaço de carne é digno de qualquer viking."
+
+item_enhanced_scorchedcookedasksvintail_CH: "Rabo de Asksvin Cozido Chamuscado"
+item_enhanced_scorchedcookedasksvintail_description_CH: "Um rabo magro de asksvin com uma mordida surpreendentemente crocante."
+
+item_enhanced_scorchedsmokepuff_CH: "Puff de Fumaça Chamuscado"
+item_enhanced_scorchedsmokepuff_description_CH: "Um puff de fumaça chamuscado com um brilho fracamente quente."
+
+item_enhanced_scorchedmorgenheart_CH: "Coração de Morgen Chamuscado"
+item_enhanced_scorchedmorgenheart_description_CH: "Agora chamuscado, será uma refeição farta, mas não espere que te encha de energia."
+
+#_Forgotten_Recipes_#
+
+item_forgotten_marbledmixedmeats_CH: "Carnes Mistas Marmorizadas"
+item_forgotten_marbledmixedmeats_description_CH: "Esta generosa travessa de carnes de alta qualidade servirá como uma refeição substancial."
+
+item_forgotten_honeycoatedvegetables_CH: "Legumes Glaceados com Mel"
+item_forgotten_honeycoatedvegetables_description_CH: "Um sortido de legumes glaceados com mel, para qualquer viking com um longo dia pela frente."
+
+item_forgotten_berrybraisedboar_CH: "Javali Braseado com Frutas Silvestres"
+item_forgotten_berrybraisedboar_description_CH: "Embora os vikings possam ter dificuldade em pronunciar seu nome, esta travessa equilibrada é favorita de muitos."
+
+item_forgotten_agedcuredmeats_CH: "Carnes Curadas Envelhecidas"
+item_forgotten_agedcuredmeats_description_CH: "Carnes finamente envelhecidas e cuidadosamente dispostas para os amantes de carne do mundo."
+
+item_forgotten_sweetenedvegetablebowl_CH: "Tigela de Legumes Adoçados"
+item_forgotten_sweetenedvegetablebowl_description_CH: "Cozidos em um caldo adocicado, esses legumes serão uma iguaria inesquecível."
+
+item_forgotten_swampystew_CH: "Ensopado Pantanoso"
+item_forgotten_swampystew_description_CH: "Como tradição dos pântanos, esta saborosa sopa tem uma aparência um tanto... estranha."
+
+item_forgotten_fenringmeatboard_CH: "Tábua de Carnes do Fenring"
+item_forgotten_fenringmeatboard_description_CH: "Uma travessa digna de um Fenring, com uma ampla variedade de cortes suculentos."
+
+item_forgotten_highlandssoup_CH: "Sopa Preparada das Terras Altas"
+item_forgotten_highlandssoup_description_CH: "Uma sopa leve e refrescante que parece um pequeno pedaço de lar."
+
+item_forgotten_poacheddrakescales_CH: "Escamas de Drake Pochadas"
+item_forgotten_poacheddrakescales_description_CH: "Frias ao toque, essas escamas são similares ao torresmo encontrado em um grande assado."
+
+item_forgotten_uncooked_tarredplainspies_CH: "Tortas das Planícies Alcatroadas Cruas"
+item_forgotten_uncooked_tarredplainspies_description_CH: "Tortas cruas recheadas com carnes embebidas, necessitando de uma lareira especial para serem cozidas corretamente."
+
+item_forgotten_cooked_tarredplainspies_CH: "Tortas das Planícies Alcatroadas Assadas"
+item_forgotten_cooked_tarredplainspies_description_CH: "Tortas assadas transbordando de sabor; qualquer viking terá a barriga cheia depois de comer isso."
+
+item_forgotten_charred_tarredplainspies_CH: "Tortas das Planícies Alcatroadas Carbonizadas"
+item_forgotten_charred_tarredplainspies_description_CH: "A carbonização deixou esta travessa com uma crocância deliciosa."
+
+item_forgotten_uncooked_mixeddoughplatter_CH: "Travessa de Massas Variadas Cruas"
+item_forgotten_uncooked_mixeddoughplatter_description_CH: "A travessa de massas cruas em várias formas e tamanhos."
+
+item_forgotten_cooked_mixeddoughplatter_CH: "Travessa de Massas Variadas Assadas"
+item_forgotten_cooked_mixeddoughplatter_description_CH: "Uma ampla variedade de pastéis e pães, alguns crocantes, alguns macios, todos deliciosos."
+
+item_forgotten_uncooked_jotunnsbounty_CH: "Fartura dos Jotunn Crua"
+item_forgotten_uncooked_jotunnsbounty_description_CH: "Uma ampla variedade de carnes coletadas nas Terras do Nevoeiro, prontas para serem cozidas."
+
+item_forgotten_cooked_jotunnsbounty_CH: "Fartura dos Jotunn"
+item_forgotten_cooked_jotunnsbounty_description_CH: "Uma travessa abundante de carnes e cortes delicados; até mesmo os antigos Jotunn se sentiriam satisfeitos após comer isso."
+
+item_forgotten_uncooked_seekersupreme_CH: "Supremo do Buscador Cru"
+item_forgotten_uncooked_seekersupreme_description_CH: "Um sortido de espetos de carne de buscador macios, prontos para serem cozidos."
+
+item_forgotten_cooked_seekersupreme_CH: "Supremo do Buscador"
+item_forgotten_cooked_seekersupreme_description_CH: "Macio, suculento e nutritivo; não é de se admirar que se possa comer toda a travessa de uma só vez."
+
+item_forgotten_gjallsfireybroth_CH: "Caldo Flamejante do Gjall"
+item_forgotten_gjallsfireybroth_description_CH: "Agora você entende por que os Gjalls berram pelas névoas."
+
+#_Banquets_#
+
+item_banquet_meadows_feast_CH: "O Banquete das Primeiras Terras"
+item_banquet_meadows_feast_description_CH: "Os Prados são o lar de todos os confortos do 10º reino; esta travessa serve como lembrete de parar e aproveitar a vida de vez em quando."
+
+item_banquet_blackforest_pinevegetables_CH: "Legumes Defumados no Pinho"
+item_banquet_blackforest_pinevegetables_description_CH: "Uma humilde coleção de cogumelos e cenouras defumados em um tronco de pinheiro. Ao serem consumidos, seus braços sentirão uma onda de energia capaz de derrubar uma floresta."
+
+item_banquet_blackforest_sap_CH: "Seiva Infundida do Ancião"
+item_banquet_blackforest_sap_description_CH: "Esta seiva atua como um portal para o mar de memórias do Ancião, com cada porção contando uma história diferente e deixando uma onda de motivação."
+
+item_banquet_swamp_pork_CH: "Aparas de Porco Escorrendo"
+item_banquet_swamp_pork_description_CH: "Salsichas, salsichas, salsichas! Um viking com esta travessa jamais passará fome e não cairá sem lutar."
+
+item_banquet_swamp_roots_CH: "Travessa de Raízes e Brotos"
+item_banquet_swamp_roots_description_CH: ""
+
+item_banquet_swamp_ale_CH: "Cerveja da Sanguessuga"
+item_banquet_swamp_ale_description_CH: ""
+
+item_banquet_mountains_festival_CH: "O Festival da Presa Gelada"
+item_banquet_mountains_festival_description_CH: ""
+
+item_banquet_mountains_delight_CH: "A Delícia de Moder"
+item_banquet_mountains_delight_description_CH: ""
+
+item_banquet_mountains_summit_CH: "Soirée do Cume Gelado"
+item_banquet_mountains_summit_description_CH: ""
+
+item_banquet_plains_king_CH: "O Último Banquete do Rei Goblin"
+item_banquet_plains_king_description_CH: ""
+
+item_banquet_plains_bakery_CH: "Padaria de Sangue e Cevada"
+item_banquet_plains_bakery_description_CH: ""
+
+item_banquet_plains_cloudy_CH: "Caneca de Hidromel Turvo"
+item_banquet_plains_cloudy_description_CH: ""
+
+item_banquet_mistlands_yggdrasil_CH: "Travessa Abençoada de Yggdrasil"
+item_banquet_mistlands_yggdrasil_description_CH: ""
+
+item_banquet_mistlands_dvergr_CH: "Banquete Encantado dos Dvergr"
+item_banquet_mistlands_dvergr_description_CH: ""
+
+item_banquet_mistlands_wispy_CH: "Bebida Etérea"
+item_banquet_mistlands_wispy_description_CH: ""
+
+item_banquet_ashlands_emeraldflame_CH: "A Fartura da Chama Esmeralda"
+item_banquet_ashlands_emeraldflame_description_CH: ""
+
+item_banquet_ashlands_vegetablemedley_CH: "Mistura Cerimonial de Legumes"
+item_banquet_ashlands_vegetablemedley_description_CH: ""
+
+item_banquet_ashlands_smokingkegs_CH: "Barris e Canecas Fumegantes"
+item_banquet_ashlands_smokingkegs_description_CH: ""
+
+#_Status_Effects_#
+
+item_banquet_meadows_feast_buff_CH: "O Banquete das Primeiras Terras"
+se_banquet_meadows_feast_buff_tooltip_CH: "Os Prados são o lar de todos os confortos do 10º reino; esta travessa serve como lembrete de parar e aproveitar a vida de vez em quando."
+
+item_banquet_blackforest_pinevegetables_buff_CH: "Legumes Defumados no Pinho"
+se_banquet_blackforest_pinevegetables_buff_tooltip_CH: "Uma humilde coleção de cogumelos e cenouras defumados em um tronco de pinheiro. Ao serem consumidos, seus braços sentirão uma onda de energia capaz de derrubar uma floresta."
+
+item_banquet_blackforest_sap_buff_CH: "Seiva Infundida do Ancião"
+se_banquet_blackforest_sap_buff_tooltip_CH: "Esta seiva atua como um portal para o mar de memórias do Ancião, com cada porção contando uma história diferente e deixando uma onda de motivação."
+
+item_banquet_swamp_pork_buff_CH: "Costelas de Porco Escorrendo"
+se_banquet_swamp_pork_buff_tooltip_CH: "Salsichas, salsichas, salsichas! Um viking com esta travessa jamais passará fome e não cairá sem lutar."
+
+item_banquet_swamp_roots_buff_CH: "Travessa de Raízes e Brotos"
+se_banquet_swamp_roots_buff_tooltip_CH: ""
+
+item_banquet_swamp_ale_buff_CH: "Cerveja da Sanguessuga"
+se_banquet_swamp_ale_buff_tooltip_CH: ""
+
+item_banquet_mountains_festival_buff_CH: "O Festival da Presa Gelada"
+se_banquet_mountains_festival_buff_tooltip_CH: ""
+
+item_banquet_mountains_delight_buff_CH: "A Delícia de Moder"
+se_banquet_mountains_delight_buff_tooltip_CH: ""
+
+item_banquet_mountains_summit_buff_CH: "Soirée do Cume Gelado"
+se_banquet_mountains_summit_buff_tooltip_CH: ""
+
+item_banquet_plains_king_buff_CH: "O Último Banquete do Rei Goblin"
+se_banquet_plains_king_buff_tooltip_CH: ""
+
+item_banquet_plains_bakery_buff_CH: "Padaria de Sangue e Cevada"
+se_banquet_plains_bakery_buff_tooltip_CH: ""
+
+item_banquet_plains_cloudy_buff_CH: "Caneca de Hidromel Turvo"
+se_banquet_plains_cloudy_buff_tooltip_CH: ""
+
+item_banquet_mistlands_yggdrasil_buff_CH: "Travessa Abençoada de Yggdrasil"
+se_banquet_mistlands_yggdrasil_buff_tooltip_CH: ""
+
+item_banquet_mistlands_dvergr_buff_CH: "Banquete Encantado dos Dvergr"
+se_banquet_mistlands_dvergr_buff_tooltip_CH: ""
+
+item_banquet_mistlands_wispy_buff_CH: "Bebida Etérea"
+se_banquet_mistlands_wispy_buff_tooltip_CH: ""
+
+item_banquet_ashlands_emeraldflame_buff_CH: "A Fartura da Chama Esmeralda"
+se_banquet_ashlands_emeraldflame_buff_tooltip_CH: ""
+
+item_banquet_ashlands_vegetablemedley_buff_CH: "Mistura Cerimonial de Legumes"
+se_banquet_ashlands_vegetablemedley_buff_tooltip_CH: ""
+
+item_banquet_ashlands_smokingkegs_buff_CH: "Barris e Canecas Fumegantes"
+se_banquet_ashlands_smokingkegs_buff_tooltip_CH: ""

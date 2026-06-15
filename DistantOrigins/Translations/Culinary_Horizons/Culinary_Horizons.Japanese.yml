@@ -1,0 +1,415 @@
+#_Stations_#
+
+piece_station_elderwok_CH: "エルダーウォック"
+piece_station_description_elderwok_CH: "耐久性の高い合金で鍛造されたエルダーウォックは、忘れられたレシピを再現することができる。"
+
+piece_banquetbench_CH: "ブロンズウッド・バンケットベンチ"
+piece_banquetbench_description_CH: "第10の領域最高の道具と食器を備え、料理人が盛大な宴会を準備する場所。"
+
+piece_station_spicetable_CH: "スパイステーブル"
+piece_station_spicetable_description_CH: "領域中で見つかるハーブから、様々な一般的および上級のスパイスを調合するためのテーブル。"
+
+#_Station_Extensions_#
+
+piece_spicetable_ext1_rackedvials_CH: "バイアルラック"
+piece_spicetable_ext1_rackedvials_description_CH: "スパイステーブル用に、様々なスパイスを保存するためのガラス容器のシリーズ。"
+
+piece_spicetable_ext2_roastingbasin_CH: "ロースティングトレイ"
+piece_spicetable_ext2_roastingbasin_description_CH: "焼け付くような高温で、スパイステーブルで使用する準備が整うまで、ほぼあらゆるスパイスを焙煎できるトレイ。"
+
+piece_spicetable_ext3_reinforcedsealbreaker_CH: "強化封印破砕機"
+piece_spicetable_ext3_reinforcedsealbreaker_description_CH: "封印破砕機から滴り落ちるエネルギーの球が、それに触れたハーブを変容させる。"
+
+piece_elderwok_ext1_obsidianequipment_CH: "黒曜石キッチン器具"
+piece_elderwok_ext1_obsidianequipment_description_CH: "エルダーウォックでの調理を補助するための、吊り下げ式のお玉とスプーンのシリーズ。"
+
+piece_elderwok_ext2_shamanspots_CH: "シャーマンの鍋"
+piece_elderwok_ext2_shamanspots_description_CH: "平原のシャーマンたちにインスパイアされたこの鍋のコレクションは、エルダーウォックでの調理を向上させる。"
+
+piece_elderwok_ext3_sharpenedcarapacerazors_CH: "研ぎ澄まされた甲殻刃"
+piece_elderwok_ext3_sharpenedcarapacerazors_description_CH: "あらゆる肉をバターのように切り裂く、最も鋭利な一対の刃。"
+
+#_Tutorials_#
+
+tutorial_processor_spicegrinder_topic_CH: "テストトピック"
+tutorial_processor_spicegrinder_label_CH: "テストラベル"
+tutorial_processor_spicegrinder_text_CH: "テストテキスト"
+
+tutorial_processor_alloyfurnace_topic_CH: "テストトピック"
+tutorial_processor_alloyfurnace_label_CH: "テストラベル"
+tutorial_processor_alloyfurnace_text_CH: "テストテキスト"
+
+#_Configcheckerstart_#
+
+config_update_title_DO: "{0} 更新済み"
+
+config_update_line_1_DO: "{0} はバージョン {1} に更新されました。"
+config_update_line_2_DO: "このアップデートには新しい設定値が含まれています。"
+
+config_update_line_3_DO: "設定を新しいデフォルト値にリセットしますか？"
+config_update_line_4_DO: "- はい - 推奨されるデフォルト値を適用する。"
+config_update_line_5_DO: "- いいえ - 現在の設定を維持する。"
+
+#_Processors_
+
+piece_spicegrinder_CH: "スパイスグラインダー"
+piece_spicegrinder_additem_CH: "アイテムを追加"
+piece_spicegrinder_empty_CH: "空"
+
+piece_alloyfurnace_CH: "合金炉"
+piece_alloyfurnace_additem_CH: "アイテムを追加"
+piece_alloyfurnace_empty_CH: "空"
+
+piece_thejarlshearth_CH: "ヤールの炉辺"
+piece_thejarlshearth_additem_CH: "アイテムを追加"
+piece_thejarlshearth_empty_CH: "空"
+
+#_Alloys_#
+
+item_alloy_bar_dokkborn_CH: "ドックボーン"
+item_alloy_bar_dokkborn_description_CH: "青銅と鉄を混合したこの密度の高い合金は、強烈な熱に耐え、その形状を保つことができる。"
+
+item_alloy_bar_glaesfir_CH: "グレスフィル"
+item_alloy_bar_glaesfir_description_CH: "銀と黒金属の合金で、見るたびにその模様が変わるように見える。"
+
+item_alloy_scrap_glaesfir_CH: "グレスフィルの屑"
+item_alloy_scrap_glaesfir_description_CH: "粗削りで未加工のグレスフィルの塊。"
+
+item_alloy_scrap_dokkborn_CH: "ドックボーンの屑"
+item_alloy_scrap_dokkborn_description_CH: "粗削りで未加工のドックボーンの塊。"
+
+#_Drops_#
+
+item_mobdrops_smokingectoplasm_CH: "煙るエクトプラズム"
+item_mobdrops_smokingectoplasm_description_CH: "レイスの霊魂から生まれた燃えさかる残り火。"
+
+item_mobdrops_forestheart_CH: "森の心臓"
+item_mobdrops_forestheart_description_CH: "グレイドワーフ・シャーマンのかすかに光る心臓。"
+
+#_Unprocessed_Common_Spices_#
+
+item_spice_unprocessed_common_giantsseasoning_CH: "生の巨人の調味料"
+item_spice_unprocessed_common_giantsseasoning_description_CH: "ヨトゥンが使っていたと言われる生のスパイスで、料理に新鮮なハーブの風味を加える。"
+
+item_spice_unprocessed_common_surtlingcinders_CH: "生のサートリングの灰"
+item_spice_unprocessed_common_surtlingcinders_description_CH: "埃っぽい骨と灰は生の状態では食欲をそそらないが、挽くと土っぽい食感を生み出す。"
+
+item_spice_unprocessed_common_frostedpowder_CH: "生の霜の粉"
+item_spice_unprocessed_common_frostedpowder_description_CH: "生の状態でも、この粉は触れるものすべてを保存することができる。"
+
+item_spice_unprocessed_common_cracklingflakes_CH: "生のパチパチフレーク"
+item_spice_unprocessed_common_cracklingflakes_description_CH: "生の状態でもカリカリで、ほんのり酸っぱい。"
+
+item_spice_unprocessed_common_shroudedseasonings_CH: "生の霞の調味料"
+item_spice_unprocessed_common_shroudedseasonings_description_CH: "この生の粉の上に、柔らかな霧が漂っている。"
+
+item_spice_unprocessed_common_sorrowfulcinders_CH: "生の悲嘆の灰"
+item_spice_unprocessed_common_sorrowfulcinders_description_CH: "この生のスパイスから、炎の余燼がはじける。"
+
+#_Processed_Common_Spices_#
+
+item_spice_processed_common_giantsseasoning_CH: "巨人の調味料"
+item_spice_processed_common_giantsseasoning_description_CH: "ヨトゥンが使っていたと言われるスパイスで、料理に新鮮なハーブの風味を加える。"
+
+item_spice_processed_common_surtlingcinders_CH: "サートリングの灰"
+item_spice_processed_common_surtlingcinders_description_CH: "埃っぽい骨と灰は生の状態では食欲をそそらないが、加工することで土っぽい食感を生み出す。"
+
+item_spice_processed_common_frostedpowder_CH: "霜の粉"
+item_spice_processed_common_frostedpowder_description_CH: "加工されたこの粉は、優れた保存料として活躍する。"
+
+item_spice_processed_common_cracklingflakes_CH: "パチパチフレーク"
+item_spice_processed_common_cracklingflakes_description_CH: "このスパイスを使った料理を一口食べるたびに、風味が爆発する。"
+
+item_spice_processed_common_shroudedseasonings_CH: "霞の調味料"
+item_spice_processed_common_shroudedseasonings_description_CH: "このスパイスはどんな料理にも、ほんのり甘く落ち着いた風味を与える。"
+
+item_spice_processed_common_sorrowfulcinders_CH: "悲嘆の灰"
+item_spice_processed_common_sorrowfulcinders_description_CH: "このスパイスの辛さは、どんなバイキングの顔も真っ赤にしてしまうだろう。"
+
+#_Unprocessed_Elite_Spices_#
+
+item_spice_unprocessed_elite_eldakras_CH: "生のエルダクラス"
+item_spice_unprocessed_elite_eldakras_description_CH: "このスパイスの周りに力強い緑の輝きが漂い、数多くの風味を約束している。"
+
+item_spice_unprocessed_elite_marshmas_CH: "生のマーシュマス"
+item_spice_unprocessed_elite_marshmas_description_CH: "暗くて苔むしたマーシュマスは、どんなバイキングにも忘れられない印象を残すだろう。"
+
+item_spice_unprocessed_elite_vindfros_CH: "生のヴィンドフロス"
+item_spice_unprocessed_elite_vindfros_description_CH: "料理ができたなら、モーデル自身もこれを食事に使っていただろう。"
+
+item_spice_unprocessed_elite_solakras_CH: "生のソラクラス"
+item_spice_unprocessed_elite_solakras_description_CH: "生の状態でも、ソラクラスには陽気でどこか朗らかな性質がある。"
+
+item_spice_unprocessed_elite_mistilteig_CH: "生のミスティルテイグ"
+item_spice_unprocessed_elite_mistilteig_description_CH: "生の状態でも、ユグドラシルの樹液がこのスパイスに滲み込んでいる。"
+
+item_spice_unprocessed_elite_Alvmas_CH: "生のアルヴマス"
+item_spice_unprocessed_elite_Alvmas_description_CH: "溶岩のように密度が高く、この生のスパイスは徹底的に挽く必要がある。"
+
+#_Processed_Elite_Spices_#
+
+item_spice_processed_elite_eldakras_CH: "エルダクラス"
+item_spice_processed_elite_eldakras_description_CH: "加工されたこのスパイスは、どんな料理も傑作に変える魅惑的な香りを放つ。"
+
+item_spice_processed_elite_marshmas_CH: "マーシュマス"
+item_spice_processed_elite_marshmas_description_CH: "暗くて苔むしたマーシュマスは、どんなバイキングにも忘れられない印象を残すだろう。"
+
+item_spice_processed_elite_vindfros_CH: "ヴィンドフロス"
+item_spice_processed_elite_vindfros_description_CH: "料理ができたなら、モーデル自身もこれを食事に使っていただろう。"
+
+item_spice_processed_elite_solakras_CH: "ソラクラス"
+item_spice_processed_elite_solakras_description_CH: "完全に加工・調整されたこのスパイスは、最高の宴会に欠かせない存在となるだろう。"
+
+item_spice_processed_elite_mistilteig_CH: "ミスティルテイグ"
+item_spice_processed_elite_mistilteig_description_CH: "ユグドラシルの樹液がこのスパイスに滲み込み、加えられたどんな料理も祝福する。"
+
+item_spice_processed_elite_Alvmas_CH: "アルヴマス"
+item_spice_processed_elite_Alvmas_description_CH: "古代の料理技法がこのスパイスに宿り、加えられたどんな料理にも永続的な影響を与える。"
+
+#_Enhanced_Foods_#
+
+item_enhanced_boar_meat_CH: "味付き猪肉の炙り焼き"
+item_enhanced_boar_meat_description_CH: "新鮮に焼き上げ、調味料をまぶした猪肉の一切れ。"
+
+item_enhanced_deer_meat_CH: "味付き鹿肉の炙り焼き"
+item_enhanced_deer_meat_description_CH: "新鮮に焼き上げ、調味料をまぶした鹿のあばら肉。"
+
+item_enhanced_mushroom_CH: "味付きキノコ"
+item_enhanced_mushroom_description_CH: "味付きキノコはしっかりとしたおやつになるが、食材として使うとより良いだろう。"
+
+item_enhanced_carrot_CH: "味付きニンジン"
+item_enhanced_carrot_description_CH: "軽く味付けされたこのニンジンは、どんな料理にも優しく馴染む。"
+
+item_enhanced_sausages_CH: "味付きソーセージ"
+item_enhanced_sausages_description_CH: "スモーキーで風味豊かなこのソーセージは、どのバイキングにも愛されている。"
+
+item_enhanced_muckshake_CH: "スパークリング・マックシェイク"
+item_enhanced_muckshake_description_CH: "泡立ちとはじける感覚が、このシェイクをほんの少し飲みやすくしている。"
+
+item_enhanced_turnip_CH: "味付きカブ"
+item_enhanced_turnip_description_CH: "まだそのまま食べることはできないが、このカブはどんな料理にも良い彩りを添えるだろう。"
+
+item_enhanced_wolfmeat_CH: "味付き狼肉の炙り焼き"
+item_enhanced_wolfmeat_description_CH: "この肉の風味は、山岳地帯での狩猟を価値あるものにするかもしれない。"
+
+item_enhanced_onion_CH: "味付き玉ねぎ"
+item_enhanced_onion_description_CH: "この玉ねぎはバイキングの食事に爽やかな歯応えをもたらす。"
+
+item_enhanced_vegetableskewer_CH: "味付き野菜の串焼き"
+item_enhanced_vegetableskewer_description_CH: "小さな串に刺した採れたての野菜に、スパイスをふりかけたもの。"
+
+item_enhanced_eyescream_CH: "トッピング入りアイスクリーム"
+item_enhanced_eyescream_description_CH: "頭が凍りつく確率が2倍になった！"
+
+item_enhanced_soakedloxmeat_CH: "タール漬けロックス肉"
+item_enhanced_soakedloxmeat_description_CH: "タールに浸したロックス肉で、炉辺でじっくりと焙り焼きにする準備が整っている。"
+
+item_enhanced_roastedloxmeat_CH: "ロースト・ロックス肉"
+item_enhanced_roastedloxmeat_description_CH: "じっくりと焙り焼きにした大きなロックス肉の塊。"
+
+item_enhanced_charredloxmeat_CH: "炭焼きロックス肉"
+item_enhanced_charredloxmeat_description_CH: "炭火で焼いたロックスの脚肉で、驚くほど柔らかい食べ心地。"
+
+item_enhanced_seededbreaddough_CH: "シード入りパン生地"
+item_enhanced_seededbreaddough_description_CH: "スパイスを丁寧にふりかけたパン生地のかたまり。"
+
+item_enhanced_seededbread_CH: "シードブレッド"
+item_enhanced_seededbread_description_CH: "パリッとした外皮を持つ、しっとりとしたパン。"
+
+item_enhanced_fishskewer_CH: "味付き魚の串焼き"
+item_enhanced_fishskewer_description_CH: "衣をつけた魚の切り身に、コケモモときのこを添えたもの。"
+
+item_enhanced_infusedjotunnpuffs_CH: "精気注入ヨトゥンパフ"
+item_enhanced_infusedjotunnpuffs_description_CH: "きらめき輝くこのヨトゥンパフは、心地よい食感が楽しめる。"
+
+item_enhanced_infusedmagecaps_CH: "精気注入メイジキャップ"
+item_enhanced_infusedmagecaps_description_CH: "このメイジキャップはエネルギーに満ち溢れている。"
+
+item_enhanced_infusedcookedharemeat_CH: "精気注入野ウサギ肉の炙り焼き"
+item_enhanced_infusedcookedharemeat_description_CH: "淡い紫の輝きをまとった、赤身で柔らかな野ウサギ肉の切り身。"
+
+item_enhanced_infusedcookedseekermeat_CH: "精気注入シーカー肉の炙り焼き"
+item_enhanced_infusedcookedseekermeat_description_CH: "このシーカー肉の柔らかくもカリッとした食感は、口の中でとろけるようだ。"
+
+item_enhanced_scorchedcookedvolturemeat_CH: "焦がしハゲタカ肉の炙り焼き"
+item_enhanced_scorchedcookedvolturemeat_description_CH: "焦げ目がついて光り輝く、この肉厚な一切れはどんなバイキングにもふさわしい。"
+
+item_enhanced_scorchedcookedasksvintail_CH: "焦がしアスクスヴィンの尾の炙り焼き"
+item_enhanced_scorchedcookedasksvintail_description_CH: "アスクスヴィンの赤身の尾肉で、驚くほどカリカリとした食感がある。"
+
+item_enhanced_scorchedsmokepuff_CH: "焦がしスモークパフ"
+item_enhanced_scorchedsmokepuff_description_CH: "かすかに温かい輝きを放つ、焦げたスモークパフ。"
+
+item_enhanced_scorchedmorgenheart_CH: "焦がしモルゲンの心臓"
+item_enhanced_scorchedmorgenheart_description_CH: "焦がされたこれは腹持ちの良い食事になるだろうが、エネルギーで満たされることは期待しないほうがいい。"
+
+#_Forgotten_Recipes_#
+
+item_forgotten_marbledmixedmeats_CH: "霜降り盛り合わせ肉"
+item_forgotten_marbledmixedmeats_description_CH: "高品質な肉を贅沢に盛り合わせたこのプラッターは、心のこもった食事となるだろう。"
+
+item_forgotten_honeycoatedvegetables_CH: "蜂蜜がけ野菜"
+item_forgotten_honeycoatedvegetables_description_CH: "蜂蜜でグレーズした野菜の盛り合わせで、長い一日が待ち受けているバイキングへの贈り物。"
+
+item_forgotten_berrybraisedboar_CH: "ベリー煮込みの猪"
+item_forgotten_berrybraisedboar_description_CH: "バイキングがその名前を言いにくいとしても、このバランスの取れたプラッターは多くの者に愛されている。"
+
+item_forgotten_agedcuredmeats_CH: "熟成塩漬け肉"
+item_forgotten_agedcuredmeats_description_CH: "世界中の肉食家のために、丁寧に熟成させた肉を美しく盛り合わせたもの。"
+
+item_forgotten_sweetenedvegetablebowl_CH: "甘煮野菜ボウル"
+item_forgotten_sweetenedvegetablebowl_description_CH: "甘いブロスで煮込んだこれらの野菜は、忘れられないご馳走となるだろう。"
+
+item_forgotten_swampystew_CH: "沼地のシチュー"
+item_forgotten_swampystew_description_CH: "沼地の伝統として、この美味しいスープは少々...奇妙な見た目をしている。"
+
+item_forgotten_fenringmeatboard_CH: "フェンリングの肉盛り合わせ"
+item_forgotten_fenringmeatboard_description_CH: "フェンリングにふさわしいプラッターで、多種多様なジューシーな肉が盛り合わされている。"
+
+item_forgotten_highlandssoup_CH: "高地の醸造スープ"
+item_forgotten_highlandssoup_description_CH: "故郷の一切れのような、軽くて爽やかなスープ。"
+
+item_forgotten_poacheddrakescales_CH: "ポーチドドレイクの鱗"
+item_forgotten_poacheddrakescales_description_CH: "触れると冷たいこれらの鱗は、大きなローストで見られる豚の皮のカリカリ焼きに似ている。"
+
+item_forgotten_uncooked_tarredplainspies_CH: "未焼きのタール平原パイ"
+item_forgotten_uncooked_tarredplainspies_description_CH: "タールに漬けた肉を詰めた未焼きのパイで、正しく焼くには特別な炉が必要だ。"
+
+item_forgotten_cooked_tarredplainspies_CH: "焼きたてタール平原パイ"
+item_forgotten_cooked_tarredplainspies_description_CH: "風味あふれる焼き上がりのパイで、食べたどのバイキングも満腹になるだろう。"
+
+item_forgotten_charred_tarredplainspies_CH: "炭焼きタール平原パイ"
+item_forgotten_charred_tarredplainspies_description_CH: "炭焼きにすることで、このプラッターに心地よい香ばしさが加わっている。"
+
+item_forgotten_uncooked_mixeddoughplatter_CH: "未焼き盛り合わせ生地プラッター"
+item_forgotten_uncooked_mixeddoughplatter_description_CH: "様々な形とサイズの未焼き生地を盛り合わせたプラッター。"
+
+item_forgotten_cooked_mixeddoughplatter_CH: "焼き上がり盛り合わせ生地プラッター"
+item_forgotten_cooked_mixeddoughplatter_description_CH: "パリッとしたものも、しっとりしたものも、そのすべてが絶品の、バラエティ豊かな焼き菓子の盛り合わせ。"
+
+item_forgotten_uncooked_jotunnsbounty_CH: "未調理のヨトゥンの恵み"
+item_forgotten_uncooked_jotunnsbounty_description_CH: "ミストランドから集めた多種多様な肉の盛り合わせで、調理の準備が整っている。"
+
+item_forgotten_cooked_jotunnsbounty_CH: "ヨトゥンの恵み"
+item_forgotten_cooked_jotunnsbounty_description_CH: "繊細な肉と切り身を贅沢に盛り合わせたプラッターで、古代のヨトゥンでさえ食べ終えたら満腹になるだろう。"
+
+item_forgotten_uncooked_seekersupreme_CH: "未調理のシーカー・スプリーム"
+item_forgotten_uncooked_seekersupreme_description_CH: "柔らかなシーカー肉の串焼きの盛り合わせで、調理の準備が整っている。"
+
+item_forgotten_cooked_seekersupreme_CH: "シーカー・スプリーム"
+item_forgotten_cooked_seekersupreme_description_CH: "柔らかく、ジューシーで、栄養満点。プラッター全部を一度に平らげてしまうのも不思議ではない。"
+
+item_forgotten_gjallsfireybroth_CH: "ギャルの炎のスープ"
+item_forgotten_gjallsfireybroth_description_CH: "ギャルが霧の中で吠え続ける理由が、これでわかった。"
+
+#_Banquets_#
+
+item_banquet_meadows_feast_CH: "最初の大地の饗宴"
+item_banquet_meadows_feast_description_CH: "草原は第10の領域のあらゆる安らぎの場所。このプラッターは、時には立ち止まってゆっくり楽しむことを思い出させてくれる。"
+
+item_banquet_blackforest_pinevegetables_CH: "松煙製野菜"
+item_banquet_blackforest_pinevegetables_description_CH: "松の丸太で燻したキノコとニンジンの素朴な盛り合わせ。食べると、腕に森をなぎ倒すほどのエネルギーがみなぎるのを感じるだろう。"
+
+item_banquet_blackforest_sap_CH: "古老の精気注入樹液"
+item_banquet_blackforest_sap_description_CH: "この樹液は古老の記憶の海への入り口となり、一口ごとに異なる物語を語り、やる気の高まりをもたらす。"
+
+item_banquet_swamp_pork_CH: "滴る豚肉の端切れ"
+item_banquet_swamp_pork_description_CH: "ソーセージ、ソーセージ、ソーセージ！このプラッターを持つバイキングは、飢えることも、戦わずして倒れることもないだろう。"
+
+item_banquet_swamp_roots_CH: "根菜と新芽のプラッター"
+item_banquet_swamp_roots_description_CH: ""
+
+item_banquet_swamp_ale_CH: "リーチャーのエール"
+item_banquet_swamp_ale_description_CH: ""
+
+item_banquet_mountains_festival_CH: "凍てつく牙の祭典"
+item_banquet_mountains_festival_description_CH: ""
+
+item_banquet_mountains_delight_CH: "モーデルの喜び"
+item_banquet_mountains_delight_description_CH: ""
+
+item_banquet_mountains_summit_CH: "霜の頂きの宴"
+item_banquet_mountains_summit_description_CH: ""
+
+item_banquet_plains_king_CH: "ゴブリン王の最後の晩餐"
+item_banquet_plains_king_description_CH: ""
+
+item_banquet_plains_bakery_CH: "血と大麦のベーカリー"
+item_banquet_plains_bakery_description_CH: ""
+
+item_banquet_plains_cloudy_CH: "曇りのミードタンカード"
+item_banquet_plains_cloudy_description_CH: ""
+
+item_banquet_mistlands_yggdrasil_CH: "ユグドラシルの祝福プラッター"
+item_banquet_mistlands_yggdrasil_description_CH: ""
+
+item_banquet_mistlands_dvergr_CH: "ドヴェルグの魅惑の宴"
+item_banquet_mistlands_dvergr_description_CH: ""
+
+item_banquet_mistlands_wispy_CH: "幽玄の醸造酒"
+item_banquet_mistlands_wispy_description_CH: ""
+
+item_banquet_ashlands_emeraldflame_CH: "翠炎の恵み"
+item_banquet_ashlands_emeraldflame_description_CH: ""
+
+item_banquet_ashlands_vegetablemedley_CH: "儀式の野菜メドレー"
+item_banquet_ashlands_vegetablemedley_description_CH: ""
+
+item_banquet_ashlands_smokingkegs_CH: "煙る樽と酒杯"
+item_banquet_ashlands_smokingkegs_description_CH: ""
+
+#_Status_Effects_#
+
+item_banquet_meadows_feast_buff_CH: "最初の大地の饗宴"
+se_banquet_meadows_feast_buff_tooltip_CH: "草原は第10の領域のあらゆる安らぎの場所。このプラッターは、時には立ち止まってゆっくり楽しむことを思い出させてくれる。"
+
+item_banquet_blackforest_pinevegetables_buff_CH: "松煙製野菜"
+se_banquet_blackforest_pinevegetables_buff_tooltip_CH: "松の丸太で燻したキノコとニンジンの素朴な盛り合わせ。食べると、腕に森をなぎ倒すほどのエネルギーがみなぎるのを感じるだろう。"
+
+item_banquet_blackforest_sap_buff_CH: "古老の精気注入樹液"
+se_banquet_blackforest_sap_buff_tooltip_CH: "この樹液は古老の記憶の海への入り口となり、一口ごとに異なる物語を語り、やる気の高まりをもたらす。"
+
+item_banquet_swamp_pork_buff_CH: "滴る豚のスペアリブ"
+se_banquet_swamp_pork_buff_tooltip_CH: "ソーセージ、ソーセージ、ソーセージ！このプラッターを持つバイキングは、飢えることも、戦わずして倒れることもないだろう。"
+
+item_banquet_swamp_roots_buff_CH: "根菜と新芽のプラッター"
+se_banquet_swamp_roots_buff_tooltip_CH: ""
+
+item_banquet_swamp_ale_buff_CH: "リーチャーのエール"
+se_banquet_swamp_ale_buff_tooltip_CH: ""
+
+item_banquet_mountains_festival_buff_CH: "凍てつく牙の祭典"
+se_banquet_mountains_festival_buff_tooltip_CH: ""
+
+item_banquet_mountains_delight_buff_CH: "モーデルの喜び"
+se_banquet_mountains_delight_buff_tooltip_CH: ""
+
+item_banquet_mountains_summit_buff_CH: "霜の頂きの宴"
+se_banquet_mountains_summit_buff_tooltip_CH: ""
+
+item_banquet_plains_king_buff_CH: "ゴブリン王の最後の晩餐"
+se_banquet_plains_king_buff_tooltip_CH: ""
+
+item_banquet_plains_bakery_buff_CH: "血と大麦のベーカリー"
+se_banquet_plains_bakery_buff_tooltip_CH: ""
+
+item_banquet_plains_cloudy_buff_CH: "曇りのミードタンカード"
+se_banquet_plains_cloudy_buff_tooltip_CH: ""
+
+item_banquet_mistlands_yggdrasil_buff_CH: "ユグドラシルの祝福プラッター"
+se_banquet_mistlands_yggdrasil_buff_tooltip_CH: ""
+
+item_banquet_mistlands_dvergr_buff_CH: "ドヴェルグの魅惑の宴"
+se_banquet_mistlands_dvergr_buff_tooltip_CH: ""
+
+item_banquet_mistlands_wispy_buff_CH: "幽玄の醸造酒"
+se_banquet_mistlands_wispy_buff_tooltip_CH: ""
+
+item_banquet_ashlands_emeraldflame_buff_CH: "翠炎の恵み"
+se_banquet_ashlands_emeraldflame_buff_tooltip_CH: ""
+
+item_banquet_ashlands_vegetablemedley_buff_CH: "儀式の野菜メドレー"
+se_banquet_ashlands_vegetablemedley_buff_tooltip_CH: ""
+
+item_banquet_ashlands_smokingkegs_buff_CH: "煙る樽と酒杯"
+se_banquet_ashlands_smokingkegs_buff_tooltip_CH: ""

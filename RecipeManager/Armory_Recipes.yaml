@@ -656,6 +656,9 @@ recipeModifications:
       - prefab: Iron
         craftCost: 10
         upgradeCost: 4
+      - prefab: Bronze
+        craftCost: 4
+        upgradeCost: 2
       - prefab: HelmetHunter_TW
         craftCost: 1
   ArmorHunterChestIron_TW_Recipe_Custom:
@@ -673,6 +676,9 @@ recipeModifications:
       - prefab: Iron
         craftCost: 12
         upgradeCost: 6
+      - prefab: Bronze
+        craftCost: 6
+        upgradeCost: 3
       - prefab: ArmorHunterChest_TW
         craftCost: 1
   ArmorHunterLegsIron_TW_Recipe_Custom:
@@ -690,6 +696,9 @@ recipeModifications:
       - prefab: Iron
         craftCost: 8
         upgradeCost: 4
+      - prefab: Bronze
+        craftCost: 4
+        upgradeCost: 2
       - prefab: ArmorHunterLegs_TW
         craftCost: 1
   HelmetRogueIron_TW_Recipe_Custom:
