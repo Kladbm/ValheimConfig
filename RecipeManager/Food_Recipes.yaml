@@ -122,7 +122,9 @@ recipeModifications:
       - prefab: Carrot
         craftCost: 2
       - prefab: Entrails
-        craftCost: 3
+        craftCost: 2
+      - prefab: CookedMeat
+        craftCost: 2      
   EitrPlateSwamp_TW_Recipe_Cauldron:
     action: Modify
     prefab: EitrPlateSwamp_TW
@@ -135,7 +137,9 @@ recipeModifications:
       - prefab: MushroomDeathcap_TW
         craftCost: 4
       - prefab: Entrails
-        craftCost: 3
+        craftCost: 2
+      - prefab: CookedMeat
+        craftCost: 2    
       - prefab: Turnip
         craftCost: 2
       - prefab: Bloodbag

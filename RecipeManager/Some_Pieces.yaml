@@ -201,3 +201,16 @@ pieceModifications:
     pieceName: $bh_mortarandpestle
     pieceDescription: $bh_mortarandpestle_description
     enablePiece: true
+  stone_wall_1x1:
+    action: Modify
+    prefab: stone_wall_1x1
+    requirements:
+    - prefab: Stone
+      amount: 2
+      recover: true
+    requiredToPlaceCraftingStation: piece_stonecutter
+    canBeDeconstructed: true
+    pieceCategory: BuildingStonecutter
+    pieceName: $piece_stonewall1x1
+    pieceDescription: ''
+    enablePiece: true
