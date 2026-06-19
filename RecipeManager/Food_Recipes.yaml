@@ -135,15 +135,15 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: MushroomDeathcap_TW
-        craftCost: 4
+        craftCost: 3
       - prefab: Entrails
-        craftCost: 2
+        craftCost: 1
       - prefab: CookedMeat
-        craftCost: 2    
+        craftCost: 4    
       - prefab: Turnip
         craftCost: 2
       - prefab: Bloodbag
-        craftCost: 2
+        craftCost: 1
   JellyCakeSwamp_TW_Recipe_Cauldron:
     action: Modify
     prefab: JellyCakeSwamp_TW
