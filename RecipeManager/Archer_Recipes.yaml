@@ -1036,3 +1036,24 @@ recipeModifications:
         craftCost: 2
       - prefab: Tar
         craftCost: 4
+  Recipe_Recipe_VABlood_bone_bow:
+    action: Modify
+    prefab: VABlood_bone_bow
+    recipeName: Recipe_Recipe_VABlood_bone_bow
+    craftedAt: FletcherTable_TW
+    repairAt: FletcherTable_TW
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: ElderBark
+        craftCost: 16
+        upgradeCost: 8
+      - prefab: Silver
+        craftCost: 24
+        upgradeCost: 8
+      - prefab: BoneFragments
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: TrophyUlv
+        craftCost: 3
