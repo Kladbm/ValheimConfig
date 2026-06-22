@@ -158,15 +158,3 @@ recipeModifications:
         craftCost: 2
       - prefab: Resin
         craftCost: 8
-  CraftableSurtlingTrophy:
-    action: Add
-    prefab: TrophySurtling
-    craftedAt: WizardTable_TW
-    minStationLevel: 1
-    craftAmount: 1
-    recipe:
-      anyOneResource: false
-      ingredients:
-      - prefab: SurtlingCore
-        craftCost: 15
-        upgradeCost: 0

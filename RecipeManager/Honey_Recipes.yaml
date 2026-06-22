@@ -3,9 +3,24 @@
 #################################################
 
 recipeModifications:
-  $custom_item_honeysausages:
+  $custom_item_honeysausages4:
     action: Disable
     prefab: HoneySausages
+  $custom_item_honeysausages:
+    action: Modify
+    prefab: HoneySausages
+    recipeName: $custom_item_honeysausages
+    craftedAt: piece_apiary
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Sausages
+        craftCost: 1
+      - prefab: Honey
+        craftCost: 4
+      - prefab: Dandelion
+        craftCost: 2
   $custom_item_meadbase_damage:
     action: Disable
     prefab: HoneyMeadBaseDamage
