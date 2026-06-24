@@ -8739,10 +8739,10 @@ recipeModifications:
       - prefab: Silver
         craftCost: 2
         upgradeCost: 2
-  Recipe_Recipe_VABlood_bone_bow:
+  Recipe_Recipe_Recipe_VABlood_bone_bow:
     action: Enable
     prefab: VABlood_bone_bow
-    recipeName: Recipe_Recipe_VABlood_bone_bow
+    recipeName: Recipe_Recipe_Recipe_VABlood_bone_bow
     craftedAt: FletcherTable_TW
     repairAt: FletcherTable_TW
     minStationLevel: 2
@@ -8753,7 +8753,7 @@ recipeModifications:
         craftCost: 16
         upgradeCost: 8
       - prefab: Silver
-        craftCost: 16
+        craftCost: 24
         upgradeCost: 8
       - prefab: BoneFragments
         craftCost: 24
@@ -10004,11 +10004,12 @@ recipeModifications:
         upgradeCost: 12
       - prefab: Mandible
         upgradeCost: 16
-  Flask_of_Elements_Recipe_Custom:
+  Recipe_Flask_of_Elements_Recipe_Custom:
     action: Enable
     prefab: Flask_of_Elements
-    recipeName: Flask_of_Elements_Recipe_Custom
+    recipeName: Recipe_Flask_of_Elements_Recipe_Custom
     craftedAt: opalchemy
+    repairAt: opalchemy
     minStationLevel: 1
     craftAmount: 1
     recipe:
@@ -10018,14 +10019,15 @@ recipeModifications:
       - prefab: FreezeGland
         craftCost: 2
       - prefab: ElderBark
-        craftCost: 4
+        craftCost: 8
       - prefab: Entrails
         craftCost: 8
-  Flask_of_Fortification_Recipe_Custom:
+  Recipe_Flask_of_Fortification_Recipe_Custom:
     action: Enable
     prefab: Flask_of_Fortification
-    recipeName: Flask_of_Fortification_Recipe_Custom
+    recipeName: Recipe_Flask_of_Fortification_Recipe_Custom
     craftedAt: opalchemy
+    repairAt: opalchemy
     minStationLevel: 2
     craftAmount: 1
     recipe:
@@ -10033,28 +10035,31 @@ recipeModifications:
       - prefab: Potion_Meadbase
         craftCost: 1
       - prefab: Obsidian
-        craftCost: 2
-      - prefab: Flint
         craftCost: 4
-      - prefab: Stone
+      - prefab: Flint
         craftCost: 8
-  Flask_of_the_Gods_Recipe_Custom:
+      - prefab: Stone
+        craftCost: 16
+  Recipe_Flask_of_the_Gods_Recipe_Custom:
     action: Enable
     prefab: Flask_of_the_Gods
-    recipeName: Flask_of_the_Gods_Recipe_Custom
+    recipeName: Recipe_Flask_of_the_Gods_Recipe_Custom
     craftedAt: opalchemy
+    repairAt: opalchemy
     minStationLevel: 2
     craftAmount: 1
     recipe:
       ingredients:
       - prefab: Potion_Meadbase
         craftCost: 1
+      - prefab: Grand_Spiritual_Healing_Potion
+        craftCost: 1
       - prefab: Thistle
-        craftCost: 4
+        craftCost: 8
       - prefab: Flax
-        craftCost: 4
+        craftCost: 8
       - prefab: Carrot
-        craftCost: 2
+        craftCost: 8
   Flask_of_Magelight_Recipe_Custom:
     action: Enable
     prefab: Flask_of_Magelight
@@ -10072,11 +10077,12 @@ recipeModifications:
         craftCost: 4
       - prefab: GreydwarfEye
         craftCost: 8
-  Flask_of_Second_Wind_Recipe_Custom:
+  Recipe_Flask_of_Second_Wind_Recipe_Custom:
     action: Enable
     prefab: Flask_of_Second_Wind
-    recipeName: Flask_of_Second_Wind_Recipe_Custom
+    recipeName: Recipe_Flask_of_Second_Wind_Recipe_Custom
     craftedAt: opalchemy
+    repairAt: opalchemy
     minStationLevel: 2
     craftAmount: 1
     recipe:
@@ -10088,7 +10094,7 @@ recipeModifications:
       - prefab: FreezeGland
         craftCost: 2
       - prefab: Feathers
-        craftCost: 6
+        craftCost: 12
   Grand_Healing_Tide_Potion_Recipe_Custom:
     action: Enable
     prefab: Grand_Healing_Tide_Potion
@@ -10265,7 +10271,7 @@ recipeModifications:
       ingredients:
       - prefab: Grand_Healing_Tide_Potion
         craftCost: 1
-  Potion_Meadbase_Recipe_Custom_666:
+  Potion_Meadbase_Recipe_Custom_56:
     action: Enable
     prefab: Potion_Meadbase
     recipeName: Potion_Meadbase_Recipe_Custom
@@ -10276,7 +10282,7 @@ recipeModifications:
       ingredients:
       - prefab: Grand_Spiritual_Healing_Potion
         craftCost: 1
-  Potion_Meadbase_Recipe_Custom_916:
+  Potion_Meadbase_Recipe_Custom_445:
     action: Enable
     prefab: Potion_Meadbase
     recipeName: Potion_Meadbase_Recipe_Custom
@@ -10286,9 +10292,13 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Honey
-        craftCost: 2
+        craftCost: 16
+      - prefab: Thistle
+        craftCost: 8
+      - prefab: Dandelion
+        craftCost: 8
       - prefab: YmirRemains
-        craftCost: 4
+        craftCost: 1
   Odins_Alchemy_Wand_Recipe_Forge:
     action: Enable
     prefab: Odins_Alchemy_Wand
@@ -10438,9 +10448,11 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Honey
-        craftCost: 5
-      - prefab: Dandelion
         craftCost: 6
+      - prefab: Dandelion
+        craftCost: 12
+      - prefab: Thistle
+        craftCost: 12
   Hellbroth_of_Eternal_Life_Charge_Recipe_Custom:
     action: Enable
     prefab: Hellbroth_of_Eternal_Life_Charge
@@ -10452,832 +10464,54 @@ recipeModifications:
       ingredients:
       - prefab: Hellbroth_of_Eternal_Life
         craftCost: 3
-  PhilosopherStoneBlue_Recipe_Custom:
+  Recipe_PhilosopherStoneBlue_Recipe_Custom:
     action: Enable
     prefab: PhilosopherStoneBlue
-    recipeName: PhilosopherStoneBlue_Recipe_Custom
+    recipeName: Recipe_PhilosopherStoneBlue_Recipe_Custom
     craftedAt: opcauldron
+    repairAt: opcauldron
     minStationLevel: 1
     craftAmount: 1
     recipe:
       ingredients:
       - prefab: Flask_of_Elements
-        craftCost: 10
-  PhilosopherStoneGreen_Recipe_Custom:
+        craftCost: 12
+  Recipe_PhilosopherStoneGreen_Recipe_Custom:
     action: Enable
     prefab: PhilosopherStoneGreen
-    recipeName: PhilosopherStoneGreen_Recipe_Custom
+    recipeName: Recipe_PhilosopherStoneGreen_Recipe_Custom
     craftedAt: opcauldron
+    repairAt: opcauldron
     minStationLevel: 1
     craftAmount: 1
     recipe:
       ingredients:
       - prefab: Flask_of_Fortification
-        craftCost: 10
-  PhilosopherStoneRed_Recipe_Custom:
+        craftCost: 12
+  Recipe_PhilosopherStoneRed_Recipe_Custom:
     action: Enable
     prefab: PhilosopherStoneRed
-    recipeName: PhilosopherStoneRed_Recipe_Custom
+    recipeName: Recipe_PhilosopherStoneRed_Recipe_Custom
     craftedAt: opcauldron
+    repairAt: opcauldron
     minStationLevel: 1
     craftAmount: 1
     recipe:
       ingredients:
       - prefab: Flask_of_the_Gods
-        craftCost: 10
-  PhilosopherStonePurple_Recipe_Custom:
+        craftCost: 12
+  Recipe_PhilosopherStonePurple_Recipe_Custom:
     action: Enable
     prefab: PhilosopherStonePurple
-    recipeName: PhilosopherStonePurple_Recipe_Custom
+    recipeName: Recipe_PhilosopherStonePurple_Recipe_Custom
     craftedAt: opcauldron
+    repairAt: opcauldron
     minStationLevel: 1
     craftAmount: 1
     recipe:
       ingredients:
       - prefab: Flask_of_Second_Wind
-        craftCost: 10
-  unprocessedgiantsseasoning_Recipe_Custom:
-    action: Enable
-    prefab: unprocessedgiantsseasoning
-    recipeName: unprocessedgiantsseasoning_Recipe_Custom
-    craftedAt: spicetable
-    minStationLevel: 1
-    craftAmount: 5
-    recipe:
-      ingredients:
-      - prefab: Dandelion
-        craftCost: 3
-      - prefab: Thistle
-        craftCost: 2
-  unprocessedsurtlingcinders_Recipe_Custom:
-    action: Enable
-    prefab: unprocessedsurtlingcinders
-    recipeName: unprocessedsurtlingcinders_Recipe_Custom
-    craftedAt: spicetable
-    minStationLevel: 2
-    craftAmount: 5
-    recipe:
-      ingredients:
-      - prefab: BoneFragments
-        craftCost: 2
-      - prefab: TurnipSeeds
-        craftCost: 2
-      - prefab: Coal
-        craftCost: 1
-  unprocessedfrostedpowder_Recipe_Custom:
-    action: Enable
-    prefab: unprocessedfrostedpowder
-    recipeName: unprocessedfrostedpowder_Recipe_Custom
-    craftedAt: spicetable
-    minStationLevel: 2
-    craftAmount: 5
-    recipe:
-      ingredients:
-      - prefab: OnionSeeds
-        craftCost: 4
-      - prefab: FreezeGland
-        craftCost: 1
-  unprocessedcracklingflakes_Recipe_Custom:
-    action: Enable
-    prefab: unprocessedcracklingflakes
-    recipeName: unprocessedcracklingflakes_Recipe_Custom
-    craftedAt: spicetable
-    minStationLevel: 3
-    craftAmount: 5
-    recipe:
-      ingredients:
-      - prefab: Flax
-        craftCost: 3
-      - prefab: Barley
-        craftCost: 2
-  unprocessedshroudedseasonings_Recipe_Custom:
-    action: Enable
-    prefab: unprocessedshroudedseasonings
-    recipeName: unprocessedshroudedseasonings_Recipe_Custom
-    craftedAt: spicetable
-    minStationLevel: 3
-    craftAmount: 5
-    recipe:
-      ingredients:
-      - prefab: MushroomMagecap
-        craftCost: 3
-      - prefab: MushroomJotunPuffs
-        craftCost: 2
-  unprocessedsorrowfulcinders_Recipe_Custom:
-    action: Enable
-    prefab: unprocessedsorrowfulcinders
-    recipeName: unprocessedsorrowfulcinders_Recipe_Custom
-    craftedAt: spicetable
-    minStationLevel: 4
-    craftAmount: 5
-    recipe:
-      ingredients:
-      - prefab: MushroomSmokePuff
-        craftCost: 3
-      - prefab: Vineberry
-        craftCost: 2
-  unprocessedeldakras_Recipe_Custom:
-    action: Enable
-    prefab: unprocessedeldakras
-    recipeName: unprocessedeldakras_Recipe_Custom
-    craftedAt: spicetable
-    minStationLevel: 1
-    craftAmount: 5
-    recipe:
-      ingredients:
-      - prefab: unprocessedgiantsseasoning
-        craftCost: 5
-      - prefab: CarrotSeeds
-        craftCost: 2
-      - prefab: AncientSeed
-        craftCost: 1
-  unprocessedmarshmas_Recipe_Custom:
-    action: Enable
-    prefab: unprocessedmarshmas
-    recipeName: unprocessedmarshmas_Recipe_Custom
-    craftedAt: spicetable
-    minStationLevel: 2
-    craftAmount: 5
-    recipe:
-      ingredients:
-      - prefab: unprocessedsurtlingcinders
-        craftCost: 5
-      - prefab: Ooze
-        craftCost: 2
-      - prefab: SpiceForests
-        craftCost: 1
-  unprocessedvindfros_Recipe_Custom:
-    action: Enable
-    prefab: unprocessedvindfros
-    recipeName: unprocessedvindfros_Recipe_Custom
-    craftedAt: spicetable
-    minStationLevel: 2
-    craftAmount: 5
-    recipe:
-      ingredients:
-      - prefab: unprocessedfrostedpowder
-        craftCost: 5
-      - prefab: WolfFang
-        craftCost: 2
-      - prefab: SpiceForests
-        craftCost: 1
-  unprocessedsolakras_Recipe_Custom:
-    action: Enable
-    prefab: unprocessedsolakras
-    recipeName: unprocessedsolakras_Recipe_Custom
-    craftedAt: spicetable
-    minStationLevel: 3
-    craftAmount: 5
-    recipe:
-      ingredients:
-      - prefab: unprocessedcracklingflakes
-        craftCost: 5
-      - prefab: Cloudberry
-        craftCost: 2
-      - prefab: SpiceMountains
-        craftCost: 1
-  unprocessedmistilteig_Recipe_Custom:
-    action: Enable
-    prefab: unprocessedmistilteig
-    recipeName: unprocessedmistilteig_Recipe_Custom
-    craftedAt: spicetable
-    minStationLevel: 3
-    craftAmount: 5
-    recipe:
-      ingredients:
-      - prefab: unprocessedshroudedseasonings
-        craftCost: 5
-      - prefab: Sap
-        craftCost: 2
-      - prefab: SpicePlains
-        craftCost: 1
-  unprocessedalvmas_Recipe_Custom:
-    action: Enable
-    prefab: unprocessedalvmas
-    recipeName: unprocessedalvmas_Recipe_Custom
-    craftedAt: spicetable
-    minStationLevel: 3
-    craftAmount: 5
-    recipe:
-      ingredients:
-      - prefab: unprocessedsorrowfulcinders
-        craftCost: 5
-      - prefab: Fiddleheadfern
-        craftCost: 2
-      - prefab: SpiceMistlands
-        craftCost: 1
-  seasonedcookedboarmeat_Recipe_Custom:
-    action: Enable
-    prefab: seasonedcookedboarmeat
-    recipeName: seasonedcookedboarmeat_Recipe_Custom
-    craftedAt: piece_cauldron
-    minStationLevel: 1
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: CookedMeat
-        craftCost: 1
-      - prefab: giantsseasoning
-        craftCost: 1
-  seasonedcookeddeermeat_Recipe_Custom:
-    action: Enable
-    prefab: seasonedcookeddeermeat
-    recipeName: seasonedcookeddeermeat_Recipe_Custom
-    craftedAt: piece_cauldron
-    minStationLevel: 1
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: CookedDeerMeat
-        craftCost: 1
-      - prefab: giantsseasoning
-        craftCost: 1
-  seasonedmushroom_Recipe_Custom:
-    action: Enable
-    prefab: seasonedmushroom
-    recipeName: seasonedmushroom_Recipe_Custom
-    craftedAt: piece_cauldron
-    minStationLevel: 1
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: Mushroom
-        craftCost: 1
-      - prefab: giantsseasoning
-        craftCost: 1
-  seasonedcarrot_Recipe_Custom:
-    action: Enable
-    prefab: seasonedcarrot
-    recipeName: seasonedcarrot_Recipe_Custom
-    craftedAt: piece_cauldron
-    minStationLevel: 1
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: Carrot
-        craftCost: 1
-      - prefab: giantsseasoning
-        craftCost: 1
-  seasonedsausages_Recipe_Custom:
-    action: Enable
-    prefab: seasonedsausages
-    recipeName: seasonedsausages_Recipe_Custom
-    craftedAt: piece_cauldron
-    minStationLevel: 2
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: Sausages
-        craftCost: 1
-      - prefab: surtlingcinders
-        craftCost: 1
-  seasonedturnip_Recipe_Custom:
-    action: Enable
-    prefab: seasonedturnip
-    recipeName: seasonedturnip_Recipe_Custom
-    craftedAt: piece_cauldron
-    minStationLevel: 2
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: Turnip
-        craftCost: 1
-      - prefab: surtlingcinders
-        craftCost: 1
-  sparklingmuckshake_Recipe_Custom:
-    action: Enable
-    prefab: sparklingmuckshake
-    recipeName: sparklingmuckshake_Recipe_Custom
-    craftedAt: piece_cauldron
-    minStationLevel: 2
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: ShocklateSmoothie
-        craftCost: 1
-      - prefab: surtlingcinders
-        craftCost: 1
-  seasonedcookedwolfmeat_Recipe_Custom:
-    action: Enable
-    prefab: seasonedcookedwolfmeat
-    recipeName: seasonedcookedwolfmeat_Recipe_Custom
-    craftedAt: piece_cauldron
-    minStationLevel: 3
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: CookedWolfMeat
-        craftCost: 1
-      - prefab: frostedpowder
-        craftCost: 1
-  seasonedvegetableskewer_Recipe_Custom:
-    action: Enable
-    prefab: seasonedvegetableskewer
-    recipeName: seasonedvegetableskewer_Recipe_Custom
-    craftedAt: piece_cauldron
-    minStationLevel: 3
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: seasonedonion
-        craftCost: 1
-      - prefab: seasonedcarrot
-        craftCost: 1
-      - prefab: seasonedmushroom
-        craftCost: 1
-      - prefab: frostedpowder
-        craftCost: 1
-  seasonedonion_Recipe_Custom:
-    action: Enable
-    prefab: seasonedonion
-    recipeName: seasonedonion_Recipe_Custom
-    craftedAt: piece_cauldron
-    minStationLevel: 3
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: Onion
-        craftCost: 1
-      - prefab: frostedpowder
-        craftCost: 1
-  sprinkledeyescream_Recipe_Custom:
-    action: Enable
-    prefab: sprinkledeyescream
-    recipeName: sprinkledeyescream_Recipe_Custom
-    craftedAt: piece_cauldron
-    minStationLevel: 3
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: Eyescream
-        craftCost: 1
-      - prefab: frostedpowder
-        craftCost: 1
-  seededbreaddough_Recipe_Custom:
-    action: Enable
-    prefab: seededbreaddough
-    recipeName: seededbreaddough_Recipe_Custom
-    craftedAt: piece_cauldron
-    minStationLevel: 4
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: BreadDough
-        craftCost: 1
-      - prefab: cracklingflakes
-        craftCost: 1
-  soakedloxmeat_Recipe_Custom:
-    action: Enable
-    prefab: soakedloxmeat
-    recipeName: soakedloxmeat_Recipe_Custom
-    craftedAt: piece_cauldron
-    minStationLevel: 4
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: LoxMeat
-        craftCost: 1
-      - prefab: Tar
-        craftCost: 2
-  fishskewer_Recipe_Custom:
-    action: Enable
-    prefab: fishskewer
-    recipeName: fishskewer_Recipe_Custom
-    craftedAt: piece_cauldron
-    minStationLevel: 4
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: Cloudberry
-        craftCost: 2
-      - prefab: FishRaw
-        craftCost: 2
-      - prefab: seasonedmushroom
-        craftCost: 2
-      - prefab: cracklingflakes
-        craftCost: 1
-  infusedmagecaps_Recipe_Custom:
-    action: Enable
-    prefab: infusedmagecaps
-    recipeName: infusedmagecaps_Recipe_Custom
-    craftedAt: piece_cauldron
-    minStationLevel: 5
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: MushroomMagecap
-        craftCost: 2
-      - prefab: shroudedseasonings
-        craftCost: 1
-  infusedjotunnpuffs_Recipe_Custom:
-    action: Enable
-    prefab: infusedjotunnpuffs
-    recipeName: infusedjotunnpuffs_Recipe_Custom
-    craftedAt: piece_cauldron
-    minStationLevel: 5
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: MushroomJotunPuffs
-        craftCost: 2
-      - prefab: shroudedseasonings
-        craftCost: 1
-  infusedcookedseekermeat_Recipe_Custom:
-    action: Enable
-    prefab: infusedcookedseekermeat
-    recipeName: infusedcookedseekermeat_Recipe_Custom
-    craftedAt: piece_cauldron
-    minStationLevel: 5
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: CookedBugMeat
-        craftCost: 1
-      - prefab: shroudedseasonings
-        craftCost: 1
-  infusedcookedharemeat_Recipe_Custom:
-    action: Enable
-    prefab: infusedcookedharemeat
-    recipeName: infusedcookedharemeat_Recipe_Custom
-    craftedAt: piece_cauldron
-    minStationLevel: 5
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: CookedHareMeat
-        craftCost: 1
-      - prefab: shroudedseasonings
-        craftCost: 1
-  charredsmokepuff_Recipe_Custom:
-    action: Enable
-    prefab: charredsmokepuff
-    recipeName: charredsmokepuff_Recipe_Custom
-    craftedAt: piece_cauldron
-    minStationLevel: 6
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: MushroomSmokePuff
-        craftCost: 1
-      - prefab: sorrowfulcinders
-        craftCost: 1
-  scorchedasksvintail_Recipe_Custom:
-    action: Enable
-    prefab: scorchedasksvintail
-    recipeName: scorchedasksvintail_Recipe_Custom
-    craftedAt: piece_cauldron
-    minStationLevel: 6
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: AsksvinMeat
-        craftCost: 1
-      - prefab: sorrowfulcinders
-        craftCost: 1
-  scorchedmorgenheart_Recipe_Custom:
-    action: Enable
-    prefab: scorchedmorgenheart
-    recipeName: scorchedmorgenheart_Recipe_Custom
-    craftedAt: piece_cauldron
-    minStationLevel: 6
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: MorgenHeart
-        craftCost: 1
-      - prefab: sorrowfulcinders
-        craftCost: 1
-  scorchedvolturemeat_Recipe_Custom:
-    action: Enable
-    prefab: scorchedvolturemeat
-    recipeName: scorchedvolturemeat_Recipe_Custom
-    craftedAt: piece_cauldron
-    minStationLevel: 6
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: VoltureMeat
-        craftCost: 1
-      - prefab: sorrowfulcinders
-        craftCost: 1
-  marbledmixedmeats_Recipe_Custom:
-    action: Enable
-    prefab: marbledmixedmeats
-    recipeName: marbledmixedmeats_Recipe_Custom
-    craftedAt: piece_cauldron
-    minStationLevel: 1
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: seasonedcookedboarmeat
-        craftCost: 3
-      - prefab: seasonedcookeddeermeat
-        craftCost: 2
-      - prefab: NeckTail
-        craftCost: 2
-  honeycoatedvegetables_Recipe_Custom:
-    action: Enable
-    prefab: honeycoatedvegetables
-    recipeName: honeycoatedvegetables_Recipe_Custom
-    craftedAt: piece_cauldron
-    minStationLevel: 1
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: seasonedcarrot
-        craftCost: 4
-      - prefab: seasonedmushroom
-        craftCost: 3
-      - prefab: Honey
-        craftCost: 2
-  berrybraisedboar_Recipe_Custom:
-    action: Enable
-    prefab: berrybraisedboar
-    recipeName: berrybraisedboar_Recipe_Custom
-    craftedAt: piece_cauldron
-    minStationLevel: 1
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: QueensJam
-        craftCost: 3
-      - prefab: seasonedcookedboarmeat
-        craftCost: 2
-      - prefab: Honey
-        craftCost: 2
-      - prefab: GreydwarfEye
-        craftCost: 2
-  agedcuredmeats_Recipe_Custom:
-    action: Enable
-    prefab: agedcuredmeats
-    recipeName: agedcuredmeats_Recipe_Custom
-    craftedAt: elderwok
-    minStationLevel: 1
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: seasonedsausages
-        craftCost: 3
-      - prefab: seasonedcookedboarmeat
-        craftCost: 2
-      - prefab: seasonedcookeddeermeat
-        craftCost: 1
-  sweetenedvegetablebowl_Recipe_Custom:
-    action: Enable
-    prefab: sweetenedvegetablebowl
-    recipeName: sweetenedvegetablebowl_Recipe_Custom
-    craftedAt: elderwok
-    minStationLevel: 1
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: Honey
-        craftCost: 4
-      - prefab: seasonedmushroom
-        craftCost: 4
-      - prefab: seasonedcarrot
-        craftCost: 3
-      - prefab: seasonedturnip
-        craftCost: 2
-  swampystew_Recipe_Custom:
-    action: Enable
-    prefab: swampystew
-    recipeName: swampystew_Recipe_Custom
-    craftedAt: elderwok
-    minStationLevel: 1
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: DeerHide
-        craftCost: 3
-      - prefab: Ooze
-        craftCost: 3
-      - prefab: Guck
-        craftCost: 3
-      - prefab: seasonedcookedboarmeat
-        craftCost: 1
-  fenringmeatboard_Recipe_Custom:
-    action: Enable
-    prefab: fenringmeatboard
-    recipeName: fenringmeatboard_Recipe_Custom
-    craftedAt: elderwok
-    minStationLevel: 2
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: seasonedcookedwolfmeat
-        craftCost: 4
-      - prefab: CookedBjornMeat
-        craftCost: 2
-      - prefab: seasonedcookeddeermeat
-        craftCost: 1
-  highlandssoup_Recipe_Custom:
-    action: Enable
-    prefab: highlandssoup
-    recipeName: highlandssoup_Recipe_Custom
-    craftedAt: elderwok
-    minStationLevel: 2
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: seasonedonion
-        craftCost: 4
-      - prefab: Mushroom
-        craftCost: 4
-      - prefab: seasonedcarrot
-        craftCost: 2
-      - prefab: seasonedturnip
-        craftCost: 2
-  poacheddrakescales_Recipe_Custom:
-    action: Enable
-    prefab: poacheddrakescales
-    recipeName: poacheddrakescales_Recipe_Custom
-    craftedAt: elderwok
-    minStationLevel: 2
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: sprinkledeyescream
-        craftCost: 2
-      - prefab: seasonedonion
-        craftCost: 2
-      - prefab: seasonedcookedwolfmeat
-        craftCost: 2
-  unbakedmixeddoughplatter_Recipe_Custom:
-    action: Enable
-    prefab: unbakedmixeddoughplatter
-    recipeName: unbakedmixeddoughplatter_Recipe_Custom
-    craftedAt: elderwok
-    minStationLevel: 3
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: Cloudberry
-        craftCost: 8
-      - prefab: seededbreaddough
-        craftCost: 4
-      - prefab: BarleyFlour
-        craftCost: 4
-  unbakedtarredplainspies_Recipe_Custom:
-    action: Enable
-    prefab: unbakedtarredplainspies
-    recipeName: unbakedtarredplainspies_Recipe_Custom
-    craftedAt: elderwok
-    minStationLevel: 3
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: BarleyFlour
-        craftCost: 6
-      - prefab: soakedloxmeat
-        craftCost: 3
-      - prefab: BjornMeat
-        craftCost: 3
-      - prefab: cracklingflakes
-        craftCost: 2
-  uncookedjotunnsbounty_Recipe_Custom:
-    action: Enable
-    prefab: uncookedjotunnsbounty
-    recipeName: uncookedjotunnsbounty_Recipe_Custom
-    craftedAt: elderwok
-    minStationLevel: 4
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: infusedjotunnpuffs
-        craftCost: 4
-      - prefab: infusedcookedseekermeat
-        craftCost: 3
-      - prefab: infusedcookedharemeat
-        craftCost: 2
-  uncookedseekersupreme_Recipe_Custom:
-    action: Enable
-    prefab: uncookedseekersupreme
-    recipeName: uncookedseekersupreme_Recipe_Custom
-    craftedAt: elderwok
-    minStationLevel: 4
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: infusedmagecaps
-        craftCost: 4
-      - prefab: RoyalJelly
-        craftCost: 4
-      - prefab: seasonedonion
-        craftCost: 3
-      - prefab: infusedcookedseekermeat
-        craftCost: 2
-  gjallsfireybroth_Recipe_Custom:
-    action: Enable
-    prefab: gjallsfireybroth
-    recipeName: gjallsfireybroth_Recipe_Custom
-    craftedAt: elderwok
-    minStationLevel: 1
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: RoyalJelly
-        craftCost: 5
-      - prefab: Sap
-        craftCost: 3
-      - prefab: Bilebag
-        craftCost: 1
-      - prefab: shroudedseasonings
-        craftCost: 1
-  firstlandsfeast_material_Recipe_Custom:
-    action: Enable
-    prefab: firstlandsfeast_material
-    recipeName: firstlandsfeast_material_Recipe_Custom
-    craftedAt: piece_cauldron
-    minStationLevel: 1
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: CookedBjornMeat
-        craftCost: 3
-      - prefab: marbledmixedmeats
-        craftCost: 2
-      - prefab: berrybraisedboar
-        craftCost: 1
-      - prefab: eldakras
-        craftCost: 1
-  pinesmokedvegetables_material_Recipe_Custom:
-    action: Enable
-    prefab: pinesmokedvegetables_material
-    recipeName: pinesmokedvegetables_material_Recipe_Custom
-    craftedAt: piece_cauldron
-    minStationLevel: 1
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: MushroomYellow
-        craftCost: 8
-      - prefab: PineCone
-        craftCost: 3
-      - prefab: honeycoatedvegetables
-        craftCost: 2
-      - prefab: eldakras
-        craftCost: 1
-  eldersinfusedsap_material_Recipe_Custom:
-    action: Enable
-    prefab: eldersinfusedsap_material
-    recipeName: eldersinfusedsap_material_Recipe_Custom
-    craftedAt: piece_cauldron
-    minStationLevel: 1
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: Resin
-        craftCost: 30
-      - prefab: seasonedmushroom
-        craftCost: 6
-      - prefab: forestheart
-        craftCost: 3
-      - prefab: eldakras
-        craftCost: 3
-  drippingporktrimmings_material_Recipe_Custom:
-    action: Enable
-    prefab: drippingporktrimmings_material
-    recipeName: drippingporktrimmings_material_Recipe_Custom
-    craftedAt: bronzewoodbanquetbench
-    minStationLevel: 1
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: Ooze
         craftCost: 12
-      - prefab: seasonedturnip
-        craftCost: 6
-      - prefab: agedcuredmeats
-        craftCost: 3
-      - prefab: marshmas
-        craftCost: 1
-  glaesfirscrap_Recipe_Custom:
-    action: Enable
-    prefab: glaesfirscrap
-    recipeName: glaesfirscrap_Recipe_Custom
-    craftedAt: forge
-    minStationLevel: 1
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: BlackMetal
-        craftCost: 2
-      - prefab: Silver
-        craftCost: 1
-  dokkbornscrap_Recipe_Custom:
-    action: Enable
-    prefab: dokkbornscrap
-    recipeName: dokkbornscrap_Recipe_Custom
-    craftedAt: forge
-    minStationLevel: 1
-    craftAmount: 1
-    recipe:
-      ingredients:
-      - prefab: Iron
-        craftCost: 2
-      - prefab: Bronze
-        craftCost: 1
   bp_explorer_Recipe_Workbench:
     action: Enable
     prefab: bp_explorer
@@ -16141,7 +15375,7 @@ recipeModifications:
         craftCost: 2
       - prefab: TrophySkeletonPoison
         craftCost: 1
-  ShardBonemass_TW_Recipe_Custom_719:
+  ShardBonemass_TW_Recipe_Custom_722:
     action: Enable
     prefab: ShardBonemass_TW
     recipeName: ShardBonemass_TW_Recipe_Custom
@@ -16169,7 +15403,7 @@ recipeModifications:
         craftCost: 2
       - prefab: TrophyCultist
         craftCost: 1
-  ShardModer_TW_Recipe_Custom_137:
+  ShardModer_TW_Recipe_Custom_186:
     action: Enable
     prefab: ShardModer_TW
     recipeName: ShardModer_TW_Recipe_Custom
@@ -16197,7 +15431,7 @@ recipeModifications:
         craftCost: 2
       - prefab: TrophyGoblinShaman
         craftCost: 1
-  ShardYagluth_TW_Recipe_Custom_964:
+  ShardYagluth_TW_Recipe_Custom_904:
     action: Enable
     prefab: ShardYagluth_TW
     recipeName: ShardYagluth_TW_Recipe_Custom
@@ -16225,7 +15459,7 @@ recipeModifications:
         craftCost: 2
       - prefab: TrophyDvergr
         craftCost: 1
-  ShardQueen_TW_Recipe_Custom_990:
+  ShardQueen_TW_Recipe_Custom_339:
     action: Enable
     prefab: ShardQueen_TW
     recipeName: ShardQueen_TW_Recipe_Custom
@@ -16598,7 +15832,7 @@ recipeModifications:
         craftCost: 8
       - prefab: Bloodbag
         craftCost: 3
-  ArcaneScroll_Swamp_TW_Recipe_Custom_476:
+  ArcaneScroll_Swamp_TW_Recipe_Custom_292:
     action: Enable
     prefab: ArcaneScroll_Swamp_TW
     recipeName: ArcaneScroll_Swamp_TW_Recipe_Custom
@@ -16624,7 +15858,7 @@ recipeModifications:
         craftCost: 6
       - prefab: FreezeGland
         craftCost: 2
-  ArcaneScroll_Mountain_TW_Recipe_Custom_958:
+  ArcaneScroll_Mountain_TW_Recipe_Custom_18:
     action: Enable
     prefab: ArcaneScroll_Mountain_TW
     recipeName: ArcaneScroll_Mountain_TW_Recipe_Custom
@@ -16650,7 +15884,7 @@ recipeModifications:
         craftCost: 2
       - prefab: Tar
         craftCost: 6
-  ArcaneScroll_Plains_TW_Recipe_Custom_426:
+  ArcaneScroll_Plains_TW_Recipe_Custom_357:
     action: Enable
     prefab: ArcaneScroll_Plains_TW
     recipeName: ArcaneScroll_Plains_TW_Recipe_Custom
@@ -16676,7 +15910,7 @@ recipeModifications:
         craftCost: 4
       - prefab: Carapace
         craftCost: 4
-  ArcaneScroll_Mistlands_TW_Recipe_Custom_863:
+  ArcaneScroll_Mistlands_TW_Recipe_Custom_526:
     action: Enable
     prefab: ArcaneScroll_Mistlands_TW
     recipeName: ArcaneScroll_Mistlands_TW_Recipe_Custom
@@ -16806,7 +16040,9 @@ recipeModifications:
       - prefab: Carrot
         craftCost: 2
       - prefab: Entrails
-        craftCost: 3
+        craftCost: 2
+      - prefab: CookedMeat
+        craftCost: 2
   Recipe_EitrPlateSwamp_TW_Recipe_Cauldron:
     action: Enable
     prefab: EitrPlateSwamp_TW
@@ -16818,13 +16054,15 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: MushroomDeathcap_TW
-        craftCost: 4
-      - prefab: Entrails
         craftCost: 3
+      - prefab: Entrails
+        craftCost: 1
+      - prefab: CookedMeat
+        craftCost: 4
       - prefab: Turnip
         craftCost: 2
       - prefab: Bloodbag
-        craftCost: 2
+        craftCost: 1
   Recipe_JellyCakeSwamp_TW_Recipe_Cauldron:
     action: Enable
     prefab: JellyCakeSwamp_TW
@@ -18796,7 +18034,7 @@ recipeModifications:
       - prefab: FineWood
         craftCost: 4
         upgradeCost: 1
-  HipLantern_152:
+  HipLantern_456:
     action: Enable
     prefab: HipLantern
     recipeName: HipLantern
@@ -18979,7 +18217,7 @@ recipeModifications:
     repairAt: forge
     minStationLevel: 3
     craftAmount: 1
-  _465:
+  _126:
     action: Enable
     prefab: MWL_MarbleJail1_Key
     recipeName: ''

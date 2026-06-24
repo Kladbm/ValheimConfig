@@ -158,3 +158,117 @@ recipeModifications:
         craftCost: 2
       - prefab: Resin
         craftCost: 8
+  PhilosopherStoneBlue_Recipe_Custom:
+    action: Modify
+    prefab: PhilosopherStoneBlue
+    recipeName: PhilosopherStoneBlue_Recipe_Custom
+    craftedAt: opcauldron
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Flask_of_Elements
+        craftCost: 12
+  PhilosopherStoneGreen_Recipe_Custom:
+    action: Modify
+    prefab: PhilosopherStoneGreen
+    recipeName: PhilosopherStoneGreen_Recipe_Custom
+    craftedAt: opcauldron
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Flask_of_Fortification
+        craftCost: 12
+  PhilosopherStoneRed_Recipe_Custom:
+    action: Modify
+    prefab: PhilosopherStoneRed
+    recipeName: PhilosopherStoneRed_Recipe_Custom
+    craftedAt: opcauldron
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Flask_of_the_Gods
+        craftCost: 12
+  PhilosopherStonePurple_Recipe_Custom:
+    action: Modify
+    prefab: PhilosopherStonePurple
+    recipeName: PhilosopherStonePurple_Recipe_Custom
+    craftedAt: opcauldron
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Flask_of_Second_Wind
+        craftCost: 12
+  Flask_of_Elements_Recipe_Custom:
+    action: Modify
+    prefab: Flask_of_Elements
+    recipeName: Flask_of_Elements_Recipe_Custom
+    craftedAt: opalchemy
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Potion_Meadbase
+        craftCost: 1
+      - prefab: FreezeGland
+        craftCost: 2
+      - prefab: ElderBark
+        craftCost: 8
+      - prefab: Entrails
+        craftCost: 8
+  Flask_of_Fortification_Recipe_Custom:
+    action: Modify
+    prefab: Flask_of_Fortification
+    recipeName: Flask_of_Fortification_Recipe_Custom
+    craftedAt: opalchemy
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Potion_Meadbase
+        craftCost: 1
+      - prefab: Obsidian
+        craftCost: 4
+      - prefab: Flint
+        craftCost: 8
+      - prefab: Stone
+        craftCost: 16
+  Flask_of_the_Gods_Recipe_Custom:
+    action: Modify
+    prefab: Flask_of_the_Gods
+    recipeName: Flask_of_the_Gods_Recipe_Custom
+    craftedAt: opalchemy
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Potion_Meadbase
+        craftCost: 1
+      - prefab: Grand_Spiritual_Healing_Potion
+        craftCost: 1
+      - prefab: Thistle
+        craftCost: 8
+      - prefab: Flax
+        craftCost: 8
+      - prefab: Carrot
+        craftCost: 8
+  Flask_of_Second_Wind_Recipe_Custom:
+    action: Modify
+    prefab: Flask_of_Second_Wind
+    recipeName: Flask_of_Second_Wind_Recipe_Custom
+    craftedAt: opalchemy
+    minStationLevel: 2
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Potion_Meadbase
+        craftCost: 1
+      - prefab: Ooze
+        craftCost: 4
+      - prefab: FreezeGland
+        craftCost: 2
+      - prefab: Feathers
+        craftCost: 12
