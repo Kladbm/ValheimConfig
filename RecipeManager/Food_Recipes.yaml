@@ -186,7 +186,9 @@ recipeModifications:
       - prefab: MushroomWizardbutter_TW
         craftCost: 6
       - prefab: WolfMeat
-        craftCost: 4
+        craftCost: 2
+      - prefab: CookedMeat
+        craftCost: 2
       - prefab: Onion
         craftCost: 4
   IceHornMountain_TW_Recipe_Cauldron:
@@ -566,7 +568,7 @@ recipeModifications:
         craftCost: 1
         upgradeCost: 1
       - prefab: Blueberries
-        craftCost: 4
+        craftCost: 3
         upgradeCost: 1
       - prefab: Thistle
         craftCost: 1
@@ -589,6 +591,9 @@ recipeModifications:
       - prefab: Turnip
         craftCost: 2
         upgradeCost: 1
+      - prefab: MushroomYellow
+        craftCost: 1
+        upgradeCost: 1
   Recipe_WolfSkewer:
     action: Modify
     prefab: WolfMeatSkewer
@@ -602,7 +607,7 @@ recipeModifications:
         craftCost: 1
         upgradeCost: 1
       - prefab: Mushroom
-        craftCost: 2
+        craftCost: 3
         upgradeCost: 1
       - prefab: Onion
         craftCost: 2
@@ -620,7 +625,7 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: GreydwarfEye
-        craftCost: 3
+        craftCost: 4
         upgradeCost: 1
       - prefab: Honey
         craftCost: 4

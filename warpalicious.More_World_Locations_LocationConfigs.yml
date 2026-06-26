@@ -2,12 +2,9 @@
 # Quantity = number of this location the game will attempt to place during world generation
 # Set to 0 to disable a location
 
-# For internal mod use only
 version: 1
 
 Meadows:
-  MWL_StoneShrine2: 7
-  MWL_StoreHouseStone1: 7
   MWL_DeerShrine1: 6
   MWL_DeerShrine2: 6
   MWL_MaypoleHut1: 6
@@ -33,10 +30,11 @@ Meadows:
   MWL_RuinsChurch1: 9
   MWL_RuinsWell1: 3
   MWL_SmallHouse1: 9
+  MWL_StoneShrine2: 7
+  MWL_StoreHouseStone1: 7
   MWL_VikingSacrifice1: 6
 
 BlackForest:
-  MWL_StoneTower3: 7
   MWL_CoastTower1: 7
   MWL_ForestCamp1: 9
   MWL_ForestForge1: 9
@@ -69,20 +67,21 @@ BlackForest:
   MWL_RuinsTower8: 6
   MWL_StoneFormation1: 7
   MWL_StoneOutlook1: 6
-  MWL_Tavern1: 7
+  MWL_StoneTower3: 7
   MWL_SupplyBarn1: 6
+  MWL_Tavern1: 7
   MWL_WoodTower1: 6
   MWL_WoodTower2: 6
   MWL_WoodTower3: 6
 
 Swamp:
-  MWL_StoneBeacon1: 7
   MWL_AbandonedHouse1: 7
   MWL_Belmont1: 3
   MWL_CastleCorner1: 7
   MWL_FortBakkarhalt1: 3
   MWL_GuckPit1: 7
   MWL_Shipyard1: 9
+  MWL_StoneBeacon1: 7
   MWL_StoneCircle1: 6
   MWL_SwampAltar1: 7
   MWL_SwampAltar2: 6
@@ -105,15 +104,15 @@ Swamp:
   MWL_TreeTowers1: 9
 
 Mountains:
-  MWL_MountainsAedicule1: 7
   MWL_MountainCultShrine1: 7
   MWL_MountainDvergrShrine1: 7
   MWL_MountainDvergrShrine2: 7
   MWL_MountainOverlook1: 7
+  MWL_MountainsAedicule1: 7
   MWL_MountainsHogan1: 6
+  MWL_MountainShrine1: 9
   MWL_MountainsPagota1: 6
   MWL_MountainsTower1: 6
-  MWL_MountainShrine1: 9
   MWL_RuinsChurch2: 7
   MWL_StoneAltar1: 7
   MWL_StoneCastle1: 3
@@ -128,6 +127,7 @@ Mountains:
   MWL_WoodHouse1: 3
 
 Plains:
+  MWL_FulingRock1: 5
   MWL_FulingStoneHouse1: 5
   MWL_FulingStoneHouse2: 5
   MWL_FulingStoneHouse3: 5
@@ -135,25 +135,24 @@ Plains:
   MWL_FulingStoneHouse5: 5
   MWL_FulingStoneOpen1: 5
   MWL_FulingStoneOpen2: 5
-  MWL_FulingTemple5: 5
-  MWL_MinddripHallow1: 5
-  MWL_StoneTopHouse1: 5
   MWL_FulingTarPit1: 5
-  MWL_FulingRock1: 5
   MWL_FulingTemple1: 5
   MWL_FulingTemple2: 5
   MWL_FulingTemple3: 7
   MWL_FulingTemple4: 5
+  MWL_FulingTemple5: 5
   MWL_FulingTempleBroken1: 5
   MWL_FulingTower1: 7
   MWL_FulingVillage1: 6
   MWL_FulingVillage2: 6
   MWL_FulingWall1: 7
   MWL_GoblinFort1: 5
+  MWL_MinddripHallow1: 5
   MWL_PlainsArena2: 5
   MWL_PlainsOracle1: 5
   MWL_PlainsPillar1: 6
   MWL_RockGarden1: 6
+  MWL_StoneTopHouse1: 5
 
 Mistlands:
   MWL_AncientShrine1: 7
@@ -179,12 +178,12 @@ Mistlands:
   MWL_SecretRoom1: 7
 
 Ashlands:
-  MWL_AshWallPost1: 3
-  MWL_AshlandsFort4: 3
-  MWL_AshTower1: 3
   MWL_AshlandsFort1: 3
   MWL_AshlandsFort2: 3
   MWL_AshlandsFort3: 3
+  MWL_AshlandsFort4: 3
+  MWL_AshTower1: 3
+  MWL_AshWallPost1: 3
 
 Ports:
   MWL_Port1: 0

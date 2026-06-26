@@ -214,3 +214,30 @@ pieceModifications:
     pieceName: $piece_stonewall1x1
     pieceDescription: ''
     enablePiece: true
+  cauldron_ext3_butchertable:
+    action: Modify
+    prefab: cauldron_ext3_butchertable
+    requirements:
+    - prefab: ElderBark
+      amount: 2
+      recover: true
+    - prefab: RoundLog
+      amount: 4
+      recover: true
+    - prefab: FineWood
+      amount: 4
+      recover: true
+    - prefab: Silver
+      amount: 2
+      recover: true
+    - prefab: TrophyVrykolathas_TW
+      amount: 1
+      recover: true
+    requiredToPlaceCraftingStation: piece_workbench
+    canBeDeconstructed: true
+    pieceCategory: Crafting
+    isUpgradeForStation: true
+    spaceRequired: 2.5
+    pieceName: $piece_cauldron_ext3_butchertable
+    pieceDescription: $piece_cauldron $piece_upgrade
+    enablePiece: true

@@ -86,14 +86,16 @@ recipeModifications:
       ingredients:
       - prefab: ShardModer_TW
         craftCost: 4
+      - prefab: ShardYagluth_TW
+        craftCost: 1
       - prefab: MushroomWitcheye_TW
-        craftCost: 6
+        craftCost: 4
       - prefab: MushroomDeathcap_TW
-        craftCost: 6
+        craftCost: 4
       - prefab: MushroomWizardbutter_TW
-        craftCost: 6
+        craftCost: 4
       - prefab: MushroomDevilstongue_TW
-        craftCost: 6
+        craftCost: 4
       - prefab: Cloudberry
         craftCost: 12
   PotionSpeed_TW_Recipe_Custom:
