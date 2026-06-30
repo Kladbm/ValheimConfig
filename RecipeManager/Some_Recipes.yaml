@@ -3,21 +3,6 @@
 #################################################
 
 recipeModifications:
-  Recipe_TurretBoltWood:
-    action: Modify
-    prefab: TurretBoltWood
-    recipeName: Recipe_TurretBoltWood
-    craftedAt: piece_workbench
-    minStationLevel: 5
-    craftAmount: 40
-    recipe:
-      ingredients:
-      - prefab: RoundLog
-        craftCost: 10
-        upgradeCost: 1
-      - prefab: Feathers
-        craftCost: 4
-        upgradeCost: 1
   Recipe_SadleLox:
     action: Modify
     prefab: SaddleLox
