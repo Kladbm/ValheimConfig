@@ -1063,14 +1063,14 @@ recipeModifications:
     recipeName: Recipe_TurretBoltWood
     craftedAt: FletcherTable_TW
     minStationLevel: 2
-    craftAmount: 40
+    craftAmount: 60
     recipe:
       ingredients:
       - prefab: RoundLog
-        craftCost: 10
+        craftCost: 8
         upgradeCost: 1
       - prefab: Feathers
-        craftCost: 4
+        craftCost: 2
         upgradeCost: 1
   Recipe_TurretBolt:
     action: Modify
@@ -1078,17 +1078,17 @@ recipeModifications:
     recipeName: Recipe_TurretBolt
     craftedAt: FletcherTable_TW
     minStationLevel: 3
-    craftAmount: 40
+    craftAmount: 80
     recipe:
       ingredients:
       - prefab: Wood
-        craftCost: 10
+        craftCost: 8
         upgradeCost: 1
       - prefab: BlackMetal
         craftCost: 1
         upgradeCost: 1
       - prefab: Feathers
-        craftCost: 4
+        craftCost: 2
         upgradeCost: 1
   Recipe_TurretBoltFlametal:
     action: Modify
@@ -1096,15 +1096,15 @@ recipeModifications:
     recipeName: Recipe_TurretBoltFlametal
     craftedAt: FletcherTable_TW
     minStationLevel: 4
-    craftAmount: 40
+    craftAmount: 80
     recipe:
       ingredients:
       - prefab: Blackwood
-        craftCost: 10
+        craftCost: 8
         upgradeCost: 1
       - prefab: FlametalNew
         craftCost: 1
         upgradeCost: 1
       - prefab: Feathers
-        craftCost: 4
+        craftCost: 2
         upgradeCost: 1

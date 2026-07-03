@@ -491,3 +491,18 @@ recipeModifications:
       - prefab: PowderedDragonEgg
         craftCost: 1
         upgradeCost: 1
+  Medium_Spiritual_Healing_Flask_Recipe_Custom:
+    action: Modify
+    prefab: Medium_Spiritual_Healing_Flask
+    recipeName: Medium_Spiritual_Healing_Flask_Recipe_Custom
+    craftedAt: opalchemy
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: Ooze
+        craftCost: 2
+      - prefab: BoneFragments
+        craftCost: 4
+      - prefab: Bloodbag
+        craftCost: 1
