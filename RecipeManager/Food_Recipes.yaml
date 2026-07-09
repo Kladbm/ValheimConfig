@@ -57,7 +57,7 @@ recipeModifications:
         craftCost: 1
       - prefab: SharkFin_TW
         craftCost: 1
-      - prefab: Cloudberry
+      - prefab: Onion
         craftCost: 4
       - prefab: MushroomWizardbutter_TW
         craftCost: 3
