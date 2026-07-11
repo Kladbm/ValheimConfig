@@ -643,16 +643,13 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: FishCooked
-        craftCost: 2
+        craftCost: 3
         upgradeCost: 1
       - prefab: Onion
-        craftCost: 2
+        craftCost: 3
         upgradeCost: 1
       - prefab: BarleyFlour
         craftCost: 4
-        upgradeCost: 1
-      - prefab: SpiceMountains
-        craftCost: 1
         upgradeCost: 1
   Recipe_Bread:
     action: Modify
