@@ -504,3 +504,29 @@ recipeModifications:
         craftCost: 4
       - prefab: Bloodbag
         craftCost: 1
+  Hellbroth_of_Frost_Recipe_Custom:
+    action: Modify
+    prefab: Hellbroth_of_Frost
+    recipeName: Hellbroth_of_Frost_Recipe_Custom
+    craftedAt: opalchemy
+    minStationLevel: 2
+    craftAmount: 12
+    recipe:
+      ingredients:
+      - prefab: FreezeGland
+        craftCost: 4
+      - prefab: Chain
+        craftCost: 1
+  Hellbroth_of_Thors_Fury_Recipe_Custom:
+    action: Modify
+    prefab: Hellbroth_of_Thors_Fury
+    recipeName: Hellbroth_of_Thors_Fury_Recipe_Custom
+    craftedAt: opalchemy
+    minStationLevel: 2
+    craftAmount: 12
+    recipe:
+      ingredients:
+      - prefab: Tar
+        craftCost: 6
+      - prefab: Thunderstone
+        craftCost: 1

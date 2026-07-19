@@ -691,11 +691,11 @@ recipeModifications:
     recipeName: Recipe_ArrowSilver
     craftedAt: FletcherTable_TW
     minStationLevel: 1
-    craftAmount: 20
+    craftAmount: 40
     recipe:
       ingredients:
       - prefab: Wood
-        craftCost: 16
+        craftCost: 32
         upgradeCost: 1
       - prefab: Silver
         craftCost: 1
@@ -963,11 +963,11 @@ recipeModifications:
     recipeName: BoltSilver_TW_Recipe_Custom
     craftedAt: FletcherTable_TW
     minStationLevel: 1
-    craftAmount: 20
+    craftAmount: 40
     recipe:
       ingredients:
       - prefab: Wood
-        craftCost: 16
+        craftCost: 32
       - prefab: Silver
         craftCost: 1
       - prefab: Feathers

@@ -22,11 +22,11 @@ recipeModifications:
     recipeName: WoolYarn_Teal_TW_Recipe_Custom
     craftedAt: WeavingLoom_TW
     minStationLevel: 1
-    craftAmount: 2
+    craftAmount: 3
     recipe:
       ingredients:
       - prefab: WoolScraps_TW
-        craftCost: 6
+        craftCost: 9
       - prefab: Eitr
         craftCost: 1
   WoolYarn_Blue_TW_Recipe_Custom:
