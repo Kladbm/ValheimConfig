@@ -257,3 +257,26 @@ recipeModifications:
         craftCost: 2
       - prefab: Feathers
         craftCost: 12
+  Recipe_Recipe_VAdagger_queen:
+    action: Modify
+    prefab: VAdagger_queen
+    recipeName: Recipe_Recipe_VAdagger_queen
+    craftedAt: blackforge
+    repairAt: blackforge
+    minStationLevel: 1
+    craftAmount: 1
+    recipe:
+      ingredients:
+      - prefab: YggdrasilWood
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: BlackMetal
+        craftCost: 24
+        upgradeCost: 12
+      - prefab: BlackMetal
+        craftCost: 12
+        upgradeCost: 6
+      - prefab: TrophyGoblinKing
+        craftCost: 1
+      - prefab: LoxPelt
+        upgradeCost: 8

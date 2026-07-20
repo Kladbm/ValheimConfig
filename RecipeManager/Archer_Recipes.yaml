@@ -94,11 +94,11 @@ recipeModifications:
         craftCost: 20
         upgradeCost: 10
       - prefab: BoneFragments
-        craftCost: 40
-        upgradeCost: 20
+        craftCost: 120
+        upgradeCost: 60
       - prefab: Eitr
-        craftCost: 20
-        upgradeCost: 10
+        craftCost: 15
+        upgradeCost: 5
   Recipe_BowAshlands:
     action: Modify
     prefab: BowAshlands
