@@ -280,3 +280,55 @@ recipeModifications:
         craftCost: 1
       - prefab: LoxPelt
         upgradeCost: 8
+  ShardElder_TW_Recipe_Kladbm:
+    action: Add
+    prefab: ShardElder_TW
+    recipeName: ShardElder_TW_Recipe_Kladbm
+    craftedAt: ArcaneAnvil_TW
+    minStationLevel: 1
+    craftAmount: 3
+    recipe:
+      ingredients:
+      - prefab: ShardBonemass_TW
+        craftCost: 1
+      - prefab: Iron
+        craftCost: 1
+  ShardBonemass_TW_Recipe_Kladbm:
+    action: Add
+    prefab: ShardBonemass_TW
+    recipeName: ShardBonemass_TW_Recipe_Kladbm
+    craftedAt: ArcaneAnvil_TW
+    minStationLevel: 1
+    craftAmount: 3
+    recipe:
+      ingredients:
+      - prefab: ShardModer_TW
+        craftCost: 1
+      - prefab: Silver
+        craftCost: 1
+  ShardModer_TW_Recipe_Kladbm:
+    action: Add
+    prefab: ShardModer_TW
+    recipeName: ShardModer_TW_Recipe_Kladbm
+    craftedAt: ArcaneAnvil_TW
+    minStationLevel: 1
+    craftAmount: 3
+    recipe:
+      ingredients:
+      - prefab: ShardYagluth_TW
+        craftCost: 1
+      - prefab: BlackMetal
+        craftCost: 1
+  ShardYagluth_TW_Recipe_Kladbm:
+    action: Add
+    prefab: ShardYagluth_TW
+    recipeName: ShardYagluth_TW_Recipe_Kladbm
+    craftedAt: ArcaneAnvil_TW
+    minStationLevel: 1
+    craftAmount: 3
+    recipe:
+      ingredients:
+      - prefab: ShardQueen_TW
+        craftCost: 1
+      - prefab: Eitr
+        craftCost: 1
