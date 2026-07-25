@@ -337,13 +337,13 @@ recipeModifications:
         craftCost: 12
         upgradeCost: 1
       - prefab: GiantBloodSack
-        craftCost: 6
+        craftCost: 4
         upgradeCost: 1
       - prefab: Bloodbag
-        craftCost: 6
+        craftCost: 1
         upgradeCost: 1
       - prefab: RoyalJelly
-        craftCost: 5
+        craftCost: 4
         upgradeCost: 1
   Recipe_MeadBaseHealthMedium:
     action: Modify
