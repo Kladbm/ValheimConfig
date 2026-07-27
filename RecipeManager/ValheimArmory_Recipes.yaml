@@ -1039,8 +1039,8 @@ recipeModifications:
         craftCost: 24
         upgradeCost: 12
       - prefab: Carapace
-        craftCost: 24
-        upgradeCost: 12
+        craftCost: 48
+        upgradeCost: 24
       - prefab: TrophyTick
         craftCost: 3
       - prefab: Eitr

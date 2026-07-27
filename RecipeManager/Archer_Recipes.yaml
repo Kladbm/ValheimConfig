@@ -530,7 +530,7 @@ recipeModifications:
     recipe:
       ingredients:
       - prefab: Carapace
-        craftCost: 6
+        craftCost: 4
         upgradeCost: 1
       - prefab: Feathers
         craftCost: 5
@@ -762,7 +762,7 @@ recipeModifications:
       - prefab: YggdrasilWood
         craftCost: 16
       - prefab: Carapace
-        craftCost: 6
+        craftCost: 4
       - prefab: Eitr
         craftCost: 1
   ArrowExplosivePoison_TW_Recipe_Custom:
