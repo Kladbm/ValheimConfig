@@ -181,8 +181,8 @@ recipeModifications:
         craftCost: 8
         upgradeCost: 4
       - prefab: DarkCrystal_TW
-        craftCost: 6
-        upgradeCost: 3
+        craftCost: 12
+        upgradeCost: 6
   ArmorLegionLegs_TW_Recipe_Custom:
     action: Modify
     prefab: ArmorLegionLegs_TW
@@ -221,8 +221,8 @@ recipeModifications:
         craftCost: 8
         upgradeCost: 4
       - prefab: DarkCrystal_TW
-        craftCost: 6
-        upgradeCost: 3
+        craftCost: 12
+        upgradeCost: 6
       - prefab: Mandible
         craftCost: 2
         upgradeCost: 1
@@ -284,8 +284,8 @@ recipeModifications:
         craftCost: 8
         upgradeCost: 4
       - prefab: VenomousFang_TW
-        craftCost: 6
-        upgradeCost: 3
+        craftCost: 12
+        upgradeCost: 6
       - prefab: Mandible
         craftCost: 2
         upgradeCost: 1
@@ -347,8 +347,8 @@ recipeModifications:
         craftCost: 8
         upgradeCost: 4
       - prefab: DarkCrystal_TW
-        craftCost: 6
-        upgradeCost: 4
+        craftCost: 12
+        upgradeCost: 6
       - prefab: Mandible
         craftCost: 2
         upgradeCost: 1
@@ -410,8 +410,8 @@ recipeModifications:
         craftCost: 8
         upgradeCost: 4
       - prefab: VenomousFang_TW
-        craftCost: 6
-        upgradeCost: 3
+        craftCost: 12
+        upgradeCost: 6
       - prefab: Mandible
         craftCost: 2
         upgradeCost: 1
@@ -526,18 +526,18 @@ recipeModifications:
       ingredients:
       - prefab: HelmetRogueBM_TW
         craftCost: 1
-      - prefab: Softtissue
-        craftCost: 24
-        upgradeCost: 12
+      - prefab: Carapace
+        craftCost: 36
+        upgradeCost: 18
       - prefab: Eitr
-        craftCost: 6
-        upgradeCost: 3
+        craftCost: 4
+        upgradeCost: 2
       - prefab: VenomousFang_TW
-        craftCost: 6
-        upgradeCost: 3
+        craftCost: 12
+        upgradeCost: 6
       - prefab: Mandible
-        craftCost: 2
-        upgradeCost: 1
+        craftCost: 4
+        upgradeCost: 2
   ArmorRogueCarapaceChest_TW_Recipe_Custom:
     action: Modify
     prefab: ArmorRogueCarapaceChest_TW
@@ -549,15 +549,15 @@ recipeModifications:
       ingredients:
       - prefab: ArmorRogueBMChest_TW
         craftCost: 1
-      - prefab: Softtissue
-        craftCost: 24
-        upgradeCost: 12
       - prefab: Carapace
-        craftCost: 10
-        upgradeCost: 5
+        craftCost: 36
+        upgradeCost: 18
+      - prefab: Softtissue
+        craftCost: 12
+        upgradeCost: 6
       - prefab: Eitr
-        craftCost: 8
-        upgradeCost: 4
+        craftCost: 4
+        upgradeCost: 2
   ArmorRogueCarapaceLegs_TW_Recipe_Custom:
     action: Modify
     prefab: ArmorRogueCarapaceLegs_TW
@@ -569,15 +569,15 @@ recipeModifications:
       ingredients:
       - prefab: ArmorRogueBMLegs_TW
         craftCost: 1
-      - prefab: Softtissue
-        craftCost: 24
-        upgradeCost: 12
+      - prefab: Carapace
+        craftCost: 36
+        upgradeCost: 18
       - prefab: Eitr
-        craftCost: 6
-        upgradeCost: 3
+        craftCost: 4
+        upgradeCost: 2
       - prefab: DarkCrystal_TW
-        craftCost: 6
-        upgradeCost: 3
+        craftCost: 12
+        upgradeCost: 6
   HelmetHunterCarapace_TW_Recipe_Custom:
     action: Modify
     prefab: HelmetHunterCarapace_TW
@@ -617,8 +617,8 @@ recipeModifications:
         craftCost: 12
         upgradeCost: 6
       - prefab: DarkCrystal_TW
-        craftCost: 8
-        upgradeCost: 4
+        craftCost: 12
+        upgradeCost: 6
       - prefab: ArmorHunterChestBM_TW
         craftCost: 1
   ArmorHunterLegsCarapace_TW_Recipe_Custom:
