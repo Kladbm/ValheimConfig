@@ -87,6 +87,8 @@ recipeModifications:
         craftCost: 7
       - prefab: MushroomJotunPuffs
         craftCost: 3
+      - prefab: HoneyYellowStewLesser
+        craftCost: 1
   $custom_item_honeyyellowstew:
     action: Modify
     prefab: HoneyYellowStew
